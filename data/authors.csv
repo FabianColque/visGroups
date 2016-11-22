@@ -1,0 +1,4907 @@
+author_id,name,gender,seniority,nbpub,pubrate
+1,A. Kumaran,u,11,26,2.36
+2,A. Prasad Sistla,u,32,114,3.56
+3,Abdullah Mueen,m,5,18,3.6
+4,Abdulmohsen Algarni,u,6,15,2.5
+5,Abdur Chowdhury,m,18,70,3.89
+6,Abhay Harpale,m,10,10,1
+7,Abhay Mehta,m,15,18,1.2
+8,Abhijit Pol,m,10,10,1
+9,Abhijith Kashyap,u,5,8,1.6
+10,Abhimanyu Das,u,12,23,1.92
+11,Abhimanyu Lad,u,10,10,1
+12,Abhinandan Das,u,12,8,0.67
+13,Abhinav Gupta,m,11,49,4.45
+14,Abhishek Gupta,m,11,46,4.18
+15,Abhishek Mukherji,m,7,8,1.14
+16,Abraham Bagherjeiran,m,9,15,1.67
+17,Abraham Bernstein,m,19,93,4.89
+18,Achim Kraiss,m,19,17,0.89
+19,Ad Feelders,m,19,43,2.26
+20,Ada Wai-Chee Fu,w,25,140,5.6
+21,Adam Bermingham,m,6,5,0.83
+22,Adam Bosworth,m,18,12,0.67
+23,Adam J. Storm,m,13,9,0.69
+24,Adam Jatowt,m,11,67,6.09
+25,Adam K. Usadi,m,3,4,1.33
+26,Adam L. Berger,m,20,17,0.85
+27,Adam Marcus,m,8,19,2.38
+28,Adam Silberstein,m,10,34,3.4
+29,Adam Woznica,m,9,16,1.78
+30,Adele E. Howe,w,28,84,3
+31,Adina Crainiceanu,w,11,11,1
+32,Adish Singla,u,5,15,3
+33,Aditya G. Parameswaran,m,6,31,5.17
+34,Aditya Pal,m,5,17,3.4
+35,Adrian Popescu,m,21,79,3.76
+36,Adrian Silvescu,m,17,28,1.65
+37,Adriane Chapman,w,12,24,2
+38,Adriano Veloso,m,13,62,4.77
+39,Adwait Ratnaparkhi,u,20,24,1.2
+40,Agma J. M. Traina,u,17,178,10.47
+41,Ah-Hwee Tan,m,19,112,5.89
+42,Ahmad Ghazal,m,13,18,1.38
+43,Ahmed Eldawy,m,3,16,5.33
+44,Ahmed Hassan Awadallah,m,8,30,3.75
+45,Ahmed K. Elmagarmid,m,29,184,6.34
+46,Ahmed Metwally,m,10,20,2
+47,Aidong Zhang,u,25,221,8.84
+48,Aijun An,u,20,95,4.75
+49,Aimin Pan,u,9,7,0.78
+50,Aisling Kelliher,w,10,38,3.8
+51,Aixin Sun,u,13,108,8.31
+52,Aiyou Chen,u,10,28,2.8
+53,Ajay Gupta,m,12,11,0.92
+54,Ajay Gupta,m,21,12,0.57
+55,Ajita John,w,20,37,1.85
+56,Akanksha Baid,u,7,9,1.29
+57,Akhmed Umyarov,m,7,6,0.86
+58,Akihiro Inokuchi,m,15,26,1.73
+59,Akisato Kimura,u,13,46,3.54
+60,Akrivi Vlachou,u,9,39,4.33
+61,Akshay Java,m,11,17,1.55
+62,Akshay Patil,m,4,6,1.5
+63,Alain Crolotte,m,36,24,0.67
+64,Alan F. Smeaton,m,33,285,8.64
+65,Alan Fekete,m,28,130,4.64
+66,Alan Halverson,m,11,11,1
+67,Alan Hanjalic,m,18,132,7.33
+68,Alan J. Demers,m,40,90,2.25
+69,Alan Mislove,m,11,35,3.18
+70,Alan Nash,m,11,24,2.18
+71,Alan Said,m,5,28,5.6
+72,Albert Angel,m,6,8,1.33
+73,Albert Bifet,m,9,52,5.78
+74,Albert Yu,m,6,8,1.33
+75,Albert-Laszlo Barabasi,m,15,37,2.47
+76,Alberto H. F. Laender,m,30,169,5.63
+77,Alberto Lerner,m,15,7,0.47
+78,Alberto O. Mendelzon,m,35,145,4.14
+79,Albrecht Schmidt,m,16,18,1.13
+80,Alejandro A. Vaisman,m,15,65,4.33
+81,Alejandro Bellogin,m,6,39,6.5
+82,Alejandro Jaimes,m,14,84,6
+83,Alejandro P. Buchmann,m,35,175,5
+84,Aleksandar Lazarevic,m,14,33,2.36
+85,Aleksandar Stupar,m,3,10,3.33
+86,Aleksander Kolcz,m,20,35,1.75
+87,Aleksandr Chuklin,m,3,10,3.33
+88,Aleksandra Korolova,w,9,9,1
+89,Aleksandras Surna,m,7,3,0.43
+90,Alessandro Bozzon,m,8,70,8.75
+91,Alessandro Campi,m,12,53,4.42
+92,Alessandro Flammini,m,9,35,3.89
+93,Alessandro Moschitti,m,14,122,8.71
+94,Alessandro Panconesi,m,26,96,3.69
+95,Alessandro Raffio,m,9,10,1.11
+96,Alessandro Sordoni,m,5,8,1.6
+97,Alex Acero,m,24,192,8
+98,Alex Aussem,m,19,48,2.53
+99,Alex Beutel,m,4,11,2.75
+100,Alex Delis,m,23,94,4.09
+101,Alex J. Smola,m,18,184,10.22
+102,Alex Rasin,m,11,16,1.45
+103,Alex Thomo,m,14,65,4.64
+104,Alexander Bohm,m,8,10,1.25
+105,Alexander Felfernig,m,15,98,6.53
+106,Alexander G. Gray,m,19,75,3.95
+107,Alexander G. Hauptmann,m,28,219,7.82
+108,Alexander Hinneburg,m,16,47,2.94
+109,Alexander J. Smola,m,18,184,10.22
+110,Alexander Kotov,m,4,8,2
+111,Alexander Markowetz,m,13,9,0.69
+112,Alexander Moshchuk,m,8,17,2.13
+113,Alexander Rasin,m,11,16,1.45
+114,Alexander S. Szalay,m,15,112,7.47
+115,Alexander Tuzhilin,m,29,84,2.9
+116,Alexander Yates,m,11,34,3.09
+117,Alexandra Meliou,w,8,24,3
+118,Alexandra Poulovassilis,w,26,106,4.08
+119,Alexandre Passant,m,9,69,7.67
+120,Alexandre Termier,m,13,24,1.85
+121,Alexandre V. Evfimievski,m,16,12,0.75
+122,Alexandrin Popescul,u,14,10,0.71
+123,Alexandros Kalousis,m,19,43,2.26
+124,Alexandros Karatzoglou,m,11,29,2.64
+125,Alexandros Labrinidis,m,16,82,5.13
+126,Alexandros Nanopoulos,m,16,112,7
+127,Alexandros Ntoulas,m,14,32,2.29
+128,Alexandru Niculescu-Mizil,m,10,28,2.8
+129,Alexey Pryakhin,m,10,40,4
+130,Alexiei Dingli,u,12,30,2.5
+131,Alfons Kemper,m,30,212,7.07
+132,Alfred Kobsa,m,31,115,3.71
+133,Alfredo Cuzzocrea,m,13,218,16.77
+134,Ali Dasdan,m,19,39,2.05
+135,Ali Ghodsi,m,12,85,7.08
+136,Ali Inan,m,9,13,1.44
+137,Ali Pinar,m,19,62,3.26
+138,Ali Saman Tosun,m,14,39,2.79
+139,Alice H. Oh,w,5,19,3.8
+140,Alin Deutsch,m,19,74,3.89
+141,Alin Dobra,m,13,41,3.15
+142,Alistair C. Veitch,m,18,23,1.28
+143,Alistair Moffat,m,34,186,5.47
+144,Alkis Simitsis,u,13,89,6.85
+145,Alok Kirpal,m,12,4,0.33
+146,Alok N. Choudhary,m,27,384,14.22
+147,Alon Y. Halevy,m,22,235,10.68
+148,Alpa Jain,m,8,23,2.88
+149,Altigran Soares da Silva,u,18,105,5.83
+150,Alvaro A. A. Fernandes,m,21,99,4.71
+151,Alvaro Barreiro,m,25,51,2.04
+152,Alvaro Bolivar,m,12,10,0.83
+153,Alvin Cheung,m,9,20,2.22
+154,Amanda Stent,w,16,56,3.5
+155,Amarnath Gupta,m,23,117,5.09
+156,Ambuj K. Singh,u,27,164,6.07
+157,Ameet Kini,m,11,6,0.55
+158,Amelie Anglade,w,7,8,1.14
+159,Amelie Marian,w,15,35,2.33
+160,Amey V. Laud,u,12,6,0.5
+161,Amihood Amir,u,29,179,6.17
+162,Amin Saberi,m,14,84,6
+163,Amin Vahdat,m,21,159,7.57
+164,Amir Netz,m,14,3,0.21
+165,Amit Anil Nanavati,m,18,51,2.83
+166,Amit Chandel,m,8,5,0.63
+167,Amit Dhurandhar,m,9,11,1.22
+168,Amit Ganesh,m,20,7,0.35
+169,Amit Goyal,m,6,14,2.33
+170,Amit Madaan,m,6,5,0.83
+171,Amit Manjhi,m,11,8,0.73
+172,Amit Marathe,m,13,9,0.69
+173,Amit P. Sheth,m,30,327,10.9
+174,Amit Sharma,m,13,27,2.08
+175,Amit Singh,m,15,27,1.8
+176,Amit Singhal,m,20,48,2.4
+177,Amit Somani,m,14,4,0.29
+178,Amitabha Bagchi,u,13,40,3.08
+179,Amol Deshpande,m,14,96,6.86
+180,Amol Ghoting,m,13,36,2.77
+181,Amr Ahmed,m,10,44,4.4
+182,Amr El Abbadi,m,30,307,10.23
+183,Amruta Joshi,u,8,6,0.75
+184,Ana-Maria Popescu,w,11,37,3.36
+185,Anagha Kulkarni,u,9,18,2
+186,Anand Deshpande,m,27,10,0.37
+187,Anand Meka,m,9,4,0.44
+188,Anand Rajaraman,m,21,37,1.76
+189,Anand Ranganathan,m,16,74,4.63
+190,Anand Sivasubramaniam,m,22,188,8.55
+191,Anant Jhingran,m,26,27,1.04
+192,Anastasia Ailamaki,w,23,169,7.35
+193,Anastasios Arvanitis,m,4,10,2.5
+194,Anastasios Gounaris,m,12,49,4.08
+195,Anastasios Kementsietsidis,m,12,51,4.25
+196,Anastasios Noulas,m,3,22,7.33
+197,Anastasios Tombros,m,16,48,3
+198,Anastassia Ailamaki,w,23,169,7.35
+199,Anat Eyal,w,15,11,0.73
+200,Andrea Cali,w,14,94,6.71
+201,Andrea Pugliese,w,14,57,4.07
+202,Andrea Tagarelli,w,12,68,5.67
+203,Andreas Brodt,m,6,17,2.83
+204,Andreas Broschart,m,8,13,1.63
+205,Andreas Dengel,m,27,184,6.81
+206,Andreas Harth,m,10,66,6.6
+207,Andreas Henrich,m,25,97,3.88
+208,Andreas Heuer,m,27,133,4.93
+209,Andreas Hotho,m,14,124,8.86
+210,Andreas Kaltenbrunner,m,8,30,3.75
+211,Andreas Karwath,m,14,26,1.86
+212,Andreas Koeller,m,16,13,0.81
+213,Andreas Krause,m,18,109,6.06
+214,Andreas Nurnberger,m,16,137,8.56
+215,Andreas Paepcke,m,33,84,2.55
+216,Andreas Rauber,m,16,153,9.56
+217,Andreas Thor,m,10,36,3.6
+218,Andreas Zufle,m,6,48,8
+219,Andrei Arion,m,11,14,1.27
+220,Andrei Z. Broder,m,30,145,4.83
+221,Andres Monroy-Hernandez,m,13,26,2
+222,Andrew Arnold,m,10,19,1.9
+223,Andrew Hickl,m,9,16,1.78
+224,Andrew J. Connolly,m,12,12,1
+225,Andrew McCallum,m,24,148,6.17
+226,Andrew McGregor,m,10,76,7.6
+227,Andrew S. Fast,m,11,8,0.73
+228,Andrew S. Gordon,m,18,43,2.39
+229,Andrew T. Fiore,m,13,14,1.08
+230,Andrew Tomkins,m,22,96,4.36
+231,Andrew Trotman,m,11,76,6.91
+232,Andrew Turpin,m,19,77,4.05
+233,Andrew W. Moore,m,24,150,6.25
+234,Andrew Witkowski,m,30,15,0.5
+235,Andrew Y. Ng,m,19,187,9.84
+236,Andrey Balmin,m,14,40,2.86
+237,Andrey Kustarev,m,3,4,1.33
+238,Andrzej Cichocki,m,22,331,15.05
+239,Aneesh Sharma,u,5,12,2.4
+240,Angela Bonifati,w,17,65,3.82
+241,Angela Maduko,w,10,7,0.7
+242,Angelika Reiser,w,36,30,0.83
+243,Anguel Novoselsky,u,8,7,0.88
+244,Anh-Tuan Tran,w,14,5,0.36
+245,AnHai Doan,u,20,92,4.6
+246,Anil K. Jain,m,39,515,13.21
+247,Anil Nori,m,32,18,0.56
+248,Anindya Datta,u,22,73,3.32
+249,Anindya Ghose,u,12,57,4.75
+250,Anirban Dasgupta,u,12,51,4.25
+251,Anirban Mahanti,u,14,63,4.5
+252,Anirban Majumder,u,8,18,2.25
+253,Anish Das Sarma,m,10,59,5.9
+254,Anisio Lacerda,u,8,9,1.13
+255,Anisoara Nica,u,19,32,1.68
+256,Anitha Kannan,w,14,36,2.57
+257,Anja Theobald,w,14,14,1
+258,Ankit Agrawal,u,6,59,9.83
+259,Ankur Jain,u,15,37,2.47
+260,Ankur Narang,u,5,26,5.2
+261,Anlei Dong,u,13,32,2.46
+262,Anmol Bhasin,u,9,6,0.67
+263,Ann Christine Catlin,w,17,15,0.88
+264,Anna Cinzia Squicciarini,w,11,107,9.73
+265,Anna Shtok,w,5,13,2.6
+266,Anne H. H. Ngu,w,25,78,3.12
+267,Anne N. De Roeck,w,28,50,1.79
+268,Anni Coden,w,15,23,1.53
+269,Anon Plangprasopchok,m,8,19,2.38
+270,Antal van den Bosch,m,21,74,3.52
+271,Anthony D. Nguyen,m,9,17,1.89
+272,Anthony K. H. Tung,m,16,119,7.44
+273,Anthony Tomasic,m,26,53,2.04
+274,Anthony Wirth,m,13,35,2.69
+275,Anton Bakalov,m,5,5,1
+276,Anton Leuski,m,16,44,2.75
+277,Anton Mityagin,m,12,22,1.83
+278,Anton Riabov,m,13,36,2.77
+279,Antonio Alfredo Ferreira Loureiro,m,21,209,9.95
+280,Antonio Farina,m,11,38,3.45
+281,Antonio Picariello,m,21,106,5.05
+282,Antonios Deligiannakis,m,12,43,3.58
+283,Antti Ukkonen,m,9,25,2.78
+284,Anup Chalamalla,m,6,5,0.83
+285,Anupam Joshi,m,21,197,9.38
+286,Anupriya Ankolekar,u,13,24,1.85
+287,Anurag Maskey,m,11,6,0.55
+288,Anwitaman Datta,u,12,136,11.33
+289,Ao Feng,m,12,6,0.5
+290,Aoying Zhou,u,20,253,12.65
+291,Aparna S. Varde,w,12,41,3.42
+292,Apostol Natsev,m,17,70,4.12
+293,Apostolos N. Papadopoulos,m,18,83,4.61
+294,Arash Termehchy,m,11,14,1.27
+295,Aravind Yalamanchi,m,14,12,0.86
+296,Arbee L. P. Chen,m,30,166,5.53
+297,Ardian Kristanto Poernomo,m,8,8,1
+298,Ari Rappoport,m,23,68,2.96
+299,Arie Shoshani,m,45,102,2.27
+300,Ariel Fuxman,m,14,37,2.64
+301,Arijit Khan,u,6,15,2.5
+302,Arindam Banerjee,u,12,75,6.25
+303,Aris Anagnostopoulos,m,13,32,2.46
+304,Aris Gkoulalas-Divanis,m,8,53,6.63
+305,Aris Tsois,m,13,14,1.08
+306,Aristides Gionis,m,18,119,6.61
+307,Arjen P. de Vries,m,18,167,9.28
+308,Arjun Dasgupta,m,7,7,1
+309,Arjun Mukherjee,m,4,16,4
+310,Armando Fox,m,21,111,5.29
+311,Arnab Bhattacharya,u,10,42,4.2
+312,Arnab Nandi,u,9,23,2.56
+313,Arnaud Sahuguet,m,16,26,1.63
+314,Arnaud Soulet,m,10,35,3.5
+315,Arnd Christian Konig,m,15,44,2.93
+316,Arno J. Knobbe,m,18,30,1.67
+317,Arno Siebes,m,27,74,2.74
+318,Arnold P. Boedihardjo,m,9,17,1.89
+319,Arnon Amir,m,19,53,2.79
+320,Arnon Rosenthal,m,37,102,2.76
+321,Arpita Ghosh,w,13,63,4.85
+322,Arsany Sawires,u,9,7,0.78
+323,Arthur Zimek,m,10,60,6
+324,Arun Iyengar,m,25,90,3.6
+325,Arun Kumar,m,27,116,4.3
+326,Arun S. Maiya,m,6,11,1.83
+327,Arvind Arasu,m,13,38,2.92
+328,Arvind Hulgeri,m,13,7,0.54
+329,Asela Gunawardana,u,16,25,1.56
+330,Ashish Goel,m,16,154,9.63
+331,Ashish Kundu,m,10,19,1.9
+332,Ashish Verma,m,17,52,3.06
+333,Ashok N. Srivastava,m,19,36,1.89
+334,Ashraf Aboulnaga,m,15,57,3.8
+335,Ashutosh Singh,m,20,10,0.5
+336,Ashwin Lall,m,8,25,3.13
+337,Ashwin Machanavajjhala,m,13,56,4.31
+338,Asim Karim,m,10,21,2.1
+339,Asma Souihli,w,3,4,1.33
+340,Assaf Schuster,m,25,168,6.72
+341,Asuman Dogac,w,34,93,2.74
+342,Asuncion Gomez-Perez,u,21,157,7.48
+343,Athena Vakali,w,23,138,6
+344,Athman Bouguettaya,u,22,147,6.68
+345,Atish Das Sarma,u,10,60,6
+346,Atsuhiro Takasu,m,25,134,5.36
+347,Atsushi Fujii,m,18,74,4.11
+348,Atsuyoshi Nakamura,u,21,55,2.62
+349,Atsuyuki Morishima,u,17,36,2.12
+350,Atul Adya,m,19,28,1.47
+351,Atulya Velivelli,u,11,10,0.91
+352,Aurelie C. Lozano,w,12,22,1.83
+353,Avare Stewart,u,13,32,2.46
+354,Avi Arampatzis,m,17,34,2
+355,Avi Silberschatz,m,38,216,5.68
+356,Avigdor Gal,m,21,124,5.9
+357,Avinava Dubey,u,5,8,1.6
+358,Avishek Anand,u,5,6,1.2
+359,Axel Polleres,m,15,127,8.47
+360,Axel-Cyrille Ngonga Ngomo,m,7,58,8.29
+361,Aya Soffer,w,19,51,2.68
+362,Ayman Farahat,m,22,22,1
+363,Azadeh Shakery,w,11,24,2.18
+364,Azer Bestavros,m,24,139,5.79
+365,Azin Ashkan,u,8,14,1.75
+366,Azzah Al-Maskari,u,8,9,1.13
+367,B. Aditya Prakash,u,7,28,4
+368,Badrish Chandramouli,u,9,31,3.44
+369,Bahman Bahmani,m,4,14,3.5
+370,Bai Wang,m,16,63,3.94
+371,Baichen Chen,u,9,15,1.67
+372,Baichuan Li,u,4,11,2.75
+373,Baihua Zheng,u,13,85,6.54
+374,Baile Shi,u,22,118,5.36
+375,Balachander Krishnamurthy,u,24,89,3.71
+376,Balaji Padmanabhan,m,18,35,1.94
+377,Balaji Palanisamy,m,8,17,2.13
+378,Balakrishna R. Iyer,u,30,67,2.23
+379,Balder ten Cate,m,13,65,5
+380,Bamshad Mobasher,u,21,111,5.29
+381,Baoli Li,u,11,19,1.73
+382,Baoning Wu,u,11,15,1.36
+383,Baoping Zhang,u,13,8,0.62
+384,Baoshi Yan,u,12,12,1
+385,Barbara Carminati,w,13,82,6.31
+386,Barbara Catania,w,21,93,4.43
+387,Barbara Poblete,w,11,24,2.18
+388,Barry Smyth,m,22,293,13.32
+389,Bart Goethals,m,15,80,5.33
+390,Bart P. Knijnenburg,m,5,27,5.4
+391,Barzan Mozafari,m,8,24,3
+392,Bee-Chung Chen,w,11,35,3.18
+393,Bei Yu,m,16,60,3.75
+394,Belle L. Tseng,w,18,90,5
+395,Ben Carterette,m,9,66,7.33
+396,Ben Fei,m,7,6,0.86
+397,Ben He,m,11,64,5.82
+398,Ben Kao,m,23,98,4.26
+399,Ben Shneiderman,m,42,359,8.55
+400,Ben Y. Zhao,m,15,112,7.47
+401,Beng Chin Ooi,u,27,274,10.15
+402,Benjamin Arai,m,8,9,1.13
+403,Benjamin Bercovitz,m,6,9,1.5
+404,Benjamin Bustos,m,13,64,4.92
+405,Benjamin C. M. Fung,m,11,50,4.55
+406,Benjamin Gufler,m,7,5,0.71
+407,Benjamin Nguyen,m,14,37,2.64
+408,Benjamin Piwowarski,m,12,46,3.83
+409,Benjamin Reed,m,18,27,1.5
+410,Benjamin Rey,m,8,6,0.75
+411,Benno Stein,m,23,119,5.17
+412,Benny Kimelfeld,m,9,51,5.67
+413,Benoit Dageville,m,23,22,0.96
+414,Benoit Dumoulin,m,6,10,1.67
+415,Benyu Zhang,u,10,45,4.5
+416,Berkant Barla Cambazoglu,m,11,65,5.91
+417,Bernard J. Jansen,m,17,122,7.18
+418,Bernardo A. Huberman,m,27,117,4.33
+419,Bernardo Cuenca Grau,m,10,106,10.6
+420,Bernd Amann,m,22,44,2
+421,Bernhard Braunmuller,m,17,8,0.47
+422,Bernhard Krupl,m,9,13,1.44
+423,Bernhard Mitschang,m,30,166,5.53
+424,Bernhard Pfahringer,m,29,102,3.52
+425,Bernhard Seeger,m,28,98,3.5
+426,Bernhard Stegmaier,m,10,7,0.7
+427,Bernhard Zeller,m,15,5,0.33
+428,Bert Van der Linden,m,13,6,0.46
+429,Berthier A. Ribeiro-Neto,u,24,82,3.42
+430,Berthold Reinwald,m,24,47,1.96
+431,Bertram Ludascher,m,22,148,6.73
+432,Beth Brownholtz,w,10,26,2.6
+433,Beth Trushkowsky,w,7,11,1.57
+434,Bettina Kemme,w,17,79,4.65
+435,Betty Salzberg,w,28,59,2.11
+436,Bevan Koopman,m,3,10,3.33
+437,Beverly Yang,w,13,16,1.23
+438,Bharat Kumar,m,21,30,1.43
+439,Bhargav Kanagal,u,6,9,1.5
+440,Bhaskar Ghosh,m,20,13,0.65
+441,Bhaskar Mehta,m,10,20,2
+442,Bhavani M. Thuraisingham,u,32,340,10.63
+443,Bhushan Mandhani,m,11,6,0.55
+444,Bhuvan Bamba,u,10,22,2.2
+445,Bhuvana Ramabhadran,u,16,126,7.88
+446,Bianca Schroeder,w,14,30,2.14
+447,Bianca Zadrozny,w,13,31,2.38
+448,Biao Xiang,m,5,9,1.8
+449,Bicheng Liu,u,18,5,0.28
+450,Bijan Parsia,m,13,153,11.77
+451,Bill Howe,m,12,57,4.75
+452,Bill Yuan-chi Chiu,m,12,9,0.75
+453,Bilyana Taneva,u,4,5,1.25
+454,Bin B. Zhu,m,19,45,2.37
+455,Bin Bi,m,6,8,1.33
+456,Bin Cao,m,12,77,6.42
+457,Bin Chen,m,22,178,8.09
+458,Bin Cui,m,13,100,7.69
+459,Bin Gao,m,10,50,5
+460,Bin He,m,13,136,10.46
+461,Bin Jiang,m,26,165,6.35
+462,Bin Li,m,26,534,20.54
+463,Bin Liu,m,10,12,1.2
+464,Bin Liu,m,12,12,1
+465,Bin Tan,m,16,27,1.69
+466,Bin Wang,m,27,541,20.04
+467,Bin Wei,m,19,35,1.84
+468,Bin Wu,m,19,290,15.26
+469,Bin Yang,m,6,25,4.17
+470,Bin Yao,m,5,10,2
+471,Bin Zhao,m,17,111,6.53
+472,Bin Zhou,m,7,13,1.86
+473,Bing Bai,m,10,37,3.7
+474,Bing Hu,m,3,9,3
+475,Bing Li,m,20,243,12.15
+476,Bing Liu,m,26,173,6.65
+477,Bing Tian Dai,m,8,13,1.63
+478,Bingjun Sun,u,10,13,1.3
+479,Bingsheng He,u,20,98,4.9
+480,Binyamin Rosenfeld,m,15,18,1.2
+481,Biplav Srivastava,u,18,65,3.61
+482,Birger Larsen,m,12,51,4.25
+483,Bishwaranjan Bhattacharjee,u,11,24,2.18
+484,Biswanath Panda,u,8,10,1.25
+485,Bjorn Bringmann,m,12,18,1.5
+486,Blaz Fortuna,u,9,36,4
+487,Bo Chen,m,23,220,9.57
+488,Bo Liu,m,21,393,18.71
+489,Bo Long,m,9,28,3.11
+490,Bo Luo,m,12,40,3.33
+491,Bo Pang,m,12,59,4.92
+492,Bo Wang,m,16,232,14.5
+493,Bo Zhang,m,31,507,16.35
+494,Bo Zhao,m,10,116,11.6
+495,Bo-June Paul Hsu,m,13,17,1.31
+496,Bodo Billerbeck,m,11,14,1.27
+497,Boduo Li,u,6,10,1.67
+498,Bogdan Alexe,m,10,27,2.7
+499,Bogdan Cautis,m,10,32,3.2
+500,Boi Faltings,u,29,248,8.55
+501,Bolin Ding,m,8,41,5.13
+502,Bongki Moon,u,20,69,3.45
+503,Boon Thau Loo,u,13,93,7.15
+504,Boris Glavic,m,9,19,2.11
+505,Boris Katz,m,31,38,1.23
+506,Boris Motik,m,12,108,9
+507,Borkur Sigurbjornsson,u,12,31,2.58
+508,Botao Hu,u,4,5,1.25
+509,Boualem Benatallah,m,18,202,11.22
+510,Boulos Harb,m,10,19,1.9
+511,Bracha Shapira,w,19,68,3.58
+512,Bradley Malin,m,12,71,5.92
+513,Brandon Norick,m,4,8,2
+514,Brendan Kitts,m,18,21,1.17
+515,Brendan Meeder,m,4,9,2.25
+516,Brett Adams,m,14,45,3.21
+517,Brett W. Bader,m,10,14,1.4
+518,Brian Babcock,m,12,15,1.25
+519,Brian D. Davison,m,17,89,5.24
+520,Brian Dalessandro,m,5,7,1.4
+521,Brian F. Cooper,m,14,54,3.86
+522,Brian Frasca,m,14,4,0.29
+523,Brian Gallagher,m,11,24,2.18
+524,Brian Keegan,m,7,27,3.86
+525,Brian Kulis,m,11,33,3
+526,Brian Neil Levine,m,18,75,4.17
+527,Brian Quanz,m,6,11,1.83
+528,Brigitte Boden,w,4,15,3.75
+529,Bruce G. Buchanan,m,43,74,1.72
+530,Bruce G. Lindsay,m,35,66,1.89
+531,Bruce M. Maggs,m,28,99,3.54
+532,Bruno Goncalves,m,8,32,4
+533,Bruno Possas,m,15,14,0.93
+534,Bryan Kisiel,m,11,9,0.82
+535,Budhaditya Saha,m,7,9,1.29
+536,Bugra Gedik,m,11,71,6.45
+537,Buyue Qian,u,5,16,3.2
+538,Byron C. Wallace,m,4,10,2.5
+539,Byron Choi,m,12,47,3.92
+540,Byron Dom,m,26,43,1.65
+541,Byron J. Gao,m,8,38,4.75
+542,Byung-Won On,u,14,31,2.21
+543,C. J. van Rijsbergen,u,43,121,2.81
+544,C. Lee Giles,u,29,334,11.52
+545,C. Mohan,u,36,110,3.06
+546,C. Seshadhri,u,10,92,9.2
+547,Caetano Traina Jr.,m,17,175,10.29
+548,Cai-Nicolas Ziegler,m,10,31,3.1
+549,Caimei Lu,u,6,15,2.5
+550,Calisto Zuzarte,m,13,56,4.31
+551,Calton Pu,u,29,282,9.72
+552,Cameron Marlow,m,16,18,1.13
+553,Camille Roth,m,10,34,3.4
+554,Can Turker,m,19,77,4.05
+555,Can Wang,m,10,62,6.2
+556,Cane Wing-ki Leung,u,10,11,1.1
+557,Carey L. Williamson,m,30,159,5.3
+558,Carl Lagoze,m,19,102,5.37
+559,Carl-Christian Kanne,m,17,39,2.29
+560,Carla E. Brodley,w,24,76,3.17
+561,Carles Farre,m,18,21,1.17
+562,Carlo Curino,m,10,43,4.3
+563,Carlo Sartiani,m,12,39,3.25
+564,Carlo Zaniolo,m,37,224,6.05
+565,Carlos A. Heuser,m,29,58,2
+566,Carlos Castillo,m,13,105,8.08
+567,Carlos Garcia-Alvarado,m,6,27,4.5
+568,Carlos Guestrin,m,16,123,7.69
+569,Carlos Ordonez,m,15,90,6
+570,Carlotta Domeniconi,w,16,74,4.63
+571,Carmel Domshlak,w,17,92,5.41
+572,Carmem S. Hara,u,15,27,1.8
+573,Carole A. Goble,w,24,262,10.92
+574,Carolyn Penstein Rose,w,21,130,6.19
+575,Carson Kai-Sang Leung,m,16,87,5.44
+576,Carsten Binnig,m,12,22,1.83
+577,Carsten Eickhoff,m,4,25,6.25
+578,Casey Dugan,m,7,24,3.43
+579,Catharine M. Wyss,w,13,16,1.23
+580,Catriel Beeri,u,40,111,2.78
+581,Ce Zhang,m,6,33,5.5
+582,Cecilia M. Procopiuc,w,20,37,1.85
+583,Cecilia Mascolo,w,18,145,8.06
+584,Cedric du Mouza,m,12,23,1.92
+585,Celine Robardet,w,14,50,3.57
+586,Ceren Budak,w,4,10,2.5
+587,Cesar A. Galindo-Legaria,m,24,29,1.21
+588,Cesare Pautasso,m,13,94,7.23
+589,Cevdet Aykanat,m,27,95,3.52
+590,Chaitanya Mishra,m,11,10,0.91
+591,Chandan K. Reddy,u,9,51,5.67
+592,Chandra Kambhamettu,w,22,116,5.27
+593,Chandra Prakash Jethani,w,4,3,0.75
+594,Chandrika Kamath,w,25,38,1.52
+595,Chang Liu,m,17,227,13.35
+596,Chang Luo,m,11,7,0.64
+597,Chang Sheng,m,13,8,0.62
+598,Chang-Hung Lee,m,13,13,1
+599,Chang-Shing Perng,m,15,45,3
+600,Chang-Tien Lu,m,16,68,4.25
+601,Changhu Wang,u,10,38,3.8
+602,Changjiu Jin,u,4,4,1
+603,Changki Lee,u,13,21,1.62
+604,Changkyu Kim,u,12,40,3.33
+605,Changqing Li,u,10,15,1.5
+606,Changshui Zhang,u,16,268,16.75
+607,Changxuan Wan,u,12,19,1.58
+608,Chanik Park,u,15,54,3.6
+609,Chao Liu,m,11,23,2.09
+610,Chao Liu,m,15,99,6.6
+611,Chao Shen,m,8,51,6.38
+612,Chao Wang,m,17,530,31.18
+613,Chao Zhang,m,22,296,13.45
+614,Chaofeng Sha,u,11,33,3
+615,Chaokun Wang,u,12,57,4.75
+616,Chaoran Cui,u,4,7,1.75
+617,Chaoyi Pang,u,17,33,1.94
+618,Charalampos E. Tsourakakis,m,6,41,6.83
+619,Charles Elkan,m,26,82,3.15
+620,Charles K. Nicholas,m,27,41,1.52
+621,Charles L. A. Clarke,m,19,126,6.63
+622,Charles X. Ling,m,23,125,5.43
+623,Charu C. Aggarwal,m,19,250,13.16
+624,Chavdar Botev,m,11,16,1.45
+625,Chayant Tantipathananandh,u,7,5,0.71
+626,Chedy Raissi,u,9,32,3.56
+627,Chee Yong Chan,m,22,63,2.86
+628,Chee-Yong Chan,m,22,63,2.86
+629,Chen Chen,m,24,208,8.67
+630,Chen Li,m,16,177,11.06
+631,Chen Lin,m,10,46,4.6
+632,Chen Liu,m,16,128,8
+633,Chen Wang,m,18,250,13.89
+634,Chen Zhang,m,10,113,11.3
+635,Cheng Long,m,3,10,3.33
+636,Cheng Luo,m,13,65,5
+637,Cheng Sheng,m,5,22,4.4
+638,Cheng Yang,m,34,52,1.53
+639,Cheng-Lin Liu,m,19,177,9.32
+640,Cheng-Ru Lin,m,13,13,1
+641,Cheng-Te Li,m,7,41,5.86
+642,Cheng-Wei Wu,m,5,12,2.4
+643,Cheng-Yue Chang,m,14,10,0.71
+644,Chengfei Liu,u,18,150,8.33
+645,Chengkai Li,u,15,43,2.87
+646,Chengqi Zhang,u,24,257,10.71
+647,Chenguang Zhu,u,6,9,1.5
+648,Chengxiang Zhai,u,24,239,9.96
+649,ChengXiang Zhai,u,24,239,9.96
+650,Chengyu Sun,u,23,22,0.96
+651,Chenhao Tan,u,4,15,3.75
+652,Chenliang Li,u,3,10,3.33
+653,Chenxi Lin,u,10,18,1.8
+654,Chenyi Xia,u,12,6,0.5
+655,Cheong Hee Park,u,11,31,2.82
+656,Chetan Gupta,m,10,30,3
+657,Chew Lim Tan,m,28,320,11.43
+658,Chi Wang,m,23,53,2.3
+659,Chi-Chao Chang,m,18,24,1.33
+660,Chi-Hoon Lee,m,14,19,1.36
+661,Chi-Hung Chi,m,26,142,5.46
+662,Chi-Yin Chow,m,10,40,4
+663,Chia-Jung Lee,m,9,23,2.56
+664,Chiao-Fang Hsu,u,5,7,1.4
+665,Chidanand Apte,u,32,34,1.06
+666,Chien Chin Chen,m,13,23,1.77
+667,Chih-Chieh Hung,u,9,12,1.33
+668,Chih-Hua Tai,u,7,12,1.71
+669,Chih-Jen Lin,u,23,80,3.48
+670,Chin-Wan Chung,m,32,112,3.5
+671,Chin-Yew Lin,m,19,62,3.26
+672,Ching-man Au Yeung,m,8,32,4
+673,Ching-Yung Lin,m,21,108,5.14
+674,Chinya V. Ravishankar,u,32,84,2.63
+675,Chirag Shah,u,11,53,4.82
+676,Chiranjib Bhattacharyya,u,14,65,4.64
+677,Cho-Jui Hsieh,m,6,30,5
+678,Chong Long,m,8,10,1.25
+679,Chong Sun,m,8,12,1.5
+680,Chong-Wah Ngo,m,18,150,8.33
+681,Chotirat (Ann) Ratanamahatana,u,13,46,3.54
+682,Chris Buckley,m,32,64,2
+683,Chris Clifton,m,24,102,4.25
+684,Chris Drome,m,5,4,0.8
+685,Chris H. Q. Ding,m,21,198,9.43
+686,Chris Jermaine,m,15,63,4.2
+687,Chris Leggetter,m,20,9,0.45
+688,Chris Mayfield,m,7,12,1.71
+689,Chris Olston,m,16,53,3.31
+690,Chris Volinsky,m,15,18,1.2
+691,Chris Wolf,m,6,11,1.83
+692,Christian A. Lang,m,13,25,1.92
+693,Christian Bauckhage,m,16,130,8.13
+694,Christian Bohm,m,19,102,5.37
+695,Christian Borgs,m,15,63,4.2
+696,Christian Kleinerman,m,10,4,0.4
+697,Christian Kohlschutter,m,9,9,1
+698,Christian Mathis,m,12,24,2
+699,Christian Posse,m,12,15,1.25
+700,Christian S. Jensen,m,23,339,14.74
+701,Christian Wiesner,m,15,10,0.67
+702,Christian Zimmer,m,10,21,2.1
+703,Christina Lioma,w,10,29,2.9
+704,Christina Yip Chung,w,15,7,0.47
+705,Christo Wilson,m,7,28,4
+706,Christof Bornhovd,m,15,36,2.4
+707,Christoph Bohm,m,9,12,1.33
+708,Christoph Bussler,m,21,88,4.19
+709,Christoph F. Eick,m,36,73,2.03
+710,Christoph Freudenthaler,m,5,15,3
+711,Christoph Heinz,m,11,17,1.55
+712,Christoph Kiefer,m,9,14,1.56
+713,Christoph Koch,m,17,136,8
+714,Christoph Pinkel,m,6,13,2.17
+715,Christoph Quix,m,18,65,3.61
+716,Christoph Sturm,m,9,7,0.78
+717,Christophe Prieur,m,7,8,1.14
+718,Christopher C. Yang,m,20,173,8.65
+719,Christopher DuBois,m,4,11,2.75
+720,Christopher G. Harris,m,5,13,2.6
+721,Christopher J. C. Burges,m,23,56,2.43
+722,Christopher Leckie,m,23,121,5.26
+723,Christopher M. Jermaine,m,15,63,4.2
+724,Christopher Meek,m,19,93,4.89
+725,Christopher Olston,m,16,53,3.31
+726,Christopher Potts,m,8,18,2.25
+727,Christopher R. Botaish,m,1,3,3
+728,Christopher Re,m,12,87,7.25
+729,Christopher Re,m,12,87,7.25
+730,Christos Doulkeridis,m,12,52,4.33
+731,Christos Faloutsos,m,32,446,13.94
+732,Christos Tryfonopoulos,m,12,33,2.75
+733,Chuan Shi,m,8,35,4.38
+734,Chuan Xiao,m,8,32,4
+735,Chuancong Gao,u,6,6,1
+736,Chuanren Liu,u,5,9,1.8
+737,Chuck Freiwald,m,14,4,0.29
+738,Chun Chen,m,15,339,22.6
+739,Chun Kit Chui,m,10,13,1.3
+740,Chun Tang,m,13,18,1.38
+741,Chun Zhang,m,15,107,7.13
+742,Chun-Nan Hsu,m,21,67,3.19
+743,Chunbin Lin,u,2,4,2
+744,Chung-Min Chen,m,21,46,2.19
+745,Chung-Sheng Li,m,21,80,3.81
+746,Chunheng Wang,u,12,79,6.58
+747,Chunping Li,u,14,67,4.79
+748,Chunqiang Tang,u,12,52,4.33
+749,Chunyan Miao,u,16,134,8.38
+750,Chunyan Wang,u,15,53,3.53
+751,Chunyao Song,u,1,3,3
+752,Cindy K. Chung,w,6,3,0.5
+753,Cindy Xide Lin,w,6,19,3.17
+754,Ciro Cattuto,m,8,44,5.5
+755,Ciya Liao,u,13,13,1
+756,Claire Cardie,w,23,88,3.83
+757,Claudia Hauff,w,9,55,6.11
+758,Claudia Niederee,w,17,46,2.71
+759,Claudia Perlich,w,11,29,2.64
+760,Claudia Plant,w,10,46,4.6
+761,Claudio Lucchese,m,11,56,5.09
+762,Claudiu S. Firan,m,8,25,3.13
+763,Clement T. Yu,m,41,223,5.44
+764,Collin Jackson,m,9,25,2.78
+765,Colm O'Riordan,m,17,102,6
+766,Cong Yu,m,12,74,6.17
+767,Conglei Yao,u,9,13,1.44
+768,Conor Hayes,m,15,48,3.2
+769,Corin R. Anderson,m,18,10,0.56
+770,Cornelia Caragea,w,9,33,3.67
+771,Cornelius Rabsch,m,7,4,0.57
+772,Craig A. Knoblock,m,25,194,7.76
+773,Craig E. Wills,m,28,55,1.96
+774,Craig Macdonald,m,9,119,13.22
+775,Cristian Danescu-Niculescu-Mizil,m,5,27,5.4
+776,Cristiana Amza,w,18,47,2.61
+777,Cristina Ribeiro,w,23,62,2.7
+778,Cuiping Li,u,12,53,4.42
+779,Curt J. Ellmann,m,17,12,0.71
+780,Curtis E. Dyreson,m,21,91,4.33
+781,Cyril Goutte,m,17,38,2.24
+782,Cyrus Shahabi,m,21,224,10.67
+783,D. Sculley,u,8,20,2.5
+784,D. Sivakumar,u,20,80,4
+785,Da Yan,m,3,10,3.33
+786,Dacheng Tao,u,10,361,36.1
+787,Dafna Shahaf,w,8,14,1.75
+788,Daiji Fukagawa,u,11,27,2.45
+789,Daisy Zhe Wang,w,8,17,2.13
+790,Dan A. Simovici,m,41,108,2.63
+791,Dan Boneh,m,21,231,11
+792,Dan Cosley,m,16,69,4.31
+793,Dan Feng,m,21,187,8.9
+794,Dan He,m,13,51,3.92
+795,Dan Jurafsky,m,26,110,4.23
+796,Dan Lin,m,10,57,5.7
+797,Dan Olteanu,m,14,59,4.21
+798,Dan Pelleg,m,16,26,1.63
+799,Dan Roth,m,22,211,9.59
+800,Dan Shen,m,15,35,2.33
+801,Dan Suciu,m,21,256,12.19
+802,Dan Vodislav,m,19,24,1.26
+803,Dan Zhang,m,12,164,13.67
+804,Danai Koutra,m,3,20,6.67
+805,Daniel A. Keim,m,23,269,11.7
+806,Daniel B. Neill,m,11,20,1.82
+807,Daniel Barbara,m,32,107,3.34
+808,Daniel C. Zilio,m,18,16,0.89
+809,Daniel Deutch,m,7,41,5.86
+810,Daniel E. Rose,m,25,13,0.52
+811,Daniel Engovatov,m,8,4,0.5
+812,Daniel F. Lieuwen,m,23,34,1.48
+813,Daniel Gatica-Perez,m,15,157,10.47
+814,Daniel Gruhl,m,19,35,1.84
+815,Daniel J. Abadi,m,12,43,3.58
+816,Daniel J. Liebling,m,6,15,2.5
+817,Daniel Kifer,m,12,30,2.5
+818,Daniel Klan,m,9,19,2.11
+819,Daniel Krause,m,8,36,4.5
+820,Daniel Lowd,m,9,26,2.89
+821,Daniel M. Romero,m,6,17,2.83
+822,Daniel P. Huttenlocher,m,31,90,2.9
+823,Daniel Ramage,m,12,13,1.08
+824,Daniel S. Weld,m,29,163,5.62
+825,Daniel Schwabe,m,36,113,3.14
+826,Daniel Tunkelang,m,17,14,0.82
+827,Daniel Xiaodan Zhou,m,6,5,0.83
+828,Daniel Z. Sui,m,16,20,1.25
+829,Daniel Zinn,m,11,23,2.09
+830,Daniela Florescu,w,20,85,4.25
+831,Daniela Nicklas,w,13,86,6.62
+832,Daniela Petrelli,w,22,61,2.77
+833,Daniele Braga,m,12,45,3.75
+834,Daniele Quercia,m,9,63,7
+835,Danielle L. Booth,w,7,8,1.14
+836,Danish Contractor,u,4,12,3
+837,Dantong Yu,u,15,32,2.13
+838,Danushka Bollegala,u,9,50,5.56
+839,Danyel Fisher,m,14,46,3.29
+840,Danzhou Liu,u,12,19,1.58
+841,Daphne Koller,w,27,248,9.19
+842,Daqing He,u,14,69,4.93
+843,Dario Colazzo,m,15,50,3.33
+844,Darrell Whitley,m,27,175,6.48
+845,Darya Chudova,w,14,7,0.5
+846,Daryl Pregibon,m,29,23,0.79
+847,Davi de Castro Reis,m,12,6,0.5
+848,David A. Bell,m,32,184,5.75
+849,David A. Evans,m,23,48,2.09
+850,David A. Grossman,m,22,65,2.95
+851,David A. Huffaker,m,10,17,1.7
+852,David A. Patterson,m,38,184,4.84
+853,David A. Shamma,m,16,48,3
+854,David A. Smith,m,31,55,1.77
+855,David B. Lomet,m,41,211,5.15
+856,David Bodoff,m,20,25,1.25
+857,David Buttler,m,16,34,2.13
+858,David Campbell,m,29,23,0.79
+859,David Carmel,m,19,81,4.26
+860,David D. Lewis,m,27,53,1.96
+861,David DeHaan,m,11,10,0.91
+862,David E. Losada,m,15,46,3.07
+863,David E. Simmen,m,18,12,0.67
+864,David Elsweiler,m,10,33,3.3
+865,David F. Gleich,m,10,42,4.2
+866,David Fernandes,m,12,22,1.83
+867,David Fuhry,m,6,13,2.17
+868,David Gondek,m,13,18,1.38
+869,David Gotz,m,15,32,2.13
+870,David H. Reiley,m,8,6,0.75
+871,David Hawking,m,20,79,3.95
+872,David J. Crandall,m,15,30,2
+873,David J. DeWitt,m,36,190,5.28
+874,David J. Harper,m,28,38,1.36
+875,David J. Martin,m,8,6,0.75
+876,David Jensen,m,17,64,3.76
+877,David Kensche,m,9,22,2.44
+878,David Lazer,m,13,33,2.54
+879,David Lo,m,10,138,13.8
+880,David M. Blei,m,13,87,6.69
+881,David M. Pennock,m,20,107,5.35
+882,David Madigan,m,20,40,2
+883,David Maier,m,37,244,6.59
+884,David Maxwell Chickering,m,20,68,3.4
+885,David N. Milne,m,8,13,1.63
+886,David Newman,m,19,31,1.63
+887,David R. Kaeli,m,25,141,5.64
+888,David R. Karger,m,23,204,8.87
+889,David R. Millen,m,18,70,3.89
+890,David R. Musicant,m,15,22,1.47
+891,David Vallet,m,9,41,4.56
+892,David W. Cheung,m,29,151,5.21
+893,David Wai-Lok Cheung,m,29,151,5.21
+894,Davide Martinenghi,m,14,68,4.86
+895,Davood Rafiei,m,17,34,2
+896,Dawei Jiang,u,5,15,3
+897,Dawei Song,u,15,120,8
+898,Dawei Yin,u,5,21,4.2
+899,Dawit Yimam Seid,m,10,13,1.3
+900,Daxin Jiang,u,11,31,2.82
+901,Dayong Wang,u,5,20,4
+902,Dayou Zhou,u,9,4,0.44
+903,De-Nian Yang,m,15,64,4.27
+904,Dean Jacobs,m,29,45,1.55
+905,Dean P. Foster,m,25,50,2
+906,Debabrata Dash,m,8,16,2
+907,Debapriyo Majumdar,u,9,16,1.78
+908,Debasis Ganguly,u,6,18,3
+909,Debora Donato,w,9,43,4.78
+910,Deborah L. McGuinness,w,26,167,6.42
+911,Debprakash Patnaik,u,7,26,3.71
+912,Debra E. VanderMeer,w,17,36,2.12
+913,Deepa Paranjpe,w,11,8,0.73
+914,Deepak Agarwal,m,10,53,5.3
+915,Deepak K. Agarwal,m,12,4,0.33
+916,Deepak P,m,10,39,3.9
+917,Deepak Padmanabhan,m,10,39,3.9
+918,Deepak Rajan,m,12,21,1.75
+919,Deepak S. Turaga,m,14,70,5
+920,Deepayan Chakrabarti,u,13,43,3.31
+921,Deguang Kong,u,7,18,2.57
+922,Dehong Gao,u,3,17,5.67
+923,Dejing Dou,u,12,48,4
+924,Dekang Lin,u,25,67,2.68
+925,Dell Zhang,m,15,43,2.87
+926,Demetrios Zeinalipour-Yazti,m,12,67,5.58
+927,Deng Cai,m,11,101,9.18
+928,Dengfeng Gao,u,12,11,0.92
+929,Dengyong Zhou,u,11,25,2.27
+930,Denilson Barbosa,m,15,53,3.53
+931,Denise Draper,w,22,12,0.55
+932,Dennis Fetterly,m,11,24,2.18
+933,Dennis McLeod,m,39,119,3.05
+934,Dennis Shasha,m,30,195,6.5
+935,Denny Vrandecic,m,9,59,6.56
+936,Derek Greene,m,10,41,4.1
+937,Derek Ruths,m,4,7,1.75
+938,Derry Tanti Wijaya,m,8,8,1
+939,Dharmendra S. Modha,m,20,47,2.35
+940,Dhaval Patel,u,8,15,1.88
+941,Dhruba Borthakur,m,4,14,3.5
+942,Di Jiang,m,9,28,3.11
+943,Di Yang,m,9,29,3.22
+944,Diane J. Cook,w,24,241,10.04
+945,Diane Kelly,w,16,94,5.88
+946,Diane Lambert,w,14,8,0.57
+947,Diego Arroyuelo,m,11,16,1.45
+948,Diego Calvanese,m,20,258,12.9
+949,Diego Ceccarelli,m,3,10,3.33
+950,Diego Saez-Trumper,m,3,9,3
+951,Dieter Gawlick,m,29,31,1.07
+952,Dieter Pfoser,m,17,60,3.53
+953,Dietmar Jannach,m,15,100,6.67
+954,Dietrich Klakow,m,17,88,5.18
+955,Dijun Luo,u,8,29,3.63
+956,Dik Lun Lee,m,31,157,5.06
+957,Dilys Thomas,w,11,21,1.91
+958,Dimitri Theodoratos,m,23,60,2.61
+959,Dimitrios Georgakopoulos,m,28,101,3.61
+960,Dimitrios Gunopulos,m,20,200,10
+961,Dimitrios Lymberopoulos,m,9,38,4.22
+962,Dimitrios Skoutas,m,9,31,3.44
+963,Dimitrios Tsoumakos,m,11,45,4.09
+964,Dimitris Papadias,m,22,157,7.14
+965,Dimitris Plexousakis,m,21,127,6.05
+966,Dimitris Sacharidis,m,9,32,3.56
+967,Dimitris Tsirogiannis,m,8,10,1.25
+968,Dina Q. Goldin,w,25,39,1.56
+969,Dinesh Manocha,m,24,316,13.17
+970,Ding Zhou,m,10,23,2.3
+971,Dingding Wang,u,7,38,5.43
+972,Dingyi Han,u,9,23,2.56
+973,Dinh Q. Phung,m,12,85,7.08
+974,Dino Pedreschi,m,29,157,5.41
+975,Dinusha Vatsalan,u,4,7,1.75
+976,Dipanjan Chakraborty,u,14,73,5.21
+977,Dirk G. F. M. Bollen,m,4,4,1
+978,Dirk Habich,m,11,76,6.91
+979,Dit-Yan Yeung,m,23,133,5.78
+980,Divesh Srivastava,u,24,282,11.75
+981,Divyakant Agrawal,u,28,345,12.32
+982,Diyi Yang,u,2,7,3.5
+983,Djamal Benslimane,m,18,132,7.33
+984,Djoerd Hiemstra,u,17,126,7.41
+985,Dmitri Roussinov,m,16,44,2.75
+986,Dmitri V. Kalashnikov,m,12,42,3.5
+987,Dmitriy Fradkin,m,11,15,1.36
+988,Dmitry Lagun,m,4,16,4
+989,Dmitry Lizorkin,m,10,12,1.2
+990,Dmitry Lychagin,m,8,6,0.75
+991,Dmitry Pavlov,m,15,26,1.73
+992,Doheon Lee,u,21,100,4.76
+993,Doina Caragea,w,17,62,3.65
+994,Dolf Trieschnigg,m,9,36,4
+995,Domenico Lembo,m,13,75,5.77
+996,Dominique Cardon,m,9,7,0.78
+997,Domonkos Tikk,u,14,58,4.14
+998,Donald Baker,m,15,16,1.07
+999,Donald Carney,m,12,8,0.67
+1000,Donald D. Chamberlin,m,43,49,1.14
+1001,Donald Kossmann,m,22,162,7.36
+1002,Donald Metzler,m,10,56,5.6
+1003,Dong Deng,m,4,12,3
+1004,Dong Liu,m,13,146,11.23
+1005,Dong Wang,m,18,319,17.72
+1006,Dong Xin,m,12,42,3.5
+1007,Dong Xu,m,16,284,17.75
+1008,Dong Zhou,m,15,64,4.27
+1009,Dongdong Shan,u,5,8,1.6
+1010,Donghui Zhang,u,13,60,4.62
+1011,Dongmei Jia,u,9,9,1
+1012,Dongmei Ren,u,12,17,1.42
+1013,Dongqing Yang,u,28,150,5.36
+1014,Dongwon Lee,u,16,144,9
+1015,Dongxiang Zhang,u,5,13,2.6
+1016,Dongyan Zhao,u,6,30,5
+1017,Dongyi Guan,u,1,4,4
+1018,Dora Erdos,w,5,11,2.2
+1019,Doree D. Seligmann,w,25,36,1.44
+1020,Dou Shen,m,10,49,4.9
+1021,Doug Downey,m,10,22,2.2
+1022,Douglas Burdick,m,13,12,0.92
+1023,Douglas H. Fisher,m,29,51,1.76
+1024,Douglas Stott Parker Jr.,m,39,80,2.05
+1025,Douglas Turnbull,m,9,26,2.89
+1026,Douglas W. Oard,m,18,143,7.94
+1027,Dragan Tomic,m,9,6,0.67
+1028,Dragomir R. Radev,m,19,111,5.84
+1029,Dragomir Yankov,m,9,13,1.44
+1030,Duc Thanh Tran,m,8,63,7.88
+1031,Duc-Son Pham,m,6,18,3
+1032,Duck-Ho Bae,m,5,12,2.4
+1033,Duen Horng Chau,u,8,38,4.75
+1034,Dulce B. Ponceleon,w,21,36,1.71
+1035,Dunja Mladenic,w,22,127,5.77
+1036,Duo Zhang,m,12,32,2.67
+1037,Dustin Hillard,m,11,26,2.36
+1038,Dustin Lange,m,4,8,2
+1039,Dzung Hong,u,4,5,1.25
+1040,E. K. Park,u,23,114,4.96
+1041,Eamonn J. Keogh,m,17,179,10.53
+1042,Ed H. Chi,m,19,107,5.63
+1043,Edgar Meij,m,9,48,5.33
+1044,Edith Cohen,w,25,130,5.2
+1045,Edleno Silva de Moura,u,16,84,5.25
+1046,Edo Liberty,m,7,25,3.57
+1047,Eduard C. Dragut,m,10,19,1.9
+1048,Eduard Hoenkamp,m,15,16,1.07
+1049,Eduarda Mendes Rodrigues,w,7,18,2.57
+1050,Eduardo F. Galvez,m,11,4,0.36
+1051,Edward A. Fox,m,34,290,8.53
+1052,Edward Benson,m,7,13,1.86
+1053,Edward Bortnikov,m,16,24,1.5
+1054,Edward Cutrell,m,13,71,5.46
+1055,Edward Hung,m,14,32,2.29
+1056,Edward Omiecinski,m,30,61,2.03
+1057,Edward Y. Chang,m,23,151,6.57
+1058,Edwin P. D. Pednault,m,33,28,0.85
+1059,Ee-Peng Lim,u,22,315,14.32
+1060,Eero Sormunen,m,25,20,0.8
+1061,Efthimis N. Efthimiadis,u,24,37,1.54
+1062,Egemen Tanin,m,19,63,3.32
+1063,Egidio L. Terra,m,14,12,0.86
+1064,Ehud Gudes,m,41,104,2.54
+1065,Eike Schallehn,m,14,45,3.21
+1066,Einat Amitay,w,14,22,1.57
+1067,Einat Neumann,w,15,5,0.33
+1068,Einoshin Suzuki,u,23,104,4.52
+1069,Ekaterini Ioannou,w,8,22,2.75
+1070,Elad Yom-Tov,u,13,42,3.23
+1071,Elaine G. Toms,w,18,47,2.61
+1072,Elena Baralis,w,21,87,4.14
+1073,Elena Demidova,w,7,16,2.29
+1074,Elena Ferrari,w,18,185,10.28
+1075,Elena Zheleva,w,8,10,1.25
+1076,Eleni Stroulia,w,20,141,7.05
+1077,Eli Cortez,m,8,15,1.88
+1078,Eli Upfal,m,32,177,5.53
+1079,Elias Frentzos,m,11,21,1.91
+1080,Elif Aktolga,w,6,9,1.5
+1081,Elisa Bertino,w,33,756,22.91
+1082,Elisa Fromont,w,10,22,2.2
+1083,Elizabeth F. Churchill,w,19,130,6.84
+1084,Elizabeth J. O'Neil,w,41,21,0.51
+1085,Elizabeth M. Daly,w,9,20,2.22
+1086,Eljas Soisalon-Soininen,m,38,90,2.37
+1087,Elke A. Rundensteiner,w,26,325,12.5
+1088,Elke Achtert,w,9,24,2.67
+1089,Ella Bingham,w,14,20,1.43
+1090,Ellen M. Voorhees,w,30,97,3.23
+1091,Emilien Antoine,u,3,7,2.33
+1092,Emine Yilmaz,w,9,42,4.67
+1093,Emiran Curtmola,u,9,11,1.22
+1094,Emmanuel Muller,m,8,44,5.5
+1095,Emre Kiciman,m,14,39,2.79
+1096,Emre Velipasaoglu,m,8,9,1.13
+1097,Enhong Chen,u,15,130,8.67
+1098,Enrico Ronchetti,m,9,11,1.22
+1099,Enrique Alfonseca,m,16,51,3.19
+1100,Entong Shen,u,3,9,3
+1101,Ephrat Bitton,u,7,6,0.86
+1102,Erel Uziel,m,5,11,2.2
+1103,Eren Manavoglu,m,11,14,1.27
+1104,Erhard Rahm,m,29,181,6.24
+1105,ErHeng Zhong,u,6,23,3.83
+1106,Eric A. Brewer,m,23,126,5.48
+1107,Eric Bouillet,m,17,31,1.82
+1108,Eric Brill,m,23,46,2
+1109,Eric C. Jensen,m,14,37,2.64
+1110,Eric Chu,m,8,11,1.38
+1111,Eric Crestan,m,12,9,0.75
+1112,Eric Gaussier,m,20,86,4.3
+1113,Eric Horvitz,m,29,250,8.62
+1114,Eric J. Glover,m,18,16,0.89
+1115,Eric Lo,m,11,42,3.82
+1116,Eric Nyberg,m,25,46,1.84
+1117,Eric P. Xing,m,13,187,14.38
+1118,Eric Peukert,m,4,9,2.25
+1119,Eric Reiman,m,16,26,1.63
+1120,Eric Sedlar,m,9,8,0.89
+1121,Eric Simon,m,30,81,2.7
+1122,Eric Sun,m,6,4,0.67
+1123,Eric W. Brown,m,21,25,1.19
+1124,Erich J. Neuhold,m,43,153,3.56
+1125,Erich M. Nahum,m,20,49,2.45
+1126,Erich Schubert,m,9,22,2.44
+1127,Erietta Liarou,u,9,14,1.56
+1128,Erik Buchmann,m,12,45,3.75
+1129,Erik Vee,m,14,39,2.79
+1130,Erik Wilde,m,18,87,4.83
+1131,Ernest Teniente,m,24,75,3.13
+1132,Ernesto Damiani,m,20,292,14.6
+1133,Ernesto Diaz-Aviles,m,6,27,4.5
+1134,Ernesto William De Luca,m,10,38,3.8
+1135,Erwin Leonardi,m,11,24,2.18
+1136,Esther Pacitti,w,19,74,3.89
+1137,Ethem F. Can,m,3,7,2.33
+1138,Etzard Stolte,u,12,8,0.67
+1139,Eugene Agichtein,m,14,93,6.64
+1140,Eugene Inseok Chong,m,20,15,0.75
+1141,Eugene J. Shekita,m,28,49,1.75
+1142,Eugene Kharitonov,m,2,7,3.5
+1143,Eugene Wu,m,10,26,2.6
+1144,Eugenio Di Sciascio,m,17,161,9.47
+1145,Eui-Hong Han,u,17,19,1.12
+1146,Evaggelia Pitoura,u,20,141,7.05
+1147,Evan Kirshenbaum,m,14,7,0.5
+1148,Evan P. C. Jones,m,9,10,1.11
+1149,Evan Wei Xiang,m,6,19,3.17
+1150,Evangelos E. Milios,m,31,156,5.03
+1151,Evangelos Kanoulas,m,10,35,3.5
+1152,Evgeniy Gabrilovich,m,17,65,3.82
+1153,Evimaria Terzi,u,13,72,5.54
+1154,Eyal Krikon,m,5,7,1.4
+1155,Eyal Oren,m,9,30,3.33
+1156,Eyhab Al-Masri,u,8,20,2.5
+1157,Eytan Adar,m,19,52,2.74
+1158,Eytan Bakshy,m,6,16,2.67
+1159,Fabian Abel,m,9,65,7.22
+1160,Fabian Hueske,m,7,10,1.43
+1161,Fabian Keller,m,2,5,2.5
+1162,Fabian M. Suchanek,m,8,56,7
+1163,Fabian Morchen,m,10,37,3.7
+1164,Fabiano Belem,m,5,16,3.2
+1165,Fabien De Marchi,m,13,32,2.46
+1166,Fabien Duchateau,m,7,23,3.29
+1167,Fabio Aiolli,m,13,28,2.15
+1168,Fabio Casati,m,19,188,9.89
+1169,Fabio Ciravegna,m,23,88,3.83
+1170,Fabio Crestani,m,21,184,8.76
+1171,Fabio Fassetti,m,8,32,4
+1172,Fabio Pinelli,m,8,24,3
+1173,Fabrice Guillet,m,16,69,4.31
+1174,Fabricio Benevenuto,m,10,53,5.3
+1175,Fabrizio Angiulli,m,20,78,3.9
+1176,Fabrizio Sebastiani,m,24,90,3.75
+1177,Fabrizio Silvestri,m,12,105,8.75
+1178,Faisal Kamiran,m,5,10,2
+1179,Falk Scholer,m,12,72,6
+1180,Fan Guo,m,12,19,1.58
+1181,Fan Li,m,13,101,7.77
+1182,Fan Wang,m,14,116,8.29
+1183,Fan Yang,m,8,9,1.13
+1184,Fan Zhang,m,22,352,16
+1185,Fang Liu,m,21,359,17.1
+1186,Fangbo Tao,u,3,5,1.67
+1187,Fanhua Shang,u,3,21,7
+1188,Farhan Tauheed,m,3,12,4
+1189,Faris Alqadah,m,6,9,1.5
+1190,Farnoush Banaei Kashani,u,14,53,3.79
+1191,Farouk Toumani,m,20,68,3.4
+1192,Farshad Kooti,m,2,8,4
+1193,Farzin Maghoul,u,14,10,0.71
+1194,Fatma Ozcan,w,19,42,2.21
+1195,Fazli Can,u,31,60,1.94
+1196,Federica Mandreoli,w,15,74,4.93
+1197,Federica Paci,w,8,48,6
+1198,Fei Chen,m,11,10,0.91
+1199,Fei Chen,m,16,124,7.75
+1200,Fei Chiang,m,7,10,1.43
+1201,Fei Sha,m,22,68,3.09
+1202,Fei Tony Liu,m,9,12,1.33
+1203,Fei Wang,m,9,99,11
+1204,Fei Wang,m,11,217,19.73
+1205,Fei Wu,m,7,15,2.14
+1206,Fei Wu,m,16,117,7.31
+1207,Fei Xu,m,11,69,6.27
+1208,Feida Zhu,u,8,48,6
+1209,Feifei Li,u,13,67,5.15
+1210,Feiping Nie,u,8,119,14.88
+1211,Felix Michel,m,7,4,0.57
+1212,Felix Naumann,m,16,129,8.06
+1213,Feng Chen,m,21,251,11.95
+1214,Feng Jing,m,14,40,2.86
+1215,Feng Li,m,20,276,13.8
+1216,Feng Liang,m,18,78,4.33
+1217,Feng Pan,m,20,136,6.8
+1218,Feng Shao,m,11,48,4.36
+1219,Feng Tian,m,23,191,8.3
+1220,Feng Yu,m,14,54,3.86
+1221,Fengzhan Tian,u,13,23,1.77
+1222,Fereidoon Sadri,m,35,60,1.71
+1223,Ferhan Ture,m,8,12,1.5
+1224,Fernando A. Das Neves,m,14,6,0.43
+1225,Fernando D. Diaz,m,6,3,0.5
+1226,Fernando Diaz,m,18,49,2.72
+1227,Fernando Mourao,m,8,18,2.25
+1228,Fiana Raiber,u,4,14,3.5
+1229,Fidel Cacheda,m,13,42,3.23
+1230,Filip Kaliszan,m,5,6,1.2
+1231,Filip Radlinski,m,9,36,4
+1232,Filipe de Sa Mesquita,m,8,11,1.38
+1233,Filippo Furfaro,m,14,60,4.29
+1234,Filippo Menczer,m,22,115,5.23
+1235,Flavio Chierichetti,m,7,37,5.29
+1236,Flavio Junqueira,m,15,57,3.8
+1237,Flavio Paiva Junqueira,m,15,57,3.8
+1238,Flavio Rizzolo,m,13,23,1.77
+1239,Flip Korn,m,18,51,2.83
+1240,Florent Garcin,m,6,7,1.17
+1241,Florian Verhein,m,8,14,1.75
+1242,Florian Waas,m,17,35,2.06
+1243,Florin Dragan,m,11,10,0.91
+1244,Florin Rusu,m,8,18,2.25
+1245,Floris Geerts,m,17,82,4.82
+1246,Forrest Briggs,m,6,11,1.83
+1247,Fosca Giannotti,w,29,166,5.72
+1248,Foster J. Provost,m,22,71,3.23
+1249,Foto N. Afrati,m,30,101,3.37
+1250,Franca Garzotto,w,27,97,3.59
+1251,Francesca Bugiotti,w,6,11,1.83
+1252,Francesco Bonchi,m,15,135,9
+1253,Francesco Gullo,m,7,33,4.71
+1254,Francesco Ricci,m,19,120,6.32
+1255,Francesco Scarcello,m,21,100,4.76
+1256,Francine Chen,w,21,40,1.9
+1257,Francisco Claude,m,8,36,4.5
+1258,Francisco M. Carrero,m,6,8,1.33
+1259,Franciska de Jong,w,19,87,4.58
+1260,Franco Maria Nardini,m,6,26,4.33
+1261,Franco Turini,m,40,116,2.9
+1262,Francois Bry,m,33,179,5.42
+1263,Francois Dang Ngoc,m,11,11,1
+1264,Francois Goasdoue,m,15,36,2.4
+1265,Francois Llirbat,m,19,19,1
+1266,Francoise Fabret,w,22,23,1.05
+1267,Frank Leymann,m,25,297,11.88
+1268,Frank Lin,m,14,23,1.64
+1269,Frank McSherry,m,13,44,3.38
+1270,Frank Nack,m,17,73,4.29
+1271,Frank Neven,m,17,96,5.65
+1272,Frank Ramsak,m,15,11,0.73
+1273,Frank Rosenthal,m,18,12,0.67
+1274,Frank van Harmelen,m,26,171,6.58
+1275,Frank Wm. Tompa,m,42,63,1.5
+1276,Franky Lam,m,17,15,0.88
+1277,Frans Coenen,m,23,161,7
+1278,Frans Coetzee,m,18,17,0.94
+1279,Franz Faerber,m,8,31,3.88
+1280,Franz Farber,m,8,31,3.88
+1281,Fred Douglis,m,27,84,3.11
+1282,Fred Morstatter,m,3,13,4.33
+1283,Freddy Chong Tat Chua,m,4,13,3.25
+1284,Frederick H. Lochovsky,m,38,62,1.63
+1285,Frederick Reiss,m,14,34,2.43
+1286,Fredric C. Gey,m,39,76,1.95
+1287,Fritz Behr,m,4,3,0.75
+1288,Fuchun Peng,u,13,37,2.85
+1289,Fumiyo Fukumoto,w,23,46,2
+1290,Furu Wei,u,9,48,5.33
+1291,Fusheng Wang,u,12,76,6.33
+1292,Fuzhen Zhuang,u,6,38,6.33
+1293,G. Craig Murray,u,10,11,1.1
+1294,Gabor Takacs,m,7,10,1.43
+1295,Gabriel Bender,m,3,7,2.33
+1296,Gabriel Ghinita,m,8,54,6.75
+1297,Gabriel Murray,m,9,26,2.89
+1298,Gabriel Pui Cheong Fung,m,12,32,2.67
+1299,Gabriella Kazai,w,13,84,6.46
+1300,Gabriella Pasi,w,26,143,5.5
+1301,Gael Dias,w,15,47,3.13
+1302,Gagan Agrawal,m,22,226,10.27
+1303,Ganesh Ramakrishnan,m,11,41,3.73
+1304,Ganesh Ramesh,m,12,12,1
+1305,Gang Chen,m,13,98,7.54
+1306,Gang Gou,m,12,10,0.83
+1307,Gang Li,m,21,410,19.52
+1308,Gang Luo,m,23,72,3.13
+1309,Gang Qian,m,15,85,5.67
+1310,Gang Wang,m,24,401,16.71
+1311,Gang Wu,m,23,214,9.3
+1312,Gang Zhao,m,15,94,6.27
+1313,Gao Cong,m,12,94,7.83
+1314,Gareth J. F. Jones,m,23,205,8.91
+1315,Garret Swart,m,29,24,0.83
+1316,Gary Marchionini,m,26,106,4.08
+1317,Gary William Flake,m,21,29,1.38
+1318,Gaurav Bhalotia,m,14,6,0.43
+1319,Gaurav Pandey,m,11,36,3.27
+1320,Gautam Das,m,25,151,6.04
+1321,Ge Yu,m,19,264,13.89
+1322,Gediminas Adomavicius,m,17,41,2.41
+1323,Geert Jan Bex,m,20,17,0.85
+1324,Geert-Jan Houben,m,27,176,6.52
+1325,Gemma C. Garriga,w,12,33,2.75
+1326,Genady Grabarnik,m,12,28,2.33
+1327,Gencai Chen,u,11,67,6.09
+1328,Gene Golovchinsky,m,21,66,3.14
+1329,Gene Tsudik,m,27,252,9.33
+1330,Gengxin Miao,u,9,11,1.22
+1331,Geoff Holmes,m,23,63,2.74
+1332,Geoff Hulten,m,14,11,0.79
+1333,Geoffrey I. Webb,m,26,120,4.62
+1334,Geoffrey M. Voelker,m,20,114,5.7
+1335,Georg Buscher,m,9,36,4
+1336,Georg Gottlob,m,31,354,11.42
+1337,Georg Groh,m,13,43,3.31
+1338,Georg Lausen,m,33,133,4.03
+1339,George A. Mihaila,m,18,41,2.28
+1340,George Beskales,m,8,13,1.63
+1341,George Eadon,m,10,7,0.7
+1342,George Forman,m,21,34,1.62
+1343,George H. L. Fletcher,m,10,43,4.3
+1344,George Karypis,m,22,183,8.32
+1345,George Kollios,m,15,81,5.4
+1346,George Samaras,m,27,143,5.3
+1347,George Valkanas,m,7,19,2.71
+1348,Georges Dupret,m,13,33,2.54
+1349,Georges Gardarin,m,38,129,3.39
+1350,Georgia Koloniari,w,11,17,1.55
+1351,Georgia Koutrika,w,10,60,6
+1352,Georgiana Ifrim,w,8,14,1.75
+1353,Georgina Ramirez,w,10,21,2.1
+1354,Gerard de Melo,m,7,29,4.14
+1355,Gerd Stumme,m,20,132,6.6
+1356,Gerhard Weikum,m,31,422,13.61
+1357,Gerhard Widmer,m,29,131,4.52
+1358,German Shegalov,m,14,16,1.14
+1359,Gerome Miklau,m,12,51,4.25
+1360,Gheorghe Muresan,m,16,22,1.38
+1361,Gianluca Demartini,m,8,51,6.38
+1362,Gianluigi Greco,m,13,135,10.38
+1363,Gianmarco De Francisci Morales,m,6,15,2.5
+1364,Gianni Costa,m,11,30,2.73
+1365,Giansalvatore Mecca,u,21,73,3.48
+1366,Gideon Dror,m,16,53,3.31
+1367,Gideon Schaller,m,10,5,0.5
+1368,Gilad Mishne,m,11,38,3.45
+1369,Giles Hooker,m,10,5,0.5
+1370,Gio Wiederhold,m,47,180,3.83
+1371,Giorgio Ghelli,m,29,87,3
+1372,Giorgio Orsi,m,7,42,6
+1373,Giovanna Guerrini,w,21,97,4.62
+1374,Giovanni A. Modica,m,13,8,0.62
+1375,Giovanni Giuffrida,m,16,18,1.13
+1376,Giovanni Semeraro,m,24,211,8.79
+1377,Giovanni Vigna,m,20,142,7.1
+1378,Giridhar Kumaran,u,11,17,1.55
+1379,Giuseppe Amodeo,m,6,8,1.33
+1380,Giuseppe Carenini,m,24,73,3.04
+1381,Giuseppe Manco,m,19,89,4.68
+1382,Gjergji Kasneci,m,7,31,4.43
+1383,Gleb Gusev,m,2,13,6.5
+1384,Gleb Skobeltsyn,m,9,12,1.33
+1385,Glen Jeh,m,12,4,0.33
+1386,Glenn Fung,m,14,57,4.07
+1387,Gloria Bordogna,w,23,81,3.52
+1388,Goce Trajcevski,m,18,80,4.44
+1389,Goetz Graefe,m,30,121,4.03
+1390,Gong Chen,w,20,25,1.25
+1391,Gong Cheng,w,11,34,3.09
+1392,Gonzalo Navarro,m,19,356,18.74
+1393,Gordon Sun,m,8,15,1.88
+1394,Gordon V. Cormack,m,30,85,2.83
+1395,Gosta Grahne,u,31,68,2.19
+1396,Govind Kabra,m,9,4,0.44
+1397,Graham Cormode,m,14,152,10.86
+1398,Graham J. Williams,m,27,47,1.74
+1399,Gregor Hackenbroich,m,8,24,3
+1400,Gregory Buehrer,m,9,17,1.89
+1401,Gregory Cobena,m,14,13,0.93
+1402,Gregory Druck,m,8,12,1.5
+1403,Gregory Grefenstette,m,22,59,2.68
+1404,Gregory Piatetsky-Shapiro,m,31,54,1.74
+1405,Gregory R. Ganger,m,21,106,5.05
+1406,Grzegorz Czajkowski,m,21,39,1.86
+1407,Gu Xu,m,12,18,1.5
+1408,Guadalupe Canahuate,w,8,9,1.13
+1409,Guan Wang,m,7,37,5.29
+1410,Guandong Xu,u,10,78,7.8
+1411,Guang Qiu,u,9,24,2.67
+1412,Guang Xiang,u,10,20,2
+1413,Guanggang Geng,u,7,22,3.14
+1414,Guangyou Zhou,u,3,17,5.67
+1415,Gueorgi Kossinets,u,8,10,1.25
+1416,Gui-Rong Xue,m,12,77,6.42
+1417,Guido Moerkotte,m,26,124,4.77
+1418,Guido Zuccon,m,6,35,5.83
+1419,Guihong Cao,u,13,21,1.62
+1420,Guilin Qi,u,11,103,9.36
+1421,Guillaume Pierre,m,18,50,2.78
+1422,Guillaume Raschia,m,16,32,2
+1423,Guillem Rull,m,8,12,1.5
+1424,Guimei Liu,u,12,40,3.33
+1425,Guizhen Yang,u,14,20,1.43
+1426,Guo-Jun Qi,m,8,57,7.13
+1427,Guodong Zhou,u,16,123,7.69
+1428,Guofei Jiang,u,14,87,6.21
+1429,Guoliang Li,m,10,118,11.8
+1430,Guoqing Zheng,u,8,6,0.75
+1431,Guoren Wang,u,19,179,9.42
+1432,Guozhu Dong,u,28,133,4.75
+1433,Gurmeet Singh Manku,m,19,23,1.21
+1434,Gustavo Alonso,m,20,199,9.95
+1435,Gustavo E. A. P. A. Batista,m,14,42,3
+1436,Guy Lebanon,m,13,70,5.38
+1437,Guy M. Lohman,m,38,80,2.11
+1438,Guy Shani,m,12,47,3.92
+1439,Gyorgy J. Simon,u,8,11,1.38
+1440,H. Bast,u,23,49,2.13
+1441,H. V. Jagadish,u,28,256,9.14
+1442,Hadi Amiri,m,10,14,1.4
+1443,Hady Wirawan Lauw,w,10,32,3.2
+1444,Hae-Chang Rim,m,24,109,4.54
+1445,Haesun Park,u,26,99,3.81
+1446,Haewoon Kwak,u,7,19,2.71
+1447,Haggai Roitman,m,8,37,4.63
+1448,Hai H. Wang,m,13,50,3.85
+1449,Hai He,m,11,18,1.64
+1450,Hai Jin,m,17,610,35.88
+1451,Hai Yu,m,16,47,2.94
+1452,Haibin Cheng,u,8,17,2.13
+1453,Haibing Lu,u,8,31,3.88
+1454,Haibo Hu,u,11,59,5.36
+1455,Haichuan Shang,u,8,10,1.25
+1456,Haifeng Chen,u,13,66,5.08
+1457,Haifeng Jiang,u,13,22,1.69
+1458,Haifeng Liu,u,15,68,4.53
+1459,Haifeng Yu,u,14,47,3.36
+1460,Haiquan Chen,u,9,14,1.56
+1461,Haitao Zheng,u,16,93,5.81
+1462,Haixuan Yang,u,9,13,1.44
+1463,Haixun Wang,u,16,199,12.44
+1464,Haizhou Li,u,21,330,15.71
+1465,Hakan Ferhatosmanoglu,m,15,59,3.93
+1466,Hakan Hacigumus,m,12,56,4.67
+1467,Hakim Hacid,m,9,54,6
+1468,Hamed Valizadegan,m,8,19,2.38
+1469,Hamid Nazerzadeh,m,9,24,2.67
+1470,Hamid Pirahesh,m,28,79,2.82
+1471,Hamid R. Motahari Nezhad,m,10,58,5.8
+1472,Han-Shen Huang,m,17,16,0.94
+1473,Hang Cui,u,13,18,1.38
+1474,Hang Guo,u,10,34,3.4
+1475,Hang Li,u,23,173,7.52
+1476,Hang Su,u,15,70,4.67
+1477,Hanghang Tong,u,10,85,8.5
+1478,Hangzai Luo,u,15,62,4.13
+1479,Hanhua Chen,u,11,40,3.64
+1480,Hanhuai Shan,u,8,14,1.75
+1481,Hannu Toivonen,m,20,87,4.35
+1482,Hanqing Lu,u,19,321,16.89
+1483,Hans-Arno Jacobsen,m,16,161,10.06
+1484,Hans-Jorg Schek,m,36,171,4.75
+1485,Hans-Peter Kriegel,m,39,395,10.13
+1486,Hao He,m,14,50,3.57
+1487,Hao Huang,m,14,91,6.5
+1488,Hao Ma,m,9,50,5.56
+1489,Hao Wang,m,67,477,7.12
+1490,Hao Wu,m,16,232,14.5
+1491,Hao Xu,m,16,132,8.25
+1492,Hao Yan,m,15,35,2.33
+1493,Hao Yang,m,20,113,5.65
+1494,Haofen Wang,u,7,49,7
+1495,Haoliang Qi,u,10,27,2.7
+1496,Harald Schoning,m,26,40,1.54
+1497,Harald Steck,m,14,26,1.86
+1498,Hardy Kremer,m,5,23,4.6
+1499,Hari Balakrishnan,m,21,171,8.14
+1500,Hari Sundaram,m,17,104,6.12
+1501,Haris Georgiadis,m,8,5,0.63
+1502,Harr Chen,u,10,16,1.6
+1503,Harry Halpin,m,10,47,4.7
+1504,Harry Zhang,m,11,60,5.45
+1505,Harumi A. Kuno,w,21,58,2.76
+1506,Haruo Yokota,m,31,92,2.97
+1507,Hasan Davulcu,m,16,64,4
+1508,Hasan M. Jamil,m,21,87,4.14
+1509,Hassan H. Malik,m,8,9,1.13
+1510,Hasso Plattner,m,33,65,1.97
+1511,Haym Hirsh,m,27,74,2.74
+1512,Hazem Elmeleegy,m,10,14,1.4
+1513,Heasoo Hwang,u,8,7,0.88
+1514,Hector Garcia-Molina,m,36,430,11.94
+1515,Hector Gonzalez,m,10,20,2
+1516,Heikki Keskustalo,m,18,30,1.67
+1517,Heikki Mannila,m,32,197,6.16
+1518,Heiko Muller,m,15,40,2.67
+1519,Heiko Schuldt,m,17,101,5.94
+1520,Helen J. Wang,w,17,52,3.06
+1521,Helen M. Thomas,w,16,20,1.25
+1522,Helena Galhardas,w,18,24,1.33
+1523,Hema Raghavan,w,12,17,1.42
+1524,Hemant Purohit,m,4,10,2.5
+1525,Hendrik Drachsler,m,7,33,4.71
+1526,Heng Huang,m,14,132,9.43
+1527,Heng Ji,m,9,59,6.56
+1528,Heng Tao Shen,m,14,119,8.5
+1529,Hengshu Zhu,u,3,11,3.67
+1530,Henk Ernst Blok,m,14,15,1.07
+1531,Henning Kohler,m,9,27,3
+1532,Henning Rode,m,10,16,1.6
+1533,Henri Briand,m,29,78,2.69
+1534,Henrik Nottelmann,m,13,22,1.69
+1535,Henrique Andrade,m,15,53,3.53
+1536,Henrique Paques,m,14,7,0.5
+1537,Henry Allen Feild,m,4,7,1.75
+1538,Henry F. Korth,m,34,96,2.82
+1539,Henry G. Goldberg,m,19,10,0.53
+1540,Henry Liou,m,5,6,1.2
+1541,Henry M. Levy,m,38,111,2.92
+1542,Henry Tirri,m,31,68,2.19
+1543,Hetal Thakkar,u,9,12,1.33
+1544,Hicham G. Elmongui,m,11,15,1.36
+1545,Hideaki Takeda,m,25,104,4.16
+1546,Hideo Joho,m,14,47,3.36
+1547,Hikaru Yamamoto,m,7,10,1.43
+1548,Hila Becker,w,8,13,1.63
+1549,Hillol Kargupta,u,23,102,4.43
+1550,Himabindu Lakkaraju,u,3,7,2.33
+1551,Himanshu Gupta,m,20,82,4.1
+1552,Hiroaki Ohshima,m,9,38,4.22
+1553,Hiroaki Shiokawa,m,4,6,1.5
+1554,Hiroshi Mamitsuka,m,22,82,3.73
+1555,Hiroshi Motoda,m,31,167,5.39
+1556,Hiroshi Nakagawa,m,30,90,3
+1557,Hiroshi Sawada,m,23,104,4.52
+1558,Hiroya Takamura,m,13,44,3.38
+1559,Hiroyuki Kitagawa,m,35,177,5.06
+1560,Hiroyuki Toda,m,13,25,1.92
+1561,Hisashi Kashima,m,12,78,6.5
+1562,Ho Chung Wu,m,9,8,0.89
+1563,Ho Jin Woo,m,7,4,0.57
+1564,Hoa Nguyen,u,9,17,1.89
+1565,Holger Kache,m,8,4,0.5
+1566,Holger Schwarz,m,15,38,2.53
+1567,Hong Cheng,m,17,121,7.12
+1568,Hong Gao,m,21,112,5.33
+1569,Hong Hai Do,m,14,20,1.43
+1570,Hong Kyu Park,m,7,7,1
+1571,Hong Mei,m,17,234,13.76
+1572,Hong Qin,m,20,184,9.2
+1573,Hong Su,m,14,28,2
+1574,Hong Va Leong,m,22,128,5.82
+1575,Hong-Jiang Zhang,m,21,388,18.48
+1576,Hongbo Deng,u,7,23,3.29
+1577,Hongbo Xu,u,13,41,3.15
+1578,Hongfei Guo,u,12,8,0.67
+1579,Hongfei Lin,u,15,88,5.87
+1580,Hongfei Yan,u,13,27,2.08
+1581,Honghua Dai,u,18,66,3.67
+1582,HongJiang Zhang,u,21,388,18.48
+1583,Hongjun Lu,u,29,160,5.52
+1584,Hongkun Zhao,u,9,7,0.78
+1585,Honglei Guo,u,10,13,1.3
+1586,Hongliang Fei,u,6,17,2.83
+1587,Hongning Wang,u,6,22,3.67
+1588,Hongrae Lee,u,7,14,2
+1589,Hongsong Li,u,11,25,2.27
+1590,Hongxia Jin,u,15,64,4.27
+1591,Hongyan Liu,u,14,77,5.5
+1592,Hongyuan Zha,u,18,148,8.22
+1593,Hongzhi Wang,m,12,103,8.58
+1594,Horst D. Simon,m,28,72,2.57
+1595,Hossam Sharara,m,7,12,1.71
+1596,Hossein Vahabi,m,4,7,1.75
+1597,Howard Ho,m,28,98,3.5
+1598,Howard J. Hamilton,m,22,107,4.86
+1599,Hoyoung Jeung,u,7,24,3.43
+1600,Hsiao-Wuen Hon,u,25,43,1.72
+1601,Hsin-Hsi Chen,u,28,171,6.11
+1602,Hu Shu,m,4,5,1.25
+1603,Hua Li,m,26,214,8.23
+1604,Hua Lu,m,10,70,7
+1605,Hua Wang,m,19,360,18.95
+1606,Hua-Gang Li,m,14,17,1.21
+1607,Hua-Jun Zeng,m,12,39,3.25
+1608,Huahai He,u,8,5,0.63
+1609,Huahai Yang,u,12,19,1.58
+1610,Huaiyu Zhu,u,19,26,1.37
+1611,Huajing Li,u,8,16,2
+1612,Huajun Chen,u,11,106,9.64
+1613,Huan Liu,m,21,286,13.62
+1614,Huanhuan Cao,u,6,26,4.33
+1615,Huawei Shen,u,8,29,3.63
+1616,Huayu Wu,u,7,26,3.71
+1617,Hugh E. Williams,m,18,62,3.44
+1618,Hugo Zaragoza,m,17,56,3.29
+1619,Hui Ding,m,14,45,3.21
+1620,Hui Fang,m,12,116,9.67
+1621,Hui Han,m,11,33,3
+1622,Hui Li,m,21,606,28.86
+1623,Hui Xiong,m,11,164,14.91
+1624,Hui Yang,m,15,141,9.4
+1625,Hui Zhang,m,20,403,20.15
+1626,Hui-I Hsiao,m,24,26,1.08
+1627,Huida Qiu,u,4,4,1
+1628,Huidong Jin,u,14,46,3.29
+1629,Huiji Gao,u,6,25,4.17
+1630,Huijia Zhu,u,5,9,1.8
+1631,Huiming Qu,u,9,12,1.33
+1632,Huiping Cao,u,11,22,2
+1633,Huizhong Duan,u,8,17,2.13
+1634,Humberto Luiz Razente,m,12,18,1.5
+1635,Huseyin Cagdas Ocalan,u,8,5,0.63
+1636,Hussein A. Alzoubi,m,7,6,0.86
+1637,Huzefa Rangwala,u,9,48,5.33
+1638,Hwanjo Yu,u,12,73,6.08
+1639,Hwee Tou Ng,w,24,83,3.46
+1640,HweeHwa Pang,u,23,62,2.7
+1641,Hye-Young Paik,u,13,47,3.62
+1642,Hyo-Sang Lim,u,14,16,1.14
+1643,Hyun Duk Kim,m,8,10,1.25
+1644,Hyun Jin Moon,m,9,23,2.56
+1645,Hyung-Jeong Yang,m,10,18,1.8
+1646,Hyungsul Kim,u,4,8,2
+1647,Hyunjung Park,u,4,12,3
+1648,I. V. Ramakrishnan,u,31,176,5.68
+1649,Iadh Ounis,u,18,183,10.17
+1650,Ian Davidson,m,29,74,2.55
+1651,Ian H. Witten,m,42,235,5.6
+1652,Ian Horrocks,m,18,277,15.39
+1653,Ian N. Davidson,m,29,74,2.55
+1654,Ian Ruthven,m,19,87,4.58
+1655,Ian Soboroff,m,18,61,3.39
+1656,Ibrahim Kamel,m,22,57,2.59
+1657,Idan Szpektor,m,10,24,2.4
+1658,Ido Guy,m,8,50,6.25
+1659,Igor Tatarinov,m,17,16,0.94
+1660,Igor V. Cadez,m,15,11,0.73
+1661,Ihab Al Kabary,m,4,11,2.75
+1662,Ihab F. Ilyas,m,13,70,5.38
+1663,Ikki Ohmukai,m,11,17,1.55
+1664,Il-Yeol Song,m,24,181,7.54
+1665,Ilaria Bartolini,w,15,45,3
+1666,Ilaria Bordino,w,6,13,2.17
+1667,Iluju Kiringa,u,13,42,3.23
+1668,Iman Elghandour,m,11,8,0.73
+1669,Inbal Ronen,w,8,24,3
+1670,Inderjit S. Dhillon,m,19,114,6
+1671,Inderpal Narang,u,29,28,0.97
+1672,Indrajit Bhattacharya,u,12,28,2.33
+1673,Indrajit Ray,u,18,98,5.44
+1674,Indrakshi Ray,u,19,130,6.84
+1675,Ines Farber,w,5,17,3.4
+1676,Ingemar J. Cox,m,31,121,3.9
+1677,Ingmar Weber,m,9,81,9
+1678,Ioana Manolescu,w,15,113,7.53
+1679,Ioana Roxana Stanoi,w,17,31,1.82
+1680,Ioana Stanoi,w,17,31,1.82
+1681,Ioannis Alagiannis,m,4,10,2.5
+1682,Ioannis Arapakis,m,6,11,1.83
+1683,Ioannis Konstantinou,m,6,17,2.83
+1684,Ion Stoica,m,19,199,10.47
+1685,Iosif Lazaridis,m,14,18,1.29
+1686,Ippokratis Pandis,u,12,39,3.25
+1687,Ira Assent,m,9,63,7
+1688,Iraklis Varlamis,u,14,47,3.36
+1689,Irena Koprinska,w,14,50,3.57
+1690,Irina Botan,w,7,8,1.14
+1691,Irina Rozenbaum,w,9,5,0.56
+1692,Irini Fundulaki,w,17,45,2.65
+1693,Iris Miliaraki,w,6,10,1.67
+1694,Irwin King,m,18,197,10.94
+1695,Isaac G. Councill,m,12,27,2.25
+1696,Isabel F. Cruz,w,27,120,4.44
+1697,Ismail Ari,m,12,29,2.42
+1698,Ismail Sengor Altingovde,m,13,51,3.92
+1699,Ismet Zeki Yalniz,m,5,9,1.8
+1700,Issei Sato,m,8,23,2.88
+1701,Istvan Cseri,m,17,5,0.29
+1702,Istvan Pilaszy,m,7,9,1.29
+1703,Itamar Rosenn,m,5,7,1.4
+1704,Ivan Cantador,m,9,62,6.89
+1705,Ivan Popivanov,m,12,3,0.25
+1706,Ivan T. Bowman,m,16,18,1.13
+1707,Ivo Jimenez,m,5,7,1.4
+1708,Ivor W. Tsang,m,11,114,10.36
+1709,Ivor Wai-Hung Tsang,m,11,114,10.36
+1710,Iyad Batal,m,5,13,2.6
+1711,J. Scott McCarley,u,16,20,1.25
+1712,J. Scott Olsson,u,9,10,1.11
+1713,J. Shane Culpepper,u,9,21,2.33
+1714,J. Stephen Downie,u,15,75,5
+1715,Ja-Ling Wu,m,30,164,5.47
+1716,Jaana Kekalainen,w,16,25,1.56
+1717,Jaap Kamps,m,16,149,9.31
+1718,Jacco van Ossenbruggen,m,20,67,3.35
+1719,Jack G. Conrad,m,20,22,1.1
+1720,Jacob Eisenstein,m,15,57,3.8
+1721,Jacob Ratkiewicz,m,8,12,1.5
+1722,Jacobus E. van der Merwe,m,17,47,2.76
+1723,Jae-Gil Lee,m,10,32,3.2
+1724,Jae-wook Ahn,m,9,21,2.33
+1725,Jaesoo Yoo,u,5,32,6.4
+1726,Jaewon Yang,u,4,15,3.75
+1727,Jaewoo Kang,u,17,45,2.65
+1728,Jaewoo Lee,u,10,21,2.1
+1729,Jaeyoung Do,u,5,6,1.2
+1730,Jagadeesh Jagarlamudi,m,8,20,2.5
+1731,Jagan Sankaranarayanan,m,11,40,3.64
+1732,Jagannathan Srinivasan,u,25,38,1.52
+1733,Jahna Otterbacher,u,12,28,2.33
+1734,Jaideep Srivastava,m,28,216,7.71
+1735,Jaideep Vaidya,m,12,112,9.33
+1736,Jaime Arguello,m,9,24,2.67
+1737,Jaime G. Carbonell,m,36,208,5.78
+1738,Jaime Teevan,m,11,77,7
+1739,Jake M. Hofman,m,5,10,2
+1740,Jakub Lokoc,m,6,35,5.83
+1741,Jalal Mahmud,m,9,52,5.78
+1742,James A. Hendler,m,34,206,6.06
+1743,James Allan,m,22,149,6.77
+1744,James Bailey,m,19,128,6.74
+1745,James C. French,m,24,62,2.58
+1746,James Caverlee,m,10,86,8.6
+1747,James Cheney,m,14,95,6.79
+1748,James Cheng,m,10,53,5.3
+1749,James Cook,m,27,11,0.41
+1750,James F. Terwilliger,m,8,25,3.13
+1751,James G. Shanahan,m,19,26,1.37
+1752,James H. Kaufman,m,13,22,1.69
+1753,James J. Gardner,m,6,9,1.5
+1754,James J. Lu,m,25,51,2.04
+1755,James Lanagan,m,7,10,1.43
+1756,James M. Kang,m,8,21,2.63
+1757,James Mayfield,m,38,57,1.5
+1758,James P. Callan,m,29,161,5.55
+1759,James T. Kwok,m,19,134,7.05
+1760,James W. Warner,m,14,7,0.5
+1761,Jamie Callan,m,29,161,5.55
+1762,Jan Chomicki,m,29,112,3.86
+1763,Jan O. Pedersen,m,24,45,1.88
+1764,Jan Pieper,m,13,15,1.15
+1765,Jan Prins,m,27,55,2.04
+1766,Jan Rittinger,m,9,25,2.78
+1767,Jan Van den Bussche,m,25,170,6.8
+1768,Jan Vosecky,m,4,9,2.25
+1769,Jan-Ming Ho,m,25,106,4.24
+1770,Jana Schmidt,w,6,11,1.83
+1771,Janet L. Wiener,w,21,48,2.29
+1772,Janette Lehmann,w,5,10,2
+1773,Jangwon Seo,u,7,16,2.29
+1774,Jarek Gryz,m,18,46,2.56
+1775,Jasmine Novak,w,11,15,1.36
+1776,Jason I. Hong,m,17,91,5.35
+1777,Jason Nieh,m,22,79,3.59
+1778,Jason Tsong-Li Wang,m,24,120,5
+1779,Jason Weston,m,15,95,6.33
+1780,Jason Whitehouse,m,1,3,3
+1781,Jason Y. Zien,m,21,22,1.05
+1782,Jatin Chhugani,m,14,32,2.29
+1783,Javed A. Aslam,m,24,90,3.75
+1784,Javed Mostafa,m,18,67,3.72
+1785,Javier Garcia-Garcia,m,8,15,1.88
+1786,Javier Parapar,m,7,28,4
+1787,Jayant Kalagnanam,m,26,42,1.62
+1788,Jayant Madhavan,m,14,45,3.21
+1789,Jayant R. Haritsa,m,24,113,4.71
+1790,Jayavel Shanmugasundaram,u,17,67,3.94
+1791,Jean-Marc Petit,m,20,72,3.6
+1792,Jean-Pierre Chevallet,m,22,69,3.14
+1793,Jean-Samuel Beuscart,m,6,7,1.17
+1794,Jean-Sebastien Brunner,m,10,6,0.6
+1795,Jeanine Weienfels,w,18,11,0.61
+1796,Jeff G. Schneider,m,21,77,3.67
+1797,Jeff Huang,m,15,33,2.2
+1798,Jeff M. Phillips,m,12,64,5.33
+1799,Jeff Pasternack,m,5,8,1.6
+1800,Jeff Z. Pan,m,13,155,11.92
+1801,Jeffrey Benkler,m,8,3,0.38
+1802,Jeffrey C. Mogul,m,30,90,3
+1803,Jeffrey Chan,m,14,25,1.79
+1804,Jeffrey D. Ullman,m,48,279,5.81
+1805,Jeffrey Dalton,m,20,21,1.05
+1806,Jeffrey F. Naughton,m,28,186,6.64
+1807,Jeffrey Jestes,m,5,11,2.2
+1808,Jeffrey McGee,m,3,3,1
+1809,Jeffrey Nichols,m,13,66,5.08
+1810,Jeffrey Pound,m,11,14,1.27
+1811,Jeffrey Scott Vitter,m,34,270,7.94
+1812,Jeffrey T. Kreulen,m,24,16,0.67
+1813,Jeffrey Xu Yu,m,28,352,12.57
+1814,Jen-Wei Huang,w,10,17,1.7
+1815,Jennifer Chu-Carroll,w,21,55,2.62
+1816,Jennifer G. Dy,w,15,58,3.87
+1817,Jennifer Neville,w,12,65,5.42
+1818,Jennifer T. Chayes,w,15,64,4.27
+1819,Jennifer Widom,w,28,202,7.21
+1820,Jens Bleiholder,m,10,16,1.6
+1821,Jens Dittrich,m,14,51,3.64
+1822,Jens Graupmann,m,12,11,0.92
+1823,Jens Lehmann,m,13,78,6
+1824,Jens Teubner,m,11,53,4.82
+1825,Jens-Peter Dittrich,m,14,51,3.64
+1826,Jeong-Hyon Hwang,m,13,28,2.15
+1827,Jeonghee Yi,u,15,16,1.07
+1828,Jeremy J. Carroll,m,27,17,0.63
+1829,Jeremy Kubica,m,13,13,1
+1830,Jeremy Pickens,m,14,30,2.14
+1831,Jerome Kunegis,m,7,43,6.14
+1832,Jerome Simeon,m,17,57,3.35
+1833,Jerry Kiernan,m,27,39,1.44
+1834,Jesin Zakaria,u,2,6,3
+1835,Jessica Lin,w,12,36,3
+1836,Jesus Camacho-Rodriguez,m,4,5,1.25
+1837,Jeyashankher Ramamirtham,u,12,9,0.75
+1838,Ji Zhang,m,24,135,5.63
+1839,Ji-Rong Wen,m,14,102,7.29
+1840,Jia Li,m,17,197,11.59
+1841,Jia Wang,m,17,242,14.24
+1842,Jia-Yu Pan,m,13,21,1.62
+1843,Jiafeng Guo,u,8,40,5
+1844,Jiaheng Lu,u,15,61,4.07
+1845,Jiahui Liu,u,7,12,1.71
+1846,Jiajun Bu,u,13,255,19.62
+1847,Jialie Shen,u,11,78,7.09
+1848,Jialu Liu,u,4,11,2.75
+1849,Jian Chen,m,22,325,14.77
+1850,Jian Guo,m,10,9,0.9
+1851,Jian Hu,m,19,58,3.05
+1852,Jian Huang,m,8,17,2.13
+1853,Jian Li,m,23,568,24.7
+1854,Jian Liu,m,31,286,9.23
+1855,Jian Pei,m,14,264,18.86
+1856,Jian Wang,m,27,484,17.93
+1857,Jian Wu,m,28,249,8.89
+1858,Jian Xu,m,26,186,7.15
+1859,Jian Yin,m,16,109,6.81
+1860,Jian Zhang,m,12,23,1.92
+1861,Jian-Tao Sun,m,10,53,5.3
+1862,Jian-Yun Nie,m,26,129,4.96
+1863,Jianchang Mao,u,22,38,1.73
+1864,Jiancong Tong,u,4,5,1.25
+1865,Jianfeng Gao,u,14,84,6
+1866,Jiang Bian,m,7,41,5.86
+1867,Jiang Li,m,13,182,14
+1868,Jiang Yang,m,6,21,3.5
+1869,Jiang-Ming Yang,m,9,21,2.33
+1870,Jiangtao Ren,u,9,20,2.22
+1871,Jianguo Xiao,u,11,66,6
+1872,Jianhan Zhu,u,14,37,2.64
+1873,Jianhua Feng,u,14,114,8.14
+1874,Jianhui Chen,u,7,36,5.14
+1875,Jianjun Chen,u,14,10,0.71
+1876,Jianliang Xu,u,19,124,6.53
+1877,Jianlin Feng,u,16,18,1.13
+1878,Jianlong Tan,u,9,23,2.56
+1879,Jianmin Wang,u,14,146,10.43
+1880,Jiannan Wang,u,5,23,4.6
+1881,Jianneng Cao,u,6,14,2.33
+1882,Jianping Fan,u,18,159,8.83
+1883,Jianping Zhang,u,26,65,2.5
+1884,Jianqiang Wang,u,15,39,2.6
+1885,Jianshu Weng,u,10,17,1.7
+1886,Jianwen Su,m,28,144,5.14
+1887,Jianwen Zhang,m,8,32,4
+1888,Jianwu Yang,u,12,37,3.08
+1889,Jianxin Li,u,23,91,3.96
+1890,Jianying Hu,u,22,80,3.64
+1891,Jianyong Wang,u,17,112,6.59
+1892,Jianzhong Li,u,28,268,9.57
+1893,Jiashu Zhao,u,7,10,1.43
+1894,Jiawei Han,m,28,665,23.75
+1895,Jiayu Zhou,u,7,16,2.29
+1896,Jidong Chen,u,12,16,1.33
+1897,Jie Cao,m,8,60,7.5
+1898,Jie Liu,m,23,365,15.87
+1899,Jie Lu,m,21,247,11.76
+1900,Jie Peng,m,8,29,3.63
+1901,Jie Shao,m,10,50,5
+1902,Jie Tang,m,11,212,19.27
+1903,Jie Yang,m,8,7,0.88
+1904,Jie Yin,m,12,48,4
+1905,Jie Zhang,m,10,85,8.5
+1906,Jie Zhou,m,19,256,13.47
+1907,Jiebo Luo,u,20,208,10.4
+1908,Jiefeng Cheng,u,11,22,2
+1909,Jieping Ye,u,14,181,12.93
+1910,Jiepu Jiang,u,7,20,2.86
+1911,Jiewen Huang,u,6,9,1.5
+1912,Jiexing Li,u,6,10,1.67
+1913,Jignashu Parikh,u,13,5,0.38
+1914,Jignesh M. Patel,u,20,109,5.45
+1915,Jihad Boulos,m,19,13,0.68
+1916,Jihong Guan,u,14,100,7.14
+1917,Jilei Tian,u,17,55,3.24
+1918,Jiliang Tang,u,3,28,9.33
+1919,Jilin Chen,u,8,24,3
+1920,Jill Freyne,w,11,63,5.73
+1921,Jilles Vreeken,u,8,42,5.25
+1922,Jim Gray,m,48,168,3.5
+1923,Jimeng Sun,u,12,103,8.58
+1924,Jiming Liu,u,21,254,12.1
+1925,Jimmy J. Lin,m,15,89,5.93
+1926,Jimmy Lin,m,12,52,4.33
+1927,Jimmy Xiangji Huang,m,18,138,7.67
+1928,Jin Chen,m,18,138,7.67
+1929,Jin Huang,m,22,118,5.36
+1930,Jin Shieh,m,8,6,0.75
+1931,Jin Zhang,m,15,231,15.4
+1932,Jin-yi Cai,m,28,214,7.64
+1933,Jinbo Bi,u,12,48,4
+1934,Jinchuan Chen,u,7,22,3.14
+1935,Jing Bai,w,17,92,5.41
+1936,Jing Dai,w,11,32,2.91
+1937,Jing Gao,w,11,134,12.18
+1938,Jing Guo,w,17,75,4.41
+1939,Jing He,w,12,158,13.17
+1940,Jing Jiang,w,12,134,11.17
+1941,Jing Li,w,20,656,32.8
+1942,Jing Liu,w,14,509,36.36
+1943,Jing Peng,w,28,134,4.79
+1944,Jing Yuan,w,27,112,4.15
+1945,Jing Zhang,w,7,21,3
+1946,Jing Zhang,w,13,357,27.46
+1947,Jingdong Wang,u,11,90,8.18
+1948,Jinghai Rao,u,16,28,1.75
+1949,Jingjing Liu,u,9,69,7.67
+1950,Jingren Zhou,u,12,37,3.08
+1951,Jingrui He,u,10,44,4.4
+1952,Jingxuan Li,u,4,15,3.75
+1953,Jingyu Zhou,u,12,30,2.5
+1954,Jinha Kim,u,7,17,2.43
+1955,Jinlin Chen,u,14,24,1.71
+1956,Jinoh Oh,u,5,12,2.4
+1957,Jinpeng Huai,u,22,94,4.27
+1958,Jinru He,u,6,7,1.17
+1959,Jinsoo Lee,u,7,12,1.71
+1960,Jinwen Guo,u,6,3,0.5
+1961,Jinwen Ma,u,17,89,5.24
+1962,Jinxi Xu,u,18,29,1.61
+1963,Jinyan Li,u,16,108,6.75
+1964,Jinyoung Kim,u,18,29,1.61
+1965,Jinze Liu,u,11,24,2.18
+1966,Jiong Yang,m,18,94,5.22
+1967,Jiri Schindler,m,14,23,1.64
+1968,Jitendra Ajmera,m,12,27,2.25
+1969,Jiun-Long Huang,u,15,53,3.53
+1970,Jiuyong Li,u,15,96,6.4
+1971,Jiwoon Ha,u,3,7,2.33
+1972,Jiwoon Jeon,u,11,10,0.91
+1973,Jiyin He,u,6,34,5.67
+1974,Jiying Wang,u,12,13,1.08
+1975,Joachim Hammer,m,22,52,2.36
+1976,Joan-Isaac Biel,w,7,15,2.14
+1977,Joao Gama,m,20,165,8.25
+1978,Joao M. B. Cavalcanti,m,19,19,1
+1979,Joao Magalhaes,m,10,28,2.8
+1980,Joao Paulo Pesce,m,2,5,2.5
+1981,Joao Pereira,m,26,23,0.88
+1982,Jochen L. Leidner,m,12,24,2
+1983,Jochen Van den Bercken,m,18,7,0.39
+1984,Joe Carthy,m,14,41,2.93
+1985,Joel L. Wolf,m,26,73,2.81
+1986,Joemon M. Jose,u,17,204,12
+1987,Johan Bollen,m,16,83,5.19
+1988,Johan Ugander,m,3,14,4.67
+1989,Johann Christoph Freytag,m,28,82,2.93
+1990,Johann Gamper,m,21,61,2.9
+1991,Johannes Afalg,m,9,17,1.89
+1992,Johannes Gehrke,m,19,200,10.53
+1993,Johannes Leveling,m,11,67,6.09
+1994,John A. Tomlin,m,22,15,0.68
+1995,John C. Shafer,m,20,14,0.7
+1996,John Cieslewicz,m,9,13,1.44
+1997,John D. Lafferty,m,24,96,4
+1998,John Dunnion,m,12,39,3.25
+1999,John E. Hopcroft,m,48,119,2.48
+2000,John F. Canny,m,31,168,5.42
+2001,John G. Breslin,m,11,79,7.18
+2002,John Guiver,m,6,11,1.83
+2003,John Jannotti,m,17,20,1.18
+2004,John Langford,m,16,120,7.5
+2005,John M. Prager,m,31,37,1.19
+2006,John McPherson,m,28,16,0.57
+2007,John Mylopoulos,m,43,426,9.91
+2008,John O'Donovan,m,10,30,3
+2009,John Pearson,m,26,17,0.65
+2010,John R. Kender,m,35,100,2.86
+2011,John R. Smith,m,20,187,9.35
+2012,John Riedl,m,28,144,5.14
+2013,John S. Whissell,m,5,6,1.2
+2014,John Shepherd,m,33,63,1.91
+2015,John Tait,m,32,66,2.06
+2016,John Yen,m,28,164,5.86
+2017,Jon Crowcroft,m,26,276,10.62
+2018,Jon M. Kleinberg,m,22,210,9.55
+2019,Jonathan Chang,m,18,23,1.28
+2020,Jonathan Gemmell,m,6,12,2
+2021,Jonathan Goldstein,m,17,30,1.76
+2022,Jonathan J. H. Zhu,m,12,17,1.42
+2023,Jonathan L. Elsas,m,10,14,1.4
+2024,Jonathan L. Herlocker,m,19,29,1.53
+2025,Jonathan Mamou,m,11,15,1.36
+2026,Jonathan Schler,m,16,22,1.38
+2027,Jong Wook Kim,m,11,17,1.55
+2028,Jong-Hyeok Lee,m,20,114,5.7
+2029,Jongwuk Lee,u,7,22,3.14
+2030,Joo-Hwee Lim,m,22,126,5.73
+2031,Joon Ho Lee,w,25,22,0.88
+2032,Joos-Hendrik Boese,m,10,17,1.7
+2033,Jorg Sander,u,18,71,3.94
+2034,Jorge-Arnulfo Quiane-Ruiz,m,11,32,2.91
+2035,Jose A. Blakeley,m,28,41,1.46
+2036,Jose Carlos Cortizo,m,10,15,1.5
+2037,Jose Luis Ambite,m,18,58,3.22
+2038,Jose San Pedro,m,10,12,1.2
+2039,Josep Aguilar-Saborit,m,11,19,1.73
+2040,Josep-Lluis Larriba-Pey,m,21,88,4.19
+2041,Joseph A. Konstan,m,23,108,4.7
+2042,Joseph L. Hellerstein,m,29,114,3.93
+2043,Joseph M. Hellerstein,m,22,187,8.5
+2044,Joseph Y. Halpern,m,34,462,13.59
+2045,Josh Attenberg,m,6,12,2
+2046,Joshua Spiegel,m,8,9,1.13
+2047,Josiane Xavier Parreira,w,9,33,3.67
+2048,Jost Enderle,m,13,9,0.69
+2049,Jouni K. Seppanen,m,13,14,1.08
+2050,Joyce Jiyoung Whang,w,2,5,2.5
+2051,Joyce Y. Chai,w,19,70,3.68
+2052,Joydeep Ghosh,u,27,196,7.26
+2053,Joydeep Sen Sarma,u,16,6,0.38
+2054,Ju Fan,m,6,14,2.33
+2055,Juan F. Huete,m,21,73,3.48
+2056,Juan M. Fernandez-Luna,m,16,71,4.44
+2057,Juan-Zi Li,m,11,110,10
+2058,Juanzi Li,u,11,110,10
+2059,Jude W. Shavlik,m,29,137,4.72
+2060,Jue Wang,m,24,219,9.13
+2061,Julia Stoyanovich,w,10,31,3.1
+2062,Julian Eberius,m,3,13,4.33
+2063,Julian J. McAuley,m,8,39,4.88
+2064,Julian Urbano,m,4,25,6.25
+2065,Juliana Freire,w,20,130,6.5
+2066,Julie Letchner,w,9,10,1.11
+2067,Julien Blanchard,m,12,24,2
+2068,Julien Vayssiere,m,16,20,1.25
+2069,Julio Gonzalo,m,18,99,5.5
+2070,Julita Vassileva,w,24,101,4.21
+2071,Jun Du,m,22,76,3.45
+2072,Jun Gao,m,20,135,6.75
+2073,Jun He,m,21,209,9.95
+2074,Jun Huan,m,11,77,7
+2075,Jun Liu,m,22,547,24.86
+2076,Jun Ma,m,28,297,10.61
+2077,Jun Rao,m,16,29,1.81
+2078,Jun Sakuma,m,14,37,2.64
+2079,Jun Wang,m,11,50,4.55
+2080,Jun Wang,m,23,430,18.7
+2081,Jun Xu,m,9,22,2.44
+2082,Jun Yan,m,11,198,18
+2083,Jun Yang,m,18,71,3.94
+2084,Jun Zhang,m,13,27,2.08
+2085,Jun Zhang,m,10,13,1.3
+2086,Jun Zhang,m,22,519,23.59
+2087,Jun Zhao,m,22,273,12.41
+2088,Jun Zhu,m,17,208,12.24
+2089,Jun-ichi Takeuchi,m,23,28,1.22
+2090,Jun-Ki Min,m,12,51,4.25
+2091,Jun'ichi Tatemura,u,25,70,2.8
+2092,Jun'ichi Tsujii,u,41,236,5.76
+2093,Junchang Xin,u,7,21,3
+2094,Junfeng Wang,u,15,68,4.53
+2095,Junfeng Zhou,u,9,21,2.33
+2096,Jung Hyun Kim,m,7,8,1.14
+2097,Jung-Hwan Oh,m,16,55,3.44
+2098,Jung-Tae Lee,m,15,24,1.6
+2099,Junghoo Cho,u,16,59,3.69
+2100,Junhu Wang,u,16,49,3.06
+2101,Junjie Wu,u,9,76,8.44
+2102,Junjie Yao,u,25,25,1
+2103,Junqiang Liu,u,12,14,1.17
+2104,Junsong Yuan,u,10,98,9.8
+2105,Junyi Xie,u,9,8,0.89
+2106,Jure Leskovec,m,11,129,11.73
+2107,Jurgen Kramer,m,18,19,1.06
+2108,Jussara M. Almeida,w,18,134,7.44
+2109,Jussi Karlgren,m,21,78,3.71
+2110,Jussi Myllymaki,m,19,21,1.11
+2111,Justin J. Levandoski,m,6,28,4.67
+2112,Justin Martineau,m,8,10,1.25
+2113,Justin Talbot,m,9,13,1.44
+2114,Justin Zobel,m,27,199,7.37
+2115,Jyh-Ren Shieh,u,6,8,1.33
+2116,K. Bernhard Schiefer,u,23,13,0.57
+2117,K. Hima Prasad,u,9,10,1.11
+2118,K. Selcuk Candan,u,18,187,10.39
+2119,K. V. M. Naidu,u,12,21,1.75
+2120,Kai Li,m,28,232,8.29
+2121,Kai Ming Ting,m,20,77,3.85
+2122,Kai Puolamaki,m,9,28,3.11
+2123,Kai Wang,m,34,243,7.15
+2124,Kai Yu,m,13,193,14.85
+2125,Kai Zeng,m,8,70,8.75
+2126,Kai Zhao,m,19,53,2.79
+2127,Kai Zheng,m,10,104,10.4
+2128,Kai-Uwe Sattler,m,17,191,11.24
+2129,Kai-Wei Chang,m,6,20,3.33
+2130,Kai-Yang Chiang,m,3,5,1.67
+2131,Kaidi Zhao,w,12,7,0.58
+2132,Kailong Chen,u,2,8,4
+2133,Kaizhu Huang,u,11,65,5.91
+2134,Kaj Grnbk,m,23,71,3.09
+2135,Kajal T. Claypool,w,16,44,2.75
+2136,Kalervo Jarvelin,m,30,112,3.73
+2137,Kam-Fai Wong,m,26,152,5.85
+2138,Kam-yiu Lam,m,22,117,5.32
+2139,Kamal Ali,m,20,13,0.65
+2140,Kamal Nigam,m,16,14,0.88
+2141,Kamalakar Karlapalem,u,23,128,5.57
+2142,Kamesh Munagala,u,15,91,6.07
+2143,Kang Liu,m,10,46,4.6
+2144,Kangmiao Liu,u,8,13,1.63
+2145,Kanishka Bhaduri,m,8,30,3.75
+2146,Karam Gouda,m,13,7,0.54
+2147,Kareem Darwish,m,13,35,2.69
+2148,Kareem El Gebaly,m,8,4,0.5
+2149,Karen Church,w,9,23,2.56
+2150,Karen Sparck Jones,w,46,73,1.59
+2151,Karin Kailing,w,11,23,2.09
+2152,Karl Aberer,m,24,329,13.71
+2153,Karl Dias,m,16,11,0.69
+2154,Karl Gyllstrom,m,10,21,2.1
+2155,Karl Schnaitter,m,8,14,1.75
+2156,Karlton Sequeira,u,12,4,0.33
+2157,Karsten M. Borgwardt,m,9,60,6.67
+2158,Karthik Ramachandra,u,3,7,2.33
+2159,Karthik Raman,u,5,14,2.8
+2160,Karthik Visweswariah,u,16,70,4.38
+2161,Kathleen Fisher,w,21,55,2.62
+2162,Kathleen McKeown,w,35,135,3.86
+2163,Katia P. Sycara,w,29,337,11.62
+2164,Katja Hofmann,w,9,36,4
+2165,Katja Hose,w,10,45,4.5
+2166,Katrina Panovich,w,5,7,1.4
+2167,Katsuhiko Ishiguro,m,9,22,2.44
+2168,Katsuko T. Nakahira,w,8,9,1.13
+2169,Katsumi Tanaka,m,37,351,9.49
+2170,Kaushik Chakrabarti,m,17,37,2.18
+2171,Kaushik Dutta,m,14,49,3.5
+2172,Kaustav Das,u,10,3,0.3
+2173,Kave Eshghi,u,32,23,0.72
+2174,Kavitha Srinivas,u,10,30,3
+2175,Kazuhiro Seki,m,13,36,2.77
+2176,Kazumi Saito,m,21,112,5.33
+2177,Kazunori Matsumoto,m,27,50,1.85
+2178,Ke Chen,m,9,37,4.11
+2179,Ke Deng,m,13,75,5.77
+2180,Ke Wang,m,30,335,11.17
+2181,Ke Xu,m,14,314,22.43
+2182,Ke Yang,m,15,51,3.4
+2183,Ke Yi,m,13,97,7.46
+2184,Ke Zhou,m,10,84,8.4
+2185,Keiichiro Hoashi,m,18,30,1.67
+2186,Keiji Yanai,m,16,66,4.13
+2187,Keishi Tajima,m,20,35,1.75
+2188,Keith Henderson,m,5,11,2.2
+2189,Keith Marsolo,m,10,18,1.8
+2190,Keith van Rijsbergen,m,43,121,2.81
+2191,Keke Cai,w,10,25,2.5
+2192,Keke Chen,w,11,44,4
+2193,Kelvin Sim,m,8,21,2.63
+2194,Kemafor Anyanwu,u,12,33,2.75
+2195,Ken C. K. Lee,m,16,53,3.31
+2196,Ken Q. Pu,m,11,24,2.18
+2197,Keng-Pei Lin,m,7,9,1.29
+2198,Kenji Yamanishi,m,24,53,2.21
+2199,Kenji Yoshihira,m,9,45,5
+2200,Kenneth A. Ross,m,26,143,5.5
+2201,Kenneth P. Smith,m,22,34,1.55
+2202,Kenneth R. Wood,m,23,30,1.3
+2203,Kenneth Salem,m,28,64,2.29
+2204,Kenneth Wai-Ting Leung,m,6,21,3.5
+2205,Kenneth Ward Church,m,35,65,1.86
+2206,Kenny Q. Zhu,m,14,33,2.36
+2207,Kenny Qili Zhu,m,14,33,2.36
+2208,Kentaro Torisawa,m,18,63,3.5
+2209,Kerstin Bischoff,w,8,19,2.38
+2210,Kerstin Denecke,w,7,30,4.29
+2211,Kesheng Wu,u,21,56,2.67
+2212,Kevin Chen-Chuan Chang,m,18,88,4.89
+2213,Kevin J. Lang,m,29,38,1.31
+2214,Kevin Keliang Zhao,m,6,7,1.17
+2215,Kevin McCarthy,m,11,43,3.91
+2216,Kevin S. Beyer,m,17,32,1.88
+2217,Kevin S. McCurley,m,29,31,1.07
+2218,Kevin Wilkinson,m,32,54,1.69
+2219,Kevin Y. Yip,m,11,34,3.09
+2220,Kevyn Collins-Thompson,m,13,40,3.08
+2221,Kewei Chen,u,17,37,2.18
+2222,Khaled Yagoub,m,15,12,0.8
+2223,Khalid Al-Kofahi,m,16,10,0.63
+2224,Khalid Belhajjame,m,13,57,4.38
+2225,Khalid El-Arini,m,9,9,1
+2226,Khalil Amiri,m,17,11,0.65
+2227,Khoi-Nguyen Tran,u,5,11,2.2
+2228,Khuzaima Daudjee,m,10,20,2
+2229,Kian-Lee Tan,m,24,335,13.96
+2230,Kien A. Hua,m,28,194,6.93
+2231,Kihong Kim,u,16,37,2.31
+2232,Kilian Q. Weinberger,m,10,47,4.7
+2233,Kim Marriott,m,28,176,6.29
+2234,Kin Hou Lei,m,2,4,2
+2235,King-Lup Liu,m,19,20,1.05
+2236,Kira Radinsky,w,6,16,2.67
+2237,Kiri Wagstaff,w,14,38,2.71
+2238,Kirk Pruhs,m,25,161,6.44
+2239,Kirsten Hildrum,w,15,31,2.07
+2240,Kjetil Nrvag,m,17,130,7.65
+2241,Klaus Berberich,m,10,41,4.1
+2242,Klaus Elhardt,m,34,9,0.26
+2243,Klaus R. Dittrich,m,35,158,4.51
+2244,Klemens Bohm,m,21,161,7.67
+2245,Ko Fujimura,m,16,28,1.75
+2246,Koby Crammer,m,14,97,6.93
+2247,Koji Hino,m,14,13,0.93
+2248,Koji Tsuda,m,19,85,4.47
+2249,Konrad Stocker,m,15,10,0.67
+2250,Konstantinos Karanasos,m,5,15,3
+2251,Kostas Stefanidis,m,8,27,3.38
+2252,Kostas Tsichlas,m,12,49,4.08
+2253,Kostas Tsioutsiouliklis,m,15,15,1
+2254,Kostas Tzoumas,m,5,17,3.4
+2255,Kotagiri Ramamohanarao,u,35,292,8.34
+2256,Kothuri Venkata Ravi Kanth,u,17,18,1.06
+2257,Koustuv Dasgupta,u,13,33,2.54
+2258,Kris Ganjam,m,11,6,0.55
+2259,Krishna Bharat,m,22,33,1.5
+2260,Krishna Kummamuru,m,15,21,1.4
+2261,Krishna P. Leela,m,10,7,0.7
+2262,Krishna Prasad Chitrapura,m,13,9,0.69
+2263,Krishna Yeswanth Kamath,m,4,19,4.75
+2264,Krishnamoorthy Sivakumar,u,19,50,2.63
+2265,Krishnan Ramanathan,m,7,7,1
+2266,Krishnaram Kenthapadi,u,10,31,3.1
+2267,Kristen LeFevre,w,10,31,3.1
+2268,Kristi Morton,w,7,7,1
+2269,Kristian J. Hammond,m,31,76,2.45
+2270,Kristian Kersting,m,14,139,9.93
+2271,Kristie Fisher,w,4,6,1.5
+2272,Kristin Brooke Stecher,w,6,5,0.83
+2273,Kristin P. Bennett,w,23,53,2.3
+2274,Kristina Lerman,w,14,138,9.86
+2275,Kristina Lisa Klinkner,w,9,6,0.67
+2276,Krisztian Balog,u,9,70,7.78
+2277,Krithi Ramamritham,u,33,292,8.85
+2278,Krysta Marie Svore,w,9,25,2.78
+2279,Kuang Chen,u,11,14,1.27
+2280,Kuang Mao,u,3,4,1.33
+2281,Kuansan Wang,u,22,41,1.86
+2282,Kui Yu,u,8,15,1.88
+2283,Kuiyu Chang,u,13,51,3.92
+2284,Kun Bai,u,9,28,3.11
+2285,Kun Deng,u,14,28,2
+2286,Kun Liu,u,22,86,3.91
+2287,Kun Zhang,u,11,122,11.09
+2288,Kun-Lung Wu,u,28,130,4.64
+2289,Kun-Ta Chuang,u,13,26,2
+2290,Kunal Punera,m,12,32,2.67
+2291,Kuniaki Uehara,m,30,113,3.77
+2292,Kunpeng Zhang,u,8,20,2.5
+2293,Kunqing Xie,u,10,53,5.3
+2294,Kuo Zhang,m,9,25,2.78
+2295,Kurt Stockinger,m,16,45,2.81
+2296,Kushal S. Dave,m,5,9,1.8
+2297,Kwai Wong,w,16,5,0.31
+2298,Kwong-Sak Leung,m,26,176,6.77
+2299,Kyriakos Mouratidis,m,10,46,4.6
+2300,Kyu-Young Whang,m,33,129,3.91
+2301,Kyumin Lee,u,9,27,3
+2302,Kyuseok Shim,u,22,91,4.14
+2303,L. Venkata Subramaniam,u,15,78,5.2
+2304,Lada A. Adamic,w,16,67,4.19
+2305,Laiwan Chan,u,23,78,3.39
+2306,Laks V. S. Lakshmanan,u,30,200,6.67
+2307,Lakshmish Ramaswamy,u,12,53,4.42
+2308,Lan Nie,m,9,11,1.22
+2309,Lanbo Zhang,u,5,8,1.6
+2310,Lance Riedel,m,7,7,1
+2311,Larry Birnbaum,m,35,60,1.71
+2312,Lars Backstrom,m,10,30,3
+2313,Lars Dannecker,m,5,16,3.2
+2314,Lars Kulik,m,17,80,4.71
+2315,Lars Schmidt-Thieme,m,13,102,7.85
+2316,Latha S. Colby,u,25,22,0.88
+2317,Latifur Khan,u,15,188,12.53
+2318,Laura Bright,w,16,16,1
+2319,Laura Chiticariu,w,10,24,2.4
+2320,Laura M. Haas,w,32,82,2.56
+2321,Laure Berti-Equille,w,17,52,3.06
+2322,Laurence A. F. Park,m,13,40,3.08
+2323,Laurent Mignet,m,15,20,1.33
+2324,Laurianne Sitbon,u,10,36,3.6
+2325,Lawrence D. Bergman,m,21,38,1.81
+2326,Lawrence O. Hall,m,29,122,4.21
+2327,Le Gruenwald,m,23,141,6.13
+2328,Le Sun,m,14,38,2.71
+2329,Le Zhao,m,12,18,1.5
+2330,Leah S. Larkey,w,18,13,0.72
+2331,Lee-Feng Chien,m,24,78,3.25
+2332,Lefteris Sidirourgos,m,8,10,1.25
+2333,Lei Chen,m,12,226,18.83
+2334,Lei Chen,m,10,8,0.8
+2335,Lei Duan,m,17,41,2.41
+2336,Lei Gao,m,16,93,5.81
+2337,Lei Guo,m,25,369,14.76
+2338,Lei Ji,m,9,25,2.78
+2339,Lei Li,m,24,306,12.75
+2340,Lei Liu,m,16,255,15.94
+2341,Lei Sheng,m,15,12,0.8
+2342,Lei Shi,m,10,234,23.4
+2343,Lei Tang,m,19,84,4.42
+2344,Lei Wang,m,20,619,30.95
+2345,Lei Yu,m,16,104,6.5
+2346,Lei Yuan,m,12,41,3.42
+2347,Lei Zhang,m,13,138,10.62
+2348,Lei Zhang,m,13,28,2.15
+2349,Lei Zhang,m,22,508,23.09
+2350,Lei Zou,m,8,43,5.38
+2351,Leif Azzopardi,m,11,100,9.09
+2352,Leman Akoglu,u,6,33,5.5
+2353,Leo Giakoumakis,m,10,11,1.1
+2354,Leo Mark,m,31,48,1.55
+2355,Leon Portman,m,10,5,0.5
+2356,Leonard McMillan,m,22,76,3.45
+2357,Leonardo C. da Rocha,m,11,28,2.55
+2358,Leonardo Weiss Ferreira Chaves,m,8,12,1.5
+2359,Leong Hou U,w,10,21,2.1
+2360,Leonid Libkin,m,25,187,7.48
+2361,Leonidas Fegaras,m,25,54,2.16
+2362,Leonidas Galanis,m,13,10,0.77
+2363,Les Carr,m,25,103,4.12
+2364,Leslie Cranston,m,11,3,0.27
+2365,Letizia Tanca,w,27,141,5.22
+2366,Lexing Xie,u,13,57,4.38
+2367,Li Chen,m,21,488,23.24
+2368,Li Ding,m,11,94,8.55
+2369,Li Guo,m,24,192,8
+2370,Li Ma,m,12,118,9.83
+2371,Li Wan,m,9,43,4.78
+2372,Li Wei,m,17,60,3.53
+2373,Li Xiong,m,12,77,6.42
+2374,Li Yang,m,20,254,12.7
+2375,Li Zhang,m,11,16,1.45
+2376,Li Zhang,m,23,590,25.65
+2377,Li Zheng,m,26,76,2.92
+2378,Li-wei He,m,18,38,2.11
+2379,Lian Yan,w,15,9,0.6
+2380,Lian'en Huang,u,6,17,2.83
+2381,Liang Du,m,6,23,3.83
+2382,Liang Ge,m,9,32,3.56
+2383,Liang Huai Yang,m,13,16,1.23
+2384,Liang Jeff Chen,m,4,4,1
+2385,Liang Jin,m,20,33,1.65
+2386,Liang Kong,m,7,22,3.14
+2387,Liang Sun,m,23,72,3.13
+2388,Liang Tang,m,10,66,6.6
+2389,Liang Xiong,m,7,16,2.29
+2390,Liang Zhang,m,23,325,14.13
+2391,Liang Zhao,m,16,255,15.94
+2392,Liangda Li,u,5,4,0.8
+2393,Liangjie Hong,u,5,19,3.8
+2394,Liangliang Cao,m,9,65,7.22
+2395,Lichun Yang,u,5,6,1.2
+2396,Licia Capra,w,13,74,5.69
+2397,Lidan Shou,u,13,66,5.08
+2398,Lidan Wang,u,10,29,2.9
+2399,Lide Wu,u,26,74,2.85
+2400,Lidong Bing,u,7,15,2.14
+2401,Lifeng Jia,u,9,12,1.33
+2402,Lifeng Sun,u,15,106,7.07
+2403,Lihong Li,u,11,73,6.64
+2404,Lijun Chang,u,11,29,2.64
+2405,Like Gao,u,12,17,1.42
+2406,Lili Jiang,w,9,36,4
+2407,Lillian Lee,w,21,71,3.38
+2408,Limin Yao,u,7,16,2.29
+2409,Limsoon Wong,u,25,193,7.72
+2410,Lin Guo,m,25,34,1.36
+2411,Lin Liu,m,16,136,8.5
+2412,Lin Qiao,m,12,29,2.42
+2413,Lina Yao,w,6,20,3.33
+2414,Linan Jiang,u,14,4,0.29
+2415,Linas Baltrunas,m,8,25,3.13
+2416,Ling Chen,m,10,17,1.7
+2417,Ling Chen,m,27,228,8.44
+2418,Ling Feng,m,16,122,7.63
+2419,Ling Liu,m,26,394,15.15
+2420,Ling Ma,m,11,16,1.45
+2421,Ling Wang,m,13,278,21.38
+2422,Linh Thai Nguyen,w,8,13,1.63
+2423,Linhong Zhu,u,6,13,2.17
+2424,Linjun Yang,u,9,69,7.67
+2425,Lionel M. Ni,m,34,346,10.18
+2426,Lior Rokach,m,13,152,11.69
+2427,Liping Jing,u,10,37,3.7
+2428,Lipyeow Lim,u,13,37,2.85
+2429,Liran Katzir,m,12,16,1.33
+2430,Lisa Amini,w,15,20,1.33
+2431,Lisa Friedland,w,11,11,1
+2432,Lisa M. Gandy,w,5,3,0.6
+2433,Lise Getoor,w,19,171,9
+2434,Liu Wenyin,m,19,176,9.26
+2435,Liuba Shrira,w,33,51,1.55
+2436,Liudmila Ostroumova,w,2,12,6
+2437,Lixin Shi,u,8,17,2.13
+2438,Liying Sui,u,10,9,0.9
+2439,Liyun Ru,u,11,37,3.36
+2440,Lizhen Qu,u,6,6,1
+2441,Lizhu Zhou,u,15,145,9.67
+2442,Lloyd Rutledge,m,21,50,2.38
+2443,Lluis Garcia Pueyo,m,6,15,2.5
+2444,Lois M. L. Delcambre,w,34,123,3.62
+2445,Long Jiang,m,7,19,2.71
+2446,Longbing Cao,u,11,195,17.73
+2447,Longin Jan Latecki,m,24,149,6.21
+2448,Loredana Afanasiev,w,10,14,1.4
+2449,Loren G. Terveen,m,24,103,4.29
+2450,Lorenzo Blanco,m,9,16,1.78
+2451,Loreto Bravo,m,13,36,2.77
+2452,Lotfi Lakhal,m,27,70,2.59
+2453,Louiqa Raschid,u,29,127,4.38
+2454,Louis Licamele,m,9,9,1
+2455,Louis Woods,m,4,14,3.5
+2456,Louise E. Moser,w,27,176,6.52
+2457,Lu An Tang,m,6,16,2.67
+2458,Lu Chen,m,14,58,4.14
+2459,Lu Liu,m,10,184,18.4
+2460,Lu Qin,m,17,42,2.47
+2461,Lu Wang,m,13,174,13.38
+2462,Luanne Freund,w,13,21,1.62
+2463,Lubor Kollar,m,28,5,0.18
+2464,Luc Bouganim,m,21,69,3.29
+2465,Luc De Raedt,m,26,230,8.85
+2466,Luc Martens,m,16,75,4.69
+2467,Luca Becchetti,m,17,55,3.24
+2468,Luca Bonomi,m,2,6,3
+2469,Luca Chiarandini,m,3,10,3.33
+2470,Luca Maria Aiello,m,6,30,5
+2471,Luca Telloli,m,5,3,0.6
+2472,Lucas Drumond,m,7,24,3.43
+2473,Lucian Popa,m,17,55,3.24
+2474,Luciano Barbosa,m,12,24,2
+2475,Lucja Kot,w,9,16,1.78
+2476,Ludovic Denoyer,m,11,61,5.55
+2477,Luigi Di Caro,m,6,26,4.33
+2478,Luis Gravano,m,23,98,4.26
+2479,Luis Leopoldo Perez,m,6,10,1.67
+2480,Luis Torgo,m,23,42,1.83
+2481,Luiz Augusto Sangoi Pizzato,m,11,14,1.27
+2482,Lujun Fang,u,6,9,1.5
+2483,Lukas Blunschi,m,9,14,1.56
+2484,Lukasz Golab,m,11,43,3.91
+2485,Lung-Hao Lee,w,6,13,2.17
+2486,Luo Si,m,16,103,6.44
+2487,Luping Ding,u,12,15,1.25
+2488,Lusong Li,u,6,12,2
+2489,Luyi Mo,u,1,5,5
+2490,Lyle H. Ungar,m,22,90,4.09
+2491,Lynda Hardman,w,26,84,3.23
+2492,Lyublena Antova,u,8,19,2.38
+2493,M. Benjamin Dias,u,12,9,0.75
+2494,M. Catherine McCabe,u,18,14,0.78
+2495,M. Tamer Ozsu,u,34,221,6.5
+2496,Maarten de Rijke,m,22,330,15
+2497,Maarten Marx,m,19,106,5.58
+2498,Magdalena Balazinska,w,15,86,5.73
+2499,Magesh Jayapandian,u,10,8,0.8
+2500,Mahashweta Das,u,5,12,2.4
+2501,Mahesh Jagannath,m,14,4,0.29
+2502,Mahesh V. Joshi,m,19,19,1
+2503,Maik Anderka,m,6,11,1.83
+2504,Makoto Iwayama,m,26,25,0.96
+2505,Makoto Nakatsuji,m,9,20,2.22
+2506,Makoto Onizuka,m,15,27,1.8
+2507,Makoto P. Kato,m,6,20,3.33
+2508,Maksims Volkovs,m,7,11,1.57
+2509,Malik Magdon-Ismail,m,17,147,8.65
+2510,Malu Castellanos,w,23,85,3.7
+2511,Man Hon Wong,m,25,64,2.56
+2512,Man Leung Wong,m,23,46,2
+2513,Man Lung Yiu,m,11,80,7.27
+2514,Man-Kwan Shan,m,25,56,2.24
+2515,Manabu Okumura,m,24,95,3.96
+2516,Mandar Rahurkar,u,12,11,0.92
+2517,Manfred Hauswirth,m,19,161,8.47
+2518,Manik Varma,m,12,20,1.67
+2519,Manish Bhide,m,12,24,2
+2520,Manish Gupta,m,24,129,5.38
+2521,Manish Kumar Anand,m,7,11,1.57
+2522,Manish Marwah,m,11,31,2.82
+2523,Manish S. Gupta,m,6,3,0.5
+2524,Manjeet Rege,w,10,29,2.9
+2525,Manoj Syamala,m,10,15,1.5
+2526,Manolis Koubarakis,m,24,116,4.83
+2527,Manolis Terrovitis,m,11,22,2
+2528,Manoranjan Dash,m,17,52,3.06
+2529,Manos Tsagkias,m,6,28,4.67
+2530,Mansurul Bhuiyan,u,2,5,2.5
+2531,Manuel Mayr,m,7,7,1
+2532,Manuel Rodriguez-Martinez,m,14,14,1
+2533,Mao Ye,m,10,103,10.3
+2534,Maojin Jiang,u,8,6,0.75
+2535,Marc A. Smith,m,15,40,2.67
+2536,Marc Bron,m,5,20,4
+2537,Marc E. Maier,m,8,13,1.63
+2538,Marc H. Scholl,m,31,92,2.97
+2539,Marc Najork,m,24,62,2.58
+2540,Marc Spaniol,m,12,51,4.25
+2541,Marc Wichterich,m,8,13,1.63
+2542,Marc-Allen Cartright,m,6,12,2
+2543,Marcel J. T. Reinders,m,19,125,6.58
+2544,Marcel Karnstedt,m,11,56,5.09
+2545,Marcel Kutsch,m,9,6,0.67
+2546,Marcelo Arenas,m,16,109,6.81
+2547,Marcelo Mendoza,m,14,34,2.43
+2548,Marcin Zukowski,m,9,19,2.11
+2549,Marco Bonzanini,m,3,8,2.67
+2550,Marco Brambilla,m,12,129,10.75
+2551,Marco Cova,m,9,27,3
+2552,Marco Cristo,m,11,37,3.36
+2553,Marco de Gemmis,m,12,93,7.75
+2554,Marco Gori,m,25,179,7.16
+2555,Marco Mesiti,m,15,60,4
+2556,Marco Patella,m,17,41,2.41
+2557,Marco Pennacchiotti,m,10,41,4.1
+2558,Marco Potke,m,16,15,0.94
+2559,Marco Ruzzi,m,11,36,3.27
+2560,Marco Saerens,m,24,57,2.38
+2561,Marco Tagliasacchi,m,11,108,9.82
+2562,Marco Tiemann,m,7,8,1.14
+2563,Marcos Andre Goncalves,m,16,203,12.69
+2564,Marcos Antonio Vaz Salles,m,11,28,2.55
+2565,Marcos R. Vieira,m,11,27,2.45
+2566,Marcus A. Maloof,m,21,20,0.95
+2567,Marcus Fontoura,m,15,49,3.27
+2568,Marcus Herzog,m,15,22,1.47
+2569,Marek Ciglan,m,9,21,2.33
+2570,Margaret E. Connell,w,27,16,0.59
+2571,Maria Bielikova,w,19,151,7.95
+2572,Maria Camila Nardini Barioni,w,13,18,1.38
+2573,Maria Halkidi,w,14,33,2.36
+2574,Maria Luisa Sapino,w,23,77,3.35
+2575,Maria P. Grineva,w,7,9,1.29
+2576,Maria Soledad Pera,w,7,30,4.29
+2577,Maria-Esther Vidal,w,16,77,4.81
+2578,Mariam Daoud,w,7,21,3
+2579,Marianne Winslett,w,30,256,8.53
+2580,Mariano P. Consens,m,25,63,2.52
+2581,Marie Jacob,w,6,11,1.83
+2582,Marie-Christine Rousset,w,27,87,3.22
+2583,Marie-Francine Moens,w,17,124,7.29
+2584,Marijn Koolen,m,8,41,5.13
+2585,Marina Barsky,w,8,12,1.5
+2586,Marina Danilevsky,w,4,18,4.5
+2587,Marina Drosou,w,6,17,2.83
+2588,Mario A. Nascimento,m,20,102,5.1
+2589,Mario Boley,m,7,23,3.29
+2590,Mario Cataldi,m,6,16,2.67
+2591,Mario J. Silva,m,25,77,3.08
+2592,Marios Hadjieleftheriou,m,13,60,4.62
+2593,Marius Kaminskas,m,5,9,1.8
+2594,Marius Pasca,m,17,71,4.18
+2595,Mark Baillie,m,11,35,3.18
+2596,Mark D. Smucker,m,19,34,1.79
+2597,Mark Girolami,m,18,104,5.78
+2598,Mark H. Montague,m,19,9,0.47
+2599,Mark James Carman,m,12,32,2.67
+2600,Mark Manasse,m,28,35,1.25
+2601,Mark S. Ackerman,m,26,99,3.81
+2602,Mark Sanderson,m,23,147,6.39
+2603,Mark Sandler,m,11,20,1.82
+2604,Mark Sifer,m,19,24,1.26
+2605,Mark T. Keane,m,27,58,2.15
+2606,Marko Grobelnik,m,23,78,3.39
+2607,Marko Junkkari,m,16,17,1.06
+2608,Marko Vrhovnik,m,9,6,0.67
+2609,Markos Zaharioudakis,m,20,8,0.4
+2610,Markus Bundschus,m,6,9,1.5
+2611,Markus Keidl,m,15,15,1
+2612,Markus Krotzsch,m,10,78,7.8
+2613,Markus M. Breunig,m,17,8,0.47
+2614,Markus Ojala,m,6,9,1.5
+2615,Markus Schaal,m,13,27,2.08
+2616,Markus Schedl,m,14,88,6.29
+2617,Markus Schneider,m,21,98,4.67
+2618,Markus Strohmaier,m,12,88,7.33
+2619,Markus Wawryniuk,m,15,8,0.53
+2620,Markus Weimer,m,7,19,2.71
+2621,Markus Zanker,m,14,74,5.29
+2622,Marlon Dumas,m,17,191,11.24
+2623,Marta Gatius,w,18,12,0.67
+2624,Martha Larson,w,14,113,8.07
+2625,Marti A. Hearst,w,26,106,4.08
+2626,Martijn C. Willemsen,m,5,15,3
+2627,Martin Abadi,m,29,224,7.72
+2628,Martin Ester,m,29,113,3.9
+2629,Martin F. Arlitt,m,18,83,4.61
+2630,Martin Franz,m,18,50,2.78
+2631,Martin Gaedke,m,17,102,6
+2632,Martin Halvey,m,9,53,5.89
+2633,Martin Kaufmann,m,5,8,1.6
+2634,Martin L. Kersten,m,34,139,4.09
+2635,Martin Nussbaumer,m,11,38,3.45
+2636,Martin Pfeifle,m,12,42,3.5
+2637,Martin Potthast,m,8,37,4.63
+2638,Martin Rajman,m,17,52,3.06
+2639,Martin Scholz,m,17,28,1.65
+2640,Martin Szummer,m,18,28,1.56
+2641,Martin Theobald,m,12,71,5.92
+2642,Martin Wattenberg,m,19,43,2.26
+2643,Martin Zinkevich,m,13,37,2.85
+2644,Martine De Cock,w,15,100,6.67
+2645,Mary F. Fernandez,w,25,62,2.48
+2646,Mary McGlohon,w,7,14,2
+2647,Maryam Karimzadehgan,w,10,13,1.3
+2648,Maryann E. Martone,w,14,49,3.5
+2649,Masahiro Hamasaki,m,14,27,1.93
+2650,Masaru Kitsuregawa,m,32,311,9.72
+2651,Masashi Yamamuro,m,24,21,0.88
+2652,Masatoshi Yoshikawa,m,32,149,4.66
+2653,Massih-Reza Amini,m,15,58,3.87
+2654,Massimiliano Ciaramita,m,14,32,2.29
+2655,Massimo Melucci,m,20,93,4.65
+2656,Matteo Golfarelli,m,17,80,4.71
+2657,Matteo Magnani,m,10,43,4.3
+2658,Matthai Philipose,u,18,50,2.78
+2659,Matthew Denny,m,15,7,0.47
+2660,Matthew Ekstrand-Abueg,m,2,3,1.5
+2661,Matthew Eric Otey,m,11,13,1.18
+2662,Matthew Hurst,m,20,27,1.35
+2663,Matthew J. Rattigan,m,11,9,0.82
+2664,Matthew Lease,m,12,46,3.83
+2665,Matthew O. Ward,m,32,89,2.78
+2666,Matthew P. Simmons,m,4,5,1.25
+2667,Matthew Richardson,m,14,33,2.36
+2668,Matthew V. Mahoney,m,33,10,0.3
+2669,Matthias Bender,m,10,25,2.5
+2670,Matthias Bohm,m,7,33,4.71
+2671,Matthias Brantner,m,9,13,1.44
+2672,Matthias Hagen,m,9,28,3.11
+2673,Matthias Jarke,m,32,326,10.19
+2674,Matthias Nicola,m,19,18,0.95
+2675,Matthias Renz,m,11,111,10.09
+2676,Matthias Schubert,m,14,52,3.71
+2677,Matthijs van Leeuwen,m,12,22,1.83
+2678,Maurice van Keulen,m,20,58,2.9
+2679,Mauricio A. Hernandez,m,20,34,1.7
+2680,Mauricio Marin,m,19,85,4.47
+2681,Maurizio Atzori,m,11,23,2.09
+2682,Maurizio Lenzerini,m,33,244,7.39
+2683,Mauro Sozio,m,10,21,2.1
+2684,Maxim Gurevich,m,11,20,1.82
+2685,Maxim Kormilitsin,m,8,4,0.5
+2686,Maxim Zhukovskiy,m,2,5,2.5
+2687,Maximilian Dylla,m,5,9,1.8
+2688,Maya Ramanath,w,14,34,2.43
+2689,Mayank Bawa,u,14,16,1.14
+2690,Mayssam Sayyadian,u,11,7,0.64
+2691,Mayu Iwata,w,5,18,3.6
+2692,Mayur Datar,u,14,28,2
+2693,Meenakshi Nagarajan,w,8,19,2.38
+2694,Meeyoung Cha,u,10,47,4.7
+2695,Mehdi Hosseini,m,7,12,1.71
+2696,Mehmet Altinel,m,20,18,0.9
+2697,Mehmet Kaya,m,13,49,3.77
+2698,Mehran Sahami,m,21,51,2.43
+2699,Mehul A. Shah,u,17,44,2.59
+2700,Mei Hui,w,5,4,0.8
+2701,Meichun Hsu,u,31,131,4.23
+2702,Meihui Zhang,u,6,12,2
+2703,Meikel Poess,u,17,44,2.59
+2704,Meikel Poss,u,17,44,2.59
+2705,Meishan Hu,u,7,5,0.71
+2706,Meiyu Lu,u,6,8,1.33
+2707,Melanie Herschel,w,10,28,2.8
+2708,Melanie Hilario,w,19,41,2.16
+2709,Melanie Weis,w,10,28,2.8
+2710,Melliyal Annamalai,u,20,8,0.4
+2711,Meng Chang Chen,m,26,109,4.19
+2712,Meng Fang,m,11,13,1.18
+2713,Meng Hu,m,9,18,2
+2714,Meng Jiang,m,7,14,2
+2715,Meng Wang,m,19,314,16.53
+2716,Mengchi Liu,u,19,85,4.47
+2717,Menzo Windhouwer,u,14,25,1.79
+2718,Meredith Ringel Morris,w,12,88,7.33
+2719,Meritxell Gonzalez,w,10,16,1.6
+2720,Mete Celik,m,9,9,1
+2721,Mi Zhang,w,10,40,4
+2722,Mi-Yen Yeh,w,10,18,1.8
+2723,Mianwei Zhou,u,7,6,0.86
+2724,Miao Wen,m,10,7,0.7
+2725,Miao Zhang,m,12,64,5.33
+2726,Micah Sherr,m,12,41,3.42
+2727,Michael Bendersky,m,6,21,3.5
+2728,Michael Benedikt,m,18,105,5.83
+2729,Michael D. Ekstrand,m,5,13,2.6
+2730,Michael D. Lieberman,m,7,22,3.14
+2731,Michael D. Morse,m,9,8,0.89
+2732,Michael Dahlin,m,20,79,3.95
+2733,Michael E. Houle,m,29,64,2.21
+2734,Michael Flaster,m,11,5,0.45
+2735,Michael Gamon,m,13,37,2.85
+2736,Michael Gertz,m,22,118,5.36
+2737,Michael Gillmann,m,15,21,1.4
+2738,Michael Grossniklaus,m,13,55,4.23
+2739,Michael H. Bohlen,m,21,109,5.19
+2740,Michael Hay,m,11,21,1.91
+2741,Michael Herscovici,m,16,12,0.75
+2742,Michael Huggett,m,7,13,1.86
+2743,Michael I. Jordan,m,25,315,12.6
+2744,Michael J. Cafarella,m,10,35,3.5
+2745,Michael J. Carey,m,32,212,6.63
+2746,Michael J. Cole,m,10,19,1.9
+2747,Michael J. Franklin,m,24,193,8.04
+2748,Michael J. Muller,m,26,80,3.08
+2749,Michael J. Pazzani,m,31,108,3.48
+2750,Michael J. Taylor,m,21,17,0.81
+2751,Michael J. Welch,m,6,5,0.83
+2752,Michael Kifer,m,31,120,3.87
+2753,Michael L. Brodie,m,36,62,1.72
+2754,Michael L. Wick,m,8,17,2.13
+2755,Michael Mathioudakis,m,8,6,0.75
+2756,Michael Mlivoncic,m,13,6,0.46
+2757,Michael O. Akinde,m,16,9,0.56
+2758,Michael P. O'Mahony,m,12,46,3.83
+2759,Michael P. Oakes,m,16,40,2.5
+2760,Michael R. Berthold,m,20,106,5.3
+2761,Michael R. Lyu,m,26,336,12.92
+2762,Michael Rabinovich,m,42,73,1.74
+2763,Michael Rys,m,26,34,1.31
+2764,Michael Schmidt,m,21,89,4.24
+2765,Michael Steinbach,m,12,51,4.25
+2766,Michael Stonebraker,m,42,266,6.33
+2767,Michael W. Mahoney,m,11,85,7.73
+2768,Michael Watzke,m,13,11,0.85
+2769,Michaela Gotz,w,7,11,1.57
+2770,Michail Vlachos,m,12,70,5.83
+2771,Michal Jacovi,m,21,28,1.33
+2772,Michal Shmueli-Scheuer,m,12,14,1.17
+2773,Michalis Faloutsos,m,19,151,7.95
+2774,Michalis Petropoulos,m,13,23,1.77
+2775,Michalis Potamias,m,8,16,2
+2776,Michalis Vazirgiannis,m,21,150,7.14
+2777,Michel Scholl,m,34,80,2.35
+2778,Michelangelo Diligenti,m,14,32,2.29
+2779,Michele Coscia,m,5,27,5.4
+2780,Michele Gorgoglione,m,17,18,1.06
+2781,Michele Sebag,m,24,171,7.13
+2782,Michelle L. Gregory,w,10,17,1.7
+2783,Michelle X. Zhou,w,21,90,4.29
+2784,Michiaki Tatsubori,m,16,29,1.81
+2785,Michihiro Kuramochi,m,13,13,1
+2786,Michinari Momma,u,12,10,0.83
+2787,Miguel Martinez-Alvarez,m,4,12,3
+2788,Mihaela A. Bornea,w,5,5,1
+2789,Mihai Georgescu,m,5,16,3.2
+2790,Mihai Lupu,m,9,35,3.89
+2791,Mikalai Tsytsarau,u,4,8,2
+2792,Mikhail Bilenko,m,11,20,1.82
+2793,Mikhail J. Atallah,m,33,220,6.67
+2794,Milad Shokouhi,m,9,42,4.67
+2795,Milan Petkovic,m,14,58,4.14
+2796,Milena Ivanova,w,12,21,1.75
+2797,Milenko Petrovic,m,11,15,1.36
+2798,Miles Efron,m,13,31,2.38
+2799,Miles Osborne,m,20,57,2.85
+2800,Milind Joshi,m,13,5,0.38
+2801,Milind R. Naphade,m,16,84,5.25
+2802,Milos Hauskrecht,m,17,79,4.65
+2803,Milos Radovanovic,m,8,34,4.25
+2804,Min Song,m,17,173,10.18
+2805,Min Wang,m,23,267,11.61
+2806,Min Xie,m,7,12,1.71
+2807,Min Zhang,m,14,83,5.93
+2808,Min Zhao,m,22,103,4.68
+2809,Min-Jae Lee,m,19,20,1.05
+2810,Min-Ling Zhang,m,11,29,2.64
+2811,Min-Soo Kim,m,9,17,1.89
+2812,Min-Te Sun,m,15,54,3.6
+2813,Min-Yen Kan,m,16,101,6.31
+2814,Minas Charalambides,m,5,5,1
+2815,Ming Dong,w,13,93,7.15
+2816,Ming Hua,w,9,19,2.11
+2817,Ming Ji,w,12,19,1.58
+2818,Ming Li,w,29,783,27
+2819,Ming Xiong,w,18,39,2.17
+2820,Ming Yang,w,22,229,10.41
+2821,Ming Zhang,w,28,360,12.86
+2822,Ming Zhou,w,20,159,7.95
+2823,Ming-Chien Shan,w,27,82,3.04
+2824,Ming-Chuan Wu,w,18,13,0.72
+2825,Ming-Hung Hsu,w,12,15,1.25
+2826,Ming-Syan Chen,w,27,324,12
+2827,Ming-Wei Chang,w,12,33,2.75
+2828,Mingcheng Qu,u,6,8,1.33
+2829,Mingfang Wu,u,16,37,2.31
+2830,Minghua Zhang,u,13,18,1.38
+2831,Mingjie Qian,u,5,10,2
+2832,Mingjie Zhu,u,8,6,0.75
+2833,Mingjing Li,u,19,130,6.84
+2834,Minglong Shao,u,10,7,0.7
+2835,Mingqiang Xue,u,8,9,1.13
+2836,Mingrui Wu,u,14,16,1.14
+2837,Mingsheng Hong,u,11,14,1.27
+2838,Mingxi Wu,u,11,14,1.27
+2839,Mingyang Zhang,u,6,11,1.83
+2840,Mingzhu Wei,u,8,8,1
+2841,Minlie Huang,u,10,42,4.2
+2842,Minmin Chen,u,6,19,3.17
+2843,Minos N. Garofalakis,m,19,138,7.26
+2844,Minqi Zhou,u,7,24,3.43
+2845,Minqing Hu,u,14,11,0.79
+2846,Minsoo Lee,m,15,58,3.87
+2847,Minsuk Kahng,u,4,11,2.75
+2848,Minyi Guo,u,16,260,16.25
+2849,Mir Sadek Ali,m,8,9,1.13
+2850,Mirco Nanni,m,17,51,3
+2851,Mirco Stern,m,7,6,0.86
+2852,Mirek Riedewald,m,15,45,3
+2853,Mirella M. Moro,w,14,58,4.14
+2854,Mirella Moura Moro,w,14,58,4.14
+2855,Mirjana Ivanovic,w,24,115,4.79
+2856,Misael Mongiovi,m,8,10,1.25
+2857,Mitch Cherniack,m,19,34,1.79
+2858,Mithila Nagendra,u,3,5,1.67
+2859,Mitsunori Ogihara,u,24,174,7.25
+2860,Mitsuru Ishizuka,m,33,289,8.76
+2861,Mitul Tiwari,u,14,15,1.07
+2862,Mo Liu,m,9,13,1.44
+2863,Mohamed A. Sharaf,m,12,48,4
+2864,Mohamed A. Soliman,m,9,20,2.22
+2865,Mohamed Aly,m,9,25,2.78
+2866,Mohamed Dekhil,m,21,30,1.43
+2867,Mohamed E. Khalefa,m,6,14,2.33
+2868,Mohamed F. Mokbel,m,13,132,10.15
+2869,Mohamed G. Elfeky,m,14,11,0.79
+2870,Mohamed H. Ali,m,10,34,3.4
+2871,Mohamed Nabeel,m,7,14,2
+2872,Mohamed Reda Bouadjenek,m,4,8,2
+2873,Mohamed S. Kamel,m,35,332,9.49
+2874,Mohamed Sarwat,m,3,17,5.67
+2875,Mohamed Y. Eltabakh,m,10,19,1.9
+2876,Mohamed Yakout,m,7,14,2
+2877,Mohamed Zait,m,22,18,0.82
+2878,Mohammad Al Hasan,m,9,30,3.33
+2879,Mohammad Alrifai,m,8,14,1.75
+2880,Mohammad El-Hajj,m,13,20,1.54
+2881,Mohammad M. Masud,m,8,24,3
+2882,Mohammad Mahdian,m,15,89,5.93
+2883,Mohammad Sadoghi,m,7,23,3.29
+2884,Mohammed J. Zaki,m,19,180,9.47
+2885,Mohammed Javeed Zaki,m,19,180,9.47
+2886,Mohan Yang,m,4,8,2
+2887,Mohand Boughanem,m,22,176,8
+2888,Mohand-Said Hacid,m,24,163,6.79
+2889,Mohsen Jamali,m,8,19,2.38
+2890,Mokhtar Kandil,m,13,5,0.38
+2891,Mokrane Bouzeghoub,u,31,93,3
+2892,Mong-Li Lee,w,23,162,7.04
+2893,Monica M. C. Schraefel,w,16,90,5.63
+2894,Monica Marrero,w,8,18,2.25
+2895,Monica Rogati,w,13,19,1.46
+2896,Monica Scannapieco,w,13,54,4.15
+2897,Monika Henzinger,w,25,123,4.92
+2898,Monika Rauch Henzinger,w,25,123,4.92
+2899,Mor Harchol-Balter,m,20,79,3.95
+2900,Mor Naaman,m,11,73,6.64
+2901,Morgan Harvey,m,5,19,3.8
+2902,Moses Charikar,m,17,125,7.35
+2903,Moshe Fresko,m,16,16,1
+2904,Moshe Tennenholtz,m,26,218,8.38
+2905,Mostafa Keikha,m,8,24,3
+2906,Mouna Kacimi,w,9,25,2.78
+2907,Mounia Lalmas,u,21,191,9.1
+2908,Mourad Ouzzani,m,20,67,3.35
+2909,Moustafa A. Hammad,u,14,26,1.86
+2910,Moustafa Ghanem,u,18,39,2.17
+2911,Mu-Woong Lee,m,5,9,1.8
+2912,Mudhakar Srivatsa,u,11,76,6.91
+2913,Muhammad Aamir Cheema,m,7,29,4.14
+2914,Muhammad Ali Norozi,m,4,6,1.5
+2915,Muhammad U. Arshad,m,6,4,0.67
+2916,Mukesh K. Mohania,m,21,137,6.52
+2917,Mukund Raghavachari,u,23,25,1.09
+2918,Mumtaz Ahmad,w,6,9,1.5
+2919,Munir Cochinwala,m,25,26,1.04
+2920,Munirathnam Srikanth,u,15,13,0.87
+2921,Munmun De Choudhury,u,7,45,6.43
+2922,Murali Mani,m,16,54,3.38
+2923,Muralidhar Krishnaprasad,u,16,10,0.63
+2924,Murat Dundar,m,12,26,2.17
+2925,Murat Kantarcioglu,m,13,141,10.85
+2926,Mustafa Bilgic,m,9,17,1.89
+2927,My T. Thai,w,9,81,9
+2928,Myoung-Ho Kim,w,27,143,5.3
+2929,Myra Spiliopoulou,w,22,147,6.68
+2930,N. Sadat Shami,u,10,26,2.6
+2931,Na Dai,w,5,12,2.4
+2932,Naama Zwerdling,u,7,10,1.43
+2933,Nabil Layaida,m,17,45,2.65
+2934,Nadathur Satish,u,9,29,3.22
+2935,Nadav Eiron,m,19,23,1.21
+2936,Nadav Golbandi,m,6,12,2
+2937,Nadav Har'El,m,10,11,1.1
+2938,Nadia Magnenat-Thalmann,w,35,384,10.97
+2939,Naftali Tishby,m,25,105,4.2
+2940,Naga K. Govindaraju,w,12,47,3.92
+2941,Nagaraj Kota,u,4,5,1.25
+2942,Nagarajan Natarajan,u,4,9,2.25
+2943,Nagender Bandi,u,10,9,0.9
+2944,Nagiza F. Samatova,u,14,93,6.64
+2945,Nalini Venkatasubramanian,w,22,161,7.32
+2946,Nam Nguyen,m,9,22,2.44
+2947,Namit Jain,u,6,6,1
+2948,Nan Cao,w,8,17,2.13
+2949,Nan Du,w,8,48,6
+2950,Nan Li,w,13,188,14.46
+2951,Nan Liu,w,10,102,10.2
+2952,Nan Tang,w,11,31,2.82
+2953,Nan Zhang,w,10,64,6.4
+2954,Naohiro Matsumura,m,14,45,3.21
+2955,Naoki Abe,m,26,74,2.85
+2956,Naomi Inoue,w,25,29,1.16
+2957,Naonori Ueda,u,23,80,3.48
+2958,Naphtali Rishe,m,29,116,4
+2959,Narayanan Shivakumar,u,20,27,1.35
+2960,Naren Ramakrishnan,m,16,183,11.44
+2961,Natalie S. Glance,w,21,24,1.14
+2962,Natasa Milic-Frayling,u,19,71,3.74
+2963,Nathan Folkert,m,11,5,0.45
+2964,Nathan Nan Liu,m,6,20,3.33
+2965,Nathan S. Netanyahu,m,26,69,2.65
+2966,Nattiya Kanhabua,u,6,24,4
+2967,Nava Tintarev,w,7,21,3
+2968,Naveen Ashish,m,17,34,2
+2969,Naveen Kumar Sharma,m,5,7,1.4
+2970,Navendu Jain,u,13,28,2.15
+2971,Nazli Goharian,w,15,54,3.6
+2972,Neal Lathia,m,7,26,3.71
+2973,Nectarios Koziris,m,18,121,6.72
+2974,Nedim Lipka,m,6,13,2.17
+2975,Nedyalko Borisov,m,5,11,2.2
+2976,Neel Sundaresan,m,24,66,2.75
+2977,Neema Moraveji,w,11,27,2.45
+2978,Neil Hurley,m,21,20,0.95
+2979,Neil J. Hurley,m,23,61,2.65
+2980,Nematollaah Shiri,u,21,55,2.62
+2981,Nenghai Yu,u,11,111,10.09
+2982,Neoklis Polyzotis,u,12,94,7.83
+2983,Nesime Tatbul,u,17,53,3.12
+2984,Ni Lao,m,10,14,1.4
+2985,Nicholas E. Taylor,m,11,8,0.73
+2986,Nicholas Gibbins,m,17,71,4.18
+2987,Nicholas J. Belkin,m,34,103,3.03
+2988,Nicholas Jing Yuan,m,1,7,7
+2989,Nick Cercone,m,39,211,5.41
+2990,Nick Craswell,m,17,91,5.35
+2991,Nick Koudas,m,18,159,8.83
+2992,Nick Roussopoulos,m,41,124,3.02
+2993,Nicola Barbieri,m,4,19,4.75
+2994,Nicola Henze,m,16,73,4.56
+2995,Nicola Onose,m,10,20,2
+2996,Nicola Stokes,m,14,29,2.07
+2997,Nicola Tonellotto,m,11,31,2.82
+2998,Nicolas Anciaux,m,13,30,2.31
+2999,Nicolas Bruno,m,13,49,3.77
+3000,Nicolas Nicolov,m,19,22,1.16
+3001,Nicolas Spyratos,m,37,150,4.05
+3002,Nicolas Travers,m,10,16,1.6
+3003,Nicolas Usunier,m,9,44,4.89
+3004,Nicole B. Ellison,w,8,39,4.88
+3005,Nicole Immorlica,w,11,75,6.82
+3006,Nicoleta Preda,w,11,15,1.36
+3007,Niels Nes,m,16,22,1.38
+3008,Niels Olof Bouvin,m,17,39,2.29
+3009,Nigel Ellis,m,9,4,0.44
+3010,Nigel Shadbolt,m,27,224,8.3
+3011,Nihit Desai,u,1,6,6
+3012,Niketan Pansare,u,4,4,1
+3013,Niklas Carlsson,m,10,53,5.3
+3014,Nikolaj Tatti,m,8,31,3.88
+3015,Nikolaus Augsten,m,11,22,2
+3016,Nikolay Archak,m,7,8,1.14
+3017,Nikolay Laptev,m,5,8,1.6
+3018,Nikos Anerousis,m,23,37,1.61
+3019,Nikos Giatrakos,m,6,10,1.67
+3020,Nikos Karayannidis,m,14,11,0.79
+3021,Nikos Mamoulis,m,18,162,9
+3022,Nikos Ntarmos,m,11,22,2
+3023,Nikos Pelekis,m,10,48,4.8
+3024,Nikos Sarkas,m,9,13,1.44
+3025,Nikunj C. Oza,u,14,30,2.14
+3026,Nilanjan Banerjee,u,13,84,6.46
+3027,Nilesh Bansal,u,7,10,1.43
+3028,Nilesh N. Dalvi,u,13,49,3.77
+3029,Niloy Ganguly,u,13,94,7.23
+3030,Nima Asadi,m,4,5,1.25
+3031,Nima Asadi,m,6,12,2
+3032,Nimrod Megiddo,m,37,97,2.62
+3033,Nina Mishra,w,20,39,1.95
+3034,Nina Taft,w,21,75,3.57
+3035,Ning An,m,16,30,1.88
+3036,Ning Jin,m,13,23,1.77
+3037,Ning Li,m,17,220,12.94
+3038,Ning Liu,m,10,125,12.5
+3039,Ning Ruan,m,6,21,3.5
+3040,Ning Yu,m,12,46,3.83
+3041,Ning Zhang,m,13,13,1
+3042,Ning Zhong,m,21,324,15.43
+3043,Ninghui Li,u,15,139,9.27
+3044,Nipun Agarwal,u,20,8,0.4
+3045,Niranjan Balasubramanian,m,9,14,1.56
+3046,Nish Parikh,u,6,15,2.5
+3047,Nisheeth Shrivastava,u,10,28,2.8
+3048,Nitendra Rajput,u,15,73,4.87
+3049,Nitesh V. Chawla,m,15,124,8.27
+3050,Nitin Agarwal,m,20,55,2.75
+3051,Nitin Gupta,m,7,19,2.71
+3052,Nitin Jindal,m,9,12,1.33
+3053,Nivio Ziviani,u,32,95,2.97
+3054,Noah A. Smith,m,14,107,7.64
+3055,Noam Koenigstein,m,6,22,3.67
+3056,Nodira Khoussainova,u,8,17,2.13
+3057,Noman Mohammed,m,7,18,2.57
+3058,Norbert Fuhr,m,30,170,5.67
+3059,Noriaki Kawamae,m,9,15,1.67
+3060,Noriko Kando,w,17,82,4.82
+3061,Norman M. Sadeh,m,25,92,3.68
+3062,Norman May,m,11,28,2.55
+3063,Norman W. Paton,m,26,213,8.19
+3064,Noureddine Mouaddib,m,26,49,1.88
+3065,Nuria Oliver,w,17,83,4.88
+3066,Nut Limsopatham,u,3,10,3.33
+3067,Nuwee Wiwatwattana,u,12,8,0.67
+3068,Octavian Udrea,m,9,27,3
+3069,Oded Nov,m,10,46,4.6
+3070,Oded Shmueli,m,33,98,2.97
+3071,Ofer Arazy,m,12,24,2
+3072,Ohad Greenshpan,m,7,15,2.14
+3073,Oisin Boydell,u,10,12,1.2
+3074,Oktie Hassanzadeh,u,9,26,2.89
+3075,Olfa Nasraoui,u,22,112,5.09
+3076,Olga Papaemmanouil,w,13,19,1.46
+3077,Oliver Kennedy,m,6,13,2.17
+3078,Oliver Po,m,13,22,1.69
+3079,Oliver Schiller,m,7,9,1.29
+3080,Oliver Seeliger,m,17,5,0.29
+3081,Oliver Spatscheck,m,19,77,4.05
+3082,Olivier Biton,m,7,6,0.86
+3083,Olivier Chapelle,m,15,64,4.27
+3084,Olivier Verscheure,m,18,62,3.44
+3085,Omar Alonso,m,18,65,3.61
+3086,Omar Benjelloun,m,12,28,2.33
+3087,Omar Boucelma,m,25,65,2.6
+3088,Omar U. Florez,m,6,12,2
+3089,Omer Egecioglu,m,29,80,2.76
+3090,Omid Madani,m,18,37,2.06
+3091,Opher Etzion,u,24,99,4.13
+3092,Ophir Frieder,m,27,252,9.33
+3093,Oren Etzioni,m,26,131,5.04
+3094,Oren Kurland,m,10,65,6.5
+3095,Oren Somekh,m,14,52,3.71
+3096,Oren Tsur,m,11,8,0.73
+3097,Ori Stitelman,m,2,6,3
+3098,Orkut Buyukkokten,u,15,12,0.8
+3099,Oscar Celma,m,10,21,2.1
+3100,Oscar Diaz,m,24,117,4.88
+3101,Osmar R. Zaiane,m,19,164,8.63
+3102,Otthein Herzog,m,37,88,2.38
+3103,Ou Wu,w,8,42,5.25
+3104,Ouri Wolfson,m,30,168,5.6
+3105,Ozgur Ulusoy,u,26,120,4.62
+3106,P. Krishna Gummadi,u,14,61,4.36
+3107,P. Krishna Reddy,u,21,59,2.81
+3108,P. P. S. Narayan,u,17,12,0.71
+3109,P. Sreenivasa Kumar,u,25,48,1.92
+3110,Paavo Arvola,m,10,18,1.8
+3111,Pabitra Mitra,u,15,77,5.13
+3112,Pablo Castells,m,19,85,4.47
+3113,Pablo Castro,m,26,5,0.19
+3114,Padhraic Smyth,u,26,155,5.96
+3115,Padmini Srinivasan,w,25,73,2.92
+3116,Padraig Cunningham,u,27,182,6.74
+3117,Padraig Cunningham,u,27,182,6.74
+3118,Pan Du,m,9,17,1.89
+3119,Panagiotis G. Ipeirotis,m,14,65,4.64
+3120,Panagiotis Karras,m,9,41,4.56
+3121,Panagiotis Papadimitriou,m,6,10,1.67
+3122,Panagiotis Papapetrou,m,9,28,3.11
+3123,Panagiotis Symeonidis,m,10,36,3.6
+3124,Panayiotis Neophytou,m,10,12,1.2
+3125,Panayiotis Tsaparas,m,13,37,2.85
+3126,Pang-Ning Tan,m,15,80,5.33
+3127,Pankaj K. Agarwal,m,26,326,12.54
+3128,Pannaga Shivaswamy,u,10,24,2.4
+3129,Panos K. Chrysanthis,m,28,178,6.36
+3130,Panos Kalnis,m,15,66,4.4
+3131,Panos Vassiliadis,m,16,101,6.31
+3132,Paolo Atzeni,m,33,142,4.3
+3133,Paolo Avesani,m,19,59,3.11
+3134,Paolo Boldi,m,19,102,5.37
+3135,Paolo Cappellari,m,9,23,2.56
+3136,Paolo Ciaccia,m,26,94,3.62
+3137,Paolo Cremonesi,m,21,66,3.14
+3138,Paolo Ferragina,m,22,120,5.45
+3139,Paolo Merialdo,m,25,61,2.44
+3140,Paolo Missier,m,19,85,4.47
+3141,Paolo Papotti,m,10,46,4.6
+3142,Paolo Viappiani,m,10,27,2.7
+3143,Parag Agrawal,m,8,12,1.5
+3144,Parikshit Ram,u,5,15,3
+3145,Parisa Haghani,w,7,15,2.14
+3146,Parke Godfrey,m,22,35,1.59
+3147,Partha Pratim Talukdar,m,10,32,3.2
+3148,Pascal Felber,m,18,136,7.56
+3149,Pascal Poncelet,m,22,155,7.05
+3150,Pasquale Lops,m,17,106,6.24
+3151,Pat Hanrahan,m,29,130,4.48
+3152,Patrice Bellot,m,16,62,3.88
+3153,Patricia G. Selinger,w,35,43,1.23
+3154,Patrick Butler,m,13,17,1.31
+3155,Patrick E. O'Neil,m,41,42,1.02
+3156,Patrick Gallinari,m,24,202,8.42
+3157,Patrick Pantel,m,14,58,4.14
+3158,Patrick Valduriez,m,32,254,7.94
+3159,Patrick Ziegler,m,10,12,1.2
+3160,Paul B. Kantor,m,28,74,2.64
+3161,Paul Brown,m,19,29,1.53
+3162,Paul Clough,m,12,115,9.58
+3163,Paul Compton,m,29,85,2.93
+3164,Paul Dutting,m,5,25,5
+3165,Paul Ferguson,m,10,19,1.9
+3166,Paul G. Brown,m,10,5,0.5
+3167,Paul H. Leng,m,33,55,1.67
+3168,Paul Lamere,m,11,17,1.55
+3169,Paul McNamee,m,16,45,2.81
+3170,Paul N. Bennett,m,12,48,4
+3171,Paul Ogilvie,m,14,18,1.29
+3172,Paul Resnick,m,22,58,2.64
+3173,Paul Thomas,m,21,39,1.86
+3174,Paul Watson,m,28,73,2.61
+3175,Paul-Alexandru Chirita,m,11,30,2.73
+3176,Pauli Miettinen,m,8,24,3
+3177,Paulo Braz Golgher,m,15,19,1.27
+3178,Paulo J. G. Lisboa,m,22,97,4.41
+3179,Pavel Berkhin,m,20,15,0.75
+3180,Pavel Calado,m,14,56,4
+3181,Pavel Dmitriev,m,9,14,1.56
+3182,Pavel P. Kuksa,m,7,19,2.71
+3183,Pavel Serdyukov,m,9,90,10
+3184,Pawel Jurczyk,m,9,13,1.44
+3185,Pawel Terlecki,m,8,16,2
+3186,Pearl Pu,w,24,92,3.83
+3187,Pedro Bizarro,m,16,23,1.44
+3188,Pedro DeRose,m,8,11,1.38
+3189,Pedro Domingos,m,20,140,7
+3190,Pedro V. Sander,m,14,33,2.36
+3191,Peer Kroger,m,13,103,7.92
+3192,Peifeng Yin,u,4,12,3
+3193,Peilin Zhao,u,5,29,5.8
+3194,Peixiang Zhao,u,10,21,2.1
+3195,Peiya Liu,u,29,30,1.03
+3196,Pekka Kostamaa,m,22,10,0.45
+3197,Peng Cui,m,7,69,9.86
+3198,Peng Liu,m,16,122,7.63
+3199,Peng Wang,m,13,414,31.85
+3200,Peng Xu,m,15,174,11.6
+3201,Peng Zhang,m,22,459,20.86
+3202,Per-Ake Larson,m,36,148,4.11
+3203,Periklis Andritsos,m,13,25,1.92
+3204,Peter A. Boncz,m,18,93,5.17
+3205,Peter B. Golbus,m,5,8,1.6
+3206,Peter Bailey,m,18,24,1.33
+3207,Peter Baumann,m,26,86,3.31
+3208,Peter Brusilovsky,m,22,212,9.64
+3209,Peter Bruza,m,24,111,4.63
+3210,Peter Buneman,m,37,116,3.14
+3211,Peter C. K. Yeung,m,8,5,0.63
+3212,Peter Christen,m,16,90,5.63
+3213,Peter Ciccolo,m,6,4,0.67
+3214,Peter F. Patel-Schneider,m,29,108,3.72
+3215,Peter Fankhauser,m,23,67,2.91
+3216,Peter Haase,m,13,91,7
+3217,Peter J. Haas,m,29,82,2.83
+3218,Peter Kunath,m,11,44,4
+3219,Peter M. Fischer,m,12,32,2.67
+3220,Peter M. G. Apers,m,34,103,3.03
+3221,Peter Mika,m,11,63,5.73
+3222,Peter Mork,m,11,29,2.64
+3223,Peter Scheuermann,m,40,130,3.25
+3224,Peter T. Wood,m,32,57,1.78
+3225,Peter Triantafillou,m,24,96,4
+3226,Peter Wilkins,m,12,27,2.25
+3227,Peter Zabback,m,24,23,0.96
+3228,Petko Bakalov,m,9,18,2
+3229,Petko Bogdanov,m,4,11,2.75
+3230,Petri Myllymaki,m,24,64,2.67
+3231,Petros Drineas,m,15,82,5.47
+3232,Petros Venetis,m,5,8,1.6
+3233,Philip A. Bernstein,m,39,180,4.62
+3234,Philip Bohannon,m,18,49,2.72
+3235,Philip K. Chan,m,25,39,1.56
+3236,Philip S. Yu,m,33,830,25.15
+3237,Philipp Cimiano,m,11,96,8.73
+3238,Philipp Kranen,m,6,25,4.17
+3239,Philipp Rosch,m,9,23,2.56
+3240,Philippe Bonnet,m,19,65,3.42
+3241,Philippe Cudre-Mauroux,m,12,76,6.33
+3242,Philippe Lamarre,m,23,41,1.78
+3243,Philippe Mulhem,m,22,84,3.82
+3244,Philippe Pucheral,m,27,65,2.41
+3245,Philippe Rigaux,m,21,72,3.43
+3246,Phillip B. Gibbons,m,28,157,5.61
+3247,Phokion G. Kolaitis,m,35,155,4.43
+3248,Pierangela Samarati,u,22,244,11.09
+3249,Piero Fraternali,m,25,138,5.52
+3250,Pierpaolo Basile,m,8,51,6.38
+3251,Pierre Geneves,m,10,32,3.2
+3252,Pierre Senellart,m,10,61,6.1
+3253,Pin-Kwang Eng,m,15,9,0.6
+3254,Pinar Donmez,w,10,25,2.5
+3255,Ping Chen,m,20,159,7.95
+3256,Ping Li,m,9,83,9.22
+3257,Ping Luo,m,22,115,5.23
+3258,Ping Wu,m,22,52,2.36
+3259,Piotr Indyk,m,20,168,8.4
+3260,Pit Fender,m,3,6,2
+3261,Po Hu,u,10,18,1.8
+3262,Prabhakar Raghavan,u,29,183,6.31
+3263,Pradeep Dubey,m,14,54,3.86
+3264,Pradeep Shenoy,m,14,18,1.29
+3265,Pradheep Elango,u,9,8,0.89
+3266,Prakash Linga,m,11,10,0.91
+3267,Prakash Mandayam Comar,m,4,10,2.5
+3268,Prakash Ramanan,m,23,9,0.39
+3269,Pranam Kolari,u,9,22,2.44
+3270,Prasad Deshpande,u,18,42,2.33
+3271,Prasad M. Deshpande,u,18,42,2.33
+3272,Prasan Roy,u,17,29,1.71
+3273,Prasang Upadhyaya,u,6,12,2
+3274,Prasanna Ganesan,u,11,19,1.73
+3275,Prasenjit Mitra,u,20,158,7.9
+3276,Prashant Doshi,m,11,85,7.73
+3277,Prashant J. Shenoy,m,19,187,9.84
+3278,Praveen Chandar,m,5,10,2
+3279,Praveen Rao,m,13,13,1
+3280,Praveen Seshadri,m,21,36,1.71
+3281,Prem Melville,m,12,32,2.67
+3282,Pritam Gundecha,w,4,7,1.75
+3283,Prithviraj Sen,m,8,19,2.38
+3284,Priyanka Garg,w,5,5,1
+3285,Pu Wang,m,20,111,5.55
+3286,Pu-Jen Cheng,m,11,29,2.64
+3287,Purnamrita Sarkar,u,9,21,2.33
+3288,Pushpak Bhattacharyya,u,21,84,4
+3289,Qi Guo,m,13,74,5.69
+3290,Qi He,m,16,70,4.38
+3291,Qi Li,m,25,318,12.72
+3292,Qi Liu,m,11,137,12.45
+3293,Qi Su,m,18,31,1.72
+3294,Qi Tian,m,26,350,13.46
+3295,Qi Zhang,m,17,303,17.82
+3296,Qian Wan,m,11,16,1.45
+3297,Qiang Fu,m,14,126,9
+3298,Qiang Wang,m,25,324,12.96
+3299,Qiang Yang,m,25,378,15.12
+3300,Qiang Zhu,m,5,13,2.6
+3301,Qiang Zhu,m,23,105,4.57
+3302,Qiankun Zhao,u,10,25,2.5
+3303,Qianli Xing,m,5,6,1.2
+3304,QianSheng Cheng,u,17,41,2.41
+3305,Qiaoling Liu,u,8,16,2
+3306,Qiaozhu Mei,u,12,60,5
+3307,Qifan Wang,u,4,10,2.5
+3308,Qigang Gao,m,16,35,2.19
+3309,Qihong Shao,u,8,17,2.13
+3310,Qihua Wang,u,8,37,4.63
+3311,Qiming Chen,u,31,89,2.87
+3312,Qin Lu,m,17,95,5.59
+3313,Qin Lv,m,12,44,3.67
+3314,Qing He,u,12,130,10.83
+3315,Qing Li,u,26,568,21.85
+3316,Qing Liu,u,21,178,8.48
+3317,Qing Yang,u,27,205,7.59
+3318,Qing Zhang,u,15,139,9.27
+3319,Qinghua Zheng,u,21,129,6.14
+3320,Qinghua Zou,u,14,14,1
+3321,Qingqing Gan,u,12,5,0.42
+3322,Qingshan Jiang,u,12,42,3.5
+3323,Qingyan Yang,u,10,10,1
+3324,Qingzhao Tan,u,10,13,1.3
+3325,Qinmin Hu,u,6,16,2.67
+3326,Qinyi Wu,u,9,15,1.67
+3327,Qiong Fang,u,10,8,0.8
+3328,Qiong Luo,u,14,99,7.07
+3329,Qiudan Li,u,8,40,5
+3330,Quan Wang,m,14,47,3.36
+3331,Quan Yuan,m,12,74,6.17
+3332,Quan Z. Sheng,m,13,137,10.54
+3333,Quang Hieu Vu,u,9,22,2.44
+3334,Quanqing Xu,u,7,12,1.71
+3335,Quanquan Gu,u,6,39,6.5
+3336,Quanzhong Li,u,13,22,1.69
+3337,Quoc Trung Tran,u,5,7,1.4
+3338,Qusay H. Mahmoud,m,15,107,7.13
+3339,R. Bharat Rao,u,23,69,3
+3340,R. Manmatha,u,21,73,3.48
+3341,R. Preston McAfee,u,31,24,0.77
+3342,Rabia Nuray-Turan,w,11,11,1
+3343,Rachel Pottinger,w,14,32,2.29
+3344,Rada Chirkova,w,14,55,3.93
+3345,Radek Vingralek,m,21,33,1.57
+3346,Radu Sion,m,14,89,6.36
+3347,Rafael Alonso,m,29,46,1.59
+3348,Rafael Berlanga Llavori,m,19,139,7.32
+3349,Raffaele Perego,m,22,106,4.82
+3350,Raghav Kaushik,u,14,54,3.86
+3351,Raghavendra Udupa,u,14,30,2.14
+3352,Raghu Krishnapuram,m,27,73,2.7
+3353,Raghu Ramakrishnan,m,29,240,8.28
+3354,Raghunath Othayoth Nambiar,m,9,33,3.67
+3355,Rahul Gupta,m,13,35,2.69
+3356,Rahul Shah,m,16,80,5
+3357,Rainer Gemulla,m,11,30,2.73
+3358,Raj Bhatnagar,m,29,52,1.79
+3359,Raja Velu,m,7,5,0.71
+3360,Rajan M. Lukose,m,13,10,0.77
+3361,Rajasekar Krishnamurthy,u,14,36,2.57
+3362,Rajeev Gupta,m,13,32,2.46
+3363,Rajeev Motwani,m,28,202,7.21
+3364,Rajeev Rastogi,m,23,168,7.3
+3365,Rajesh Bordawekar,m,21,43,2.05
+3366,Rajiv Khanna,m,6,5,0.83
+3367,Raju Balakrishnan,m,9,16,1.78
+3368,Rakesh Agrawal,m,31,214,6.9
+3369,Ralf Hartmut Guting,m,34,104,3.06
+3370,Ralf Herbrich,m,18,52,2.89
+3371,Ralf Krestel,m,9,26,2.89
+3372,Ralf Rantzau,m,17,19,1.12
+3373,Ralf Schenkel,m,15,108,7.2
+3374,Ralitsa Angelova,u,8,6,0.75
+3375,Ralph Krieger,m,12,20,1.67
+3376,Ralph M. Weischedel,m,41,72,1.76
+3377,Raluca Paiu,w,9,23,2.56
+3378,Ram Akella,m,22,19,0.86
+3379,Ramakrishna Varadarajan,m,9,14,1.56
+3380,Ramakrishnan Srikant,u,20,48,2.4
+3381,Raman Chandrasekar,m,25,19,0.76
+3382,Ramanathan V. Guha,m,24,24,1
+3383,Ramarathnam Venkatesan,u,28,95,3.39
+3384,Ramayya Krishnan,u,23,101,4.39
+3385,Ramendra K. Sahoo,u,14,27,1.93
+3386,Ramesh Bhashyam,m,18,9,0.5
+3387,Ramesh C. Agarwal,m,31,35,1.13
+3388,Ramesh Jain,m,37,315,8.51
+3389,Ramesh Nallapati,m,12,20,1.67
+3390,Ramesh Natarajan,m,24,19,0.79
+3391,Ramez Elmasri,m,35,128,3.66
+3392,Ramkumar Krishnan,u,14,7,0.5
+3393,Ramnath Balasubramanyan,u,10,11,1.1
+3394,Ramon Lawrence,m,13,37,2.85
+3395,Ran Wolff,m,13,31,2.38
+3396,Randal C. Burns,m,17,85,5
+3397,Ranieri Baraglia,m,19,75,3.95
+3398,Raphael Volz,m,12,44,3.67
+3399,Rares Vernica,u,8,14,1.75
+3400,Rasmus Pagh,m,15,97,6.47
+3401,Ratko Orlandic,m,26,28,1.08
+3402,Ravi Jampani,m,10,8,0.8
+3403,Ravi Janardan,m,32,93,2.91
+3404,Ravi Kumar,m,21,222,10.57
+3405,Ravi Murthy,m,14,8,0.57
+3406,Ravindra Guravannavar,m,9,12,1.33
+3407,Ravishankar Ramamurthy,u,14,32,2.29
+3408,Raviv Raich,m,15,56,3.73
+3409,Rawia Awadallah,u,8,6,0.75
+3410,Ray R. Larson,m,24,83,3.46
+3411,Rayid Ghani,u,14,37,2.64
+3412,Raymond Chi-Wing Wong,m,11,76,6.91
+3413,Raymond J. Mooney,m,29,147,5.07
+3414,Raymond K. Wong,m,19,103,5.42
+3415,Raymond T. Ng,m,24,149,6.21
+3416,Raymond Y. K. Lau,m,18,109,6.06
+3417,Razvan Stefan Bot,u,11,13,1.18
+3418,Rebecca Braynard,w,12,9,0.75
+3419,Rebecca N. Wright,w,23,80,3.48
+3420,Reda Alhajj,m,22,341,15.5
+3421,Regis Saint-Paul,m,12,33,2.75
+3422,Reid Andersen,m,10,32,3.2
+3423,Reiner Kraft,m,15,14,0.93
+3424,Rene Muller,m,12,25,2.08
+3425,Renee J. Miller,w,21,106,5.05
+3426,Renu Tewari,w,21,34,1.62
+3427,Renxu Sun,u,10,5,0.5
+3428,Reuven Kashi,m,17,6,0.35
+3429,Reynold Cheng,m,15,83,5.53
+3430,Reynold Xin,m,5,19,3.8
+3431,Rianne Kaptein,w,7,24,3.43
+3432,Ricard Gavalda,m,26,88,3.38
+3433,Ricardo A. Baeza-Yates,m,27,349,12.93
+3434,Ricardo da Silva Torres,m,11,124,11.27
+3435,Ricardo Jimenez-Peris,m,18,71,3.94
+3436,Ricardo Vilalta,m,17,48,2.82
+3437,Riccardo Martoglia,m,12,51,4.25
+3438,Riccardo Rosati,m,22,158,7.18
+3439,Riccardo Torlone,m,25,109,4.36
+3440,Rich Caruana,m,27,68,2.52
+3441,Richard A. Hankins,m,11,8,0.73
+3442,Richard Bache,m,23,21,0.91
+3443,Richard C. Wang,m,11,10,0.91
+3444,Richard D. Lawrence,m,20,29,1.45
+3445,Richard F. Helm,m,11,8,0.73
+3446,Richard Glassey,m,11,12,1.09
+3447,Richard Hull,m,33,158,4.79
+3448,Richard Kuntschke,m,10,13,1.3
+3449,Richard McCreadie,m,5,22,4.4
+3450,Richard R. Muntz,m,44,151,3.43
+3451,Richard S. Zemel,m,25,87,3.48
+3452,Richard Sidle,m,14,9,0.64
+3453,Richard T. Snodgrass,m,31,251,8.1
+3454,Richi Nayak,m,12,118,9.83
+3455,Riddhiman Ghosh,u,7,20,2.86
+3456,Rifat Ozcan,m,9,25,2.78
+3457,Rimma V. Nehme,w,8,23,2.88
+3458,Rina Panigrahy,w,17,92,5.41
+3459,Rinku Dewri,u,10,27,2.7
+3460,Rittwik Jana,u,18,51,2.83
+3461,Robert Baumgartner,m,15,42,2.8
+3462,Robert C. Miller,m,18,117,6.5
+3463,Robert Capra,m,19,37,1.95
+3464,Robert F. Murphy,m,14,58,4.14
+3465,Robert Fenk,m,14,9,0.64
+3466,Robert Grossman,m,9,11,1.22
+3467,Robert Gwadera,m,11,21,1.91
+3468,Robert Hall,m,9,9,1
+3469,Robert Ikeda,m,6,15,2.5
+3470,Robert Jaschke,m,8,40,5
+3471,Robert Kleinberg,m,11,136,12.36
+3472,Robert Krovetz,m,25,19,0.76
+3473,Robert L. Grossman,m,25,108,4.32
+3474,Robert M. Bell,m,14,25,1.79
+3475,Robert Mao,m,25,8,0.32
+3476,Robert McCann,m,11,10,0.91
+3477,Robert Savell,m,11,5,0.45
+3478,Robert Stevens,m,20,174,8.7
+3479,Robert Villa,m,13,37,2.85
+3480,Robert W. P. Luk,m,23,76,3.3
+3481,Robert West,m,5,13,2.6
+3482,Robert Wing Pong Luk,m,23,76,3.3
+3483,Roberta Cochrane,w,23,18,0.78
+3484,Roberto Basili,m,24,117,4.88
+3485,Roberto De Virgilio,m,9,66,7.33
+3486,Roberto J. Bayardo,m,20,40,2
+3487,Roberto J. Bayardo Jr.,m,20,40,2
+3488,Roberto Mirizzi,m,5,18,3.6
+3489,Roberto Trasarti,m,8,35,4.38
+3490,Roberto Turrin,m,8,17,2.13
+3491,Robin D. Burke,m,20,66,3.3
+3492,Robson Leonardo Ferreira Cordeiro,m,10,14,1.4
+3493,Rod Hook,m,5,3,0.6
+3494,Rodney W. Topor,m,35,65,1.86
+3495,Rodrygo L. T. Santos,u,8,39,4.88
+3496,Roelof van Zwol,m,16,51,3.19
+3497,Roger S. Barga,m,21,55,2.62
+3498,Roger Weber,m,17,30,1.76
+3499,Roger Zimmermann,m,18,139,7.72
+3500,Rohini K. Srihari,w,25,82,3.28
+3501,Rohit Jain,m,19,21,1.11
+3502,Roi Blanco,m,9,50,5.56
+3503,Roland H. C. Yap,m,25,114,4.56
+3504,Roman Schmidt,m,12,19,1.58
+3505,Romer Rosales,m,15,40,2.67
+3506,Romulo Goncalves,m,7,10,1.43
+3507,Ron Bekkerman,m,13,15,1.15
+3508,Ron Kohavi,m,21,53,2.52
+3509,Ron Sivan,m,13,4,0.31
+3510,Ronald Fagin,m,38,164,4.32
+3511,Ronald T. Fernandez,m,7,10,1.43
+3512,Ronan Collobert,m,13,40,3.08
+3513,Ronan Cummins,m,9,30,3.33
+3514,Ronen Feldman,m,25,68,2.72
+3515,Rong Chen,m,26,130,5
+3516,Rong Ge,m,10,74,7.4
+3517,Rong Hu,m,14,68,4.86
+3518,Rong Jin,m,15,242,16.13
+3519,Rong Pan,m,14,84,6
+3520,Rong Yan,m,12,85,7.08
+3521,Rong Zhang,m,14,168,12
+3522,Rong-Hua Li,m,7,23,3.29
+3523,Rongjing Xiang,u,8,11,1.38
+3524,Rongwei Cen,u,7,11,1.57
+3525,Ronny Lempel,m,14,57,4.07
+3526,Rose Catherine,w,5,8,1.6
+3527,Rosie Jones,w,15,44,2.93
+3528,Ross Wilkinson,m,24,58,2.42
+3529,Rossano Schifanella,m,10,30,3
+3530,Rossano Venturini,m,7,34,4.86
+3531,Royi Ronen,u,10,12,1.2
+3532,Ruben H. Zamar,m,13,16,1.23
+3533,Rubi Boim,w,6,7,1.17
+3534,Rudi Studer,m,35,166,4.74
+3535,Rudolf Bayer,m,48,77,1.6
+3536,Ruey-Cheng Chen,u,14,11,0.79
+3537,Rui Cai,m,11,43,3.91
+3538,Rui Chen,m,20,130,6.5
+3539,Rui Kuang,m,11,31,2.82
+3540,Rui Li,m,15,216,14.4
+3541,Rui Liu,m,14,83,5.93
+3542,Rui Ma,m,11,60,5.45
+3543,Rui Wang,m,9,7,0.78
+3544,Rui Wang,m,29,261,9
+3545,Rui Yan,m,11,68,6.18
+3546,Rui Zhang,m,10,47,4.7
+3547,Rui Zhang,m,17,338,19.88
+3548,Rui Zhou,m,9,33,3.67
+3549,Ruicheng Zhong,u,2,3,1.5
+3550,Ruihua Song,u,12,37,3.08
+3551,Ruilin Liu,u,5,19,3.8
+3552,Ruizhang Huang,u,11,12,1.09
+3553,Rumi Ghosh,w,6,32,5.33
+3554,Ruofei Zhang,u,12,35,2.92
+3555,Ruoming Jin,u,14,100,7.14
+3556,Rupesh R. Mehta,m,9,4,0.44
+3557,Rushi Bhatt,u,10,7,0.7
+3558,Russell Sears,m,8,20,2.5
+3559,Ryan Huebsch,m,12,7,0.58
+3560,Ryan Johnson,m,9,32,3.56
+3561,Ryen W. White,u,13,155,11.92
+3562,Ryen White,u,13,155,11.92
+3563,Ryohei Fujimaki,m,9,17,1.89
+3564,Ryoji Kataoka,m,22,29,1.32
+3565,Ryota Tomioka,m,8,33,4.13
+3566,S. Muthukrishnan,u,30,304,10.13
+3567,S. Seshadri,u,26,47,1.81
+3568,S. Sudarshan,u,24,101,4.21
+3569,S. V. N. Vishwanathan,u,14,83,5.93
+3570,Sabrina De Capitani di Vimercati,w,18,184,10.22
+3571,Sachin Garg,m,18,29,1.61
+3572,Sachin Thatte,m,8,6,0.75
+3573,Sachindra Joshi,u,13,35,2.69
+3574,Sadegh Kharazmi,m,6,10,1.67
+3575,Sadegh Nobari,m,3,10,3.33
+3576,Saeedeh Momtazi,u,7,19,2.71
+3577,Saehoon Kim,u,3,6,2
+3578,Saharon Rosset,m,16,54,3.38
+3579,Sai Wu,m,10,37,3.7
+3580,Saikat Mukherjee,u,12,30,2.5
+3581,Sailesh Krishnamurthy,u,12,14,1.17
+3582,Sakti Pramanik,m,34,81,2.38
+3583,Salvatore J. Stolfo,m,35,147,4.2
+3584,Salvatore Orlando,m,31,115,3.71
+3585,Salvatore Raunich,m,8,17,2.13
+3586,Salvatore Ruggieri,m,20,64,3.2
+3587,Salvatore Scellato,m,7,33,4.71
+3588,Sam Lightstone,m,13,31,2.38
+3589,Sam Shah,m,7,12,1.71
+3590,Sam Yuan Sung,m,27,62,2.3
+3591,Samaneh Moghaddam,w,5,11,2.2
+3592,Sameep Mehta,u,11,43,3.91
+3593,Sameh Elnikety,m,11,35,3.18
+3594,Samuel D. Gosling,m,7,5,0.71
+3595,Samuel DeFazio,m,31,13,0.42
+3596,Samuel Huston,m,6,7,1.17
+3597,Samuel Ieong,m,13,26,2
+3598,Samuel Madden,m,14,175,12.5
+3599,Sanda M. Harabagiu,w,18,86,4.78
+3600,Sandeep Gupta,m,20,25,1.25
+3601,Sandeep Mane,m,10,7,0.7
+3602,Sandeep Pandey,m,24,30,1.25
+3603,Sandeep Tata,m,11,26,2.36
+3604,Sandeepan Banerjee,u,15,7,0.47
+3605,Sandor Heman,m,9,9,1
+3606,Sang Kyun Cha,m,24,28,1.17
+3607,Sang-goo Lee,m,23,104,4.52
+3608,Sang-Won Lee,m,16,62,3.88
+3609,Sang-Wook Kim,m,20,156,7.8
+3610,Sangdon Lee,u,19,5,0.26
+3611,Sanghyun Park,u,14,101,7.21
+3612,Sangkeun Lee,u,15,27,1.8
+3613,SangKeun Lee,u,18,75,4.17
+3614,Sangkyum Kim,u,8,20,2.5
+3615,Sanjay Agrawal,m,16,21,1.31
+3616,Sanjay Chawla,m,16,84,5.25
+3617,Sanjay Ranka,m,26,183,7.04
+3618,Sanjeev Khanna,m,24,190,7.92
+3619,Sanjeev Khudanpur,m,17,99,5.82
+3620,Sankar Subramanian,u,12,9,0.75
+3621,Santanu Kolay,u,6,10,1.67
+3622,Saptarshi Ghosh,u,6,17,2.83
+3623,Sara Cohen,w,16,57,3.56
+3624,Sara Comai,w,19,74,3.89
+3625,Sarabjot S. Anand,u,20,56,2.8
+3626,Sarabjot Singh Anand,u,20,56,2.8
+3627,Sarah Cohen Boulakia,w,10,32,3.2
+3628,Sarah K. Tyler,w,6,7,1.17
+3629,Sarana Nutanong,w,10,20,2
+3630,Sarit Kraus,m,31,287,9.26
+3631,Sarvjeet Singh,u,9,10,1.11
+3632,Sarvnaz Karimi,u,8,16,2
+3633,Sathiya Keerthi Selvaraj,u,26,91,3.5
+3634,Satish Bhat,m,5,8,1.6
+3635,Satoshi Morinaga,m,18,15,0.83
+3636,Satoshi Nakamura,m,24,344,14.33
+3637,Satoshi Oyama,m,13,63,4.85
+3638,Sau Dan Lee,w,17,31,1.82
+3639,Saul Vargas,m,3,6,2
+3640,Saurabh Kataria,m,6,12,2
+3641,Savitha Srinivasan,u,16,50,3.13
+3642,Savvas A. Chatzichristofis,m,6,30,5
+3643,Sayan Ranu,u,5,10,2
+3644,Schahram Dustdar,u,19,420,22.11
+3645,Scott B. Huffman,m,25,17,0.68
+3646,Scott Counts,m,10,51,5.1
+3647,Scott Gaffney,m,17,11,0.65
+3648,Scott Sanner,m,14,46,3.29
+3649,Scott Shenker,m,27,247,9.15
+3650,Se Jung Shin,m,7,6,0.86
+3651,Seamus Lawless,m,8,35,4.38
+3652,Sean A. Munson,m,7,26,3.71
+3653,Sean Gilpin,m,3,6,2
+3654,Sebastiaan J. van Schaik,m,3,5,1.67
+3655,Sebastian Michel,m,10,73,7.3
+3656,Sebastian Raubach,m,3,3,1
+3657,Sebastian Schelter,m,2,4,2
+3658,Sebastiano Vigna,m,23,112,4.87
+3659,Sebastien Ardon,m,15,27,1.8
+3660,See-Kiong Ng,m,14,82,5.86
+3661,Seema Sundara,w,14,9,0.64
+3662,Seiji Yamada,m,25,130,5.2
+3663,Sen Wu,m,7,25,3.57
+3664,Sencun Zhu,u,12,108,9
+3665,Senjuti Basu Roy,u,9,23,2.56
+3666,Senqiang Zhou,u,15,9,0.6
+3667,Seong-Bae Park,m,14,64,4.57
+3668,Sepandar D. Kamvar,u,12,14,1.17
+3669,Seppo Sippu,m,37,37,1
+3670,Serge Abiteboul,m,31,277,8.94
+3671,Sergei Vassilvitskii,m,12,68,5.67
+3672,Sergej Sizov,m,13,42,3.23
+3673,Sergej Zerr,m,6,16,2.67
+3674,Sergey Chernov,m,9,12,1.33
+3675,Sergey Melnik,m,17,46,2.71
+3676,Sergio Duarte Torres,m,4,9,2.25
+3677,Sergio Flesca,m,16,86,5.38
+3678,Sergio Greco,m,25,184,7.36
+3679,Seth A. Myers,m,4,9,2.25
+3680,Sethuraman Panchanathan,u,23,175,7.61
+3681,Seung-Hoon Na,m,12,43,3.58
+3682,Seung-Taek Park,m,12,12,1
+3683,Seung-won Hwang,m,13,99,7.62
+3684,Seung-Wook Lee,m,15,12,0.8
+3685,Seungjin Choi,u,17,146,8.59
+3686,Seyda Ertekin,u,9,16,1.78
+3687,Seyed M. M. Tahaghoghi,m,13,30,2.31
+3688,Shady Elbassuoni,u,6,18,3
+3689,Shahram Ebadollahi,m,13,32,2.46
+3690,Shahram Ghandeharizadeh,m,27,111,4.11
+3691,Shai Ben-David,m,28,111,3.96
+3692,Shamanth Kumar,u,5,11,2.2
+3693,Shamkant B. Navathe,u,39,183,4.69
+3694,Shan Jiang,m,24,37,1.54
+3695,Shan Wang,m,16,157,9.81
+3696,Shanchan Wu,u,10,10,1
+3697,Shankar Pal,m,20,15,0.75
+3698,Shantanu Godbole,m,12,21,1.75
+3699,Shantanu Joshi,m,9,10,1.11
+3700,Shaogang Gong,u,26,188,7.23
+3701,Shaojun Wang,u,14,49,3.5
+3702,Shaoping Ma,u,14,85,6.07
+3703,Shaorong Liu,u,12,14,1.17
+3704,Shaoxu Song,u,9,22,2.44
+3705,Shaoyi Yin,u,6,11,1.83
+3706,Sharad Mehrotra,m,24,213,8.88
+3707,Shariq Rizvi,u,12,7,0.58
+3708,Sharma Chakravarthy,u,25,150,6
+3709,Sharon Givon,w,7,5,0.71
+3710,Shashank Pandit,u,10,6,0.6
+3711,Shashi Shekhar,m,27,180,6.67
+3712,Shaul Markovitch,m,26,78,3
+3713,Shawn Bowers,m,15,74,4.93
+3714,Shawn R. Jeffery,m,11,15,1.36
+3715,Sheetal K. Agarwal,w,7,28,4
+3716,Shelly Diane Farnham,w,14,33,2.36
+3717,Shen-Shyang Ho,m,9,23,2.56
+3718,Sheng Gao,m,14,67,4.79
+3719,Sheng Li,m,19,223,11.74
+3720,Sheng Ma,m,18,85,4.72
+3721,Shengbo Guo,u,4,12,3
+3722,Shengfei Shi,u,12,29,2.42
+3723,Shenghua Bao,u,9,39,4.33
+3724,Shenghuo Zhu,u,12,107,8.92
+3725,Shengliang Xu,u,11,13,1.18
+3726,Shengqi Yang,u,10,37,3.7
+3727,Shengrui Wang,u,24,75,3.13
+3728,Shengyue Ji,u,7,8,1.14
+3729,Shenoda Guirguis,u,8,11,1.38
+3730,Sherif Sakr,m,10,71,7.1
+3731,Shetal Shah,u,12,9,0.75
+3732,Shichao Zhang,u,15,152,10.13
+3733,Shicong Feng,u,5,4,0.8
+3734,Shicong Meng,u,8,26,3.25
+3735,Shigeo Sugimoto,m,33,46,1.39
+3736,Shihao Ji,u,10,18,1.8
+3737,Shihui Zheng,u,14,18,1.29
+3738,Shijie Zhang,u,23,23,1
+3739,Shila Ofek-Koifman,w,7,8,1.14
+3740,Shilad Sen,u,8,21,2.63
+3741,Shima Gerani,w,6,14,2.33
+3742,Shimei Pan,u,22,40,1.82
+3743,Shimin Chen,u,13,35,2.69
+3744,Shin Ando,m,12,26,2.17
+3745,Shin'ichi Satoh,m,24,167,6.96
+3746,Shinjae Yoo,u,12,14,1.17
+3747,Shipeng Li,u,18,244,13.56
+3748,Shipeng Yu,u,11,50,4.55
+3749,Shiqiang Yang,u,16,166,10.38
+3750,Shirish Krishnaj Shevade,m,14,42,3
+3751,Shirish Tatikonda,m,9,23,2.56
+3752,Shirong Li,u,5,7,1.4
+3753,Shirshanka Das,u,12,19,1.58
+3754,Shirui Pan,u,4,8,2
+3755,Shivakumar Vaithyanathan,u,22,44,2
+3756,Shivnath Babu,u,13,82,6.31
+3757,Shiwan Zhao,u,10,11,1.1
+3758,Shiwei Tang,u,19,108,5.68
+3759,Shixi Chen,u,6,6,1
+3760,Shixia Liu,u,11,47,4.27
+3761,Shizhong Liao,u,7,21,3
+3762,Shlomo Argamon,m,22,63,2.86
+3763,Shlomo Berkovsky,m,10,78,7.8
+3764,Shlomo Geva,m,23,114,4.96
+3765,Shohei Hido,m,9,18,2
+3766,Shoji Hirano,m,17,150,8.82
+3767,Shojiro Nishio,u,31,317,10.23
+3768,Sholom M. Weiss,m,38,65,1.71
+3769,Shotaro Akaho,m,22,76,3.45
+3770,Shou-De Lin,m,13,75,5.77
+3771,Shourya Roy,u,12,38,3.17
+3772,Shoushan Li,u,7,34,4.86
+3773,Shridhar Shukla,u,14,3,0.21
+3774,Shriram Krishnamurthi,u,18,113,6.28
+3775,Shu Tao,m,15,30,2
+3776,Shu-Ching Chen,m,16,211,13.19
+3777,Shu-Yao Chien,m,14,10,0.71
+3778,Shuai Ding,w,6,13,2.17
+3779,Shuai Ma,w,11,45,4.09
+3780,Shuai Yuan,w,9,48,5.33
+3781,Shuaiqiang Wang,u,7,18,2.57
+3782,Shuang Liu,u,16,71,4.44
+3783,Shuang-Hong Yang,u,8,28,3.5
+3784,Shubha U. Nabar,w,9,14,1.56
+3785,Shuguang Han,u,9,23,2.56
+3786,Shuguang Wang,u,13,18,1.38
+3787,Shui-Lung Chuang,m,14,18,1.29
+3788,Shuicheng Yan,u,12,361,30.08
+3789,Shuigeng Zhou,u,15,159,10.6
+3790,Shuiwang Ji,u,7,44,6.29
+3791,Shumeet Baluja,u,21,64,3.05
+3792,Shuming Shi,u,12,31,2.58
+3793,Shumo Chu,u,3,7,2.33
+3794,Shunsuke Uemura,m,19,78,4.11
+3795,Shuo Chen,u,13,65,5
+3796,Shuo Shang,u,4,17,4.25
+3797,Shuo Xiang,u,4,6,1.5
+3798,Shuo Zhang,u,12,55,4.58
+3799,Shurug Al-Khalifa,u,14,11,0.79
+3800,Shusaku Tsumoto,m,29,328,11.31
+3801,Shuyang Lin,u,4,9,2.25
+3802,Shuyi Zheng,u,8,11,1.38
+3803,Shuzi Niu,u,5,7,1.4
+3804,Shyam Antony,m,10,8,0.8
+3805,Shyamsundar Rajaram,u,6,5,0.83
+3806,Si-Chi Chin,m,4,9,2.25
+3807,Siau-Cheng Khoo,u,23,77,3.35
+3808,Siddharth Gopal,m,4,8,2
+3809,Siddharth Suri,m,10,28,2.8
+3810,Siegfried Handschuh,m,17,109,6.41
+3811,Siegfried Nijssen,m,13,57,4.38
+3812,Sigal Sahar,w,19,9,0.47
+3813,Sihem Amer-Yahia,w,18,104,5.78
+3814,Sihong Xie,u,6,15,2.5
+3815,Silviu Cucerzan,m,14,25,1.79
+3816,Silviu Maniu,m,3,11,3.67
+3817,Simon Dooms,m,4,17,4.25
+3818,Simonas Saltenis,m,16,34,2.13
+3819,Simone Santini,m,20,98,4.9
+3820,Sinno Jialin Pan,u,9,33,3.67
+3821,Sipat Triukose,u,8,12,1.5
+3822,Sirish Chandrasekaran,u,14,10,0.71
+3823,Sitaram Asur,m,9,24,2.67
+3824,Siva Gurumurthy,m,8,7,0.88
+3825,Siva Ravada,m,15,19,1.27
+3826,Sivan Yogev,w,10,19,1.9
+3827,Siyuan Liu,u,10,49,4.9
+3828,Slava Novgorodov,m,3,6,2
+3829,Slobodan Vucetic,m,14,59,4.21
+3830,Smriti Bhagat,w,8,17,2.13
+3831,Snigdha Chaturvedi,u,4,5,1.25
+3832,Sofia Brenes,w,11,7,0.64
+3833,Sofus A. Macskassy,m,17,31,1.82
+3834,Somnath Banerjee,m,11,16,1.45
+3835,Song Lin,m,11,34,3.09
+3836,Song Wang,m,20,188,9.4
+3837,Songbo Tan,u,10,49,4.9
+3838,Songcan Chen,u,11,151,13.73
+3839,Songqing Chen,u,13,78,6
+3840,Songting Chen,u,14,22,1.57
+3841,Songyun Duan,u,8,24,3
+3842,Sonia Bergamaschi,w,28,135,4.82
+3843,Sophia Ananiadou,w,24,134,5.58
+3844,Sophie Cluet,w,25,56,2.24
+3845,Sougata Mukherjea,u,21,66,3.14
+3846,Soumen Chakrabarti,u,21,97,4.62
+3847,Soumyadeb Mitra,u,9,14,1.56
+3848,Sourashis Roy,u,10,6,0.6
+3849,Sourav S. Bhowmick,m,16,173,10.81
+3850,Souripriya Das,u,14,14,1
+3851,Sourish Dasgupta,u,7,14,2
+3852,Souvik Bhattacherjee,u,4,11,2.75
+3853,Spiros Papadimitriou,m,13,52,4
+3854,Spiros Skiadopoulos,m,15,47,3.13
+3855,Spyros Blanas,m,7,12,1.71
+3856,Spyros Kotoulas,m,9,38,4.22
+3857,Spyros Zoupanos,m,6,11,1.83
+3858,Sreenivas Gollapudi,u,18,60,3.33
+3859,Sridhar Rajagopalan,u,21,45,2.14
+3860,Sridhar Ramaswamy,u,22,26,1.18
+3861,Srihari Reddy,u,9,6,0.67
+3862,Srikanta J. Bedathur,u,13,41,3.15
+3863,Srikanta Tirthapura,u,14,62,4.43
+3864,Srikanth Bellamkonda,u,11,9,0.82
+3865,Srinath Shankar,m,9,9,1
+3866,Srinivas Vadrevu,u,11,25,2.27
+3867,Srinivasan H. Sengamedu,m,7,16,2.29
+3868,Srinivasan Parthasarathy,m,18,167,9.28
+3869,Srinivasan Seshan,m,21,115,5.48
+3870,Sriram Mohan,u,10,11,1.1
+3871,Sriram Padmanabhan,u,24,41,1.71
+3872,Sriram Raghavan,u,15,37,2.47
+3873,Srivatsan Laxman,u,9,32,3.56
+3874,Srujana Merugu,u,11,20,1.82
+3875,Stanley B. Zdonik,m,34,149,4.38
+3876,Stavros Christodoulakis,m,32,119,3.72
+3877,Stavros Harizopoulos,m,15,32,2.13
+3878,Stavros Papadopoulos,m,7,20,2.86
+3879,Stefan Aulbach,m,7,7,1
+3880,Stefan Berchtold,m,20,28,1.4
+3881,Stefan Brecheisen,m,11,13,1.18
+3882,Stefan Buttcher,m,12,21,1.75
+3883,Stefan Decker,m,22,187,8.5
+3884,Stefan Kramer,m,19,111,5.84
+3885,Stefan Krompass,m,9,14,1.56
+3886,Stefan M. Ruger,m,19,110,5.79
+3887,Stefan Manegold,m,17,72,4.24
+3888,Stefan Savev,m,7,6,0.86
+3889,Stefan Schonauer,m,17,13,0.76
+3890,Stefan Siersdorfer,m,12,39,3.25
+3891,Stefan Wrobel,m,27,89,3.3
+3892,Stefanie Scherzinger,w,11,18,1.64
+3893,Stefano Ceri,m,35,295,8.43
+3894,Stefano Leonardi,m,21,124,5.9
+3895,Stefano Lonardi,m,16,89,5.56
+3896,Stefano Paraboschi,m,22,121,5.5
+3897,Stefanos Souldatos,m,8,10,1.25
+3898,Steffen Metzger,m,4,7,1.75
+3899,Steffen Rendle,m,8,25,3.13
+3900,Steffen Staab,m,19,293,15.42
+3901,Stelios Paparizos,m,12,22,1.83
+3902,Stephan Bloehdorn,m,10,19,1.9
+3903,Stephan Ewen,m,9,13,1.44
+3904,Stephan Gunnemann,m,5,49,9.8
+3905,Stephan Raaijmakers,m,12,16,1.33
+3906,Stephan Seufert,m,4,10,2.5
+3907,Stephane Bressan,m,24,143,5.96
+3908,Stephane Clinchant,m,8,31,3.88
+3909,Stephane Lopes,m,15,24,1.6
+3910,Stephen C. Gates,m,15,9,0.6
+3911,Stephen D. Scott,m,19,31,1.63
+3912,Stephen Dill,m,13,10,0.77
+3913,Stephen E. Robertson,m,37,138,3.73
+3914,Stephen Hailes,m,22,66,3
+3915,Stephen J. Wright,m,24,76,3.17
+3916,Stephen Robertson,m,37,138,3.73
+3917,Steve Lawrence,m,19,68,3.58
+3918,Steve Webb,m,19,28,1.47
+3919,Steven C. H. Hoi,m,11,143,13
+3920,Steven D. Gribble,m,19,66,3.47
+3921,Steven Euijong Whang,m,8,18,2.25
+3922,Steven Loscalzo,m,6,8,1.33
+3923,Steven M. Beitzel,m,14,37,2.64
+3924,Steven Minton,m,30,77,2.57
+3925,Steven Schockaert,m,10,84,8.4
+3926,Steven Skiena,m,26,148,5.69
+3927,Stewart Whiting,m,3,15,5
+3928,Stijn Vansummeren,m,12,48,4
+3929,Stratis Viglas,m,16,38,2.38
+3930,Stratos Idreos,m,11,45,4.09
+3931,Stratos Papadomanolakis,m,13,13,1
+3932,Stuart N. K. Watt,m,10,12,1.2
+3933,Su Chen,m,8,27,3.38
+3934,Subbarao Kambhampati,u,28,181,6.46
+3935,Subhash Suri,m,29,238,8.21
+3936,Subramanian Arumugam,u,12,17,1.42
+3937,Sudarshan Lamkhede,u,9,3,0.33
+3938,Sudarshan S. Chawathe,u,20,31,1.55
+3939,Sudeshna Sarkar,u,16,44,2.75
+3940,Sudipto Das,u,7,30,4.29
+3941,Sudipto Guha,u,18,142,7.89
+3942,Sue B. Moon,w,17,59,3.47
+3943,Sugata Ghosal,u,21,28,1.33
+3944,Sugato Basu,u,13,24,1.85
+3945,Suh-Yin Lee,m,25,131,5.24
+3946,Suhrid Balakrishnan,u,8,14,1.75
+3947,Sujian Li,u,12,35,2.92
+3948,Suleyman Cetintas,m,7,17,2.43
+3949,Suman Nath,w,13,70,5.38
+3950,Sumeet Bajaj,u,7,7,1
+3951,Sumit Bhatia,u,7,14,2
+3952,Sumit Chopra,u,13,18,1.38
+3953,Sumit Ganguly,u,24,57,2.38
+3954,Sumit Mittal,u,9,25,2.78
+3955,Sumit Negi,u,11,28,2.55
+3956,Sundararajan Sellamanickam,u,3,23,7.67
+3957,Sung-Hyon Myaeng,m,29,97,3.34
+3958,Sungchul Kim,u,8,18,2.25
+3959,SungRan Cho,u,13,14,1.08
+3960,Sunil Prabhakar,m,17,96,5.65
+3961,Sunita Sarawagi,w,20,85,4.25
+3962,Sunju Park,u,18,39,2.17
+3963,Surajit Chaudhuri,u,27,203,7.52
+3964,Suresh Venkatasubramanian,m,25,101,4.04
+3965,Susan B. Davidson,w,30,112,3.73
+3966,Susan Gauch,w,26,60,2.31
+3967,Susan T. Dumais,w,28,139,4.96
+3968,Susanne Boll,w,17,165,9.71
+3969,Susanne E. Hambrusch,w,31,76,2.45
+3970,Sushil Jajodia,m,31,495,15.97
+3971,Sutanu Chakraborti,u,10,25,2.5
+3972,Suzan Verberne,w,9,29,3.22
+3973,Suzanne M. Embury,w,22,74,3.36
+3974,Svein Erik Bratsberg,m,24,14,0.58
+3975,Sven Helmer,m,17,42,2.47
+3976,Svetha Venkatesh,u,25,302,12.08
+3977,Swaminathan Sivasubramanian,m,12,22,1.83
+3978,Sylvain Castagnos,m,9,14,1.56
+3979,Szymon Jaroszewicz,m,15,31,2.07
+3980,Tad Hogg,m,27,78,2.89
+3981,Tadashi Nomoto,m,21,18,0.86
+3982,Tae Yano,m,6,6,1
+3983,Taesup Moon,u,8,17,2.13
+3984,Taher H. Haveliwala,m,14,8,0.57
+3985,Taifeng Wang,u,8,11,1.38
+3986,Tak W. Yan,m,20,19,0.95
+3987,Tak-Lam Wong,m,12,38,3.17
+3988,Takahiro Hara,m,17,234,13.76
+3989,Takao Miura,m,31,90,2.9
+3990,Takashi Washio,m,18,142,7.89
+3991,Takehiro Yamamoto,m,7,23,3.29
+3992,Takehito Utsuro,m,22,61,2.77
+3993,Takeshi Fukuda,m,18,23,1.28
+3994,Takeshi Kurashima,m,9,9,1
+3995,Takeshi Okadome,m,16,32,2
+3996,Takeshi Yamada,m,23,77,3.35
+3997,Takuichi Nishimura,u,18,49,2.72
+3998,Takuya Akiba,m,2,8,4
+3999,Takuya Maekawa,m,10,41,4.1
+4000,Talel Abdessalem,u,17,26,1.53
+4001,Tam Minh Tran,m,9,5,0.56
+4002,Tamara G. Kolda,w,16,57,3.56
+4003,Tamas Sarlos,m,11,19,1.73
+4004,Tamer Elsayed,m,11,19,1.73
+4005,Tamer Kahveci,m,13,72,5.54
+4006,Tamir Tassa,m,15,48,3.2
+4007,Tamraparni Dasu,u,16,24,1.5
+4008,Taneli Mielikainen,u,13,45,3.46
+4009,Tantan Liu,u,5,10,2
+4010,Tanveer A. Faruquie,w,14,44,3.14
+4011,Tanya Y. Berger-Wolf,w,15,51,3.4
+4012,Tao Cheng,m,19,67,3.53
+4013,Tao Li,m,27,625,23.15
+4014,Tao Liu,m,12,238,19.83
+4015,Tao Mei,m,13,188,14.46
+4016,Tao Qin,m,12,77,6.42
+4017,Tao Sun,m,16,87,5.44
+4018,Tao Tao,m,21,58,2.76
+4019,Tao Yang,m,27,367,13.59
+4020,Tapas Kanungo,u,22,48,2.18
+4021,Tat-Seng Chua,u,25,306,12.24
+4022,Ted E. Senator,m,23,18,0.78
+4023,Tengfei Bao,u,4,8,2
+4024,Tengjiao Wang,u,13,71,5.46
+4025,Terence Critchlow,m,21,51,2.43
+4026,Teresa Wu,w,10,36,3.6
+4027,Terran Lane,m,16,62,3.88
+4028,Tetsuya Sakai,m,16,79,4.94
+4029,Tevfik Bultan,m,23,115,5
+4030,Thanasis G. Papaioannou,m,12,40,3.33
+4031,Thanawin Rakthanmanon,u,10,25,2.5
+4032,Thang N. Dinh,m,5,22,4.4
+4033,Thanh Hoang Nguyen,m,6,7,1.17
+4034,Thanh T. L. Tran,m,6,10,1.67
+4035,Thanh Tran,m,8,63,7.88
+4036,Themis Palpanas,m,14,77,5.5
+4037,Themistoklis Palpanas,m,14,77,5.5
+4038,Theo Harder,m,40,229,5.73
+4039,Theodore Dalamagas,m,17,60,3.53
+4040,Theodore Johnson,m,28,109,3.89
+4041,Theodoros Lappas,m,5,23,4.6
+4042,Theoni Pitoura,w,11,7,0.64
+4043,Theresa Wilson,w,11,26,2.36
+4044,Thierry Cruanes,m,10,5,0.5
+4045,Thijs Westerveld,m,14,36,2.57
+4046,Thin Nguyen,u,4,11,2.75
+4047,Thomas Baby,m,15,7,0.47
+4048,Thomas Bernecker,m,6,27,4.5
+4049,Thomas Gartner,m,13,43,3.31
+4050,Thomas Gottron,m,6,38,6.33
+4051,Thomas Heinis,m,9,22,2.44
+4052,Thomas Hofmann,m,21,80,3.81
+4053,Thomas J. E. Schwarz,m,24,43,1.79
+4054,Thomas Kissinger,m,2,12,6
+4055,Thomas M. Lento,m,8,10,1.25
+4056,Thomas M. Tirpak,m,22,12,0.55
+4057,Thomas Neumann,m,11,90,8.18
+4058,Thomas Phan,m,15,27,1.8
+4059,Thomas R. Lynam,m,14,18,1.29
+4060,Thomas Roelleke,m,20,60,3
+4061,Thomas Rolleke,m,20,60,3
+4062,Thomas S. Huang,m,49,798,16.29
+4063,Thomas Seidl,m,21,205,9.76
+4064,Thore Graepel,m,17,72,4.24
+4065,Thorsten Joachims,m,17,113,6.65
+4066,Thu D. Nguyen,u,21,61,2.9
+4067,Tian Xia,m,13,106,8.15
+4068,Tianbao Yang,u,5,45,9
+4069,Tianbing Xu,u,8,9,1.13
+4070,Tiancheng Li,u,8,32,4
+4071,Tiancheng Lou,u,6,21,3.5
+4072,Tianlei Hu,u,9,16,1.78
+4073,Tianqi Chen,m,4,14,3.5
+4074,Tianyi Jiang,u,10,10,1
+4075,Tianyi Wu,u,9,16,1.78
+4076,Tianyi Zhou,u,5,23,4.6
+4077,Tias Guns,u,6,15,2.5
+4078,Tie-Yan Liu,m,13,112,8.62
+4079,Tiejian Luo,u,14,37,2.64
+4080,Tieyun Qian,u,9,27,3
+4081,Tijl De Bie,u,11,62,5.64
+4082,Till Westmann,m,16,15,0.94
+4083,Tim Berners-Lee,m,26,40,1.54
+4084,Tim Finin,m,37,214,5.78
+4085,Tim Furche,m,12,67,5.58
+4086,Tim Gollub,m,3,9,3
+4087,Tim Kaldewey,m,10,13,1.3
+4088,Tim Kraska,m,8,40,5
+4089,Tim Oates,m,20,105,5.25
+4090,Tim Weninger,m,8,29,3.63
+4091,Timm Oliver Sprenger,m,4,4,1
+4092,Timos K. Sellis,u,30,218,7.27
+4093,Timothy Chorma,m,13,3,0.23
+4094,Timothy G. Armstrong,m,5,12,2.4
+4095,Timothy Jones,m,5,6,1.2
+4096,Timothy M. McPhillips,m,9,25,2.78
+4097,Timothy Malkemus,m,18,12,0.67
+4098,Timothy W. Finin,m,37,214,5.78
+4099,Tina Eliassi-Rad,w,15,47,3.13
+4100,Ting Chen,m,20,150,7.5
+4101,Ting Liu,m,15,176,11.73
+4102,Ting Wang,m,17,207,12.18
+4103,Ting Yu,m,19,155,8.16
+4104,Tingjian Ge,u,13,23,1.77
+4105,Tingting He,u,11,62,5.64
+4106,Toan Luu,u,8,12,1.5
+4107,Tobias Emrich,m,5,35,7
+4108,Tobias Kellner,m,7,5,0.71
+4109,Tobias Kraft,m,11,10,0.91
+4110,Tobias Scheffer,m,19,89,4.68
+4111,Toby Walker,m,12,7,0.58
+4112,Todd C. Mowry,m,24,72,3
+4113,Todd Eavis,m,14,38,2.71
+4114,Todd J. Green,m,11,27,2.45
+4115,Toine Bogers,m,8,19,2.38
+4116,Tok Wang Ling,u,33,217,6.58
+4117,Tolga Bozkaya,m,18,13,0.72
+4118,Tolga Urhan,m,18,8,0.44
+4119,Tom Crecelius,m,7,10,1.43
+4120,Tom M. Mitchell,m,37,115,3.11
+4121,Tom Rowlands,m,8,4,0.5
+4122,Tom Yeh,m,11,30,2.73
+4123,Tomas Skopal,m,12,77,6.42
+4124,Tommaso Di Noia,m,11,120,10.91
+4125,Tomoharu Iwata,m,10,53,5.3
+4126,Tomohiro Fukuhara,m,13,26,2
+4127,Tong Zhang,m,18,142,7.89
+4128,Toni M. Rath,m,13,11,0.85
+4129,Toni Urpi,m,23,37,1.61
+4130,Tony Abou-Assaleh,m,12,13,1.08
+4131,Toon Calders,m,15,66,4.4
+4132,Toon De Pessemier,m,6,27,4.5
+4133,Torben Bach Pedersen,m,16,151,9.44
+4134,Tore Risch,m,34,86,2.53
+4135,Torsten Grabs,m,14,21,1.5
+4136,Torsten Grust,m,18,55,3.06
+4137,Torsten Suel,m,22,87,3.95
+4138,Toshihiro Kamishima,m,12,23,1.92
+4139,Toshiyuki Amagasa,m,17,71,4.18
+4140,Tova Milo,w,23,175,7.61
+4141,Toyotaro Suzumura,u,14,44,3.14
+4142,Trevor Jim,m,25,37,1.48
+4143,Trevor Strohman,m,10,9,0.9
+4144,Troy Raeder,m,10,16,1.6
+4145,Tsau Young Lin,u,26,151,5.81
+4146,Tsuyoshi Ide,m,10,22,2.2
+4147,Tsvi Kuflik,u,24,93,3.88
+4148,Tu Bao Ho,m,26,127,4.88
+4149,Tyson Condie,m,10,21,2.1
+4150,Tzi-cker Chiueh,m,25,211,8.44
+4151,Tzung-Pei Hong,u,23,297,12.91
+4152,U. Kang,u,5,32,6.4
+4153,Udayan Khurana,u,9,9,1
+4154,Ugur Cetintemel,m,16,74,4.63
+4155,Ugur Demiryurek,m,5,14,2.8
+4156,Uldis Bojars,m,9,25,2.78
+4157,Ulf Brefeld,m,11,35,3.18
+4158,Ulf Leser,m,17,109,6.41
+4159,Ullas Gargi,u,19,17,0.89
+4160,Ullas Nambiar,u,13,37,2.85
+4161,Ulrich Guntzer,m,36,78,2.17
+4162,Ulrich Paquet,m,11,16,1.45
+4163,Ulrik Brandes,m,17,121,7.12
+4164,Ulrike Fischer,w,7,20,2.86
+4165,Ulrike Sattler,w,19,183,9.63
+4166,Umeshwar Dayal,u,36,247,6.86
+4167,Umut Ozertem,m,8,33,4.13
+4168,Uri Schonfeld,m,8,6,0.75
+4169,Usama M. Fayyad,m,26,76,2.92
+4170,Utkarsh Srivastava,u,12,25,2.08
+4171,Utku Irmak,u,9,9,1
+4172,Uwe Rohm,m,15,37,2.47
+4173,Uwe Wloka,m,11,17,1.55
+4174,V. S. Subrahmanian,u,27,280,10.37
+4175,Vadim von Brzeski,m,7,3,0.43
+4176,Vagelis Hristidis,m,13,80,6.15
+4177,Vahab S. Mirrokni,u,14,135,9.64
+4178,Val Tannen,m,33,100,3.03
+4179,Valentin Jijkoun,m,11,35,3.18
+4180,Valter Crescenzi,m,16,40,2.5
+4181,Van Dang,m,8,9,1.13
+4182,Vana Kalogeraki,w,19,116,6.11
+4183,Vandana Pursnani Janeja,w,12,34,2.83
+4184,Vanessa Murdock,w,13,40,3.08
+4185,Vanja Josifovski,m,20,90,4.5
+4186,Varun Chandola,m,9,22,2.44
+4187,Vasant Honavar,m,25,193,7.72
+4188,Vasile-Marian Scuturici,m,11,29,2.64
+4189,Vasileios Kandylas,m,7,7,1
+4190,Vasileios Megalooikonomou,m,16,74,4.63
+4191,Vasilis Vassalos,m,17,47,2.76
+4192,Vassia Pavlaki,u,11,8,0.73
+4193,Vassilios S. Verykios,m,20,70,3.5
+4194,Vassilis Athitsos,m,14,64,4.57
+4195,Vassilis Christophides,m,21,94,4.48
+4196,Vassilis J. Tsotras,m,24,148,6.17
+4197,Vassilis Papadimos,m,12,10,0.83
+4198,Vassilis Plachouras,m,12,48,4
+4199,Vassilis Stoumpos,m,8,10,1.25
+4200,Vasudeva Varma,m,12,96,8
+4201,Vebjorn Ljosa,u,10,14,1.4
+4202,Veerabhadran Baladandayuthapani,m,4,15,3.75
+4203,Veli Bicer,m,9,22,2.44
+4204,Venkatesan T. Chakaravarthy,u,17,59,3.47
+4205,Venkatesh Ganti,u,19,45,2.37
+4206,Venkatesh Raghavan,u,10,18,1.8
+4207,Venu Satuluri,u,7,10,1.43
+4208,Verena Kantere,w,11,37,3.36
+4209,Veronique Benzaken,w,26,46,1.77
+4210,Vibhor Rastogi,u,8,25,3.13
+4211,Vibhu O. Mittal,u,22,29,1.32
+4212,Vibhuti S. Sengar,u,12,8,0.67
+4213,Victor Carneiro,m,11,22,2
+4214,Victor E. Lee,m,5,7,1.4
+4215,Victor Lavrenko,m,16,40,2.5
+4216,Victor M. Markowitz,m,31,56,1.81
+4217,Victor Muntes-Mulero,m,11,38,3.45
+4218,Victor S. Sheng,m,8,25,3.13
+4219,Vidhya Navalpakkam,u,12,15,1.25
+4220,Vijay Raghavan,m,37,215,5.81
+4221,Vijay S. Iyengar,m,32,36,1.13
+4222,Vijayalakshmi Atluri,u,21,188,8.95
+4223,Vijayshankar Raman,u,16,45,2.81
+4224,Vikas Arora,m,10,9,0.9
+4225,Vikas Sindhwani,m,13,41,3.15
+4226,Vikram Pudi,m,14,49,3.5
+4227,Vinayak R. Borkar,m,14,32,2.29
+4228,Vincent Leroy,m,5,18,3.6
+4229,Vincent Oria,m,22,70,3.18
+4230,Vincent S. Tseng,m,21,178,8.48
+4231,Vincent Wade,m,17,123,7.24
+4232,Vineet Chaoji,u,10,22,2.2
+4233,Vipin Kumar,u,35,280,8
+4234,Virgil Pavlu,m,11,33,3
+4235,Virgilio A. F. Almeida,m,33,137,4.15
+4236,Virgilio Almeida,m,33,137,4.15
+4237,Virgiliu Pavlu,u,11,33,3
+4238,Vishal S. Batra,m,12,12,1
+4239,Vishal Sikka,m,20,14,0.7
+4240,Vishwa Vinay,m,10,20,2
+4241,Vitaly Shmatikov,m,16,81,5.06
+4242,Vitor R. Carvalho,m,10,24,2.4
+4243,Vittorio Castelli,m,19,46,2.42
+4244,Vivek R. Narasayya,m,20,66,3.3
+4245,Vivekanand Gopalkrishnan,u,15,48,3.2
+4246,Vivian Chu,w,8,7,0.88
+4247,Vladimir Barash,m,6,10,1.67
+4248,Vladimir Kolovski,m,9,11,1.22
+4249,Vladimir Zadorozhny,m,23,50,2.17
+4250,Vladislav Shkapenyuk,m,12,20,1.67
+4251,Vo Ngoc Anh,m,16,29,1.81
+4252,Volker Markl,m,16,98,6.13
+4253,Volker Tresp,m,24,108,4.5
+4254,Vreixo Formoso,u,7,9,1.29
+4255,Vuk Ercegovac,m,16,21,1.31
+4256,W. Bruce Croft,u,39,275,7.05
+4257,W. Nick Street,u,19,47,2.47
+4258,W. Scott Spangler,u,25,33,1.32
+4259,Wael El-Deredy,m,11,10,0.91
+4260,Wagner Meira Jr.,m,17,206,12.12
+4261,Wai Gen Yee,m,14,45,3.21
+4262,Wai Kit Wong,m,8,20,2.5
+4263,Wai Lam,m,21,147,7
+4264,Wai Lup Low,m,14,7,0.5
+4265,Wai-Shing Ho,m,14,12,0.86
+4266,Walid G. Aref,m,24,154,6.42
+4267,Walid Magdy,m,8,27,3.38
+4268,Walker M. White,m,12,26,2.17
+4269,Wan-Ching Wu,m,2,7,3.5
+4270,Wang Chiew Tan,m,18,73,4.06
+4271,Wang-Chien Lee,m,20,241,12.05
+4272,Wang-Pin Hsiung,m,13,31,2.38
+4273,Wangchao Le,u,8,7,0.88
+4274,Wanhong Xu,u,11,11,1
+4275,Warren Shen,m,9,21,2.33
+4276,Wayne Niblack,m,26,25,0.96
+4277,Wayne Xin Zhao,m,4,17,4.25
+4278,Wee Hyong Tok,m,12,21,1.75
+4279,Wee Keong Ng,m,20,171,8.55
+4280,Wee Siong Ng,m,12,34,2.83
+4281,Wee Sun Lee,m,20,87,4.35
+4282,Wei Chen,m,9,42,4.67
+4283,Wei Chen,m,25,394,15.76
+4284,Wei Cheng,m,10,103,10.3
+4285,Wei Chu,m,13,65,5
+4286,Wei Ding,m,14,72,5.14
+4287,Wei Dong,m,13,175,13.46
+4288,Wei Fan,m,15,172,11.47
+4289,Wei Gao,m,17,180,10.59
+4290,Wei Han,m,16,95,5.94
+4291,Wei Hong,m,23,81,3.52
+4292,Wei Jiang,m,10,301,30.1
+4293,Wei Jin,m,17,75,4.41
+4294,Wei Lai,m,19,66,3.47
+4295,Wei Li,m,25,610,24.4
+4296,Wei Liu,m,25,787,31.48
+4297,Wei Lu,m,22,236,10.73
+4298,Wei Peng,m,15,154,10.27
+4299,Wei Shen,m,19,66,3.47
+4300,Wei Tang,m,16,93,5.81
+4301,Wei Vivian Zhang,m,8,9,1.13
+4302,Wei Wang,m,18,124,6.89
+4303,Wei Wang,m,18,133,7.39
+4304,Wei Wang,m,13,90,6.92
+4305,Wei Wang,m,6,5,0.83
+4306,Wei Wang,m,27,819,30.33
+4307,Wei Wei,m,21,312,14.86
+4308,Wei Wu,m,22,399,18.14
+4309,Wei Xu,m,23,353,15.35
+4310,Wei Zhang,m,8,7,0.88
+4311,Wei Zhang,m,24,566,23.58
+4312,Wei Zheng,m,14,154,11
+4313,Wei-Shinn Ku,m,11,65,5.91
+4314,Wei-Ying Ma,m,19,294,15.47
+4315,Weichang Li,u,9,8,0.89
+4316,Weifa Liang,u,21,113,5.38
+4317,Weifeng Su,u,12,97,8.08
+4318,Weiguo Fan,u,17,101,5.94
+4319,Weihong Qian,u,5,14,2.8
+4320,Weili Wu,w,17,185,10.88
+4321,Weimao Ke,u,10,22,2.2
+4322,Weimin Xiao,u,13,38,2.92
+4323,Weiming Hu,u,12,189,15.75
+4324,Weinan Zhang,m,3,18,6
+4325,Weining Qian,u,14,75,5.36
+4326,Weiren Yu,u,4,16,4
+4327,Weixiong Rao,u,11,21,1.91
+4328,Weixiong Zhang,u,25,94,3.76
+4329,Weiyi Meng,u,25,127,5.08
+4330,Weize Kong,u,4,4,1
+4331,Weizheng Gao,u,8,4,0.5
+4332,Weizhu Chen,u,7,22,3.14
+4333,Wen Jin,m,15,39,2.6
+4334,Wen Li,m,15,87,5.8
+4335,Wen Zhang,m,21,89,4.24
+4336,Wen-Chi Hou,m,28,80,2.86
+4337,Wen-Chih Peng,m,16,97,6.06
+4338,Wen-Hsiang Lu,m,14,37,2.64
+4339,Wen-Syan Li,m,21,87,4.14
+4340,Wen-tau Yih,m,17,39,2.29
+4341,Wenbin Ma,u,11,12,1.09
+4342,Wenchao Zhou,u,6,34,5.67
+4343,Wendy Hall,w,26,187,7.19
+4344,Wendy Hui Wang,w,10,37,3.7
+4345,Wenfei Fan,u,16,139,8.69
+4346,Weng-Keen Wong,m,15,38,2.53
+4347,Wenjie Li,u,14,151,10.79
+4348,Wenjie Zhang,u,11,83,7.55
+4349,Wenjun Zhou,u,8,20,2.5
+4350,Wenke Lee,w,17,130,7.65
+4351,Wenliang Du,u,18,90,5
+4352,Wenlin Chen,u,2,6,3
+4353,Wenqing Lin,u,2,7,3.5
+4354,Wensheng Wu,u,15,18,1.2
+4355,Wensi Xi,u,13,23,1.77
+4356,Wentao Wu,u,7,13,1.86
+4357,Wenwei Xue,u,10,28,2.8
+4358,Wenwu Lou,u,13,5,0.38
+4359,Wenwu Zhu,u,19,152,8
+4360,Wenxin Liang,u,9,21,2.33
+4361,Wenyuan Dai,u,8,14,1.75
+4362,Wenyuan Yu,u,5,13,2.6
+4363,Wenzhao Tan,u,6,4,0.67
+4364,Werner Geyer,m,18,62,3.44
+4365,Werner Kieling,m,31,77,2.48
+4366,Wesley W. Chu,m,46,124,2.7
+4367,Wessel Kraaij,m,24,80,3.33
+4368,Wilfred Ng,m,17,107,6.29
+4369,Wilfried Teiken,m,15,10,0.67
+4370,Willem Jonker,m,24,71,2.96
+4371,William DuMouchel,m,24,12,0.5
+4372,William H. Hsu,m,21,46,2.19
+4373,William John Teahan,m,19,31,1.63
+4374,William O'Connell,m,18,11,0.61
+4375,William Perrizo,m,30,131,4.37
+4376,William R. Hersh,m,36,117,3.25
+4377,William Rand,m,10,36,3.6
+4378,William W. Cohen,m,28,185,6.61
+4379,William Webber,m,10,34,3.4
+4380,Willis Lang,m,7,15,2.14
+4381,Wim Vanderbauwhede,m,13,55,4.23
+4382,Windsor W. Hsu,u,18,22,1.22
+4383,Winston H. Hsu,m,11,77,7
+4384,Winter A. Mason,m,5,14,2.8
+4385,Wisam Dakka,m,9,10,1.11
+4386,Witold Litwin,m,36,93,2.58
+4387,Wolf Siberski,m,12,47,3.92
+4388,Wolf-Tilo Balke,m,16,112,7
+4389,Wolfgang Gatterbauer,m,9,37,4.11
+4390,Wolfgang Holzinger,m,8,10,1.25
+4391,Wolfgang Lehner,m,18,262,14.56
+4392,Wolfgang Nejdl,m,27,338,12.52
+4393,Wolfgang Wonner,m,14,3,0.21
+4394,Won Suk Lee,m,15,50,3.33
+4395,Won-Seok Hwang,m,4,7,1.75
+4396,Wook-Shin Han,u,14,63,4.5
+4397,Wouter Duivesteijn,m,6,9,1.5
+4398,Wouter Weerkamp,m,8,48,6
+4399,Wray L. Buntine,u,38,87,2.29
+4400,Wynne Hsu,m,22,144,6.55
+4401,Xavier Amatriain,m,14,29,2.07
+4402,Xi Chen,m,22,456,20.73
+4403,Xi Zhang,m,24,322,13.42
+4404,Xia Hu,m,5,31,6.2
+4405,Xia Ning,m,9,17,1.89
+4406,Xian Wu,m,10,44,4.4
+4407,Xian-Sheng Hua,m,13,262,20.15
+4408,Xianchao Zhang,u,8,34,4.25
+4409,Xiang Fu,m,15,52,3.47
+4410,Xiang Ji,m,12,29,2.42
+4411,Xiang Li,m,7,13,1.86
+4412,Xiang Li,m,13,438,33.69
+4413,Xiang Lian,m,10,53,5.3
+4414,Xiang Niu,m,4,6,1.5
+4415,Xiang Wang,m,11,93,8.45
+4416,Xiang Zhang,m,19,186,9.79
+4417,Xiangdong Zhou,u,11,36,3.27
+4418,Xiangji Huang,u,18,138,7.67
+4419,Xiangliang Zhang,u,10,39,3.9
+4420,Xiangmin Zhang,u,19,36,1.89
+4421,Xiangmin Zhou,u,11,25,2.27
+4422,Xiangming Mu,u,12,21,1.75
+4423,Xiangnan Kong,u,4,37,9.25
+4424,Xiangyang Xue,u,15,166,11.07
+4425,Xiangyu Zhang,u,11,100,9.09
+4426,Xianpei Han,u,7,11,1.57
+4427,Xiao Bai,m,5,10,2
+4428,Xiao Cai,m,5,17,3.4
+4429,Xiao He,m,9,33,3.67
+4430,Xiao Hu,m,11,74,6.73
+4431,Xiao Li,m,12,115,9.58
+4432,Xiao Ling,m,7,15,2.14
+4433,Xiao Mang Shou,m,13,7,0.54
+4434,Xiao Yu,m,16,67,4.19
+4435,Xiao-Jun Yuan,m,13,17,1.31
+4436,Xiaobing Xue,u,6,12,2
+4437,Xiaochuan Ni,u,8,10,1.25
+4438,Xiaochun Yang,u,15,53,3.53
+4439,Xiaodan Song,u,12,19,1.58
+4440,Xiaodan Zhang,u,9,50,5.56
+4441,Xiaodong He,m,15,60,4
+4442,Xiaodong Lin,m,16,145,9.06
+4443,Xiaodong Zhang,m,21,222,10.57
+4444,Xiaodong Zhou,m,13,14,1.08
+4445,Xiaofang Zhou,u,21,267,12.71
+4446,Xiaofei He,u,12,127,10.58
+4447,Xiaofei Zhu,u,4,12,3
+4448,Xiaofeng He,u,13,43,3.31
+4449,Xiaofeng Meng,u,16,148,9.25
+4450,Xiaofeng Yu,u,16,30,1.88
+4451,Xiaoguang Liu,u,9,54,6
+4452,Xiaoguang Qi,u,8,11,1.38
+4453,Xiaohong Wang,u,19,49,2.58
+4454,Xiaohua Hu,u,21,239,11.38
+4455,Xiaohua Liu,u,11,52,4.73
+4456,Xiaohua Zhou,u,23,39,1.7
+4457,Xiaohui Gu,u,13,52,4
+4458,Xiaohui Long,u,11,7,0.64
+4459,Xiaohui Yan,u,7,12,1.71
+4460,Xiaohui Yu,u,14,41,2.93
+4461,Xiaojian Zhao,u,14,17,1.21
+4462,Xiaojie Yuan,u,11,27,2.45
+4463,Xiaojing Yuan,u,15,28,1.87
+4464,Xiaojun Wan,u,10,86,8.6
+4465,Xiaokui Xiao,u,10,70,7
+4466,Xiaolei Li,u,12,42,3.5
+4467,Xiaoli Li,u,14,150,10.71
+4468,Xiaoli Z. Fern,u,11,44,4
+4469,Xiaolin Shi,u,9,18,2
+4470,Xiaoling Wang,u,12,85,7.08
+4471,Xiaolong Wang,u,14,176,12.57
+4472,Xiaoming Jin,u,13,34,2.62
+4473,Xiaoming Li,u,23,190,8.26
+4474,Xiaopeng Xi,u,9,12,1.33
+4475,Xiaopeng Xiong,u,10,14,1.4
+4476,Xiaoping Sun,u,9,33,3.67
+4477,Xiaoqin Zhang,u,16,104,6.5
+4478,Xiaowei Xu,w,19,65,3.42
+4479,Xiaoxiao Shi,u,6,20,3.33
+4480,Xiaoxin Yin,u,12,32,2.67
+4481,Xiaoxue Zhao,u,4,10,2.5
+4482,Xiaoxun Zhang,u,11,19,1.73
+4483,Xiaoyan Li,u,14,65,4.64
+4484,Xiaoyan Yang,u,9,13,1.44
+4485,Xiaoyan Zhu,u,18,147,8.17
+4486,Xiaoyang Sean Wang,u,28,146,5.21
+4487,Xiaoying Wu,u,13,23,1.77
+4488,Xiaoyong Chai,m,10,21,2.1
+4489,Xiaoyong Du,m,19,169,8.89
+4490,Xiaoyong Liu,m,14,17,1.21
+4491,Xiaoyu Wang,u,15,83,5.53
+4492,Xiaoyuan Wu,u,13,13,1
+4493,Xiaoyun Wu,u,14,23,1.64
+4494,Xiaozhong Liu,u,7,26,3.71
+4495,Xiatian Zhang,u,6,7,1.17
+4496,Xibei Jia,u,10,12,1.2
+4497,Xifeng Yan,u,12,122,10.17
+4498,Xike Xie,u,6,16,2.67
+4499,Xin Cao,m,8,17,2.13
+4500,Xin Chen,m,22,367,16.68
+4501,Xin Dong,m,11,60,5.45
+4502,Xin Fu,m,10,67,6.7
+4503,Xin Jin,m,13,211,16.23
+4504,Xin Li,m,22,732,33.27
+4505,Xin Liu,m,19,412,21.68
+4506,Xin Luna Dong,m,11,60,5.45
+4507,Xin Wang,m,23,437,19
+4508,Xin Wu,m,9,35,3.89
+4509,Xin Xin,m,18,44,2.44
+4510,Xin Xu,m,14,166,11.86
+4511,Xin Yao,m,22,404,18.36
+4512,Xin Zhang,m,15,19,1.27
+4513,Xin Zhang,m,15,247,16.47
+4514,Xin Zhou,m,26,99,3.81
+4515,Xin-Jing Wang,m,10,36,3.6
+4516,Xindong Wu,u,21,312,14.86
+4517,Xing Jiang,w,9,13,1.44
+4518,Xing Li,w,21,158,7.52
+4519,Xing Wei,w,12,34,2.83
+4520,Xing Xie,w,12,151,12.58
+4521,Xing Yi,w,10,17,1.7
+4522,Xingjie Liu,u,4,13,3.25
+4523,Xingquan Zhu,u,14,168,12
+4524,Xinhui Tu,u,8,9,1.13
+4525,Xinruo Sun,u,5,5,1
+4526,Xintao Wu,u,15,70,4.67
+4527,Xinying Song,u,6,7,1.17
+4528,Xinyu Guo,u,10,24,2.4
+4529,Xiong Wang,m,22,52,2.36
+4530,Xiubo Geng,u,7,9,1.29
+4531,Xiuyao Song,u,7,5,0.71
+4532,Xu Chen,m,16,135,8.44
+4533,Xu Sun,m,10,41,4.1
+4534,Xu-Dong Zhang,m,13,24,1.85
+4535,Xu-Ying Liu,m,8,11,1.38
+4536,Xuan Hieu Phan,m,10,19,1.9
+4537,Xuan Li,m,13,51,3.92
+4538,Xuan S. Yang,m,9,21,2.33
+4539,Xuan Zhou,m,11,77,7
+4540,Xuanhui Wang,u,11,42,3.82
+4541,Xuanjing Huang,u,14,71,5.07
+4542,Xue Li,w,20,177,8.85
+4543,Xue Liu,w,12,202,16.83
+4544,Xue-wen Chen,w,11,66,6
+4545,Xuehua Shen,u,11,16,1.45
+4546,Xuemin Lin,u,22,207,9.41
+4547,Xueming Qian,u,8,46,5.75
+4548,Xueqi Cheng,u,13,183,14.08
+4549,Xueqing Gong,u,11,23,2.09
+4550,Xuerui Wang,u,11,18,1.64
+4551,Xufei Wang,u,7,15,2.14
+4552,Ya Xu,m,19,19,1
+4553,Ya Zhang,m,10,48,4.8
+4554,Ya-nan Qian,m,5,8,1.6
+4555,Yabo Xu,u,12,29,2.42
+4556,Yael Petruschka,w,17,6,0.35
+4557,Yafang Wang,u,6,11,1.83
+4558,Yahiko Kambayashi,m,43,211,4.91
+4559,Yajun Wang,u,16,69,4.31
+4560,Yali Zhu,u,12,20,1.67
+4561,Yalin Wang,u,14,68,4.86
+4562,Yalou Huang,u,21,40,1.9
+4563,Yan Huang,m,21,227,10.81
+4564,Yan Jia,m,12,92,7.67
+4565,Yan Li,m,17,529,31.12
+4566,Yan Liu,m,12,37,3.08
+4567,Yan Liu,m,24,367,15.29
+4568,Yan Qi,m,8,14,1.75
+4569,Yan Qu,m,18,40,2.22
+4570,Yan Rui Huang,m,10,6,0.6
+4571,Yan Xie,m,11,14,1.27
+4572,Yan Zhang,m,21,862,41.05
+4573,Yan Zhao,m,16,148,9.25
+4574,Yan Zhou,m,20,101,5.05
+4575,Yana Volkovich,w,8,23,2.88
+4576,Yanchun Zhang,u,24,227,9.46
+4577,Yandong Liu,u,6,14,2.33
+4578,Yanen Li,u,8,16,2
+4579,Yanfang Ye,u,7,10,1.43
+4580,Yang Cao,m,15,145,9.67
+4581,Yang Chen,m,22,193,8.77
+4582,Yang Du,m,14,37,2.64
+4583,Yang Li,m,26,441,16.96
+4584,Yang Liu,m,15,885,59
+4585,Yang Song,m,15,207,13.8
+4586,Yang Sun,m,9,75,8.33
+4587,Yang Xiang,m,25,292,11.68
+4588,Yang Xu,m,15,293,19.53
+4589,Yang Yang,m,24,616,25.67
+4590,Yang Yu,m,16,195,12.19
+4591,Yang Zhang,m,14,344,24.57
+4592,Yang Zhou,m,9,63,7
+4593,Yang-Sae Moon,m,13,61,4.69
+4594,Yanghua Xiao,u,7,29,4.14
+4595,Yangjun Chen,u,21,87,4.14
+4596,Yangqiu Song,u,8,46,5.75
+4597,Yanif Ahmad,u,12,25,2.08
+4598,Yaniv Bernstein,m,11,15,1.36
+4599,Yanjun Qi,u,13,29,2.23
+4600,Yanlei Diao,u,14,47,3.36
+4601,Yannis E. Ioannidis,m,30,180,6
+4602,Yannis Katsis,m,9,14,1.56
+4603,Yannis Kotidis,m,17,81,4.76
+4604,Yannis Manolopoulos,m,28,282,10.07
+4605,Yannis Papakonstantinou,m,20,85,4.25
+4606,Yannis Sismanis,m,15,27,1.8
+4607,Yannis Theodoridis,m,20,120,6
+4608,Yannis Vassiliou,m,35,57,1.63
+4609,Yannis Velegrakis,m,15,58,3.87
+4610,Yanping Chen,u,1,5,5
+4611,Yanshan Xiao,u,6,22,3.67
+4612,Yansheng Lu,u,12,72,6
+4613,Yanyan Lan,u,6,19,3.17
+4614,Yao Wu,m,11,24,2.18
+4615,Yaqian Zhou,u,12,17,1.42
+4616,Yaron Kanza,m,15,49,3.27
+4617,Yashar Moshfeghi,u,5,20,4
+4618,Yasin N. Silva,m,7,18,2.57
+4619,Yasuhiro Fujiwara,m,8,21,2.63
+4620,Yasuko Matsubara,w,7,9,1.29
+4621,Yasushi Ogawa,m,31,23,0.74
+4622,Yasushi Sakurai,m,16,47,2.94
+4623,Ye Chen,m,14,79,5.64
+4624,Ye Wang,m,15,173,11.53
+4625,Ye Xu,m,8,44,5.5
+4626,Ye-Yi Wang,m,20,46,2.3
+4627,Yefei Peng,u,8,22,2.75
+4628,Yehoshua Sagiv,m,36,170,4.72
+4629,Yehuda Koren,m,14,68,4.86
+4630,Yelena Mejova,w,6,16,2.67
+4631,Yeliz Yesilada,w,11,48,4.36
+4632,Yelong Shen,u,3,7,2.33
+4633,Yen-Kuang Chen,m,18,64,3.56
+4634,Yen-Yu Chen,m,12,26,2.17
+4635,Yevgen Borodin,u,8,36,4.5
+4636,Yew-Soon Ong,m,11,140,12.73
+4637,Yexi Jiang,u,6,14,2.33
+4638,Yeye He,u,5,10,2
+4639,Yi Chang,m,11,68,6.18
+4640,Yi Chen,m,12,115,9.58
+4641,Yi Chen,m,13,92,7.08
+4642,Yi Fang,m,14,57,4.07
+4643,Yi Liu,m,25,347,13.88
+4644,Yi Mao,m,12,24,2
+4645,Yi Zhang,m,14,46,3.29
+4646,Yi Zhang,m,7,13,1.86
+4647,Yi Zhang,m,21,366,17.43
+4648,Yi Zhen,m,6,7,1.17
+4649,Yi-Cheng Chen,m,11,41,3.73
+4650,Yi-Cheng Tu,m,12,37,3.08
+4651,Yi-Dong Shen,m,22,81,3.68
+4652,Yi-fang Brook Wu,m,11,30,2.73
+4653,Yi-Leh Wu,m,16,32,2
+4654,Yi-Min Wang,m,22,91,4.14
+4655,Yida Wang,u,11,7,0.64
+4656,Yidong Yuan,u,11,15,1.36
+4657,Yifan Pan,u,6,5,0.83
+4658,Yifeng Zheng,u,12,10,0.83
+4659,Yihong Eric Zhao,u,6,4,0.67
+4660,Yihong Gong,u,20,109,5.45
+4661,Yihua Wu,u,24,8,0.33
+4662,Yijian Bai,u,9,11,1.22
+4663,Yike Guo,u,25,93,3.72
+4664,Yiming Ma,u,28,35,1.25
+4665,Yiming Yang,u,30,99,3.3
+4666,Yin Lou,m,5,5,1
+4667,Yin Yang,m,13,63,4.85
+4668,Yin Zhang,m,22,192,8.73
+4669,Yinan Li,u,10,35,3.5
+4670,Ying Chen,m,19,349,18.37
+4671,Ying Cui,m,7,47,6.71
+4672,Ying Ding,m,19,125,6.58
+4673,Ying Feng,m,14,25,1.79
+4674,Ying He,m,10,74,7.4
+4675,Ying Hu,m,15,67,4.47
+4676,Ying Li,m,22,484,22
+4677,Ying Liu,m,23,465,20.22
+4678,Ying Lu,m,21,93,4.43
+4679,Ying Xing,m,11,13,1.18
+4680,Ying Xu,m,11,19,1.73
+4681,Ying Yan,m,11,31,2.82
+4682,Ying Zhang,m,23,568,24.7
+4683,Yingbo Miao,u,9,3,0.33
+4684,Yinghui Wu,u,17,32,1.88
+4685,Yingwei Cui,u,16,10,0.63
+4686,Yintao Yu,u,6,11,1.83
+4687,Yiping Ke,u,10,36,3.6
+4688,Yiqun Liu,u,12,65,5.42
+4689,Yirong Xu,u,13,12,0.92
+4690,Yisong Yue,u,7,21,3
+4691,Yiu-Kai Ng,u,25,79,3.16
+4692,Yixin Chen,u,14,164,11.71
+4693,Yiyao Lu,u,9,8,0.89
+4694,Yiye Ruan,u,3,9,3
+4695,Yiyu Yao,u,27,265,9.81
+4696,Yizhou Sun,u,7,54,7.71
+4697,Yoelle Maarek,u,25,64,2.56
+4698,Yoelle S. Maarek,u,25,64,2.56
+4699,Yohei Seki,m,13,13,1
+4700,Yoichi Iwata,m,3,12,4
+4701,Yon Dohn Chung,m,15,54,3.6
+4702,Yonatan Aumann,m,23,82,3.57
+4703,Yong Ge,m,13,57,4.38
+4704,Yong Liu,m,22,445,20.23
+4705,Yong Shi,m,22,311,14.14
+4706,Yong Yu,m,21,372,17.71
+4707,Yongdong Zhang,u,10,180,18
+4708,Yongluan Zhou,u,11,37,3.36
+4709,Yongxin Tong,u,5,12,2.4
+4710,Yoram Singer,m,21,130,6.19
+4711,Yoshiki Mikami,m,12,18,1.5
+4712,Yoshimi Suzuki,m,18,37,2.06
+4713,Yosi Mass,u,15,32,2.13
+4714,Yossi Matias,m,27,115,4.26
+4715,Young-In Song,m,11,42,3.82
+4716,Young-Koo Lee,m,17,210,12.35
+4717,Young-Min Kim,m,17,32,1.88
+4718,Younghoon Kim,u,9,25,2.78
+4719,Youngja Park,u,12,27,2.25
+4720,Youngjoong Ko,u,14,28,2
+4721,Yousef Saad,m,40,98,2.45
+4722,Yu Cao,m,15,182,12.13
+4723,Yu Chen,m,18,371,20.61
+4724,Yu Cheng,m,18,160,8.89
+4725,Yu Deng,m,11,51,4.64
+4726,Yu Gu,m,9,41,4.56
+4727,Yu He,m,25,44,1.76
+4728,Yu Hong,m,11,24,2.18
+4729,Yu Peng,m,11,60,5.45
+4730,Yu Wang,m,26,325,12.5
+4731,Yu Xu,m,11,38,3.45
+4732,Yu Zhang,m,23,667,29
+4733,Yu Zheng,m,14,150,10.71
+4734,Yu-Ru Lin,m,12,45,3.75
+4735,Yuan An,m,12,43,3.58
+4736,Yuan Hao,m,3,8,2.67
+4737,Yuan Hong,m,21,34,1.62
+4738,Yuan Lin,m,16,87,5.44
+4739,Yuan Ni,m,8,27,3.38
+4740,Yuan Tian,m,12,131,10.92
+4741,Yuan Wang,m,18,129,7.17
+4742,Yuan-Chi Chang,m,18,33,1.83
+4743,Yuanhua Lv,u,9,22,2.44
+4744,Yuanyuan Tian,u,9,17,1.89
+4745,Yuanyuan Zhu,u,3,7,2.33
+4746,Yuchang Lu,u,17,33,1.94
+4747,Yuchen Zhang,u,16,26,1.63
+4748,Yuchen Zhao,u,4,14,3.5
+4749,Yucheng Low,u,5,16,3.2
+4750,Yue Lu,m,15,110,7.33
+4751,Yue Pan,m,17,76,4.47
+4752,Yue Shi,m,10,41,4.1
+4753,Yue Xu,m,18,122,6.78
+4754,Yue-Fei Guo,m,13,24,1.85
+4755,Yuefeng Li,u,17,159,9.35
+4756,Yueguo Chen,u,7,26,3.71
+4757,Yuelong Jiang,u,11,6,0.55
+4758,Yuen-Hsien Tseng,m,19,32,1.68
+4759,Yueting Zhuang,u,18,191,10.61
+4760,Yuexian Hou,u,10,48,4.8
+4761,Yufei Tao,u,13,151,11.62
+4762,Yuguo Chen,u,11,14,1.27
+4763,Yugyung Lee,u,18,65,3.61
+4764,Yuheng Hu,u,7,14,2
+4765,Yuhong Xiong,u,14,36,2.57
+4766,Yuichi Yoshida,m,19,67,3.53
+4767,Yuji Matsumoto,m,32,170,5.31
+4768,Yukiko Kawai,w,10,38,3.8
+4769,Yulan He,u,17,68,4
+4770,Yumao Lu,u,10,10,1
+4771,Yuming Ou,u,10,19,1.9
+4772,Yun Chi,m,11,66,6
+4773,Yun Peng,m,29,74,2.55
+4774,Yun Zhou,m,12,65,5.42
+4775,Yunbo Cao,u,12,39,3.25
+4776,Yunfei Chen,u,10,112,11.2
+4777,Yunhao Liu,u,11,295,26.82
+4778,Yunhe Pan,u,24,114,4.75
+4779,Yunhong Zhou,u,15,44,2.93
+4780,Yunhua Hu,u,9,14,1.56
+4781,Yuni Xia,w,12,36,3
+4782,Yunjun Gao,u,8,57,7.13
+4783,Yunyao Li,u,10,32,3.2
+4784,Yunyue Zhu,u,15,12,0.8
+4785,Yunzhang Zhu,u,5,4,0.8
+4786,Yupeng Fu,u,9,11,1.22
+4787,Yuqiang Guan,u,14,10,0.71
+4788,Yuqing Wu,u,14,46,3.29
+4789,Yuqing Zhu,u,4,19,4.75
+4790,Yuri Breitbart,m,39,84,2.15
+4791,Yury Logachev,m,3,4,1.33
+4792,Yury Ustinovsky,m,3,6,2
+4793,Yusheng Xie,u,3,15,5
+4794,Yutaka Matsuo,m,16,108,6.75
+4795,Yutaka Yanagisawa,m,19,26,1.37
+4796,Yuval Shavitt,m,22,137,6.23
+4797,Yuxin Chen,u,11,57,5.18
+4798,Yuxin Huang,u,5,9,1.8
+4799,Yuzhong Qu,u,19,63,3.32
+4800,Z. M. Ma,u,18,144,8
+4801,Z. Meral Ozsoyoglu,u,35,116,3.31
+4802,Zachary G. Ives,m,15,73,4.87
+4803,Zahra Mohammadi Zadeh,w,5,6,1.2
+4804,Zaiben Chen,u,5,6,1.2
+4805,Zaiqing Nie,u,13,38,2.92
+4806,Ze Tian,m,6,9,1.5
+4807,Zeinab Abbassi,w,7,10,1.43
+4808,Zengjian Hu,u,10,23,2.3
+4809,Zenglin Xu,u,10,30,3
+4810,Zengping Tian,u,18,11,0.61
+4811,Zeno Gantner,m,8,14,1.75
+4812,Zeynep Tufekci,w,8,7,0.88
+4813,Zeyu Zheng,u,5,13,2.6
+4814,Zeyuan Allen Zhu,u,5,24,4.8
+4815,Zhao Xu,m,23,60,2.61
+4816,Zhaochun Ren,u,3,10,3.33
+4817,Zhaohui Wu,u,22,335,15.23
+4818,Zhaohui Zheng,u,12,45,3.75
+4819,Zhaonian Zou,u,6,9,1.5
+4820,Zhaoqi Chen,u,9,7,0.78
+4821,Zhaoyan Ming,u,5,13,2.6
+4822,Zhe Wu,u,17,30,1.76
+4823,Zhe Zhao,u,16,15,0.94
+4824,Zhen Guo,u,17,37,2.18
+4825,Zhen He,u,14,62,4.43
+4826,Zhen Hua Liu,u,10,26,2.6
+4827,Zhen Liao,u,6,6,1
+4828,Zhen Liu,u,24,319,13.29
+4829,Zhen Wen,u,16,59,3.69
+4830,Zhen Xiao,u,15,37,2.47
+4831,Zhen Yue,u,6,18,3
+4832,Zhen Zhang,u,31,222,7.16
+4833,Zhenfeng Zhu,u,10,52,5.2
+4834,Zheng Chen,m,21,224,10.67
+4835,Zheng Li,m,20,257,12.85
+4836,Zheng Lin,m,25,22,0.88
+4837,Zheng Shao,m,10,11,1.1
+4838,Zheng Wang,m,24,270,11.25
+4839,Zheng Ye,m,6,28,4.67
+4840,Zheng Zhang,m,20,143,7.15
+4841,Zheng Zhao,m,13,71,5.46
+4842,Zheng-Jun Zha,m,7,79,11.29
+4843,Zhengdao Xu,u,10,7,0.7
+4844,Zhengdong Lu,u,10,28,2.8
+4845,Zhengzhang Chen,u,7,22,3.14
+4846,Zhenhui Li,u,5,27,5.4
+4847,Zhenjie Zhang,u,9,50,5.56
+4848,Zhenying He,u,12,23,1.92
+4849,Zhenyu Liu,u,17,124,7.29
+4850,Zhenyu Lu,u,7,14,2
+4851,Zhewei Jiang,u,9,22,2.44
+4852,Zhi-Hong Deng,m,12,57,4.75
+4853,Zhi-Hua Zhou,m,15,301,20.07
+4854,Zhian He,u,2,4,2
+4855,Zhiang Wu,u,9,37,4.11
+4856,Zhibo Chen,u,7,19,2.71
+4857,Zhicheng Dou,u,7,16,2.29
+4858,Zhifeng Bao,u,7,39,5.57
+4859,Zhigang Zheng,u,11,9,0.82
+4860,Zhihong Chong,u,10,12,1.2
+4861,Zhihua Zhang,u,14,80,5.71
+4862,Zhijun Yin,u,9,22,2.44
+4863,Zhili Guo,u,6,13,2.17
+4864,Zhiming Ma,u,8,13,1.63
+4865,Zhiping Zeng,u,8,8,1
+4866,Zhiqiang (Eric) Zheng,u,13,15,1.15
+4867,Zhiwei Li,u,10,70,7
+4868,Zhiwei Zhang,u,18,25,1.39
+4869,Zhiyong Huang,u,20,110,5.5
+4870,Zhiyong Shen,u,10,23,2.3
+4871,Zhiyuan Chen,u,15,49,3.27
+4872,Zhiyuan Cheng,u,5,17,3.4
+4873,Zhong Su,m,14,63,4.5
+4874,Zhongang Qi,u,3,5,1.67
+4875,Zhongfei (Mark) Zhang,u,21,126,6
+4876,Zhongfei Zhang,u,21,126,6
+4877,Zhongmou Li,u,4,8,2
+4878,Zhongyuan Wang,u,7,49,7
+4879,Zhongzhi Shi,u,31,318,10.26
+4880,Zhou Zhao,m,5,13,2.6
+4881,Zhoujun Li,u,16,154,9.63
+4882,Zhouxuan Teng,u,8,7,0.88
+4883,Zhu Zhang,m,13,49,3.77
+4884,Zhumin Chen,u,8,14,1.75
+4885,Zhuowei Bao,u,5,13,2.6
+4886,Zi Huang,u,11,70,6.36
+4887,Zi Yang,u,6,16,2.67
+4888,Ziawasch Abedjan,u,4,10,2.5
+4889,Zijian Zheng,u,19,29,1.53
+4890,Ziming Zhuang,u,10,19,1.9
+4891,Ziv Bar-Yossef,m,17,45,2.65
+4892,Ziyang Chen,u,11,13,1.18
+4893,Ziyang Liu,u,7,39,5.57
+4894,Ziyu Guan,u,6,20,3.33
+4895,Zoe Lacroix,w,21,102,4.86
+4896,Zografoula Vagena,u,14,31,2.21
+4897,Zohra Bellahsene,w,24,86,3.58
+4898,Zoi Kaoudi,w,9,10,1.11
+4899,Zoltan Gyongyi,m,10,13,1.3
+4900,Zongcheng Ji,u,2,5,2.5
+4901,Zonghuan Wu,u,15,25,1.67
+4902,Zongyang Ma,u,2,5,2.5
+4903,Zoran Obradovic,m,25,127,5.08
+4904,Zoubin Ghahramani,m,21,186,8.86
+4905,Zuobing Xu,u,7,8,1.14
+4906,Zutao Zhu,u,6,7,1.17

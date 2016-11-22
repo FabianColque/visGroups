@@ -1,0 +1,269 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tSNEJS demo</title>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="d3.js"></script>
+<script src="tsne.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+<!-- JS syntax highlighting -->
+<script type="text/javascript" src="shCore.js"></script>
+<script type="text/javascript" src="shBrushJScript.js"></script>
+<link type="text/css" rel="stylesheet" href="shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<style>
+.syntaxhighlighter {
+  width: 100% !important;
+  margin: 1em 0 1em 0 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  font-size: 14px !important; 
+}
+</style>
+
+<style>
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-weight: 300;
+  font-size: 16px;
+}
+svg {
+  border: 1px solid #333;
+}
+#wrap {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#embed {
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+.tt {
+  margin-top: 10px;
+  background-color: #EEE;
+  border-bottom: 1px solid #333;
+  padding: 5px;
+}
+.txth {
+  color: #F55;
+}
+.cit {
+  font-family: courier;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+</style>
+
+<script>
+
+var data;
+var opt = {epsilon: 10, perplexity: 30};
+var T = new tsnejs.tSNE(opt); // create a tSNE instance
+
+var Y;
+var tx=0, ty=0;
+var ss=1;
+var const1 = 20;
+var const2 = 300;
+
+var svg;
+
+var fake = d3.behavior.zoom().on("zoom", null);
+var zoom = d3.behavior.zoom().on("zoom", zoomHandler);
+var colors = ['#fbb4ae','#b3cde3','#ccebc5','#decbe4','#fed9a6','#ffffcc','#e5d8bd','#fddaec','#f2f2f2'];
+
+/*var colors = [];
+while (colors.length < 100) {
+    do {
+        var color = Math.floor((Math.random()*1000000)+1);
+    } while (colors.indexOf(color) >= 0);
+    colors.push("#" + ("000000" + color.toString(16)).slice(-6));
+}
+*/
+/*$.ajax({
+                dataType    : "json",
+                url         : "resultAuthor.json",
+                async       : false,
+                success     : function(dat){data = dat;}
+  });
+*/
+var width = 800;
+var height = 600;
+
+var xScale = d3.scale.linear()
+  .range([0,width]);
+
+var yScale = d3.scale.linear()
+  .range([0, height]);  
+
+var brush = d3.svg.brush()
+  .x(xScale)
+  .y(yScale)
+  .on("brushstart", brushstart)
+  .on("brush", brushmove)
+  .on("brushend", brushend);
+
+
+d3.json("resultAuthortsneCluster.json", function(dat){
+  data = dat;
+
+  xScale.domain(dat.mat.map(function(d){return d[0]}));
+  yScale.domain(dat.mat.map(function(d){return d[1]}));
+
+  console.log("xscale", d3.extent(dat.mat.map(function(d){return d[0]})));
+  console.log("yScale", d3.extent(dat.mat.map(function(d){return d[1]})));
+  //T.initDataDist(data.mat); // init embedding
+  drawEmbedding(); // draw initial embedding
+  updateEmbedding2();
+    //T.debugGrad();
+    //setInterval(step, 0);
+  //step();
+
+  d3.select(".zoomoption")
+    .on("click", function(){
+      if(!document.getElementById("zoomoption").checked){
+        d3.select("svg #selectArea").remove();
+        OnOffZoom(true);
+      }else{
+        OnOffZoom(false);
+        d3.select("svg").append("g").attr("id", "selectArea")
+          .call(brush);
+        
+      }
+    })
+
+
+
+})
+
+
+
+//$("#embed").empty();
+
+//T.initDataDist(data.mat);
+
+function OnOffZoom(value){
+  if(value){
+    d3.select("svg").call(zoom);
+  }else{
+    d3.select("svg").call(fake);
+  }
+}
+    
+function drawEmbedding() {
+    $("#embed").empty();
+    var div = d3.select("#embed");
+
+    // get min and max in each column of Y
+    var Y = T.Y;
+    
+    svg = div.append("svg") // svg is global
+    .attr("width", width)
+    .attr("height", height)
+    .call(zoom)
+    .append("g")
+
+    var g = svg.selectAll(".u")
+      .data(data.users)
+      .enter().append("g")
+      .attr("class", "u");
+    
+    
+
+    g.append("circle")
+      .attr("r", 4)
+      .style("fill", function(d,i){
+        if(data.cluster[i] === -1){
+          return "black"
+        }else{
+          return colors[data.cluster[i]];
+        }
+      });  
+
+    /*var zoomListener = d3.behavior.zoom()
+      .scaleExtent([0.1, 50])
+      .center([0,0])
+      .on("zoom", zoomHandler);
+    zoomListener(svg);*/
+}
+//drawEmbedding();
+//step();
+
+function step() {
+  for(var k=0;k<100;k++) {
+    T.step(); // do a few steps
+  }
+  updateEmbedding();
+  //gg = gg + 1;
+  //console.log("nooooo", gg);
+}
+
+function zoomHandler() {
+  tx = d3.event.translate[0];
+  ty = d3.event.translate[1];
+  ss = d3.event.scale;
+  updateEmbedding2();
+}
+
+function updateEmbedding2() {
+  //var Y = T.getSolution();
+  svg.selectAll('.u')
+    //.data(data.users)
+    .attr("transform", function(d, i) { return "translate(" +
+                                          ((data.mat[i][0]*const1*ss + tx) + const2) + "," +
+                                          ((data.mat[i][1]*const1*ss + ty) + const2) + ")"; });
+}
+
+function brushmove(p){
+  var e = brush.extent();
+  console.log("gg1", e[0][0], e[0][1], e[1][0], e[1][1]);
+  console.log("gg2", xScale.invert(e[0][0]), yScale.invert(e[0][1]), xScale.invert(e[1][0]), yScale.invert(e[1][1]));
+}
+
+function brushstart(p){
+
+}
+
+function brushend(p){
+
+}
+
+
+
+function drawCrossFilterCharts(dataO){
+  console.log(dataO);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>tSNEJS demo</h1>
+
+<label><input type="checkbox" id="zoomoption" class="zoomoption"> Selection ON/OFF</label>
+<div id="embed"></div>
+
+
+
+
+
+</body>
+
+</html>

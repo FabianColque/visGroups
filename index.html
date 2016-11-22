@@ -1,0 +1,169 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VIS GROUPS</title>
+
+
+<script src="js/crossfilter.js"></script>
+<script src="js/d3.js"></script>
+<script src="js/dc.js"></script>
+<script src="js/lasso.min.js"></script>
+    
+
+
+<link type="text/css" rel="stylesheet" href="css/dc.css"/>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>    
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<style>
+
+
+    .mainsvg{
+      border: 1px solid #333;
+    }
+
+    #embed {
+      margin-top: 10px;
+    }
+
+    .tt {
+      margin-top: 10px;
+      background-color: #EEE;
+      border-bottom: 1px solid #333;
+      padding: 5px;
+    }
+    .txth {
+      color: #F55;
+    }
+    .cit {
+      font-family: courier;
+      padding-left: 20px;
+      font-size: 14px;
+    }
+
+    .extent {
+      fill: #000;
+      fill-opacity: .125;
+      stroke: #fff;
+    }
+
+    .mainsvg path,
+    .mainsvg line{
+        fill: none;
+        stroke:#000;
+        shape-rendering: crispEdges;
+    }
+    
+    .lasso path{,
+        stroke: rgb(80,80,80);
+        stroke-width:2px;
+    }    
+    
+    .lasso .drawn{
+        fill-opacity : .05;    
+    }    
+    
+    .lasso .loop_close{
+        fill: none;
+        stroke-dasharray: 4,4;
+    }
+    .lasso .origin{
+        fill:#3399FF;
+        fill-opacity:.5;
+    }
+    .not_possible{
+        fill: rgb(200,200,200)
+    }
+    .possible{
+        fill:#EC888C;
+    }
+</style>
+
+<script src="js/authorsJS.js">
+//aqui js
+</script>
+
+</head>
+
+<body>
+
+<h1 ALIGN=center>Interactive Visualization</h1>
+
+<div class="container">
+
+<ul class="nav nav-tabs">
+            <li class="active">
+        <a  href="#1" data-toggle="tab">Authors</a>
+            </li>
+            <li><a href="#2" data-toggle="tab">Groups</a>
+            </li>
+            
+</ul>
+
+
+<div class="tab-content ">
+    <div class="tab-pane active" id="1">
+        <h1 ALIGN=center>Authors</h1>  
+        <div id="embed"></div>
+
+        <div id="charts" style="padding-left: 4%">
+            
+            <div class="row">
+                <div id="chart1" class="chart">
+                    <strong>Nro Publications</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart2" class="chart">
+                    <strong>Seniority</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="chart3" class="chart">
+                    <strong>Rate Publications</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart4" class="chart">
+                    <strong>Pie Gender</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="chart5" class="chart">
+                    <strong>Count</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-hover dc-data-table">
+                </table>
+            </div>
+
+        </div>
+
+        <div id="lists">
+          <div id="flight-list" class="list"></div>
+        </div>
+
+    </div>
+    <div class="tab-pane" id="2">
+          <h1 ALIGN=center>Groups</h1>
+    </div>
+
+</div>
+  
+    
+    
+
+</div>
+</body>
+
+</html>
