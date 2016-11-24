@@ -10,11 +10,19 @@
 <script src="js/d3.js"></script>
 <script src="js/dc.js"></script>
 <script src="js/lasso.min.js"></script>
+<script src="js/snapshot.js"></script>
     
 
 
 <link type="text/css" rel="stylesheet" href="css/dc.css"/>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>    
+<!--<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>    -->
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 
 <style>
@@ -24,9 +32,11 @@
       border: 1px solid #333;
     }
 
-    #embed {
-      margin-top: 10px;
+    .svgspanshot{
+        border: 1px solid #333;    
     }
+
+    
 
     .tt {
       margin-top: 10px;
@@ -79,393 +89,127 @@
     .possible{
         fill:#EC888C;
     }
+
+    #snapshotArea{
+        height: 500px;
+        width: 370px;
+        background-color: white;
+        overflow-y: scroll;
+        border-color: blue;
+        border-width: 5px;
+       
+    }
+
+    #areaMainscgAuthor{
+        padding-top: 44px;
+    }
 </style>
 
-<script>
-
-var data;
-var selectionData;
-    selectionData = [];
-var colors = ['#fbb4ae','#b3cde3','#ccebc5','#decbe4','#fed9a6','#ffffcc','#e5d8bd','#fddaec','#f2f2f2'];
-
-var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#8dd3c7','#ffffb3','#bebada']);
-
-var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
-
-var width = 800;
-var height = 600;
-
-var lasso;
-    
-var xScale = d3.scale.linear()
-  .range([0,width]);
-
-var yScale = d3.scale.linear()
-  .range([0, height]);  
-
-var tamMinCirle = 2;
-var tamMaxCircle = 7.5;
-    
-var lasso_start = function(){
-    lasso.items()
-        .attr("r", tamMinCirle)
-        .style("fill", null)
-        .classed({"not_possible": true, "selected": false});
-}    
- 
-var lasso_draw = function(){
-    lasso.items().filter(function(d){return d.possible === true})
-        .classed({"not_possible": false, "possible": true});
-    lasso.items().filter(function(d){return d.possible === false})
-        .classed({"not_possible":true, "possible": false});
-}
-
-var lasso_end = function(){
-    selectionData = [];
-    lasso.items()
-        .style("fill", function(d){return "black"});
-    lasso.items().filter(function(d){
-        if(d.selected === true){
-            selectionData.push(d[2]);
-        }
-        return d.selected === true
-    })
-        .attr("r", tamMaxCircle);
-    lasso.items().filter(function(d){return d.selected === false})
-        .classed({"not_possible": false, "posible":false})
-        .attr("r", tamMinCirle);
-    
-    drawCrossFilterCharts(selectionData);
-}
-
-d3.json("data/authorsnecluster4906.json", function(dat){
-    data = dat;
-    xScale.domain(d3.extent(dat.mat.map(function(d){return d[0]})));
-    yScale.domain(d3.extent(dat.mat.map(function(d){return d[1]})));
-    //console.log("Scales", xScale.domain(), yScale.domain());
-    draw();
-})
-
-function draw(){
-    var svg = d3.select("#embed")
-        .append('svg')
-        .attr("class", "mainsvg")
-        .attr('width', width)
-        .attr('height', height)
-        //.call(brush);
-    var graph = svg.append('g');
-    
-    var moddatamat = data.users.map(function(d,i){var f = data.mat[i]; f.push(i);return f;});
-    
-    var points = graph.selectAll('.pointDots').data(moddatamat);
-    points.enter().append('circle').attr("class", 'pointDots')
-    .attr('r', tamMinCirle)
-    .attr('cx', function(d){return xScale(d[0])})
-    .attr('cy', function(d){return yScale(d[1])});
-    
-    
-    var lasso_area = svg.append("rect")
-                        .attr("width", width)
-                        .attr("height", height)
-                        .style("opacity", 0);
-    lasso = d3.lasso()
-        .closePathDistance(75)
-        .closePathSelect(true)
-        .hoverSelect(true)
-        .area(lasso_area)
-        .on("start", lasso_start)
-        .on("draw", lasso_draw)
-        .on("end", lasso_end);
-    
-    lasso.items(d3.selectAll(".pointDots"));
-    svg.call(lasso);
-} 
-
-
-
-//nose si voy a usar
-function pointsSelected(inf, sup){
-    selectionData = [];
-    for(var i = 0; i < data.mat.length; i++){
-        var point = data.mat[i];
-        if((point[0] >= inf[0] && point[0] <= sup[0])&&(point[1] >= inf[1] && point[1] <= sup[1])){
-            console.log("punto encontrado");
-            selectionData.push(i);
-        }
-    }
-    drawCrossFilterCharts(selectionData);
-}
-var datafilter;
-
-var dados;
- 
-
-function drawCrossFilterCharts(dataO){
-    d3.selectAll(".chart svg").remove();  
-    datafilter = [];  
-    //console.log("llega obo",dataO);
-
-    d3.csv("data/authors.csv", function(error, datatot){
-        dados = datatot;
-
-        var nbpubchart      = dc.barChart("#chart1");
-        var senioritychart  = dc.barChart("#chart2");
-        var pubratechart    = dc.barChart("#chart3");
-        var piechart        = dc.pieChart("#chart4");
-        var countchart      = dc.dataCount('#chart5');
-        var tablechart      = dc.dataTable('.dc-data-table');
-
-
-        var numberFormat = d3.format('.2f');
-        for (var i = 0; i < dataO.length; i++) {
-            datafilter.push(datatot[dataO[i]]);
-        };
-        //start crossfilter
-        datafilter.forEach(function(d,i){
-            d.index =  i;
-            d.seniority = parseInt(d.seniority);
-            d.nbpub = parseInt(d.nbpub);
-            d.pubrate = parseFloat(d.pubrate);
-        });
-
-        var limitsnbpub = d3.extent(datafilter.map(function(d){return parseInt(d.nbpub);}));
-        var limitspubrate = d3.extent(datafilter.map(function(d){return parseFloat(d.pubrate);}));
-        var limitsseniority = d3.extent(datafilter.map(function(d){return parseInt(d.seniority);}))
-
-        //create the crossfilter
-        var mycross = crossfilter(datafilter),
-            all = mycross.groupAll(),
-            nbpub = mycross.dimension(function(d){return d.nbpub;}),
-            nbpubs = nbpub.group(),
-            seniority = mycross.dimension(function(d){return Math.max(limitsseniority[0], Math.min(limitsseniority[1], d.seniority))}),
-            senioritys = seniority.group(),
-            pubrate = mycross.dimension(function(d){return Math.max(limitspubrate[0], Math.min(limitspubrate[1], d.pubrate))}),
-            pubrates = pubrate.group();
-        
-        var cross1pie = mycross.dimension(function(d){
-            if(d.gender == "u")return "Undefined";
-            if(d.gender == "w")return "Female";
-            return "Male";
-        }),
-        cross1pies = cross1pie.group();
-
-
-        var tabledim = mycross.dimension(function(d){
-            return d.index; 
-        }),
-        tabledims = tabledim.group();    
-        
-        
-        nbpubchart.width(420)
-            .height(180)
-            .margins({top: 10, right: 50, bottom: 30, left: 40})
-            .dimension(nbpub)
-            .group(nbpubs)
-            .colors(colorsBar[0])
-            .elasticY(true)
-            .centerBar(true)
-            .gap(1)
-            .round(dc.round.floor)
-            .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitsnbpub))
-            .renderHorizontalGridLines(true)
-            .filterPrinter(function (filters) {
-                var filter = filters[0], s = '';
-                s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
-                return s;
-            });
-        nbpubchart.xAxis().tickFormat(
-            function (v) { return v; });
-        nbpubchart.yAxis().ticks(5);
-
-
-        senioritychart.width(420)
-            .height(180)
-            .margins({top: 10, right: 50, bottom: 30, left: 40})
-            .dimension(seniority)
-            .group(senioritys)
-            .colors(colorsBar[1])
-            .elasticY(true)
-            .centerBar(true)
-            .gap(1)
-            .round(dc.round.floor)
-            .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitsseniority))
-            .renderHorizontalGridLines(true)
-            .filterPrinter(function (filters) {
-                var filter = filters[0], s = '';
-                s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
-                return s;
-            });
-        senioritychart.xAxis().tickFormat(
-            function (v) { return v; });
-        senioritychart.yAxis().ticks(5);
-
-
-        pubratechart.width(420)
-            .height(180)
-            .margins({top: 10, right: 50, bottom: 30, left: 40})
-            .dimension(pubrate)
-            .group(pubrates)
-            .colors(colorsBar[2])
-            .elasticY(true)
-            .centerBar(true)
-            .gap(1)
-            .round(dc.round.floor)
-            .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitspubrate))
-            .renderHorizontalGridLines(true)
-            
-        pubratechart.xAxis().tickFormat(
-            function (v) { return v; });
-        pubratechart.yAxis().ticks(5);
-
-
-
-        piechart.width(180)
-        .height(180)
-        .radius(80)
-        .dimension(cross1pie)
-        .group(cross1pies)
-        .colors(function(d){return scaleColorPie(d)})
-        .label(function (d) {
-                if (piechart.hasFilter() && !piechart.hasFilter(d.key)) {
-                    return d.key + '(0%)';
-                }
-                var label = d.key;
-                if (all.value()) {
-                    label += '(' + Math.floor(d.value / all.value() * 100) + '%)';
-                }
-                return label;
-            });
-
-
-        countchart
-            .dimension(mycross)
-            .group(all)
-            .html({
-                some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Authors' +
-                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a><br><br>'
-            });
-        
-        tablechart
-            .dimension(tabledim)
-            .group(function(d){return d.gender})
-            .size(100)
-            .columns([
-                {
-                    label   : 'Author ID',
-                    format  : function(d){return d.author_id;}
-                },
-                {
-                    label   : 'Name',
-                    format  : function(d){return d.name;}
-                },
-                {
-                    label   : 'Seniority',
-                    format  : function(d){return d.seniority;}
-                },
-                {
-                    label   : '# Publications',
-                    format  : function(d){return d.nbpub;}
-                },
-                {
-                    label   : 'Rate Pub',
-                    format  : function(d){return d.pubrate;}
-                }
-            ])
-            .sortBy(function(d){
-                return d.index
-            })
-            .order(d3.ascending)
-            .on('renderlet', function (table) {
-                table.selectAll('.dc-table-group')
-                .classed('info', true);
-                /*.text(function(d){
-                    if(d.key === 'm')return "Male";
-                    if(d.key === 'w')return "Female";
-                    return "Undefined";
-                });*/
-                table.selectAll(".dc-table-label")
-                    .text(function(d){
-                        if(d.key === 'm')return "Male";
-                        if(d.key === 'w')return "Female";
-                        return "Undefined";    
-                    })
-            });
-        
-        dc.renderAll();
-    })//fin de d3.csv authors  
-
-    
-    d3.select(".zoomoption")
-    .on("click", function(){
-      if(!document.getElementById("zoomoption").checked){
-        d3.selectAll(".pointDots").style("fill", function(d,i){
-            return "black";
-        })
-      }else{
-        d3.selectAll(".pointDots").style("fill", function(d,i){
-            return colors[data.cluster[i]];
-        })
-      }
-    })
-
-}
-
+<script src="js/authorsJS.js">
+//aqui js
 </script>
 
 </head>
 
 <body>
 
-<h1 ALIGN=center>Interactive Visualization of Authors</h1>
 
-<div class="container">
-    <label><input type="checkbox" id="zoomoption" class="zoomoption"> Groups Recomended</label>
-    <div id="embed"></div>
 
-    <div id="charts">
+<h1 ALIGN=center>Interactive Visualization</h1>
+
+
+
+<ul class="nav nav-tabs">
+            <li class="active">
+        <a  href="#1" data-toggle="tab">Authors</a>
+            </li>
+            <li><a href="#2" data-toggle="tab">Groups</a>
+            </li>
+            
+</ul>
+
+
+
+<div class="tab-content ">
+    <div class="tab-pane active" id="1">
+        <h1 ALIGN=center>Authors</h1>  
         
-        <div class="row">
-            <div id="chart1" class="chart">
-                <strong>Nro Publications</strong>
-                <div class="title"></div>
-            </div>
-            <div id="chart2" class="chart">
-                <strong>Seniority</strong>
-                <div class="title"></div>
-            </div>
+
+
+        <div class = "container" style="padding-left: 4%">
+            <div class="row">
+                <div  class="col-sm-6">
+                    <div id="areaMainscgAuthor"></div>
+                    <div style="text-align: center;">
+                        <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
+                    </div>
+                </div>
+                <div  class="col-sm-6">
+                    <div class="headhistorial">
+                        <strong>Select to restart</strong>
+                        <input type="button" class="btn btn-info" value="Restart" onclick="btnRestShot()" />
+                        <br><br>
+                    </div>
+                    <div id="snapshotArea"></div>    
+                </div>
+                
+            </div>    
         </div>
+
         
-        <div class="row">
-            <div id="chart3" class="chart">
-                <strong>Rate Publications</strong>
-                <div class="title"></div>
+
+        <div id="charts" class="container" style="padding-left: 4%">
+            
+  
+            <div class="row">
+                <div id="chart1" class="chart">
+                    <strong># Publications</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart2" class="chart">
+                    <strong>Seniority</strong>
+                    <div class="title"></div>
+                </div>
             </div>
-            <div id="chart4" class="chart">
-                <strong>Pie Gender</strong>
-                <div class="title"></div>
+            
+            <div class="row">
+                <div id="chart3" class="chart">
+                    <strong>Publication Rate</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart4" class="chart">
+                    <strong>Gender</strong>
+                    <div class="title"></div>
+                </div>
             </div>
+            <div class="row">
+                <div id="chart5" class="chart">
+                    <strong>Count</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-hover dc-data-table">
+                </table>
+            </div>
+
         </div>
-        <div class="row">
-            <div id="chart5" class="chart">
-                <strong>Count</strong>
-                <div class="title"></div>
-            </div>
-        </div>
-        <div class="row">
-            <table class="table table-hover dc-data-table">
-            </table>
+
+        <div id="lists">
+          <div id="flight-list" class="list"></div>
         </div>
 
     </div>
-
-    <div id="lists">
-      <div id="flight-list" class="list"></div>
+    <div class="tab-pane" id="2">
+          <h1 ALIGN=center>Groups</h1>
     </div>
 
 </div>
+  
+    
+    
+
+
 </body>
 
 </html>
