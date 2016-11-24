@@ -10,13 +10,16 @@
 <script src="js/d3.js"></script>
 <script src="js/dc.js"></script>
 <script src="js/lasso.min.js"></script>
+<script src="js/snapshot.js"></script>
     
 
 
 <link type="text/css" rel="stylesheet" href="css/dc.css"/>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>    
+<!--<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>    -->
 
 
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -29,9 +32,11 @@
       border: 1px solid #333;
     }
 
-    #embed {
-      margin-top: 10px;
+    .svgspanshot{
+        border: 1px solid #333;    
     }
+
+    
 
     .tt {
       margin-top: 10px;
@@ -84,6 +89,20 @@
     .possible{
         fill:#EC888C;
     }
+
+    #snapshotArea{
+        height: 500px;
+        width: 370px;
+        background-color: white;
+        overflow-y: scroll;
+        border-color: blue;
+        border-width: 5px;
+       
+    }
+
+    #areaMainscgAuthor{
+        padding-top: 44px;
+    }
 </style>
 
 <script src="js/authorsJS.js">
@@ -94,9 +113,11 @@
 
 <body>
 
+
+
 <h1 ALIGN=center>Interactive Visualization</h1>
 
-<div class="container">
+
 
 <ul class="nav nav-tabs">
             <li class="active">
@@ -108,16 +129,41 @@
 </ul>
 
 
+
 <div class="tab-content ">
     <div class="tab-pane active" id="1">
         <h1 ALIGN=center>Authors</h1>  
-        <div id="embed"></div>
+        
 
-        <div id="charts" style="padding-left: 4%">
+
+        <div class = "container" style="padding-left: 4%">
+            <div class="row">
+                <div  class="col-sm-6">
+                    <div id="areaMainscgAuthor"></div>
+                    <div style="text-align: center;">
+                        <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
+                    </div>
+                </div>
+                <div  class="col-sm-6">
+                    <div class="headhistorial">
+                        <strong>Select to restart</strong>
+                        <input type="button" class="btn btn-info" value="Restart" onclick="btnRestShot()" />
+                        <br><br>
+                    </div>
+                    <div id="snapshotArea"></div>    
+                </div>
+                
+            </div>    
+        </div>
+
+        
+
+        <div id="charts" class="container" style="padding-left: 4%">
             
+  
             <div class="row">
                 <div id="chart1" class="chart">
-                    <strong>Nro Publications</strong>
+                    <strong># Publications</strong>
                     <div class="title"></div>
                 </div>
                 <div id="chart2" class="chart">
@@ -128,11 +174,11 @@
             
             <div class="row">
                 <div id="chart3" class="chart">
-                    <strong>Rate Publications</strong>
+                    <strong>Publication Rate</strong>
                     <div class="title"></div>
                 </div>
                 <div id="chart4" class="chart">
-                    <strong>Pie Gender</strong>
+                    <strong>Gender</strong>
                     <div class="title"></div>
                 </div>
             </div>
@@ -163,7 +209,7 @@
     
     
 
-</div>
+
 </body>
 
 </html>
