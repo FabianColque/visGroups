@@ -57,6 +57,11 @@ var lasso_end = function(){
     lasso.items().filter(function(d){return d.selected === false})
         .classed({"not_possible": false, "posible":false})
         .attr("r", tamMinCirle);
+
+    if(selectionData.length == 0){
+        redrawsvgMain(buckupDataSelected.length-1, false);
+        console.log("nada de nada")
+    }    
     
 }
 
@@ -123,7 +128,7 @@ function btnRestShot(){
             ind = i;
     if(ind == -1)return;
     console.log("restart", ind);
-    redrawsvgMain(ind);
+    redrawsvgMain(ind, true);
     updatespanshotArrays(ind); 
     selectionData = [];   
 }
@@ -139,12 +144,13 @@ function updatespanshotArrays(ind){
         .attr("id", function(d,i){return "s"+i})
 }
 
-function redrawsvgMain(ind){
+function redrawsvgMain(ind, redrawcrossfilter){
     
     var selectedItemsBool = Array(data.length).fill(false);
     buckupDataSelected[ind].forEach(function(d){selectedItemsBool[d] = true;});
 
-    drawCrossFilterCharts(buckupDataSelected[ind]);
+    if(redrawcrossfilter)
+        drawCrossFilterCharts(buckupDataSelected[ind]);
 
     d3.selectAll(".pointDots")
         .attr("r", function(d,i){return selectedItemsBool[i]?tamMaxCircle:tamMinCirle})
@@ -164,6 +170,8 @@ function drawCrossFilterCharts(dataO){
 
     d3.csv("data/authors.csv", function(error, datatot){
         dados = datatot;
+
+        var nbpublabel = ["very few publi", "few publi", "fair publi", "high publi", "very high publi"];
 
         var nbpubchart      = dc.barChart("#chart1");
         var senioritychart  = dc.barChart("#chart2");
@@ -192,13 +200,73 @@ function drawCrossFilterCharts(dataO){
         //create the crossfilter
         var mycross = crossfilter(datafilter),
             all = mycross.groupAll(),
-            nbpub = mycross.dimension(function(d){return d.nbpub;}),
+            nbpub = mycross.dimension(function(d){return category_nbpub(d.nbpub);}),
             nbpubs = nbpub.group(),
-            seniority = mycross.dimension(function(d){return Math.max(limitsseniority[0], Math.min(limitsseniority[1], d.seniority))}),
+            //seniority = mycross.dimension(function(d){return Math.max(limitsseniority[0], Math.min(limitsseniority[1], d.seniority))}),
+            seniority = mycross.dimension(function(d){return category_seniority(d.seniority)}),
             senioritys = seniority.group(),
-            pubrate = mycross.dimension(function(d){return Math.max(limitspubrate[0], Math.min(limitspubrate[1], d.pubrate))}),
+            pubrate = mycross.dimension(function(d){return category_ratePub(d.pubrate)}),
             pubrates = pubrate.group();
         
+
+        console.log("cafe", nbpubs.all());
+        console.log("cafe", senioritys.all());    
+
+        function category_ratePub(d){
+            if(d<=1.47){
+                return "not active";
+            }
+            else if(d>1.47 && d<=2.48){
+                return "less active";
+            }
+            else if(d >2.48 && d<=3.71){
+                return "active";
+            }
+            else if(d > 3.71 && d<= 6){
+                return "very active"
+            }
+            else{
+                return "extreme active";
+            }
+        }
+
+        function category_seniority(d){
+            if(d<=14){
+                return "very young";
+            }
+            else if(d>14 && d<=28){
+                return "young";
+            }
+            else if(d >28 && d<=53){
+                return "experienced";
+            }
+            else if(d > 53 && d<= 107){
+                return "senior"
+            }
+            else{
+                return "highly senior";
+            }
+        }
+
+        function category_nbpub(d){
+            //console.log("mira", d);
+            if(d<=8){
+                return "very few publi";
+            }
+            else if(d>8 && d<=12){
+                return "few publi";
+            }
+            else if(d >12 && d<=15){
+                return "fair publi";
+            }
+            else if(d > 15 && d<= 21){
+                return "high publi"
+            }
+            else{
+                return "very high publi";
+            }
+        }
+
         var cross1pie = mycross.dimension(function(d){
             if(d.gender == "u")return "Undefined";
             if(d.gender == "w")return "Female";
@@ -219,20 +287,25 @@ function drawCrossFilterCharts(dataO){
             .dimension(nbpub)
             .group(nbpubs)
             .colors(colorsBar[0])
-            .elasticY(true)
-            .centerBar(true)
+            .elasticY(false)
             .gap(1)
             .round(dc.round.floor)
             .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitsnbpub))
+            //.x(d3.scale.linear().domain(limitsnbpub))
+            .x(d3.scale.ordinal().domain(["very few publi", "few publi", "fair publi", "high publi", "very high publi"]))
+            //.x(d3.scale.ordinal())
+            .xUnits(dc.units.ordinal)
+            .barPadding(0.1)
+            .outerPadding(0.5)
+            //.y(d3.scale.linear().domain(nbpubs.all().map(function(f){return f.value;})))
             .renderHorizontalGridLines(true)
             .xAxisLabel('# Publication')
             .yAxisLabel('# Authors')
-            .filterPrinter(function (filters) {
+            /*.filterPrinter(function (filters) {
                 var filter = filters[0], s = '';
                 s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
                 return s;
-            });
+            });*/
         nbpubchart.xAxis().tickFormat(
             function (v) { return v; });
         nbpubchart.yAxis().ticks(5);
@@ -247,17 +320,16 @@ function drawCrossFilterCharts(dataO){
             .elasticY(true)
             .centerBar(true)
             .gap(1)
+            .brushOn(true)
             .round(dc.round.floor)
             .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitsseniority))
+            //.x(d3.scale.linear().domain(limitsseniority))
+            .x(d3.scale.ordinal().domain(["very young","young", "experienced", "senior", "very senior"]))
+            .xUnits(dc.units.ordinal)
             .renderHorizontalGridLines(true)
             .xAxisLabel('Seniority')
             .yAxisLabel('# Authors')
-            .filterPrinter(function (filters) {
-                var filter = filters[0], s = '';
-                s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
-                return s;
-            });
+            
         senioritychart.xAxis().tickFormat(
             function (v) { return v; });
         senioritychart.yAxis().ticks(5);
@@ -270,11 +342,13 @@ function drawCrossFilterCharts(dataO){
             .group(pubrates)
             .colors(colorsBar[2])
             .elasticY(true)
-            .centerBar(true)
+            .centerBar(false)
             .gap(1)
             .round(dc.round.floor)
             .alwaysUseRounding(true)
-            .x(d3.scale.linear().domain(limitspubrate))
+            //.x(d3.scale.linear().domain(limitspubrate))
+            .x(d3.scale.ordinal().domain(["not active", "less active", "active", "very active", "extreme active"]))
+            .xUnits(dc.units.ordinal)
             .renderHorizontalGridLines(true)
             .xAxisLabel('Rate')
             .yAxisLabel('# Authors')
