@@ -32,6 +32,10 @@
       border: 1px solid #333;
     }
 
+    .mainsvgGroup{
+      border: 1px solid #333;
+    }
+
     .svgspanshot{
         border: 1px solid #333;    
     }
@@ -61,6 +65,13 @@
 
     .mainsvg path,
     .mainsvg line{
+        fill: none;
+        stroke:#000;
+        shape-rendering: crispEdges;
+    }
+
+    .mainsvgGroup path,
+    .mainsvgGroup line{
         fill: none;
         stroke:#000;
         shape-rendering: crispEdges;
@@ -105,9 +116,13 @@
     }
 </style>
 
+<script src="js/groupsJS.js">
+//aqui js
+</script>
 <script src="js/authorsJS.js">
 //aqui js
 </script>
+
 
 </head>
 
@@ -200,8 +215,83 @@
         </div>
 
     </div>
+
+
+
+
+
+    <!--Fin de panel 1 e inicio de panel 2-->
+
+
+
+
+
     <div class="tab-pane" id="2">
           <h1 ALIGN=center>Groups</h1>
+
+          <div class = "container" style="padding-left: 4%">
+            <div class="row">
+                <div  class="col-sm-6">
+                    <div id="areaMainsvgGroup"></div>
+                    <div style="text-align: center;">
+                        <input type="button" class="btn btn-success" value="Start" onclick="btnStartShotGroup()" />
+                    </div>
+                </div>
+                <div  class="col-sm-6">
+                    <div class="headhistorialGroup">
+                        <strong>Select to restart</strong>
+                        <input type="button" class="btn btn-info" value="Restart" onclick="btnRestShotGroup()" />
+                        <br><br>
+                    </div>
+                    <div id="snapshotAreaGroup"></div>    
+                </div>
+                
+            </div>    
+        </div>
+
+       <br><br> 
+
+        <div id="charts" class="container" style="padding-left: 4%">
+            
+  
+            <div class="row">
+                <div id="chart1" class="chart">
+                    <strong># Publications</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart2" class="chart">
+                    <strong>Seniority</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="chart3" class="chart">
+                    <strong>Publication Rate</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chart4" class="chart">
+                    <strong>Gender</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="chart5" class="chart">
+                    <strong>Count</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-hover dc-data-table">
+                </table>
+            </div>
+
+        </div>
+
+        <div id="lists">
+          <div id="flight-list" class="list"></div>
+        </div>
+
     </div>
 
 </div>

@@ -10,7 +10,7 @@ var divSpanShot = "#snapshotArea";
 
 var colors = ['#fbb4ae','#b3cde3','#ccebc5','#decbe4','#fed9a6','#ffffcc','#e5d8bd','#fddaec','#f2f2f2'];
 
-var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#8dd3c7','#ffffb3','#bebada']);
+var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#66c2a5','#fc8d62','#8da0cb']);
 
 var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
 
@@ -97,10 +97,11 @@ function draw(){
                         .attr("width", width)
                         .attr("height", height)
                         .style("opacity", 0);
-    lasso = d3.lasso()
-        .closePathDistance(75)
+    lasso = d3.lasso();
+
+    lasso.closePathDistance(75)
         .closePathSelect(true)
-        .hoverSelect(true)
+        .hoverSelect(false)
         .area(lasso_area)
         .on("start", lasso_start)
         .on("draw", lasso_draw)
