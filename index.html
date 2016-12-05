@@ -95,10 +95,13 @@
         fill-opacity:.5;
     }
     .not_possible{
-        fill: rgb(200,200,200)
+        fill: rgb(200,200,000)
     }
     .possible{
         fill:#EC888C;
+    }
+    .filtered{
+        fill: chartreuse;
     }
 
     #snapshotArea{
@@ -114,14 +117,22 @@
     #areaMainscgAuthor{
         padding-top: 73px;
     }
+
+    #areaMainsvgGroup{
+        padding-top: 73px;
+    }
 </style>
 
-<script src="js/groupsJS.js">
-//aqui js
-</script>
-<script src="js/authorsJS.js">
-//aqui js
-</script>
+
+
+<script src="js/authorsJS.js"></script>
+<script src="js/utilsAuthor.js"></script>
+
+<script src="js/groupsJS.js"></script>
+<script src="js/utils.js"></script>
+
+
+
 
 
 </head>
@@ -155,8 +166,9 @@
             <div class="row">
                 <div  class="col-sm-6">
                     <div id="areaMainscgAuthor"></div>
-                    <div style="text-align: center;">
+                    <div style="text-align: center;" class="botones">
                         <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
+                        
                     </div>
                 </div>
                 <div  class="col-sm-6">
@@ -227,6 +239,9 @@
 
 
     <div class="tab-pane" id="2">
+    <br>
+    <input type="button" class="btn btn-info" value="LoadData" onclick="btnLoadData_inGroups()" />
+        
           <h1 ALIGN=center>Groups</h1>
 
           <div class = "container" style="padding-left: 4%">
@@ -251,45 +266,21 @@
 
        <br><br> 
 
-        <div id="charts" class="container" style="padding-left: 4%">
+        <div id="chartsGroup" class="container" style="padding-left: 4%">
             
   
-            <div class="row">
-                <div id="chart1" class="chart">
-                    <strong># Publications</strong>
-                    <div class="title"></div>
-                </div>
-                <div id="chart2" class="chart">
-                    <strong>Seniority</strong>
-                    <div class="title"></div>
-                </div>
-            </div>
             
             <div class="row">
-                <div id="chart3" class="chart">
-                    <strong>Publication Rate</strong>
-                    <div class="title"></div>
-                </div>
-                <div id="chart4" class="chart">
-                    <strong>Gender</strong>
-                    <div class="title"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div id="chart5" class="chart">
+                <div id="chartGroup5" class="chartGroup">
                     <strong>Count</strong>
                     <div class="title"></div>
                 </div>
             </div>
             <div class="row">
-                <table class="table table-hover dc-data-table">
+                <table class="table table-hover dc-data-table-Group">
                 </table>
             </div>
 
-        </div>
-
-        <div id="lists">
-          <div id="flight-list" class="list"></div>
         </div>
 
     </div>

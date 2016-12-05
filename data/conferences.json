@@ -1,0 +1,2502 @@
+[
+    {
+        "id": "100",
+        "name": "CoRR abs/.",
+        "frequncy": "7684"
+    },
+    {
+        "id": "101",
+        "name": "CIKM",
+        "frequncy": "7355"
+    },
+    {
+        "id": "102",
+        "name": "ICDE",
+        "frequncy": "6635"
+    },
+    {
+        "id": "103",
+        "name": "SIGMOD Conference",
+        "frequncy": "6239"
+    },
+    {
+        "id": "104",
+        "name": "SIGIR",
+        "frequncy": "6075"
+    },
+    {
+        "id": "105",
+        "name": "KDD",
+        "frequncy": "4284"
+    },
+    {
+        "id": "106",
+        "name": "VLDB",
+        "frequncy": "3975"
+    },
+    {
+        "id": "107",
+        "name": "WWW",
+        "frequncy": "3727"
+    },
+    {
+        "id": "108",
+        "name": "IEEE Trans. Knowl. Data Eng.",
+        "frequncy": "3500"
+    },
+    {
+        "id": "109",
+        "name": "ICDM",
+        "frequncy": "3436"
+    },
+    {
+        "id": "110",
+        "name": "PVLDB",
+        "frequncy": "3134"
+    },
+    {
+        "id": "111",
+        "name": "Springer",
+        "frequncy": "2561"
+    },
+    {
+        "id": "112",
+        "name": "ACM Multimedia",
+        "frequncy": "2243"
+    },
+    {
+        "id": "113",
+        "name": "EDBT",
+        "frequncy": "2172"
+    },
+    {
+        "id": "114",
+        "name": "TREC",
+        "frequncy": "2140"
+    },
+    {
+        "id": "115",
+        "name": "SDM",
+        "frequncy": "1847"
+    },
+    {
+        "id": "116",
+        "name": "DASFAA",
+        "frequncy": "1795"
+    },
+    {
+        "id": "117",
+        "name": "ICASSP",
+        "frequncy": "1783"
+    },
+    {
+        "id": "118",
+        "name": "SIGMOD Record",
+        "frequncy": "1781"
+    },
+    {
+        "id": "119",
+        "name": "AAAI",
+        "frequncy": "1749"
+    },
+    {
+        "id": "120",
+        "name": "ICME",
+        "frequncy": "1748"
+    },
+    {
+        "id": "121",
+        "name": "ICML",
+        "frequncy": "1743"
+    },
+    {
+        "id": "122",
+        "name": "IJCAI",
+        "frequncy": "1698"
+    },
+    {
+        "id": "123",
+        "name": "NIPS",
+        "frequncy": "1653"
+    },
+    {
+        "id": "124",
+        "name": "PAKDD",
+        "frequncy": "1597"
+    },
+    {
+        "id": "125",
+        "name": "IEEE Data Eng. Bull.",
+        "frequncy": "1538"
+    },
+    {
+        "id": "126",
+        "name": "ICIP",
+        "frequncy": "1526"
+    },
+    {
+        "id": "127",
+        "name": "VLDB J.",
+        "frequncy": "1481"
+    },
+    {
+        "id": "128",
+        "name": "ECIR",
+        "frequncy": "1462"
+    },
+    {
+        "id": "129",
+        "name": "ACM",
+        "frequncy": "1339"
+    },
+    {
+        "id": "130",
+        "name": "SAC",
+        "frequncy": "1283"
+    },
+    {
+        "id": "131",
+        "name": "PODS",
+        "frequncy": "1252"
+    },
+    {
+        "id": "132",
+        "name": "CVPR",
+        "frequncy": "1234"
+    },
+    {
+        "id": "133",
+        "name": "DEXA",
+        "frequncy": "1233"
+    },
+    {
+        "id": "134",
+        "name": "ACL",
+        "frequncy": "1202"
+    },
+    {
+        "id": "135",
+        "name": "WWW (Companion Volume)",
+        "frequncy": "1201"
+    },
+    {
+        "id": "136",
+        "name": "ACM Trans. Database Syst.",
+        "frequncy": "1194"
+    },
+    {
+        "id": "137",
+        "name": "INFOCOM",
+        "frequncy": "1166"
+    },
+    {
+        "id": "138",
+        "name": "WSDM",
+        "frequncy": "1131"
+    },
+    {
+        "id": "139",
+        "name": "SSDBM",
+        "frequncy": "1123"
+    },
+    {
+        "id": "140",
+        "name": "Inf. Syst.",
+        "frequncy": "1113"
+    },
+    {
+        "id": "141",
+        "name": "FSKD",
+        "frequncy": "1099"
+    },
+    {
+        "id": "142",
+        "name": "ICWSM",
+        "frequncy": "1089"
+    },
+    {
+        "id": "143",
+        "name": "Web Intelligence",
+        "frequncy": "1063"
+    },
+    {
+        "id": "144",
+        "name": "Encyclopedia of Database Systems",
+        "frequncy": "1063"
+    },
+    {
+        "id": "145",
+        "name": "ICPR",
+        "frequncy": "1053"
+    },
+    {
+        "id": "146",
+        "name": "Inf. Sci.",
+        "frequncy": "1037"
+    },
+    {
+        "id": "147",
+        "name": "Inf. Process. Manage.",
+        "frequncy": "1001"
+    },
+    {
+        "id": "148",
+        "name": "GLOBECOM",
+        "frequncy": "999"
+    },
+    {
+        "id": "149",
+        "name": "Knowl. Inf. Syst.",
+        "frequncy": "965"
+    },
+    {
+        "id": "150",
+        "name": "WAIM",
+        "frequncy": "943"
+    },
+    {
+        "id": "151",
+        "name": "INTERSPEECH",
+        "frequncy": "933"
+    },
+    {
+        "id": "152",
+        "name": "Bioinformatics",
+        "frequncy": "929"
+    },
+    {
+        "id": "153",
+        "name": "Data Knowl. Eng.",
+        "frequncy": "926"
+    },
+    {
+        "id": "154",
+        "name": "SIGIR Forum",
+        "frequncy": "917"
+    },
+    {
+        "id": "155",
+        "name": "ICDM Workshops",
+        "frequncy": "906"
+    },
+    {
+        "id": "156",
+        "name": "IGARSS",
+        "frequncy": "890"
+    },
+    {
+        "id": "157",
+        "name": "ICC",
+        "frequncy": "867"
+    },
+    {
+        "id": "158",
+        "name": "RecSys",
+        "frequncy": "855"
+    },
+    {
+        "id": "159",
+        "name": "BMC Bioinformatics",
+        "frequncy": "853"
+    },
+    {
+        "id": "160",
+        "name": "JCDL",
+        "frequncy": "833"
+    },
+    {
+        "id": "161",
+        "name": "Neurocomputing",
+        "frequncy": "830"
+    },
+    {
+        "id": "162",
+        "name": "Pattern Recognition",
+        "frequncy": "824"
+    },
+    {
+        "id": "163",
+        "name": "WISE",
+        "frequncy": "814"
+    },
+    {
+        "id": "164",
+        "name": "ICDCS",
+        "frequncy": "794"
+    },
+    {
+        "id": "165",
+        "name": "Commun. ACM",
+        "frequncy": "786"
+    },
+    {
+        "id": "166",
+        "name": "ECML/PKDD",
+        "frequncy": "785"
+    },
+    {
+        "id": "167",
+        "name": "IEEE Trans. Pattern Anal. Mach. Intell.",
+        "frequncy": "780"
+    },
+    {
+        "id": "168",
+        "name": "CHI",
+        "frequncy": "770"
+    },
+    {
+        "id": "169",
+        "name": "ICDE Workshops",
+        "frequncy": "761"
+    },
+    {
+        "id": "170",
+        "name": "APWeb",
+        "frequncy": "739"
+    },
+    {
+        "id": "171",
+        "name": "SEBD",
+        "frequncy": "731"
+    },
+    {
+        "id": "172",
+        "name": "JASIST",
+        "frequncy": "723"
+    },
+    {
+        "id": "173",
+        "name": "SMC",
+        "frequncy": "706"
+    },
+    {
+        "id": "174",
+        "name": "IEEE Trans. Parallel Distrib. Syst.",
+        "frequncy": "685"
+    },
+    {
+        "id": "175",
+        "name": "SODA",
+        "frequncy": "680"
+    },
+    {
+        "id": "176",
+        "name": "J. Comput. Sci. Technol.",
+        "frequncy": "678"
+    },
+    {
+        "id": "177",
+        "name": "International Semantic Web Conference",
+        "frequncy": "676"
+    },
+    {
+        "id": "178",
+        "name": "ACM Trans. Inf. Syst.",
+        "frequncy": "671"
+    },
+    {
+        "id": "179",
+        "name": "ER",
+        "frequncy": "660"
+    },
+    {
+        "id": "180",
+        "name": "ICNC",
+        "frequncy": "658"
+    },
+    {
+        "id": "181",
+        "name": "ISCAS",
+        "frequncy": "654"
+    },
+    {
+        "id": "182",
+        "name": "Data Min. Knowl. Discov.",
+        "frequncy": "646"
+    },
+    {
+        "id": "183",
+        "name": "ISNN",
+        "frequncy": "633"
+    },
+    {
+        "id": "184",
+        "name": "CIDR",
+        "frequncy": "629"
+    },
+    {
+        "id": "185",
+        "name": "IEEE Transactions on Multimedia",
+        "frequncy": "618"
+    },
+    {
+        "id": "186",
+        "name": "IEEE Transactions on Systems",
+        "frequncy": "609"
+    },
+    {
+        "id": "187",
+        "name": "SIGKDD Explorations",
+        "frequncy": "607"
+    },
+    {
+        "id": "188",
+        "name": "Inf. Retr.",
+        "frequncy": "604"
+    },
+    {
+        "id": "189",
+        "name": "Expert Syst. Appl.",
+        "frequncy": "600"
+    },
+    {
+        "id": "190",
+        "name": "Theor. Comput. Sci.",
+        "frequncy": "600"
+    },
+    {
+        "id": "191",
+        "name": "EMNLP",
+        "frequncy": "599"
+    },
+    {
+        "id": "192",
+        "name": "CLEF",
+        "frequncy": "588"
+    },
+    {
+        "id": "193",
+        "name": "Computer Networks",
+        "frequncy": "582"
+    },
+    {
+        "id": "194",
+        "name": "PKDD",
+        "frequncy": "580"
+    },
+    {
+        "id": "195",
+        "name": "Machine Learning",
+        "frequncy": "574"
+    },
+    {
+        "id": "196",
+        "name": "COLING",
+        "frequncy": "572"
+    },
+    {
+        "id": "197",
+        "name": "IEEE Transactions on Image Processing",
+        "frequncy": "571"
+    },
+    {
+        "id": "198",
+        "name": "ICTAI",
+        "frequncy": "565"
+    },
+    {
+        "id": "199",
+        "name": "MMM",
+        "frequncy": "563"
+    },
+    {
+        "id": "200",
+        "name": "J. Comput. Syst. Sci.",
+        "frequncy": "554"
+    },
+    {
+        "id": "201",
+        "name": "HICSS",
+        "frequncy": "546"
+    },
+    {
+        "id": "202",
+        "name": "AIRS",
+        "frequncy": "537"
+    },
+    {
+        "id": "203",
+        "name": "ICWS",
+        "frequncy": "537"
+    },
+    {
+        "id": "204",
+        "name": "ROBIO",
+        "frequncy": "536"
+    },
+    {
+        "id": "205",
+        "name": "CHI Extended Abstracts",
+        "frequncy": "532"
+    },
+    {
+        "id": "206",
+        "name": "UAI",
+        "frequncy": "528"
+    },
+    {
+        "id": "207",
+        "name": "IDEAS",
+        "frequncy": "526"
+    },
+    {
+        "id": "208",
+        "name": "ICDT",
+        "frequncy": "525"
+    },
+    {
+        "id": "209",
+        "name": "IEEE Computer",
+        "frequncy": "522"
+    },
+    {
+        "id": "210",
+        "name": "Journal of Machine Learning Research",
+        "frequncy": "519"
+    },
+    {
+        "id": "211",
+        "name": "IEEE Internet Computing",
+        "frequncy": "498"
+    },
+    {
+        "id": "212",
+        "name": "ICIC",
+        "frequncy": "495"
+    },
+    {
+        "id": "213",
+        "name": "World Wide Web",
+        "frequncy": "495"
+    },
+    {
+        "id": "214",
+        "name": "IPDPS",
+        "frequncy": "494"
+    },
+    {
+        "id": "215",
+        "name": "IUI",
+        "frequncy": "492"
+    },
+    {
+        "id": "216",
+        "name": "GIS",
+        "frequncy": "492"
+    },
+    {
+        "id": "217",
+        "name": "STOC",
+        "frequncy": "488"
+    },
+    {
+        "id": "218",
+        "name": "Pattern Recognition Letters",
+        "frequncy": "486"
+    },
+    {
+        "id": "219",
+        "name": "Multimedia Tools Appl.",
+        "frequncy": "484"
+    },
+    {
+        "id": "220",
+        "name": "Inf. Process. Lett.",
+        "frequncy": "481"
+    },
+    {
+        "id": "221",
+        "name": "WCNC",
+        "frequncy": "480"
+    },
+    {
+        "id": "222",
+        "name": "IEEE Intelligent Systems",
+        "frequncy": "477"
+    },
+    {
+        "id": "223",
+        "name": "BTW",
+        "frequncy": "470"
+    },
+    {
+        "id": "224",
+        "name": "Distributed and Parallel Databases",
+        "frequncy": "461"
+    },
+    {
+        "id": "225",
+        "name": "LREC",
+        "frequncy": "459"
+    },
+    {
+        "id": "226",
+        "name": "Artif. Intell.",
+        "frequncy": "458"
+    },
+    {
+        "id": "227",
+        "name": "Description Logics",
+        "frequncy": "444"
+    },
+    {
+        "id": "228",
+        "name": "BDA",
+        "frequncy": "443"
+    },
+    {
+        "id": "229",
+        "name": "J. Intell. Inf. Syst.",
+        "frequncy": "442"
+    },
+    {
+        "id": "230",
+        "name": "IEICE Transactions -D",
+        "frequncy": "442"
+    },
+    {
+        "id": "231",
+        "name": "GrC",
+        "frequncy": "440"
+    },
+    {
+        "id": "232",
+        "name": "SIAM J. Comput.",
+        "frequncy": "436"
+    },
+    {
+        "id": "233",
+        "name": "IJCNN",
+        "frequncy": "434"
+    },
+    {
+        "id": "234",
+        "name": "Applied Mathematics and Computation",
+        "frequncy": "434"
+    },
+    {
+        "id": "235",
+        "name": "ADMA",
+        "frequncy": "433"
+    },
+    {
+        "id": "236",
+        "name": "BIBM",
+        "frequncy": "433"
+    },
+    {
+        "id": "237",
+        "name": "ICCV",
+        "frequncy": "429"
+    },
+    {
+        "id": "238",
+        "name": "DaWaK",
+        "frequncy": "426"
+    },
+    {
+        "id": "239",
+        "name": "IEEE Trans. Computers",
+        "frequncy": "419"
+    },
+    {
+        "id": "240",
+        "name": "FOCS",
+        "frequncy": "419"
+    },
+    {
+        "id": "241",
+        "name": "J. ACM",
+        "frequncy": "416"
+    },
+    {
+        "id": "242",
+        "name": "IEEE Transactions on Neural Networks",
+        "frequncy": "415"
+    },
+    {
+        "id": "243",
+        "name": "ICEIS",
+        "frequncy": "413"
+    },
+    {
+        "id": "244",
+        "name": "WebDB",
+        "frequncy": "409"
+    },
+    {
+        "id": "245",
+        "name": "INEX",
+        "frequncy": "408"
+    },
+    {
+        "id": "246",
+        "name": "IEEE Trans. Circuits Syst. Video Techn.",
+        "frequncy": "406"
+    },
+    {
+        "id": "247",
+        "name": "SSTD",
+        "frequncy": "405"
+    },
+    {
+        "id": "248",
+        "name": "ESWC",
+        "frequncy": "405"
+    },
+    {
+        "id": "249",
+        "name": "HLT-NAACL",
+        "frequncy": "399"
+    },
+    {
+        "id": "250",
+        "name": "ECDL",
+        "frequncy": "396"
+    },
+    {
+        "id": "251",
+        "name": "AISTATS",
+        "frequncy": "390"
+    },
+    {
+        "id": "252",
+        "name": "IEEE SCC",
+        "frequncy": "390"
+    },
+    {
+        "id": "253",
+        "name": "SPIRE",
+        "frequncy": "390"
+    },
+    {
+        "id": "254",
+        "name": "AAMAS",
+        "frequncy": "388"
+    },
+    {
+        "id": "255",
+        "name": "ICDAR",
+        "frequncy": "387"
+    },
+    {
+        "id": "256",
+        "name": "TKDD",
+        "frequncy": "385"
+    },
+    {
+        "id": "257",
+        "name": "SCIENCE CHINA Information Sciences",
+        "frequncy": "383"
+    },
+    {
+        "id": "258",
+        "name": "COMPSAC",
+        "frequncy": "382"
+    },
+    {
+        "id": "259",
+        "name": "MDM",
+        "frequncy": "381"
+    },
+    {
+        "id": "260",
+        "name": "AAAI/IAAI",
+        "frequncy": "381"
+    },
+    {
+        "id": "261",
+        "name": "CIS",
+        "frequncy": "380"
+    },
+    {
+        "id": "262",
+        "name": "CIVR",
+        "frequncy": "380"
+    },
+    {
+        "id": "263",
+        "name": "ICRA",
+        "frequncy": "380"
+    },
+    {
+        "id": "264",
+        "name": "IEEE Transactions on Signal Processing",
+        "frequncy": "374"
+    },
+    {
+        "id": "265",
+        "name": "AI Magazine",
+        "frequncy": "374"
+    },
+    {
+        "id": "266",
+        "name": "J. Parallel Distrib. Comput.",
+        "frequncy": "373"
+    },
+    {
+        "id": "267",
+        "name": "CSCWD",
+        "frequncy": "373"
+    },
+    {
+        "id": "268",
+        "name": "ASONAM",
+        "frequncy": "371"
+    },
+    {
+        "id": "269",
+        "name": "JCP",
+        "frequncy": "371"
+    },
+    {
+        "id": "270",
+        "name": "CIT",
+        "frequncy": "368"
+    },
+    {
+        "id": "271",
+        "name": "IEEE Congress on Evolutionary Computation",
+        "frequncy": "367"
+    },
+    {
+        "id": "272",
+        "name": "ICPP",
+        "frequncy": "367"
+    },
+    {
+        "id": "273",
+        "name": "J. Web Sem.",
+        "frequncy": "366"
+    },
+    {
+        "id": "274",
+        "name": "Mobile Data Management",
+        "frequncy": "366"
+    },
+    {
+        "id": "275",
+        "name": "PCM",
+        "frequncy": "365"
+    },
+    {
+        "id": "276",
+        "name": "Knowl.-Based Syst.",
+        "frequncy": "360"
+    },
+    {
+        "id": "277",
+        "name": "ISMIS",
+        "frequncy": "354"
+    },
+    {
+        "id": "278",
+        "name": "DEXA Workshops",
+        "frequncy": "353"
+    },
+    {
+        "id": "279",
+        "name": "DBSec",
+        "frequncy": "350"
+    },
+    {
+        "id": "280",
+        "name": "HCI",
+        "frequncy": "349"
+    },
+    {
+        "id": "281",
+        "name": "CoRR abs/cs/",
+        "frequncy": "347"
+    },
+    {
+        "id": "282",
+        "name": "ACM TIST",
+        "frequncy": "346"
+    },
+    {
+        "id": "283",
+        "name": "CEUR-WS.org",
+        "frequncy": "340"
+    },
+    {
+        "id": "284",
+        "name": "SIGMETRICS",
+        "frequncy": "334"
+    },
+    {
+        "id": "285",
+        "name": "SIGCOMM",
+        "frequncy": "333"
+    },
+    {
+        "id": "286",
+        "name": "Computer Communications",
+        "frequncy": "333"
+    },
+    {
+        "id": "287",
+        "name": "CSCW",
+        "frequncy": "332"
+    },
+    {
+        "id": "288",
+        "name": "IEEE Transactions on Information Theory",
+        "frequncy": "323"
+    },
+    {
+        "id": "289",
+        "name": "IROS",
+        "frequncy": "321"
+    },
+    {
+        "id": "290",
+        "name": "GCC",
+        "frequncy": "321"
+    },
+    {
+        "id": "291",
+        "name": "SC",
+        "frequncy": "318"
+    },
+    {
+        "id": "292",
+        "name": "ICWE",
+        "frequncy": "318"
+    },
+    {
+        "id": "293",
+        "name": "VTC Fall",
+        "frequncy": "316"
+    },
+    {
+        "id": "294",
+        "name": "Hypertext",
+        "frequncy": "315"
+    },
+    {
+        "id": "295",
+        "name": "IJCNLP",
+        "frequncy": "315"
+    },
+    {
+        "id": "296",
+        "name": "IEEE Trans. Software Eng.",
+        "frequncy": "315"
+    },
+    {
+        "id": "297",
+        "name": "ICONIP",
+        "frequncy": "315"
+    },
+    {
+        "id": "298",
+        "name": "OTM Conferences",
+        "frequncy": "315"
+    },
+    {
+        "id": "299",
+        "name": "ECAI",
+        "frequncy": "314"
+    },
+    {
+        "id": "300",
+        "name": "ECML",
+        "frequncy": "314"
+    },
+    {
+        "id": "301",
+        "name": "DG.O",
+        "frequncy": "313"
+    },
+    {
+        "id": "302",
+        "name": "IEEE Journal on Selected Areas in Communications",
+        "frequncy": "313"
+    },
+    {
+        "id": "303",
+        "name": "ICADL",
+        "frequncy": "312"
+    },
+    {
+        "id": "304",
+        "name": "CCTA",
+        "frequncy": "310"
+    },
+    {
+        "id": "305",
+        "name": "EC",
+        "frequncy": "309"
+    },
+    {
+        "id": "306",
+        "name": "Journal of Systems and Software",
+        "frequncy": "308"
+    },
+    {
+        "id": "307",
+        "name": "CAiSE",
+        "frequncy": "307"
+    },
+    {
+        "id": "308",
+        "name": "JSW",
+        "frequncy": "305"
+    },
+    {
+        "id": "309",
+        "name": "ICPADS",
+        "frequncy": "305"
+    },
+    {
+        "id": "310",
+        "name": "ISMIR",
+        "frequncy": "303"
+    },
+    {
+        "id": "311",
+        "name": "KES",
+        "frequncy": "302"
+    },
+    {
+        "id": "312",
+        "name": "Nucleic Acids Research",
+        "frequncy": "302"
+    },
+    {
+        "id": "313",
+        "name": "BIBE",
+        "frequncy": "302"
+    },
+    {
+        "id": "314",
+        "name": "IEEE Transactions on Wireless Communications",
+        "frequncy": "300"
+    },
+    {
+        "id": "315",
+        "name": "ISI",
+        "frequncy": "295"
+    },
+    {
+        "id": "316",
+        "name": "ADBIS",
+        "frequncy": "294"
+    },
+    {
+        "id": "317",
+        "name": "IEEE T. Vehicular Technology",
+        "frequncy": "293"
+    },
+    {
+        "id": "318",
+        "name": "IEEE MultiMedia",
+        "frequncy": "293"
+    },
+    {
+        "id": "319",
+        "name": "Multimedia Syst.",
+        "frequncy": "292"
+    },
+    {
+        "id": "320",
+        "name": "PIMRC",
+        "frequncy": "292"
+    },
+    {
+        "id": "321",
+        "name": "Signal Processing",
+        "frequncy": "290"
+    },
+    {
+        "id": "322",
+        "name": "RIAO",
+        "frequncy": "289"
+    },
+    {
+        "id": "323",
+        "name": "ACM Comput. Surv.",
+        "frequncy": "287"
+    },
+    {
+        "id": "324",
+        "name": "BMEI",
+        "frequncy": "284"
+    },
+    {
+        "id": "325",
+        "name": "Algorithmica",
+        "frequncy": "282"
+    },
+    {
+        "id": "326",
+        "name": "ICALP",
+        "frequncy": "280"
+    },
+    {
+        "id": "327",
+        "name": "International Conference on Computational Science",
+        "frequncy": "280"
+    },
+    {
+        "id": "328",
+        "name": "PODC",
+        "frequncy": "280"
+    },
+    {
+        "id": "329",
+        "name": "IEEE Trans. Vis. Comput. Graph.",
+        "frequncy": "279"
+    },
+    {
+        "id": "330",
+        "name": "VTC Spring",
+        "frequncy": "276"
+    },
+    {
+        "id": "331",
+        "name": "Concurrency and Computation: Practice and Experience",
+        "frequncy": "276"
+    },
+    {
+        "id": "332",
+        "name": "Euro-Par",
+        "frequncy": "272"
+    },
+    {
+        "id": "333",
+        "name": "Web Intelligence/IAT Workshops",
+        "frequncy": "272"
+    },
+    {
+        "id": "334",
+        "name": "IACR Cryptology ePrint Archive",
+        "frequncy": "272"
+    },
+    {
+        "id": "335",
+        "name": "TWEB",
+        "frequncy": "272"
+    },
+    {
+        "id": "336",
+        "name": "IEEE/ACM Trans. Netw.",
+        "frequncy": "272"
+    },
+    {
+        "id": "337",
+        "name": "J. Artif. Intell. Res. (JAIR)",
+        "frequncy": "271"
+    },
+    {
+        "id": "338",
+        "name": "IEEE Computer Society",
+        "frequncy": "269"
+    },
+    {
+        "id": "339",
+        "name": "Decision Support Systems",
+        "frequncy": "268"
+    },
+    {
+        "id": "340",
+        "name": "IRI",
+        "frequncy": "267"
+    },
+    {
+        "id": "341",
+        "name": "ICMLA",
+        "frequncy": "267"
+    },
+    {
+        "id": "342",
+        "name": "Comput. J.",
+        "frequncy": "266"
+    },
+    {
+        "id": "343",
+        "name": "ECCV",
+        "frequncy": "259"
+    },
+    {
+        "id": "344",
+        "name": "BNCOD",
+        "frequncy": "258"
+    },
+    {
+        "id": "345",
+        "name": "IEEE Communications Letters",
+        "frequncy": "257"
+    },
+    {
+        "id": "346",
+        "name": "FLAIRS Conference",
+        "frequncy": "256"
+    },
+    {
+        "id": "347",
+        "name": "ACM Conference on Computer and Communications Security",
+        "frequncy": "256"
+    },
+    {
+        "id": "348",
+        "name": "GECCO",
+        "frequncy": "254"
+    },
+    {
+        "id": "349",
+        "name": "NeuroImage",
+        "frequncy": "253"
+    },
+    {
+        "id": "350",
+        "name": "IEEE T. Geoscience and Remote Sensing",
+        "frequncy": "252"
+    },
+    {
+        "id": "351",
+        "name": "DBPL",
+        "frequncy": "251"
+    },
+    {
+        "id": "352",
+        "name": "ICSC",
+        "frequncy": "251"
+    },
+    {
+        "id": "353",
+        "name": "CCGRID",
+        "frequncy": "250"
+    },
+    {
+        "id": "354",
+        "name": "Multimedia Information Retrieval",
+        "frequncy": "250"
+    },
+    {
+        "id": "355",
+        "name": "DAC",
+        "frequncy": "249"
+    },
+    {
+        "id": "356",
+        "name": "AINA",
+        "frequncy": "248"
+    },
+    {
+        "id": "357",
+        "name": "ICCCN",
+        "frequncy": "248"
+    },
+    {
+        "id": "358",
+        "name": "IEEE Trans. Biomed. Engineering",
+        "frequncy": "247"
+    },
+    {
+        "id": "359",
+        "name": "JNW",
+        "frequncy": "246"
+    },
+    {
+        "id": "360",
+        "name": "COLT",
+        "frequncy": "246"
+    },
+    {
+        "id": "361",
+        "name": "FUZZ-IEEE",
+        "frequncy": "246"
+    },
+    {
+        "id": "362",
+        "name": "SocialCom/PASSAT",
+        "frequncy": "246"
+    },
+    {
+        "id": "363",
+        "name": "WIDM",
+        "frequncy": "244"
+    },
+    {
+        "id": "364",
+        "name": "ISBI",
+        "frequncy": "242"
+    },
+    {
+        "id": "365",
+        "name": "PRICAI",
+        "frequncy": "242"
+    },
+    {
+        "id": "366",
+        "name": "Discovery Science",
+        "frequncy": "240"
+    },
+    {
+        "id": "367",
+        "name": "Datenbank-Spektrum",
+        "frequncy": "239"
+    },
+    {
+        "id": "368",
+        "name": "ADC",
+        "frequncy": "239"
+    },
+    {
+        "id": "369",
+        "name": "DEXA Workshop",
+        "frequncy": "238"
+    },
+    {
+        "id": "370",
+        "name": "Future Generation Comp. Syst.",
+        "frequncy": "238"
+    },
+    {
+        "id": "371",
+        "name": "ICMLC",
+        "frequncy": "232"
+    },
+    {
+        "id": "372",
+        "name": "SBBD",
+        "frequncy": "231"
+    },
+    {
+        "id": "373",
+        "name": "IEEE Trans. Mob. Comput.",
+        "frequncy": "227"
+    },
+    {
+        "id": "374",
+        "name": "CSSE",
+        "frequncy": "226"
+    },
+    {
+        "id": "375",
+        "name": "Softw.",
+        "frequncy": "225"
+    },
+    {
+        "id": "376",
+        "name": "EURASIP J. Adv. Sig. Proc.",
+        "frequncy": "224"
+    },
+    {
+        "id": "377",
+        "name": "IBM Journal of Research and Development",
+        "frequncy": "224"
+    },
+    {
+        "id": "378",
+        "name": "ACM Trans. Internet Techn.",
+        "frequncy": "222"
+    },
+    {
+        "id": "379",
+        "name": "EGC",
+        "frequncy": "222"
+    },
+    {
+        "id": "380",
+        "name": "ESA",
+        "frequncy": "222"
+    },
+    {
+        "id": "381",
+        "name": "ICSOC",
+        "frequncy": "222"
+    },
+    {
+        "id": "382",
+        "name": "MICCAI",
+        "frequncy": "221"
+    },
+    {
+        "id": "383",
+        "name": "IEEE Transactions on Communications",
+        "frequncy": "221"
+    },
+    {
+        "id": "384",
+        "name": "CSE",
+        "frequncy": "220"
+    },
+    {
+        "id": "385",
+        "name": "SPAA",
+        "frequncy": "219"
+    },
+    {
+        "id": "386",
+        "name": "EMEIT",
+        "frequncy": "217"
+    },
+    {
+        "id": "387",
+        "name": "IEEE Signal Process. Lett.",
+        "frequncy": "216"
+    },
+    {
+        "id": "388",
+        "name": "J. Applied Mathematics",
+        "frequncy": "216"
+    },
+    {
+        "id": "389",
+        "name": "ICCS",
+        "frequncy": "214"
+    },
+    {
+        "id": "390",
+        "name": "GeoInformatica",
+        "frequncy": "214"
+    },
+    {
+        "id": "391",
+        "name": "WWW (Special interest tracks and posters)",
+        "frequncy": "212"
+    },
+    {
+        "id": "392",
+        "name": "MASCOTS",
+        "frequncy": "212"
+    },
+    {
+        "id": "393",
+        "name": "Int. J. Cooperative Inf. Syst.",
+        "frequncy": "210"
+    },
+    {
+        "id": "394",
+        "name": "IJPRAI",
+        "frequncy": "210"
+    },
+    {
+        "id": "395",
+        "name": "COMAD",
+        "frequncy": "210"
+    },
+    {
+        "id": "396",
+        "name": "IEICE Transactions -B",
+        "frequncy": "209"
+    },
+    {
+        "id": "397",
+        "name": "CICLing",
+        "frequncy": "206"
+    },
+    {
+        "id": "398",
+        "name": "IDEAL",
+        "frequncy": "206"
+    },
+    {
+        "id": "399",
+        "name": "CollaborateCom",
+        "frequncy": "205"
+    },
+    {
+        "id": "400",
+        "name": "CBMS",
+        "frequncy": "205"
+    },
+    {
+        "id": "401",
+        "name": "ICTIR",
+        "frequncy": "204"
+    },
+    {
+        "id": "402",
+        "name": "IJDSN",
+        "frequncy": "203"
+    },
+    {
+        "id": "403",
+        "name": "CoopIS",
+        "frequncy": "202"
+    },
+    {
+        "id": "404",
+        "name": "ICDCS Workshops",
+        "frequncy": "202"
+    },
+    {
+        "id": "405",
+        "name": "IBM Systems Journal",
+        "frequncy": "201"
+    },
+    {
+        "id": "406",
+        "name": "AMIA",
+        "frequncy": "201"
+    },
+    {
+        "id": "407",
+        "name": "IEEE Transactions on Industrial Electronics",
+        "frequncy": "200"
+    },
+    {
+        "id": "408",
+        "name": "CDC",
+        "frequncy": "200"
+    },
+    {
+        "id": "409",
+        "name": "Intell. Data Anal.",
+        "frequncy": "199"
+    },
+    {
+        "id": "410",
+        "name": "TOMCCAP",
+        "frequncy": "199"
+    },
+    {
+        "id": "411",
+        "name": "ICAC",
+        "frequncy": "198"
+    },
+    {
+        "id": "412",
+        "name": "Computers & Mathematics with Applications",
+        "frequncy": "196"
+    },
+    {
+        "id": "413",
+        "name": "Int. J. on Digital Libraries",
+        "frequncy": "195"
+    },
+    {
+        "id": "414",
+        "name": "DEBS",
+        "frequncy": "195"
+    },
+    {
+        "id": "415",
+        "name": "Statistical Analysis and Data Mining",
+        "frequncy": "193"
+    },
+    {
+        "id": "416",
+        "name": "Symposium on Computational Geometry",
+        "frequncy": "192"
+    },
+    {
+        "id": "417",
+        "name": "Geoinformatics",
+        "frequncy": "192"
+    },
+    {
+        "id": "418",
+        "name": "APWeb/WAIM",
+        "frequncy": "191"
+    },
+    {
+        "id": "419",
+        "name": "KI",
+        "frequncy": "191"
+    },
+    {
+        "id": "420",
+        "name": "SNPD",
+        "frequncy": "190"
+    },
+    {
+        "id": "421",
+        "name": "Computer Communication Review",
+        "frequncy": "189"
+    },
+    {
+        "id": "422",
+        "name": "COLING (Posters)",
+        "frequncy": "188"
+    },
+    {
+        "id": "423",
+        "name": "GI Jahrestagung",
+        "frequncy": "188"
+    },
+    {
+        "id": "424",
+        "name": "Neural Computation",
+        "frequncy": "187"
+    },
+    {
+        "id": "425",
+        "name": "JIDM",
+        "frequncy": "186"
+    },
+    {
+        "id": "426",
+        "name": "ICMCS",
+        "frequncy": "186"
+    },
+    {
+        "id": "427",
+        "name": "ICARCV",
+        "frequncy": "185"
+    },
+    {
+        "id": "428",
+        "name": "Computer Vision and Image Understanding",
+        "frequncy": "184"
+    },
+    {
+        "id": "429",
+        "name": "OTM Workshops",
+        "frequncy": "184"
+    },
+    {
+        "id": "430",
+        "name": "MMSP",
+        "frequncy": "183"
+    },
+    {
+        "id": "431",
+        "name": "IEEE Geosci. Remote Sensing Lett.",
+        "frequncy": "183"
+    },
+    {
+        "id": "432",
+        "name": "ACCV",
+        "frequncy": "182"
+    },
+    {
+        "id": "433",
+        "name": "IEEE/ACM Trans. Comput. Biology Bioinform.",
+        "frequncy": "182"
+    },
+    {
+        "id": "434",
+        "name": "The Visual Computer",
+        "frequncy": "181"
+    },
+    {
+        "id": "435",
+        "name": "MONET",
+        "frequncy": "181"
+    },
+    {
+        "id": "436",
+        "name": "USENIX Annual Technical Conference",
+        "frequncy": "180"
+    },
+    {
+        "id": "437",
+        "name": "NSDI",
+        "frequncy": "179"
+    },
+    {
+        "id": "438",
+        "name": "Inf. Comput.",
+        "frequncy": "178"
+    },
+    {
+        "id": "439",
+        "name": "SEKE",
+        "frequncy": "177"
+    },
+    {
+        "id": "440",
+        "name": "KR",
+        "frequncy": "177"
+    },
+    {
+        "id": "441",
+        "name": "IAT",
+        "frequncy": "176"
+    },
+    {
+        "id": "442",
+        "name": "Computational Intelligence",
+        "frequncy": "175"
+    },
+    {
+        "id": "443",
+        "name": "BCB",
+        "frequncy": "174"
+    },
+    {
+        "id": "444",
+        "name": "IEA/AIE",
+        "frequncy": "174"
+    },
+    {
+        "id": "445",
+        "name": "BigData Conference",
+        "frequncy": "173"
+    },
+    {
+        "id": "446",
+        "name": "ICCAD",
+        "frequncy": "171"
+    },
+    {
+        "id": "447",
+        "name": "Automatica",
+        "frequncy": "171"
+    },
+    {
+        "id": "448",
+        "name": "SoCC",
+        "frequncy": "171"
+    },
+    {
+        "id": "449",
+        "name": "ICSE",
+        "frequncy": "170"
+    },
+    {
+        "id": "450",
+        "name": "HPDC",
+        "frequncy": "170"
+    },
+    {
+        "id": "451",
+        "name": "DOLAP",
+        "frequncy": "169"
+    },
+    {
+        "id": "452",
+        "name": "Canadian Conference on AI",
+        "frequncy": "169"
+    },
+    {
+        "id": "453",
+        "name": "CSIE",
+        "frequncy": "168"
+    },
+    {
+        "id": "454",
+        "name": "FQAS",
+        "frequncy": "168"
+    },
+    {
+        "id": "455",
+        "name": "Appl. Intell.",
+        "frequncy": "168"
+    },
+    {
+        "id": "456",
+        "name": "ICMR",
+        "frequncy": "167"
+    },
+    {
+        "id": "457",
+        "name": "EMNLP-CoNLL",
+        "frequncy": "167"
+    },
+    {
+        "id": "458",
+        "name": "CoRR cs.DB/",
+        "frequncy": "167"
+    },
+    {
+        "id": "459",
+        "name": "SACMAT",
+        "frequncy": "167"
+    },
+    {
+        "id": "460",
+        "name": "EDBT Workshops",
+        "frequncy": "167"
+    },
+    {
+        "id": "461",
+        "name": "Wireless Personal Communications",
+        "frequncy": "167"
+    },
+    {
+        "id": "462",
+        "name": "WINE",
+        "frequncy": "166"
+    },
+    {
+        "id": "463",
+        "name": "UMAP",
+        "frequncy": "166"
+    },
+    {
+        "id": "464",
+        "name": "Journal of Computational Biology",
+        "frequncy": "166"
+    },
+    {
+        "id": "465",
+        "name": "TRECVID",
+        "frequncy": "166"
+    },
+    {
+        "id": "466",
+        "name": "Peer-to-Peer Computing",
+        "frequncy": "166"
+    },
+    {
+        "id": "467",
+        "name": "Science in China Series F: Information Sciences",
+        "frequncy": "165"
+    },
+    {
+        "id": "468",
+        "name": "IEEE VAST",
+        "frequncy": "165"
+    },
+    {
+        "id": "469",
+        "name": "Information & Software Technology",
+        "frequncy": "165"
+    },
+    {
+        "id": "470",
+        "name": "SRDS",
+        "frequncy": "164"
+    },
+    {
+        "id": "471",
+        "name": "IEEE CLOUD",
+        "frequncy": "164"
+    },
+    {
+        "id": "472",
+        "name": "ACM Trans. Graph.",
+        "frequncy": "164"
+    },
+    {
+        "id": "473",
+        "name": "Journal of Visualization and Computer Animation",
+        "frequncy": "164"
+    },
+    {
+        "id": "474",
+        "name": "ITCC",
+        "frequncy": "163"
+    },
+    {
+        "id": "475",
+        "name": "SenSys",
+        "frequncy": "163"
+    },
+    {
+        "id": "476",
+        "name": "ISCA",
+        "frequncy": "162"
+    },
+    {
+        "id": "477",
+        "name": "AMCIS",
+        "frequncy": "162"
+    },
+    {
+        "id": "478",
+        "name": "EDBT/ICDT Workshops",
+        "frequncy": "161"
+    },
+    {
+        "id": "479",
+        "name": "ICIS",
+        "frequncy": "161"
+    },
+    {
+        "id": "480",
+        "name": "ICNP",
+        "frequncy": "161"
+    },
+    {
+        "id": "481",
+        "name": "DASFAA Workshops",
+        "frequncy": "161"
+    },
+    {
+        "id": "482",
+        "name": "J. UCS",
+        "frequncy": "160"
+    },
+    {
+        "id": "483",
+        "name": "DSN",
+        "frequncy": "160"
+    },
+    {
+        "id": "484",
+        "name": "EC-Web",
+        "frequncy": "159"
+    },
+    {
+        "id": "485",
+        "name": "The Journal of Supercomputing",
+        "frequncy": "159"
+    },
+    {
+        "id": "486",
+        "name": "J. Network and Computer Applications",
+        "frequncy": "158"
+    },
+    {
+        "id": "487",
+        "name": "ICCSA",
+        "frequncy": "157"
+    },
+    {
+        "id": "488",
+        "name": "IEICE Transactions -A",
+        "frequncy": "157"
+    },
+    {
+        "id": "489",
+        "name": "AINA Workshops",
+        "frequncy": "157"
+    },
+    {
+        "id": "490",
+        "name": "SIGSPATIAL/GIS",
+        "frequncy": "157"
+    },
+    {
+        "id": "491",
+        "name": "JASIS",
+        "frequncy": "156"
+    },
+    {
+        "id": "492",
+        "name": "Grundlagen von Datenbanken",
+        "frequncy": "156"
+    },
+    {
+        "id": "493",
+        "name": "CASCON",
+        "frequncy": "156"
+    },
+    {
+        "id": "494",
+        "name": "WWW (Alternate Track Papers & Posters)",
+        "frequncy": "155"
+    },
+    {
+        "id": "495",
+        "name": "OWLED",
+        "frequncy": "155"
+    },
+    {
+        "id": "496",
+        "name": "IEEE ICCI",
+        "frequncy": "155"
+    },
+    {
+        "id": "497",
+        "name": "International Journal on Artificial Intelligence Tools",
+        "frequncy": "154"
+    },
+    {
+        "id": "498",
+        "name": "NOMS",
+        "frequncy": "154"
+    },
+    {
+        "id": "499",
+        "name": "ICUIMC",
+        "frequncy": "153"
+    },
+    {
+        "id": "500",
+        "name": "Journal of Computer Security",
+        "frequncy": "153"
+    },
+    {
+        "id": "501",
+        "name": "Journal of Chemical Information and Modeling",
+        "frequncy": "152"
+    },
+    {
+        "id": "502",
+        "name": "J. Visual Communication and Image Representation",
+        "frequncy": "152"
+    },
+    {
+        "id": "503",
+        "name": "ICIMCS",
+        "frequncy": "152"
+    },
+    {
+        "id": "504",
+        "name": "Middleware",
+        "frequncy": "151"
+    },
+    {
+        "id": "505",
+        "name": "WebSci",
+        "frequncy": "150"
+    },
+    {
+        "id": "506",
+        "name": "PDCAT",
+        "frequncy": "150"
+    },
+    {
+        "id": "507",
+        "name": "JAMIA",
+        "frequncy": "150"
+    },
+    {
+        "id": "508",
+        "name": "NEMS",
+        "frequncy": "149"
+    },
+    {
+        "id": "509",
+        "name": "IIH-MSP",
+        "frequncy": "149"
+    },
+    {
+        "id": "510",
+        "name": "RTSS",
+        "frequncy": "149"
+    },
+    {
+        "id": "511",
+        "name": "ASP-DAC",
+        "frequncy": "149"
+    },
+    {
+        "id": "512",
+        "name": "WWW (Posters)",
+        "frequncy": "149"
+    },
+    {
+        "id": "513",
+        "name": "IEEE Trans. on CAD of Integrated Circuits and Systems",
+        "frequncy": "149"
+    },
+    {
+        "id": "514",
+        "name": "Journal of Computational Chemistry",
+        "frequncy": "148"
+    },
+    {
+        "id": "515",
+        "name": "Fundam. Inform.",
+        "frequncy": "148"
+    },
+    {
+        "id": "516",
+        "name": "Pacific Symposium on Biocomputing",
+        "frequncy": "148"
+    },
+    {
+        "id": "517",
+        "name": "CORIA",
+        "frequncy": "148"
+    },
+    {
+        "id": "518",
+        "name": "LWA",
+        "frequncy": "147"
+    },
+    {
+        "id": "519",
+        "name": "INTERACT",
+        "frequncy": "147"
+    },
+    {
+        "id": "520",
+        "name": "IEEE",
+        "frequncy": "147"
+    },
+    {
+        "id": "521",
+        "name": "MASS",
+        "frequncy": "147"
+    },
+    {
+        "id": "522",
+        "name": "ACM Trans. Asian Lang. Inf. Process.",
+        "frequncy": "146"
+    },
+    {
+        "id": "523",
+        "name": "DCC",
+        "frequncy": "146"
+    },
+    {
+        "id": "524",
+        "name": "WEBIST",
+        "frequncy": "146"
+    },
+    {
+        "id": "525",
+        "name": "RSKT",
+        "frequncy": "146"
+    },
+    {
+        "id": "526",
+        "name": "Neural Networks",
+        "frequncy": "145"
+    },
+    {
+        "id": "527",
+        "name": "Electronic Colloquium on Computational Complexity (ECCC)",
+        "frequncy": "145"
+    },
+    {
+        "id": "528",
+        "name": "ACM Trans. Inf. Syst. Secur.",
+        "frequncy": "145"
+    },
+    {
+        "id": "529",
+        "name": "SIGMETRICS Performance Evaluation Review",
+        "frequncy": "145"
+    },
+    {
+        "id": "530",
+        "name": "DATE",
+        "frequncy": "145"
+    },
+    {
+        "id": "531",
+        "name": "WASA",
+        "frequncy": "144"
+    },
+    {
+        "id": "532",
+        "name": "Operating Systems Review",
+        "frequncy": "144"
+    },
+    {
+        "id": "533",
+        "name": "HIS",
+        "frequncy": "144"
+    },
+    {
+        "id": "534",
+        "name": "HT",
+        "frequncy": "144"
+    },
+    {
+        "id": "535",
+        "name": "DOOD",
+        "frequncy": "144"
+    },
+    {
+        "id": "536",
+        "name": "IEEE Transactions on Audio",
+        "frequncy": "143"
+    },
+    {
+        "id": "537",
+        "name": "EACL",
+        "frequncy": "143"
+    },
+    {
+        "id": "538",
+        "name": "IEEE Trans. Consumer Electronics",
+        "frequncy": "143"
+    },
+    {
+        "id": "539",
+        "name": "AH",
+        "frequncy": "142"
+    },
+    {
+        "id": "540",
+        "name": "APSCC",
+        "frequncy": "141"
+    },
+    {
+        "id": "541",
+        "name": "IPDPS Workshops",
+        "frequncy": "141"
+    },
+    {
+        "id": "542",
+        "name": "Wireless Networks",
+        "frequncy": "141"
+    },
+    {
+        "id": "543",
+        "name": "IEEE T. Instrumentation and Measurement",
+        "frequncy": "141"
+    },
+    {
+        "id": "544",
+        "name": "BMC Systems Biology",
+        "frequncy": "140"
+    },
+    {
+        "id": "545",
+        "name": "FAST",
+        "frequncy": "140"
+    },
+    {
+        "id": "546",
+        "name": "Journal of Zhejiang University - Science C",
+        "frequncy": "140"
+    },
+    {
+        "id": "547",
+        "name": "Encyclopedia of GIS",
+        "frequncy": "140"
+    },
+    {
+        "id": "548",
+        "name": "Comput. Graph. Forum",
+        "frequncy": "139"
+    },
+    {
+        "id": "549",
+        "name": "BMVC",
+        "frequncy": "139"
+    },
+    {
+        "id": "550",
+        "name": "Soft Comput.",
+        "frequncy": "139"
+    },
+    {
+        "id": "551",
+        "name": "ISDA",
+        "frequncy": "139"
+    },
+    {
+        "id": "552",
+        "name": "Neural Computing and Applications",
+        "frequncy": "139"
+    },
+    {
+        "id": "553",
+        "name": "J. Algorithms",
+        "frequncy": "138"
+    },
+    {
+        "id": "554",
+        "name": "DaMoN",
+        "frequncy": "138"
+    },
+    {
+        "id": "555",
+        "name": "ICCBR",
+        "frequncy": "138"
+    },
+    {
+        "id": "556",
+        "name": "I. J. Bifurcation and Chaos",
+        "frequncy": "137"
+    },
+    {
+        "id": "557",
+        "name": "MobiDE",
+        "frequncy": "136"
+    },
+    {
+        "id": "558",
+        "name": "RECOMB",
+        "frequncy": "136"
+    },
+    {
+        "id": "559",
+        "name": "J. Bioinformatics and Computational Biology",
+        "frequncy": "136"
+    },
+    {
+        "id": "560",
+        "name": "Ann. Math. Artif. Intell.",
+        "frequncy": "136"
+    },
+    {
+        "id": "561",
+        "name": "AMT",
+        "frequncy": "135"
+    },
+    {
+        "id": "562",
+        "name": "ICWL",
+        "frequncy": "135"
+    },
+    {
+        "id": "563",
+        "name": "ISM",
+        "frequncy": "135"
+    },
+    {
+        "id": "564",
+        "name": "J. Inf. Sci. Eng.",
+        "frequncy": "135"
+    },
+    {
+        "id": "565",
+        "name": "IEEE Trans. Automat. Contr.",
+        "frequncy": "135"
+    },
+    {
+        "id": "566",
+        "name": "ISCC",
+        "frequncy": "134"
+    },
+    {
+        "id": "567",
+        "name": "DILS",
+        "frequncy": "134"
+    },
+    {
+        "id": "568",
+        "name": "Discrete Applied Mathematics",
+        "frequncy": "134"
+    },
+    {
+        "id": "569",
+        "name": "IEEE Trans. Neural Netw. Learning Syst.",
+        "frequncy": "134"
+    },
+    {
+        "id": "570",
+        "name": "IDA",
+        "frequncy": "133"
+    },
+    {
+        "id": "571",
+        "name": "Artif. Intell. Rev.",
+        "frequncy": "133"
+    },
+    {
+        "id": "572",
+        "name": "LCN",
+        "frequncy": "133"
+    },
+    {
+        "id": "573",
+        "name": "UIST",
+        "frequncy": "132"
+    },
+    {
+        "id": "574",
+        "name": "Int. J. Intell. Syst.",
+        "frequncy": "131"
+    },
+    {
+        "id": "575",
+        "name": "IEEE Transactions on Information Forensics and Security",
+        "frequncy": "131"
+    },
+    {
+        "id": "576",
+        "name": "ICIRA",
+        "frequncy": "131"
+    },
+    {
+        "id": "577",
+        "name": "NLDB",
+        "frequncy": "131"
+    },
+    {
+        "id": "578",
+        "name": "Morgan & Claypool Publishers",
+        "frequncy": "130"
+    },
+    {
+        "id": "579",
+        "name": "Mathematical and Computer Modelling",
+        "frequncy": "130"
+    },
+    {
+        "id": "580",
+        "name": "AICI",
+        "frequncy": "130"
+    },
+    {
+        "id": "581",
+        "name": "SIGCSE",
+        "frequncy": "129"
+    },
+    {
+        "id": "582",
+        "name": "ISPA",
+        "frequncy": "129"
+    },
+    {
+        "id": "583",
+        "name": "Winter Simulation Conference",
+        "frequncy": "128"
+    },
+    {
+        "id": "584",
+        "name": "CPM",
+        "frequncy": "128"
+    },
+    {
+        "id": "585",
+        "name": "ICEC",
+        "frequncy": "128"
+    },
+    {
+        "id": "586",
+        "name": "ICS",
+        "frequncy": "128"
+    },
+    {
+        "id": "587",
+        "name": "NPC",
+        "frequncy": "128"
+    },
+    {
+        "id": "588",
+        "name": "iiWAS",
+        "frequncy": "128"
+    },
+    {
+        "id": "589",
+        "name": "CoopIS/DOA/ODBASE",
+        "frequncy": "127"
+    },
+    {
+        "id": "590",
+        "name": "ACSAC",
+        "frequncy": "127"
+    },
+    {
+        "id": "591",
+        "name": "DNIS",
+        "frequncy": "127"
+    },
+    {
+        "id": "592",
+        "name": "Encyclopedia of Machine Learning",
+        "frequncy": "127"
+    },
+    {
+        "id": "593",
+        "name": "PDIS",
+        "frequncy": "126"
+    },
+    {
+        "id": "594",
+        "name": "ILP",
+        "frequncy": "126"
+    },
+    {
+        "id": "595",
+        "name": "Australian Conference on Artificial Intelligence",
+        "frequncy": "126"
+    },
+    {
+        "id": "596",
+        "name": "Computer-Aided Design",
+        "frequncy": "126"
+    },
+    {
+        "id": "597",
+        "name": "ISAAC",
+        "frequncy": "126"
+    },
+    {
+        "id": "598",
+        "name": "RSFDGrC",
+        "frequncy": "126"
+    },
+    {
+        "id": "599",
+        "name": "EURASIP J. Wireless Comm. and Networking",
+        "frequncy": "125"
+    }
+]

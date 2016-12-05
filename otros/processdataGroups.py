@@ -5,6 +5,7 @@ import numpy as np
 import simplejson
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.manifold import TSNE
+from sklearn.preprocessing import normalize
 
 #clustering
 from sklearn import cluster
@@ -22,6 +23,61 @@ class MyError(Exception):
          self.value = value
      def __str__(self):
          return repr(self.value)
+
+
+#######################3
+#with normalization
+#####################33
+
+dataori = []
+info = []
+
+with open('../data/group3NewJSON.json') as data_file:
+    dataori = json.load(data_file)
+dataori = dataori[0:10000]
+print(len(dataori))
+
+longitud = len(dataori)
+
+for x in xrange(0,longitud):
+    aux = []
+    aux.append(dataori[x]['seniority'])
+    aux.append(dataori[x]['Pubrate'])
+    aux.append(dataori[x]['numPub'])
+    info.append(aux)
+
+print("info", len(info))    
+
+arrinfo = np.array(info)
+arrinfo_norm = normalize(arrinfo, axis=0, norm='max')
+
+tsnet0 = time()
+
+model = TSNE(n_components=2, random_state=0)
+np.set_printoptions(suppress=True)
+puntos = model.fit_transform(arrinfo_norm)
+tsnet1 = time()
+print("Time TSNE", (tsnet1 - tsnet0))
+que = np.matrix(puntos)
+ptos = que.tolist()
+
+print(puntos)
+
+group = range(1,longitud+1)
+data3 = {"groups": group, "mat": ptos}
+#data3 = {"groups": group, "mat": ptos, "cluster": labelsOK}
+try:
+    jsondata = simplejson.dumps(data3,sort_keys=True)
+    namejson = "group3_norm_projection"+str(len(group))+".json"
+    fd = open(namejson, 'w')
+    fd.write(jsondata)
+    fd.close()
+except MyError as e:
+    print 'ERROR writing', 'group3_norm_projection.json', e.value
+"""
+#######################3
+#processing with tfidf results, but not with normalization
+#####################33
 
 
 tokenize = lambda doc: doc.lower().split(" ")
@@ -118,3 +174,4 @@ except MyError as e:
 
 
 
+"""

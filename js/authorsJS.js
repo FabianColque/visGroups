@@ -1,138 +1,55 @@
 
-var data;
-var buckupDataSelected = [];
-    buckupDataSelected.push([]);
-var selectionData;
-    selectionData = [];
-var shotSelected = [];
-var currentShowPlot = 0;
-var divSpanShot = "#snapshotArea";
 
-var colors = ['#fbb4ae','#b3cde3','#ccebc5','#decbe4','#fed9a6','#ffffcc','#e5d8bd','#fddaec','#f2f2f2'];
+var drawVISAuthor = function(){
+    d3.json("data/pmaxauthorsnecluster4906.json", function(dat){
+        data = dat;
+        xScale.domain(d3.extent(dat.mat.map(function(d){return d[0]})));
+        yScale.domain(d3.extent(dat.mat.map(function(d){return d[1]})));
+        //console.log("Scales", xScale.domain(), yScale.domain());
+        draw();
+        shotSelected.push(false);
+        newsnapshot([], data.mat, "holaspe", shotSelected.length, divSpanShot)
+    });
 
-var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#66c2a5','#fc8d62','#8da0cb']);
+    function draw(){
+        var svg = d3.select("#areaMainscgAuthor")
+            .append('svg')
+            .attr("class", "mainsvg")
+            .attr('width', width)
+            .attr('height', height)
+            //.call(brush);
+        var graph = svg.append('g');
+        
+        var moddatamat = data.users.map(function(d,i){var f = data.mat[i]; f.push(i);return f;});
+        
+        var points = graph.selectAll('.pointDots').data(moddatamat);
+        points.enter().append('circle').attr("class", 'pointDots')
+        .attr("id", function(d){return ('pointAuthor'+d[2]);})
+        .attr('r', tamMinCirle)
+        .attr('cx', function(d){return xScale(d[0])})
+        .attr('cy', function(d){return yScale(d[1])});
+        
+        
+        var lasso_area = svg.append("rect")
+                            .attr("width", width)
+                            .attr("height", height)
+                            .style("opacity", 0);
+        lasso = d3.lasso();
 
-var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
+        lasso.closePathDistance(75)
+            .closePathSelect(true)
+            .hoverSelect(false)
+            .area(lasso_area)
+            .on("start", lasso_start)
+            .on("draw", lasso_draw)
+            .on("end", lasso_end);
+        
+        lasso.items(d3.selectAll(".pointDots"));
+        svg.call(lasso);
+    } 
 
-var width = 500;
-var height = 300;
-
-var lasso;
-    
-var xScale = d3.scale.linear()
-  .range([0,width]);
-
-var yScale = d3.scale.linear()
-  .range([0, height]);  
-
-var tamMinCirle = 2;
-var tamMaxCircle = 7.5;
-    
-var lasso_start = function(){
-    lasso.items()
-        .attr("r", tamMinCirle)
-        .style("fill", null)
-        .classed({"not_possible": true, "selected": false});
-}    
- 
-var lasso_draw = function(){
-    lasso.items().filter(function(d){return d.possible === true})
-        .classed({"not_possible": false, "possible": true});
-    lasso.items().filter(function(d){return d.possible === false})
-        .classed({"not_possible":true, "possible": false});
 }
 
-var lasso_end = function(){
-    selectionData = [];
-    lasso.items()
-        .style("fill", function(d){return "black"});
-    lasso.items().filter(function(d){
-        if(d.selected === true){
-            selectionData.push(d[2]);
-        }
-        return d.selected === true
-    })
-        .attr("r", tamMaxCircle)
-        .style("fill", "blue");
-    lasso.items().filter(function(d){return d.selected === false})
-        .classed({"not_possible": false, "posible":false})
-        .attr("r", tamMinCirle);
-
-    if(selectionData.length == 0){
-        redrawsvgMain(buckupDataSelected.length-1, false);
-        console.log("nada de nada")
-    }    
-    
-}
-
-d3.json("data/authorsnecluster4906.json", function(dat){
-    data = dat;
-    xScale.domain(d3.extent(dat.mat.map(function(d){return d[0]})));
-    yScale.domain(d3.extent(dat.mat.map(function(d){return d[1]})));
-    //console.log("Scales", xScale.domain(), yScale.domain());
-    draw();
-    shotSelected.push(false);
-    newsnapshot([], data.mat, "holaspe", shotSelected.length, divSpanShot)
-})
-
-function draw(){
-    var svg = d3.select("#areaMainscgAuthor")
-        .append('svg')
-        .attr("class", "mainsvg")
-        .attr('width', width)
-        .attr('height', height)
-        //.call(brush);
-    var graph = svg.append('g');
-    
-    var moddatamat = data.users.map(function(d,i){var f = data.mat[i]; f.push(i);return f;});
-    
-    var points = graph.selectAll('.pointDots').data(moddatamat);
-    points.enter().append('circle').attr("class", 'pointDots')
-    .attr('r', tamMinCirle)
-    .attr('cx', function(d){return xScale(d[0])})
-    .attr('cy', function(d){return yScale(d[1])});
-    
-    
-    var lasso_area = svg.append("rect")
-                        .attr("width", width)
-                        .attr("height", height)
-                        .style("opacity", 0);
-    lasso = d3.lasso();
-
-    lasso.closePathDistance(75)
-        .closePathSelect(true)
-        .hoverSelect(false)
-        .area(lasso_area)
-        .on("start", lasso_start)
-        .on("draw", lasso_draw)
-        .on("end", lasso_end);
-    
-    lasso.items(d3.selectAll(".pointDots"));
-    svg.call(lasso);
-} 
-
-function btnStartShot(){
-    
-    if(selectionData.length != 0){
-        drawCrossFilterCharts(selectionData);
-        buckupDataSelected.push(selectionData);
-        shotSelected.push(false)
-        newsnapshot(selectionData, data.mat, "holaspe2", shotSelected.length,divSpanShot)
-    }
-    selectionData = [];
-}
-
-function btnRestShot(){
-    var ind = -1;
-    for (var i = 0; i < shotSelected.length; i++)
-        if(shotSelected[i] == true)
-            ind = i;
-    if(ind == -1)return;
-    console.log("restart", ind);
-    redrawsvgMain(ind, true);
-    updatespanshotArrays(ind); 
-    selectionData = [];   
-}
 
 function updatespanshotArrays(ind){
     
@@ -158,16 +75,11 @@ function redrawsvgMain(ind, redrawcrossfilter){
         .style("fill", function(d,i){return selectedItemsBool[i]?"blue":"black";})
 }
 
-var datafilter;
-
-var dados;
- 
-
 function drawCrossFilterCharts(dataO){
     
     d3.selectAll(".chart svg").remove();  
     datafilter = [];  
-    //console.log("llega obo",dataO);
+    
 
     d3.csv("data/authors.csv", function(error, datatot){
         dados = datatot;
@@ -188,12 +100,14 @@ function drawCrossFilterCharts(dataO){
         };
         //start crossfilter
         datafilter.forEach(function(d,i){
-            d.index =  i;
+            //console.log("as", i);
+            d.index =  i+1;
             d.seniority = parseInt(d.seniority);
             d.nbpub = parseInt(d.nbpub);
             d.pubrate = parseFloat(d.pubrate);
         });
 
+    
         var limitsnbpub = d3.extent(datafilter.map(function(d){return parseInt(d.nbpub);}));
         var limitspubrate = d3.extent(datafilter.map(function(d){return parseFloat(d.pubrate);}));
         var limitsseniority = d3.extent(datafilter.map(function(d){return parseInt(d.seniority);}))
@@ -210,8 +124,8 @@ function drawCrossFilterCharts(dataO){
             pubrates = pubrate.group();
         
 
-        console.log("cafe", nbpubs.all());
-        console.log("cafe", senioritys.all());    
+        //console.log("cafe", nbpubs.all());
+        //console.log("cafe", senioritys.all());    
 
         function category_ratePub(d){
             if(d<=1.47){
@@ -267,6 +181,37 @@ function drawCrossFilterCharts(dataO){
                 return "very high publi";
             }
         }
+        d3.select("#botonfiltercross").remove();
+        d3.select(".botones")
+            .append("input")
+                .attr("class", "btn btn-default")
+                .attr("id", "botonfiltercross")
+                .attr("value", "View Filtered")
+                .attr("type", "button")
+                .on("click", function(d){
+                    console.log('seeee');
+                    updatePointSelectedbyCross();
+                });
+
+        function updatePointSelectedbyCross(){
+            var auxtop = tabledim.top(Infinity);
+            var auxall = tabledims.all();
+            console.log("m: ", auxtop.length, auxall.length);
+            /*for (var i = 0; i < auxtop.length; i++) {
+                d3.select("#pointAuthor"+auxtop[i].author_id)
+                    .classed("filtered", true);
+            }*/
+            for (var i = 0; i < auxall.length; i++) {
+                d3.select("#pointAuthor"+auxall[i].author_id)
+                    .style("fill", "blue")
+                    .attr("r", tamMaxCircle);
+            };
+            for (var i = 0; i < auxtop.length; i++) {
+                d3.select("#pointAuthor"+auxtop[i].author_id)
+                    .style("fill", "chartreuse")
+                    .attr("r", 5);
+            };
+        }
 
         var cross1pie = mycross.dimension(function(d){
             if(d.gender == "u")return "Undefined";
@@ -302,6 +247,7 @@ function drawCrossFilterCharts(dataO){
             .renderHorizontalGridLines(true)
             .xAxisLabel('# Publication')
             .yAxisLabel('# Authors')
+            
             /*.filterPrinter(function (filters) {
                 var filter = filters[0], s = '';
                 s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
@@ -312,6 +258,8 @@ function drawCrossFilterCharts(dataO){
         nbpubchart.yAxis().ticks(5);
 
 
+
+
         senioritychart.width(420)
             .height(180)
             .margins({top: 10, right: 50, bottom: 30, left: 40})
@@ -319,7 +267,7 @@ function drawCrossFilterCharts(dataO){
             .group(senioritys)
             .colors(colorsBar[1])
             .elasticY(true)
-            .centerBar(true)
+            .centerBar(false)
             .gap(1)
             .brushOn(true)
             .round(dc.round.floor)
@@ -417,6 +365,7 @@ function drawCrossFilterCharts(dataO){
             })
             .order(d3.ascending)
             .on('renderlet', function (table) {
+                selectedbycross = [];
                 table.selectAll('.dc-table-group')
                 .classed('info', true);
                 /*.text(function(d){
@@ -426,6 +375,7 @@ function drawCrossFilterCharts(dataO){
                 });*/
                 table.selectAll(".dc-table-label")
                     .text(function(d){
+                        selectedbycross.push(d);
                         if(d.key === 'm')return "Male";
                         if(d.key === 'w')return "Female";
                         return "Undefined";    

@@ -1,0 +1,60 @@
+{
+    "Number_Publications": [{
+        "id": "10",
+        "name": "very_few_publi"
+    }, {
+        "id": "11",
+        "name": "few_publi"
+    }, {
+        "id": "12",
+        "name": "fair_publi"
+    }, {
+        "id": "13",
+        "name": "high_publi"
+    }, {
+        "id": "14",
+        "name": "very_high_publi"
+    }],
+    "Seniority": [{
+        "id": "15",
+        "name": "very_young"
+    }, {
+        "id": "16",
+        "name": "young"
+    }, {
+        "id": "17",
+        "name": "experienced"
+    }, {
+        "id": "18",
+        "name": "senior"
+    }, {
+        "id": "19",
+        "name": "highly_senior"
+    }],
+    "Publication_Rate": [{
+        "id": "20",
+        "name": "not_active"
+    }, {
+        "id": "21",
+        "name": "less_active"
+    }, {
+        "id": "22",
+        "name": "active"
+    }, {
+        "id": "23",
+        "name": "very_active"
+    }, {
+        "id": "24",
+        "name": "extreme_active"
+    }],
+    "Gender": [{
+        "id": "1",
+        "name": "male"
+    }, {
+        "id": "2",
+        "name": "female"
+    }, {
+        "id": "3",
+        "name": "unknown_gender"
+    }]
+}
