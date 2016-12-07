@@ -26,17 +26,25 @@ var xScaleGroup = d3.scale.linear()
 
 var yScaleGroup = d3.scale.linear()
     .range([0, heightGroup]);
-
+//DC groups
+var dc_groups = dc;
 
 //variables Groups
+var dataGroups;
 var dataGroups_inGroups;
 var dataAuthors_inGroups;
+var dataConferences_inGroups;
+
 var selectionDataGroups = [];
 var buckupDataSelectedGroup = [];
     buckupDataSelectedGroup.push([]);
 
 //variables que no se voy a  usar
 var datafilterGroups;
+
+//colors charts
+var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
+var scaleColorPieGroup = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#66c2a5','#fc8d62','#8da0cb']);
 
 //Functions lasso start, draw and end
 
@@ -71,7 +79,7 @@ var lasso_endGroup = function(){
             .attr("r", tamMinCirleGroup);
 
         if(selectionDataGroups.length == 0){
-            //redrawsvgMain(buckupDataSelected.length-1, false);
+            redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
             console.log("nada de nada")
         }    
         console.log("do you", selectionDataGroups.length)
@@ -82,19 +90,23 @@ var lasso_endGroup = function(){
 function btnStartShotGroup(){
     
     if(selectionDataGroups.length != 0){
-        //drawCrossFilterCharts(selectionData);
+        drawCrossFilterChartsGroups(selectionDataGroups);
         buckupDataSelectedGroup.push(selectionDataGroups);
         console.log(buckupDataSelectedGroup);
         //shotSelected.push(false)
         //newsnapshot(selectionData, data.mat, "holaspe2", shotSelected.length,divSpanShot)
     }
     selectionDataGroups = [];
+
 }
 
-function btnLoadData_inGroups(){
-    loadDataGroups("data/group1JSON.json", "data/authorsjson.json")
+function getNameConference(id){
+    var aux = parseInt(id);
+    return dataConferences_inGroups[aux-100].name;
 }
 
-drawVISGroup("data/group3_norm_projection10000.json", "", marginGroup, widthGroup, heightGroup);
+
+
+
 //drawVISGroup("data/groupsnecluster5000.json", "", marginGroup, widthGroup, heightGroup);
 /*GROUPS VIS--------------------END*/

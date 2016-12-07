@@ -15,7 +15,8 @@ var yScale = d3.scale.linear()
 var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#66c2a5','#fc8d62','#8da0cb']);
 
 
-
+//DC to authors
+var dc_author = dc;
 
 var tamMinCirle = 2;
 var tamMaxCircle = 4;
@@ -92,4 +93,4 @@ function btnRestShot(){
 
 
 
-drawVISAuthor();
+

@@ -28,10 +28,10 @@ for line in data:
     mistr = ''
 
     confe = []
-    gender = "#"
-    senio = -1
-    rate = -1
-    numPub = -1
+    gender = 3#"#"
+    senio = 0#-1
+    rate = 0#-1
+    numPub = 0#-1
     keyword = []
 
     autores = []
@@ -86,7 +86,7 @@ for line in data:
 
               
     
-    dataresult.append({"id": contador_grupos, "conferencia": confe, "gender": gender, "seniority": senio, "Pubrate": rate, "numPub": numPub, "keyword": keyword, "authors": autores});
+    dataresult.append({"id": contador_grupos, "conferences": confe, "gender": gender, "seniority": senio, "Pubrate": rate, "numPub": numPub, "keyword": keyword, "authors": autores});
 
 
     contador_grupos +=1                  
@@ -102,7 +102,7 @@ class MyError(Exception):
 
 try:
     jsondata = simplejson.dumps(dataresult,sort_keys=True)
-    namejson = "group3NewJSON"+".json"
+    namejson = "group3NewJSON2"+".json"
     fd = open(namejson, 'w')
     fd.write(jsondata)
     fd.close()

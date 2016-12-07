@@ -86,12 +86,12 @@ function drawCrossFilterCharts(dataO){
 
         var nbpublabel = ["very few publi", "few publi", "fair publi", "high publi", "very high publi"];
 
-        var nbpubchart      = dc.barChart("#chart1");
-        var senioritychart  = dc.barChart("#chart2");
-        var pubratechart    = dc.barChart("#chart3");
-        var piechart        = dc.pieChart("#chart4");
-        var countchart      = dc.dataCount('#chart5');
-        var tablechart      = dc.dataTable('.dc-data-table');
+        var nbpubchart      = dc_author.barChart("#chart1");
+        var senioritychart  = dc_author.barChart("#chart2");
+        var pubratechart    = dc_author.barChart("#chart3");
+        var piechart        = dc_author.pieChart("#chart4");
+        var countchart      = dc_author.dataCount('#chart5');
+        var tablechart      = dc_author.dataTable('.dc-data-table');
 
 
         var numberFormat = d3.format('.2f');
@@ -182,7 +182,7 @@ function drawCrossFilterCharts(dataO){
             }
         }
         d3.select("#botonfiltercross").remove();
-        d3.select(".botones")
+        /*d3.select(".botones")
             .append("input")
                 .attr("class", "btn btn-default")
                 .attr("id", "botonfiltercross")
@@ -192,7 +192,7 @@ function drawCrossFilterCharts(dataO){
                     console.log('seeee');
                     updatePointSelectedbyCross();
                 });
-
+        */    
         function updatePointSelectedbyCross(){
             var auxtop = tabledim.top(Infinity);
             var auxall = tabledims.all();
@@ -235,12 +235,12 @@ function drawCrossFilterCharts(dataO){
             .colors(colorsBar[0])
             .elasticY(false)
             .gap(1)
-            .round(dc.round.floor)
+            .round(dc_author.round.floor)
             .alwaysUseRounding(true)
             //.x(d3.scale.linear().domain(limitsnbpub))
             .x(d3.scale.ordinal().domain(["very few publi", "few publi", "fair publi", "high publi", "very high publi"]))
             //.x(d3.scale.ordinal())
-            .xUnits(dc.units.ordinal)
+            .xUnits(dc_author.units.ordinal)
             .barPadding(0.1)
             .outerPadding(0.5)
             //.y(d3.scale.linear().domain(nbpubs.all().map(function(f){return f.value;})))
@@ -270,11 +270,11 @@ function drawCrossFilterCharts(dataO){
             .centerBar(false)
             .gap(1)
             .brushOn(true)
-            .round(dc.round.floor)
+            .round(dc_author.round.floor)
             .alwaysUseRounding(true)
             //.x(d3.scale.linear().domain(limitsseniority))
             .x(d3.scale.ordinal().domain(["very young","young", "experienced", "senior", "very senior"]))
-            .xUnits(dc.units.ordinal)
+            .xUnits(dc_author.units.ordinal)
             .renderHorizontalGridLines(true)
             .xAxisLabel('Seniority')
             .yAxisLabel('# Authors')
@@ -293,11 +293,11 @@ function drawCrossFilterCharts(dataO){
             .elasticY(true)
             .centerBar(false)
             .gap(1)
-            .round(dc.round.floor)
+            .round(dc_author.round.floor)
             .alwaysUseRounding(true)
             //.x(d3.scale.linear().domain(limitspubrate))
             .x(d3.scale.ordinal().domain(["not active", "less active", "active", "very active", "extreme active"]))
-            .xUnits(dc.units.ordinal)
+            .xUnits(dc_author.units.ordinal)
             .renderHorizontalGridLines(true)
             .xAxisLabel('Rate')
             .yAxisLabel('# Authors')
@@ -331,7 +331,7 @@ function drawCrossFilterCharts(dataO){
             .group(all)
             .html({
                 some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Authors' +
-                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a><br><br>'
+                ' | <a href=\'javascript:dc.filterAll(); dc_author.renderAll();\'>Reset All</a><br><br>'
             });
         
         tablechart
@@ -382,7 +382,7 @@ function drawCrossFilterCharts(dataO){
                     })
             });
         
-        dc.renderAll();
+        dc_author.renderAll();
     })//fin de d3.csv authors  
 
     

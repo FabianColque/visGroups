@@ -131,6 +131,8 @@
 <script src="js/groupsJS.js"></script>
 <script src="js/utils.js"></script>
 
+<script src="js/index.js"></script>
+
 
 
 
@@ -143,7 +145,11 @@
 
 <h1 ALIGN=center>Interactive Visualization</h1>
 
+ <br>
+    <input type="button" class="btn btn-info" value="LoadData" onclick="btnLoadData_inGroups()" id="btn_load" />
 
+<br>    
+<br>
 
 <ul class="nav nav-tabs">
             <li class="active">
@@ -156,7 +162,7 @@
 
 
 
-<div class="tab-content ">
+<div class="tab-content " id="vis_body" style="visibility : hidden">
     <div class="tab-pane active" id="1">
         <h1 ALIGN=center>Authors</h1>  
         
@@ -239,8 +245,7 @@
 
 
     <div class="tab-pane" id="2">
-    <br>
-    <input type="button" class="btn btn-info" value="LoadData" onclick="btnLoadData_inGroups()" />
+   
         
           <h1 ALIGN=center>Groups</h1>
 
@@ -269,7 +274,27 @@
         <div id="chartsGroup" class="container" style="padding-left: 4%">
             
   
+            <div class="row">
+                <div id="chartGroup1" class="chartGroup">
+                    <strong>Seniority</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chartGroup2" class="chartGroup">
+                    <strong>Publication Rate</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
             
+            <div class="row">
+                <div id="chartGroup3" class="chartGroup">
+                    <strong>Gender</strong>
+                    <div class="title"></div>
+                </div>
+                <div id="chartGroup4" class="chartGroup">
+                    <strong>Conferences</strong>
+                    <div class="title"></div>
+                </div>
+            </div>
             <div class="row">
                 <div id="chartGroup5" class="chartGroup">
                     <strong>Count</strong>
