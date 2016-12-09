@@ -5,10 +5,10 @@ var drawVISAuthor = function(){
         data = dat;
         xScale.domain(d3.extent(dat.mat.map(function(d){return d[0]})));
         yScale.domain(d3.extent(dat.mat.map(function(d){return d[1]})));
-        //console.log("Scales", xScale.domain(), yScale.domain());
+        ////console.log("Scales", xScale.domain(), yScale.domain());
         draw();
         shotSelected.push(false);
-        newsnapshot([], data.mat, "holaspe", shotSelected.length, divSpanShot)
+        newsnapshot([], data.mat, name, shotSelected.length, divSpanShot)
     });
 
     function draw(){
@@ -54,12 +54,12 @@ var drawVISAuthor = function(){
 function updatespanshotArrays(ind){
     
     for (var i = ind+1; i < buckupDataSelected.length; i++) {
-        d3.select("#s"+i).remove();
+        d3.select("#"+name+i).remove();
     };
     buckupDataSelected = buckupDataSelected.slice(0,ind+1);
     shotSelected = shotSelected.slice(0,ind+1);
     d3.selectAll(divSpanShot + " "+ ".snapshot")
-        .attr("id", function(d,i){return "s"+i})
+        .attr("id", function(d,i){return name+i})
 }
 
 function redrawsvgMain(ind, redrawcrossfilter){
@@ -100,7 +100,7 @@ function drawCrossFilterCharts(dataO){
         };
         //start crossfilter
         datafilter.forEach(function(d,i){
-            //console.log("as", i);
+            ////console.log("as", i);
             d.index =  i+1;
             d.seniority = parseInt(d.seniority);
             d.nbpub = parseInt(d.nbpub);
@@ -124,8 +124,8 @@ function drawCrossFilterCharts(dataO){
             pubrates = pubrate.group();
         
 
-        //console.log("cafe", nbpubs.all());
-        //console.log("cafe", senioritys.all());    
+        ////console.log("cafe", nbpubs.all());
+        ////console.log("cafe", senioritys.all());    
 
         function category_ratePub(d){
             if(d<=1.47){
@@ -164,7 +164,7 @@ function drawCrossFilterCharts(dataO){
         }
 
         function category_nbpub(d){
-            //console.log("mira", d);
+            ////console.log("mira", d);
             if(d<=8){
                 return "very few publi";
             }
@@ -189,14 +189,14 @@ function drawCrossFilterCharts(dataO){
                 .attr("value", "View Filtered")
                 .attr("type", "button")
                 .on("click", function(d){
-                    console.log('seeee');
+                    //console.log('seeee');
                     updatePointSelectedbyCross();
                 });
         */    
         function updatePointSelectedbyCross(){
             var auxtop = tabledim.top(Infinity);
             var auxall = tabledims.all();
-            console.log("m: ", auxtop.length, auxall.length);
+            //console.log("m: ", auxtop.length, auxall.length);
             /*for (var i = 0; i < auxtop.length; i++) {
                 d3.select("#pointAuthor"+auxtop[i].author_id)
                     .classed("filtered", true);

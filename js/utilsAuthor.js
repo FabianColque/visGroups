@@ -1,5 +1,6 @@
 
 var divSpanShot = "#snapshotArea";
+var name = "a";
 
 var data = [];
 var datafilter = [];
@@ -62,7 +63,7 @@ var lasso_end = function(){
 
     if(selectionData.length == 0){
         redrawsvgMain(buckupDataSelected.length-1, false);
-        console.log("nada de nada")
+        //console.log("nada de nada")
     }    
     
 }
@@ -74,7 +75,7 @@ function btnStartShot(){
         drawCrossFilterCharts(selectionData);
         buckupDataSelected.push(selectionData);
         shotSelected.push(false)
-        newsnapshot(selectionData, data.mat, "holaspe2", shotSelected.length,divSpanShot)
+        newsnapshot(selectionData, data.mat, name, shotSelected.length,divSpanShot)
     }
     selectionData = [];
 }
@@ -85,7 +86,7 @@ function btnRestShot(){
         if(shotSelected[i] == true)
             ind = i;
     if(ind == -1)return;
-    console.log("restart", ind);
+    //console.log("restart", ind);
     redrawsvgMain(ind, true);
     updatespanshotArrays(ind); 
     selectionData = [];   

@@ -1,4 +1,4 @@
-function newsnapshot(selectedItems, data, description, number, ubicacion){
+function newsnapshotGroup(selectedItems, data, description, number, ubicacion){
 
     //data -> data.mat original
 
@@ -35,16 +35,16 @@ function newsnapshot(selectedItems, data, description, number, ubicacion){
                     .style("opacity", function(d,i){
                        
                         if((""+i) === currentid)
-                            shotSelected[i] = true;
+                            shotSelectedGroup[i] = true;
                         else
-                            shotSelected[i] = false;
+                            shotSelectedGroup[i] = false;
                         return 1;
 
                     })
                 d3.select(this).style("opacity", 0.2);    
                 
 
-                //console.log(shotSelected, currentid)    
+                ////console.log(shotSelectedGroup, currentid)    
             });
             //.style("width", (width+50)+"px")
             //.style("height", (height+100)+"px");

@@ -1,6 +1,6 @@
 
 var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, heightGroup){
-    console.log("entre a grupos")
+    
     
     //load file data main projection
     
@@ -8,10 +8,10 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         dataGroups = dat;
         xScaleGroup.domain(d3.extent(dat.mat.map(function(d){return d[0]})));
         yScaleGroup.domain(d3.extent(dat.mat.map(function(d){return d[1]})));
-        //console.log("Scales", xScaleGroup.domain(), yScaleGroup.domain());
+        ////console.log("Scales", xScaleGroup.domain(), yScaleGroup.domain());
         drawGroup(marginGroup, widthGroup, heightGroup);
-        //shotSelected.push(false);
-        //newsnapshot([], data.mat, "holaspe", shotSelected.length, divSpanShot)
+        shotSelectedGroup.push(false);
+        newsnapshotGroup([], dataGroups.mat, nameGroup, shotSelectedGroup.length, divSpanShotGroup)
     })       
      
     function drawGroup(marginGroup, widthGroup, heightGroup){
@@ -60,14 +60,14 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
 
 
 function drawCrossFilterChartsGroups(dataO){
-    console.log("draw fiultros")
+    
     d3.selectAll(".chartGroup svg").remove();
     datafilterGroups = [];
 
 
     //d3.json("data/group3NewJSON2.json", function(error, datatot){
         //dataGroups_inGroups = datatot;
-        console.log("srtyrytera")
+        ////console.log("srtyrytera", dataO)
         var limitGroup = 10000;
 
         //var nbpub_Group_Chart = dc.barChart("#chartGroup1");
@@ -194,7 +194,7 @@ function drawCrossFilterChartsGroups(dataO){
         })
         // Title sets the row text
         .title(function (d) {
-            //console.log("value", d.value, d.key)
+            ////console.log("value", d.value, d.key)
             return getNameConference(d.key)+" : "+d.value;
         })
         .elasticX(true)
@@ -221,7 +221,7 @@ function drawCrossFilterChartsGroups(dataO){
 function reduceAdd(p,v){
     if(v.conferences.length == 0)return  p;
     v.conferences.forEach(function(val,idx){
-        //console.log("mirer", val);
+        ////console.log("mirer", val);
         p[val] = (p[val] || 0) + 1;
     });
     return p;
@@ -302,7 +302,7 @@ function redrawsvgMainGroup(ind, redrawcrossfilter){
     buckupDataSelectedGroup[ind].forEach(function(d){selectedItemsBool[d] = true;});
 
     if(redrawcrossfilter)
-        drawCrossFilterChartsGroups(buckupDataSelected[ind]);
+        drawCrossFilterChartsGroups(buckupDataSelectedGroup[ind]);
 
     d3.selectAll(".pointGroup")
         .attr("r", function(d,i){return selectedItemsBool[i]?tamMaxCircleGroup:tamMinCirleGroup})
@@ -328,4 +328,15 @@ function processData(allText) {
     }
     // alert(lines);
     return lines;
+}
+
+function updatespanshotArraysGroup(ind){
+    
+    for (var i = ind+1; i < buckupDataSelectedGroup.length; i++) {
+        d3.select("#"+nameGroup+i).remove();
+    };
+    buckupDataSelectedGroup = buckupDataSelectedGroup.slice(0,ind+1);
+    shotSelectedGroup = shotSelectedGroup.slice(0,ind+1);
+    d3.selectAll(divSpanShotGroup + " "+ ".snapshot")
+        .attr("id", function(d,i){return nameGroup+i})
 }

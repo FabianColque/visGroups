@@ -16,6 +16,10 @@ var widthGroup = 500 - marginGroup.left - marginGroup.right;
 //tag html main chart
 var tagMainGroup = "#areaMainsvgGroup";
 
+//snapshot historial groups
+var divSpanShotGroup = "#snapshotAreaGroup";
+var nameGroup = "g";
+
 //size circle
 var tamMinCirleGroup = 2;
 var tamMaxCircleGroup = 7.5;
@@ -38,6 +42,7 @@ var dataConferences_inGroups;
 var selectionDataGroups = [];
 var buckupDataSelectedGroup = [];
     buckupDataSelectedGroup.push([]);
+var shotSelectedGroup = [];
 
 //variables que no se voy a  usar
 var datafilterGroups;
@@ -80,9 +85,9 @@ var lasso_endGroup = function(){
 
         if(selectionDataGroups.length == 0){
             redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
-            console.log("nada de nada")
+            //console.log("nada de nada")
         }    
-        console.log("do you", selectionDataGroups.length)
+        
 }
 
 //functions buttons
@@ -92,9 +97,9 @@ function btnStartShotGroup(){
     if(selectionDataGroups.length != 0){
         drawCrossFilterChartsGroups(selectionDataGroups);
         buckupDataSelectedGroup.push(selectionDataGroups);
-        console.log(buckupDataSelectedGroup);
-        //shotSelected.push(false)
-        //newsnapshot(selectionData, data.mat, "holaspe2", shotSelected.length,divSpanShot)
+        //console.log(buckupDataSelectedGroup);
+        shotSelectedGroup.push(false)
+        newsnapshotGroup(selectionDataGroups, dataGroups.mat, nameGroup, shotSelectedGroup.length,divSpanShotGroup)
     }
     selectionDataGroups = [];
 
@@ -105,6 +110,17 @@ function getNameConference(id){
     return dataConferences_inGroups[aux-100].name;
 }
 
+function btnRestShotGroup(){
+    var ind = -1;
+    for (var i = 0; i < shotSelectedGroup.length; i++)
+        if(shotSelectedGroup[i] == true)
+            ind = i;
+    if(ind == -1)return;
+    //console.log("restart", ind);
+    redrawsvgMainGroup(ind, true);
+    updatespanshotArraysGroup(ind); 
+    selectionDataGroups = [];   
+}
 
 
 
