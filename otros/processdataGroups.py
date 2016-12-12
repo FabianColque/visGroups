@@ -5,6 +5,7 @@ import numpy as np
 import simplejson
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.manifold import TSNE
+from sklearn import manifold 
 from sklearn.preprocessing import normalize
 
 #clustering
@@ -32,7 +33,10 @@ class MyError(Exception):
 dataori = []
 info = []
 
-with open('../data/group3NewJSON.json') as data_file:
+#array zeros 500 conferences
+confe_zeros = [0]*500
+
+with open('../data/group3NewJSON2.json') as data_file:
     dataori = json.load(data_file)
 dataori = dataori[0:10000]
 print(len(dataori))
@@ -43,24 +47,43 @@ for x in xrange(0,longitud):
     aux = []
     aux.append(dataori[x]['seniority'])
     aux.append(dataori[x]['Pubrate'])
-    aux.append(dataori[x]['numPub'])
+    #aux.append(dataori[x]['numPub'])
+    auxcon = confe_zeros
+    dd = dataori[x]['conferences']
+    for k in xrange(0,len(dd)):
+        auxcon[dd[k]] = 1
+    ddd  = tuple(dd)
+    hashconfe = hash(ddd)
+    aux.append(hashconfe)    
     info.append(aux)
 
-print("info", len(info))    
+print("info", len(info), len(info[0]))
+print("confe", dataori[0]['conferences'], len(dataori[0]['conferences']))    
 
 arrinfo = np.array(info)
 arrinfo_norm = normalize(arrinfo, axis=0, norm='max')
 
-tsnet0 = time()
 
+#start tsne
+tsnet0 = time()
 model = TSNE(n_components=2, random_state=0)
 np.set_printoptions(suppress=True)
 puntos = model.fit_transform(arrinfo_norm)
 tsnet1 = time()
 print("Time TSNE", (tsnet1 - tsnet0))
+#end tsne
+
+"""
+#start isomap
+n_neighbors = 1000
+isot0 = time()
+puntos = manifold.Isomap(n_neighbors, n_components =2).fit_transform(arrinfo_norm)
+isot1 = time()
+print("Time Isomap", (isot1 - isot0))
+#end isomap
+"""
 que = np.matrix(puntos)
 ptos = que.tolist()
-
 print(puntos)
 
 group = range(1,longitud+1)
@@ -68,12 +91,14 @@ data3 = {"groups": group, "mat": ptos}
 #data3 = {"groups": group, "mat": ptos, "cluster": labelsOK}
 try:
     jsondata = simplejson.dumps(data3,sort_keys=True)
-    namejson = "group3_norm_projection"+str(len(group))+".json"
+    namejson = "group3_norm3_projection"+str(len(group))+".json"
+    #namejson = "group3_norm_projection_confe1000isomap"+str(len(group))+".json"
     fd = open(namejson, 'w')
     fd.write(jsondata)
     fd.close()
 except MyError as e:
-    print 'ERROR writing', 'group3_norm_projection.json', e.value
+    print 'ERROR writing', 'group3_norm3_projection.json', e.value
+    #print 'ERROR writing', 'group3_norm_projection_isomap.json', e.value
 """
 #######################3
 #processing with tfidf results, but not with normalization

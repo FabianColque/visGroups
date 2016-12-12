@@ -51,6 +51,9 @@ var datafilterGroups;
 var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
 var scaleColorPieGroup = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).range(['#66c2a5','#fc8d62','#8da0cb']);
 
+
+
+
 //Functions lasso start, draw and end
 
 var lasso_startGroup = function(){
@@ -121,6 +124,8 @@ function btnRestShotGroup(){
     updatespanshotArraysGroup(ind); 
     selectionDataGroups = [];   
 }
+
+
 
 
 
