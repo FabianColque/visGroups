@@ -363,29 +363,50 @@ function reDrawAllGroups(value){
 
 function getFileSelectedProjection(value){
     //var arrFiles_projection = ["group3_norm_projection10000.json", "group3_norm_projection_100isomap10000.json", "group3_norm_projection_200isomap10000.json", "group3_norm_projection_300isomap10000.json",  "group3_norm_projection_400isomap10000.json", "group3_norm_projection_500isomap10000.json", "group3_norm_projection_1000isomap10000.json"]; 
-    var arrFiles_projection = ["group3_norm_projection10000.json", "group3_norm3_projection10000.json","group3_norm_projection_confe100isomap10000.json", "group3_norm_projection_confe200isomap10000.json", "group3_norm_projection_confe300isomap10000.json",  "group3_norm_projection_confe400isomap10000.json", "group3_norm_projection_confe500isomap10000.json", "group3_norm_projection_confe1000isomap10000.json"];
+    var arrFiles_projection = ["group3_norm_projection10000.json", "group3_norm3_projection10000.json", "group3_norm_projection_100isomap10000.json", "group3_norm_projection_200isomap10000.json", "group3_norm_projection_300isomap10000.json",  "group3_norm_projection_400isomap10000.json", "group3_norm_projection_500isomap10000.json", "group3_norm_projection_1000isomap10000.json","group3_norm_projection_confe100isomap10000.json", "group3_norm_projection_confe200isomap10000.json", "group3_norm_projection_confe300isomap10000.json",  "group3_norm_projection_confe400isomap10000.json", "group3_norm_projection_confe500isomap10000.json", "group3_norm_projection_confe1000isomap10000.json"];
+
     if(value === "T-SNE-2"){
         return arrFiles_projection[0];
     }
     if(value === "T-SNE-3"){
         return arrFiles_projection[1];
     }
-    if(value == "I100"){
+    
+    if(value == "Ia100"){
         return arrFiles_projection[2];
     }
-    if(value == "I200"){
+    if(value == "Ia200"){
         return arrFiles_projection[3];
     }
-    if(value == "I300"){
+    if(value == "Ia300"){
         return arrFiles_projection[4];
     }
-    if(value == "I400"){
+    if(value == "Ia400"){
         return arrFiles_projection[5];
     }
-    if(value == "I500"){
+    if(value == "Ia500"){
         return arrFiles_projection[6];
     }
-    if(value == "I1000"){
+    if(value == "Ia1000"){
         return arrFiles_projection[7];
+    }
+
+    if(value == "I100"){
+        return arrFiles_projection[8];
+    }
+    if(value == "I200"){
+        return arrFiles_projection[9];
+    }
+    if(value == "I300"){
+        return arrFiles_projection[10];
+    }
+    if(value == "I400"){
+        return arrFiles_projection[11];
+    }
+    if(value == "I500"){
+        return arrFiles_projection[12];
+    }
+    if(value == "I1000"){
+        return arrFiles_projection[13];
     }
 }
