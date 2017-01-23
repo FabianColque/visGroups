@@ -66,9 +66,11 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
 
 function drawCrossFilterChartsGroups(dataO){
     
+    d3.selectAll("#matrix_groups *").remove();
     d3.selectAll(".chartGroup svg").remove();
     datafilterGroups = [];
 
+    newMatrixGroups(dataO);
 
     //d3.json("data/group3NewJSON2.json", function(error, datatot){
         //dataGroups_inGroups = datatot;
