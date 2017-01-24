@@ -67,6 +67,10 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
 function drawCrossFilterChartsGroups(dataO){
     
     d3.selectAll("#matrix_groups *").remove();
+    d3.selectAll("#legend_matGroups *").remove();
+    d3.selectAll("#matrix_authors_in_groups *").remove();
+    d3.selectAll("#legend_matAuthors *").remove();
+    
     d3.selectAll(".chartGroup svg").remove();
     datafilterGroups = [];
 
@@ -212,7 +216,7 @@ function drawCrossFilterChartsGroups(dataO){
             .dimension(mycrossGroup)
             .group(all)
             .html({
-                some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Authors' +
+                some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Groups' +
                 ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a><br><br>'
             });
 
