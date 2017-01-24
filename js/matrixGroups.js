@@ -155,7 +155,7 @@ function newMatrixGroups(mdata){
             auxx = dataGroups_inGroups[arr_ori[i]];
             for(var j = 0; j< auxx.authors.length ; j++){
                 miset.add(auxx.authors[j]);
-                countAuthors[auxx.authors[j]-1] = countAuthors[auxx.authors[j]-1] + 1;
+                countAuthors[auxx.authors[j]-1] = countAuthors[auxx.authors[j]] + 1;
             }
         }
         var arr_aut = Array.from(miset);
@@ -209,7 +209,7 @@ function newMatrixGroups(mdata){
                 .attr("x", function(d,i){return (rw2+space)*i;})
                 .attr("width",rw2)
                 .attr("height", rh2)
-                .style("fill", function(d){return scale_authors(countAuthors[arr_aut[d]-1]);})
+                .style("fill", function(d){return scale_authors(countAuthors[arr_aut[d]]);})
                 .on ("click", function(d,i){
                     var active = this.active?false:true,
                     newOpacity = active?0.5:1;
@@ -217,10 +217,11 @@ function newMatrixGroups(mdata){
                     this.active = active;
                     
                 }).on("mouseover", function(d) {
+                   //console.log("dile", arr_aut[d]-1);
                    divtooltip.transition()
                      .duration(200)
                      .style("opacity", .9);
-                   divtooltip.html(arr_aut[d] + " - " + dataAuthors_inGroups[arr_aut[d]-1].name)
+                   divtooltip.html(arr_aut[d] + " - " + dataAuthors_inGroups[arr_aut[d]].name)
                      .style("left", (d3.event.pageX) + "px")
                      .style("top", (d3.event.pageY - 28) + "px");
                    })
