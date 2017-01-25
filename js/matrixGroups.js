@@ -1,5 +1,5 @@
 function newMatrixGroups(mdata){
-    console.log("mdata",mdata);
+    //console.log("mdata",mdata);
     
     var columns = 40;
     var rows = Math.ceil(mdata.length/columns);
@@ -14,7 +14,8 @@ function newMatrixGroups(mdata){
     var rh = rw;
     
     var nose = d3.extent(mdata, function(d,i){return dataGroups_inGroups[d].authors.length;})
-    var scale_color = d3.scale.linear().domain(nose).range(["#EEEEEE", "#1E6823"]);
+    //var scale_color = d3.scale.linear().domain(nose).range(["#EEEEEE", "#1E6823"]);
+    var scale_color = d3.scale.linear().domain(nose).range(["#ffffd9", "#081d58"]);
     
     var pro = somematrixpos(rows, columns, mdata.length);
     console.log("pro", pro);
@@ -34,7 +35,21 @@ function newMatrixGroups(mdata){
             return "translate(0,"+(rh+spa)*i+')';
         })
     
-    new_legend(scale_color.range(), nose, "#legend_matGroups");
+    new_legend(scale_color.range(), nose, "#legend_matGroups", "# of Authors");
+    
+    var ttip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0)
+            .style("text-align","center")
+            .style("width", "40px")
+            .style("height", "20px")
+            .style("padding","2px")
+            .style("font","12px sans-serif")
+            .style("background","lightsteelblue")
+            .style("border","1px")
+            .style("border-radius","8px")
+            .style("pointer-events","none");
+    
     
     gra.selectAll("rect")
         .data(function(d,i){return d})
@@ -45,7 +60,7 @@ function newMatrixGroups(mdata){
             .attr("height", rh)
             .style("stroke", "black")
             .style("stroke-width", 0.5)
-            .style("fill", function(d){return scale_color(dataGroups_inGroups[d].authors.length);})
+            .style("fill", function(d){return scale_color(dataGroups_inGroups[mdata[d]].authors.length);})
             .on ("click", function(d,i){
                 var active = this.active?false:true,
                 newOpacity = active?0.9:1;
@@ -57,7 +72,20 @@ function newMatrixGroups(mdata){
                 }
                 this.active = active;
                 
-            });
+            }).on("mouseover", function(d) {
+                   //console.log("dile", arr_aut[d]-1);
+                   ttip.transition()
+                     .duration(200)
+                     .style("opacity", .9);
+                   ttip.html("("+dataGroups_inGroups[mdata[d]].authors.length+")")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+                   })
+                 .on("mouseout", function(d) {
+                   ttip.transition()
+                     .duration(500)
+                     .style("opacity", 0);
+                   });;
     
     gra.selectAll("rect")
         .classed({"selected":false})
@@ -87,7 +115,7 @@ function newMatrixGroups(mdata){
         .attr("type", "button")
         .on("click", function(d,i){
             draw_table_authors_in_groups();
-            console.log("click");
+            
         });
     
     function selectAll_groups(){
@@ -147,7 +175,6 @@ function newMatrixGroups(mdata){
                 arr_ori.push(mdata[d]);
             }
         })
-        console.log("arr ori", arr_ori);
         var miset = new Set();
         var countAuthors = new Array(dataAuthors_inGroups.length).fill(0);
         
@@ -164,8 +191,7 @@ function newMatrixGroups(mdata){
             return d;
         });
         limites_authors[0]=1;
-        console.log("limites", limites_authors);
-        console.log("countsdemier", countAuthors);
+        
         var scale_authors = d3.scale.linear().domain(limites_authors).range(["#fdae61", "#d7191c"]);
         var col = 40;
         var ro = Math.ceil(arr_aut.length/col);
@@ -181,9 +207,8 @@ function newMatrixGroups(mdata){
         
         
         var pr = somematrixpos(ro, col, arr_aut.length);
-        console.log("pro", pr);
-
-        new_legend(scale_authors.range(), limites_authors, "#legend_matAuthors");
+        
+        new_legend(scale_authors.range(), limites_authors, "#legend_matAuthors", "Frecuency");
         
         var div2 = d3.select('#matrix_authors_in_groups');
         var svg2 = div2.append("svg")
@@ -198,9 +223,18 @@ function newMatrixGroups(mdata){
                 return "translate(0,"+(rh2+space)*i+')';
             })
 
-        var divtooltip = d3.select("body").append("div")
+            var divtooltip = d3.select("body").append("div")
             .attr("class", "tooltip")
-            .style("opacity", 0);
+            .style("opacity", 0)
+            .style("text-align","center")
+            .style("width", "100px")
+            .style("height", "60px")
+            .style("padding","2px")
+            .style("font","12px sans-serif")
+            .style("background","lightsteelblue")
+            .style("border","1px")
+            .style("border-radius","8px")
+            .style("pointer-events","none");
         
         gra2.selectAll("rect")
             .data(function(d,i){return d})
@@ -235,7 +269,7 @@ function newMatrixGroups(mdata){
 
 }
 
-function new_legend(colors, limites, id){
+function new_legend(colors, limites, id, description){
     //var colors = [ 'rgb(255,0,0)', 'rgb(255,255,0)' ];
 
     var div = d3.select(id);
@@ -273,5 +307,9 @@ function new_legend(colors, limites, id){
     svg.append("text")
         .text(limites[1])
         .attr("x", 180)
+        .attr("y", 10);
+    svg.append("text")
+        .text(description)
+        .attr("x", 80)
         .attr("y", 10);
 }

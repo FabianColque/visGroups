@@ -29,7 +29,6 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         var graph = svgGroup.append('g');
         
         var moddatamatGroup = dataGroups.groups.map(function(d,i){var f = dataGroups.mat[i]; f.push(i);return f;});
-        
         var points = graph.selectAll('.pointGroup').data(moddatamatGroup);
         points.enter().append('circle').attr("class", 'pointGroup')
         .attr('r', tamMinCirleGroup)
@@ -57,7 +56,41 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     }
     //functions lasso
     
-
+    //extent para todos los componentes de crossfilter
+    //SENIORITY
+    var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["#B7D7E8","#4B93C3"]);
+    d3.select("#chartGroup1 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainsvgGroup .pointGroup")
+                .style("fill", function(d){return seniority_scale(dataGroups_inGroups[d[2]].seniority)})
+    })
+    //PUBLICATION RATE
+    var pubRate_extent = d3.extent(dataGroups_inGroups, function(d){return d.Pubrate;});
+    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(["#C1E5A1","#5BB356"]);
+    d3.select("#chartGroup2 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainsvgGroup .pointGroup")
+                .style("fill", function(d){return pubRate_scale(dataGroups_inGroups[d[2]].Pubrate)})
+    })
+    
+    //GENDER
+    var gender_extent = [1,2,3];
+    var scale_gender = d3.scale.linear().domain(gender_extent).range(["#FCA381","#8DA0CB","#66C2A5"])
+    d3.select("#chartGroup3 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainsvgGroup .pointGroup")
+                .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[d[2]].gender)})
+    })
+    
+    //CONFERENCES
+    var conference_extent = d3.extent(dataGroups_inGroups, function(d){return d.conferences.length;});
+    var conference_scale = d3.scale.linear().domain(pubRate_extent).range(["#B9A7CE","#310568"]);
+    d3.select("#chartGroup4 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainsvgGroup .pointGroup")
+                .style("fill", function(d){return conference_scale(dataGroups_inGroups[d[2]].conferences.length)})
+    })
 }//end of drawVISGroup
 
 // DrawCrossFilter for Groups
