@@ -103,6 +103,7 @@ function drawCrossFilterChartsGroups(dataO){
     d3.selectAll("#legend_matGroups *").remove();
     d3.selectAll("#matrix_authors_in_groups *").remove();
     d3.selectAll("#legend_matAuthors *").remove();
+    d3.selectAll("#list_authors_in_groups *").remove();
     
     d3.selectAll(".chartGroup svg").remove();
     datafilterGroups = [];
