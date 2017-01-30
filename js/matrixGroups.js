@@ -41,8 +41,8 @@ function newMatrixGroups(mdata){
             .attr("class", "tooltip")
             .style("opacity", 0)
             .style("text-align","center")
-            .style("width", "40px")
-            .style("height", "20px")
+            .style("width", "80px")
+            .style("height", "35px")
             .style("padding","2px")
             .style("font","12px sans-serif")
             .style("background","lightsteelblue")
@@ -77,7 +77,7 @@ function newMatrixGroups(mdata){
                    ttip.transition()
                      .duration(200)
                      .style("opacity", .9);
-                   ttip.html("("+dataGroups_inGroups[mdata[d]].authors.length+")")
+                   ttip.html("Group "+mdata[d] + " <br> ("+dataGroups_inGroups[mdata[d]].authors.length+" Authors)")
                      .style("left", (d3.event.pageX) + "px")
                      .style("top", (d3.event.pageY - 28) + "px");
                    })
