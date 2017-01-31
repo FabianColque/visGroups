@@ -3,8 +3,8 @@ function newsnapshotGroup(selectedItems, data, description, number, ubicacion){
     //data -> data.mat original
 
     var margin = {top: 20, right: 20, bottom: 30, left: 40};
-    var width = 350 - margin.left - margin.right;
-    var height = 200 - margin.top - margin.bottom;
+    var width = 300 - margin.left - margin.right;//350
+    var height = 150 - margin.top - margin.bottom;//200
     var colorSelect = "red";
 
     var xScale = d3.scale.linear()

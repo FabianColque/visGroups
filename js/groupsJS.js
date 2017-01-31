@@ -161,15 +161,15 @@ function drawCrossFilterChartsGroups(dataO){
             }
         //******************
         
-        seniority_Group_Chart.width(420)
+        seniority_Group_Chart.width(220)//420
                 .height(180)
                 .margins({top: 10, right: 50, bottom: 30, left: 40})
                 .dimension(seniority)
                 .group(senioritys)
                 .colors(colorsBar[1])
                 .elasticY(true)
-                .centerBar(false)
-                .gap(1)
+                .centerBar(false)//false
+                .gap(1)//lo comente
                 .brushOn(true)
                 .round(dc_groups.round.floor)
                 .alwaysUseRounding(true)
@@ -186,7 +186,7 @@ function drawCrossFilterChartsGroups(dataO){
 
 
 
-        pubrate_Group_Chart.width(420)
+        pubrate_Group_Chart.width(220)//420
             .height(180)
             .margins({top: 10, right: 50, bottom: 30, left: 40})
             .dimension(pubrate)

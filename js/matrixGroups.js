@@ -208,7 +208,7 @@ function newMatrixGroups(mdata){
         limites_authors[0]=1;
         
         var scale_authors = d3.scale.linear().domain(limites_authors).range(["#fdae61", "#d7191c"]);
-        var col = 40;
+        var col = 30;
         var ro = Math.ceil(arr_aut.length/col);
 
         var tamr = 22;
@@ -323,7 +323,7 @@ function newMatrixGroups(mdata){
 
               var height = Math.max(500, nodes.length * barHeight + margin.top + margin.bottom);
 
-              d3.select("svg").transition()
+              d3.select("#list_authors_in_groups svg").transition()
                   .duration(duration)
                   .attr("height", height);
 
@@ -427,7 +427,7 @@ function newMatrixGroups(mdata){
             }
 
             function color(d) {
-              return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
+              return d._children ? "#a6cee3" : d.children ? "#1f78b4" : "#bebada";
             }
             
         }//fin list authors groups    
