@@ -57,40 +57,117 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     //functions lasso
     
     //extent para todos los componentes de crossfilter
+    
+    var tooltip_scales_cfilter = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0)
+            .style("text-align","center")
+            .style("width", "130px")
+            .style("height", "90px")
+            .style("padding","2px")
+            .style("font","12px sans-serif")
+            .style("background","#fff")
+            .style("border","1px dashed #1b1a19")
+            .style("pointer-events","none");
+    
+    
     //SENIORITY
     var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
-    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["#B7D7E8","#4B93C3"]);
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']);
     d3.select("#chartGroup1 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d){return seniority_scale(dataGroups_inGroups[d[2]].seniority)})
-    })
+        }).on("mouseover", function(d) {
+                   console.log("<div class=></div>");
+                    var scolor = ['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
+    
+    
     //PUBLICATION RATE
     var pubRate_extent = d3.extent(dataGroups_inGroups, function(d){return d.Pubrate;});
-    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(["#C1E5A1","#5BB356"]);
+    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000']);
     d3.select("#chartGroup2 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d){return pubRate_scale(dataGroups_inGroups[d[2]].Pubrate)})
-    })
+        }).on("mouseover", function(d) {
+                   console.log("<div class=></div>");
+                    var scolor = ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'];
+                    var noms = ["Not Active", "Less Active", "Active", "Very Active", "Extreme Active"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
     
     //GENDER
     var gender_extent = [1,2,3];
-    var scale_gender = d3.scale.linear().domain(gender_extent).range(["#FCA381","#8DA0CB","#66C2A5"])
+    var scale_gender = d3.scale.linear().domain(gender_extent).range(['#7fc97f','#beaed4','#fdc086'])
     d3.select("#chartGroup3 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[d[2]].gender)})
-    })
+        }).on("mouseover", function(d) {
+                   console.log("<div class=></div>");
+                    var scolor = ['#7fc97f','#beaed4','#fdc086'];
+                    var noms = ["Male", "Female", "Undefined"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><br><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
     
     //CONFERENCES
     var conference_extent = d3.extent(dataGroups_inGroups, function(d){return d.conferences.length;});
+    console.log("cong", conference_extent);
     var conference_scale = d3.scale.linear().domain(pubRate_extent).range(["#B9A7CE","#310568"]);
     d3.select("#chartGroup4 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d){return conference_scale(dataGroups_inGroups[d[2]].conferences.length)})
-    })
+        }).on("mouseover", function(d) {
+                   console.log("<div class=></div>");
+                    tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><br># of Conferences<br><div style=\"display:-webkit-inline-box\"><div style=\"width:65px; text-align: -webkit-left; margin-left: 10px;\">"+conference_extent[0]+"</div><div style=\"width:65px\">"+conference_extent[1]+"</div></div></div><div class=\"scaleConferenceToolTip\"></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
+    
+    
+    
+    
+    
+    
 }//end of drawVISGroup
 
 // DrawCrossFilter for Groups

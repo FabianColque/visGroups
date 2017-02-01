@@ -11,8 +11,8 @@ var lassogroup;
 var marginGroup = {top: 20, right: 20, bottom: 30, left: 40};
 
 
-var heightGroup = 300 - marginGroup.top - marginGroup.bottom;
-var widthGroup = 500 - marginGroup.left - marginGroup.right;
+var heightGroup = 400 - marginGroup.top - marginGroup.bottom;//300
+var widthGroup = 600 - marginGroup.left - marginGroup.right;//500
 //tag html main chart
 var tagMainGroup = "#areaMainsvgGroup";
 

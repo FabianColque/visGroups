@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Divs</title>
+        <title>VIS Groups Projection</title>
         
         <script src="js/crossfilter.js"></script>
         <script src="js/d3.js"></script>
@@ -157,10 +157,29 @@
                 transform: rotate(-30deg);
             }
             
+            #chartGroup1 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
             /*este es nuevo para barchart de rate pub*/
             #chartGroup2 .x.axis text {
                 text-anchor: end !important;
                 transform: rotate(-30deg);
+            }
+            
+            #chartGroup2 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            .scaleConferenceToolTip{
+                height: 25px;
+                width: 100px;
+                margin-left: 11px;
+                background: #B9A7CE; /* For browsers that do not support gradients */    
+                background: -webkit-linear-gradient(left, #B9A7CE , #310568); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(right, #B9A7CE, #310568); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(right, #B9A7CE, #310568); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(to right, #B9A7CE , #310568); /* Standard syntax (must be last) */
             }
             
         </style>
@@ -278,7 +297,7 @@
                 <h1 ALIGN=center>Groups</h1> 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <div class="row" >
                                 
                                 <div id="areaMainsvgGroup"></div>
@@ -289,7 +308,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-6">
                             <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-md-6" >
@@ -374,7 +393,7 @@
                                 <div class="row" id="matrix_authors_in_groups"></div>
                             </div>
                         
-                        
+                        <div></div>
                         </div>
                         <div class="col-md-5" >
                         
