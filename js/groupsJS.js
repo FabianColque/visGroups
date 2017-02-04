@@ -23,6 +23,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         var svgGroup = d3.select(tagMainGroup)
             .append('svg')
             .attr("class", "mainsvgGroup")
+            .style("background", "black")
             .attr('width', widthGroup + marginGroup.left + marginGroup.right)
             .attr('height', heightGroup + marginGroup.top + marginGroup.bottom)
             //.call(brush);
@@ -31,6 +32,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         var moddatamatGroup = dataGroups.groups.map(function(d,i){var f = dataGroups.mat[i]; f.push(i);return f;});
         var points = graph.selectAll('.pointGroup').data(moddatamatGroup);
         points.enter().append('circle').attr("class", 'pointGroup')
+        .style("fill", "white")
         .attr('r', tamMinCirleGroup)
         .attr('cx', function(d){return xScaleGroup(d[0])})
         .attr('cy', function(d){return yScaleGroup(d[1])});
@@ -73,14 +75,14 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     //SENIORITY
     var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
-    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']);
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
     d3.select("#chartGroup1 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d){return seniority_scale(dataGroups_inGroups[d[2]].seniority)})
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
-                    var scolor = ['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
                     var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
                    tooltip_scales_cfilter.transition()
                      .duration(200)
@@ -386,7 +388,7 @@ function getGender(d){
     return aux[d];
 }
 
-function loadDataGroups(grupos, autores, conferences){
+function loadDataGroups(grupos, autores, conferences, authors){
     
     $.ajax({
         dataType    : "json",
@@ -409,13 +411,15 @@ function loadDataGroups(grupos, autores, conferences){
         async       : false,
         success     : function(data){dataConferences_inGroups = data;}
     });
-    /* $.ajax({
+    
+    
+     $.ajax({
         dataType: "text",
         type    : "GET",
-        url     : autores,
+        url     : authors,
         async   : false,
-        success : function(data) {dataAuthors_inGroups =  processData(data);}
-     });*/
+        success : function(data) {dados =  processData(data);}
+     });
 }
 
 function redrawsvgMainGroup(ind, redrawcrossfilter){
@@ -428,7 +432,7 @@ function redrawsvgMainGroup(ind, redrawcrossfilter){
 
     d3.selectAll(".pointGroup")
         .attr("r", function(d,i){return selectedItemsBool[i]?tamMaxCircleGroup:tamMinCirleGroup})
-        .style("fill", function(d,i){return selectedItemsBool[i]?"blue":"black";})
+        .style("fill", function(d,i){return selectedItemsBool[i]?"blue":"white";})
 }
 
 //ya no uso esta function

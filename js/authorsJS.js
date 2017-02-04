@@ -21,7 +21,7 @@ var drawVISAuthor = function(){
         var graph = svg.append('g');
         
         var moddatamat = data.users.map(function(d,i){var f = data.mat[i]; f.push(i);return f;});
-        
+        //console.log("moddata renato", moddatamat);//
         var points = graph.selectAll('.pointDots').data(moddatamat);
         points.enter().append('circle').attr("class", 'pointDots')
         .attr("id", function(d){return ('pointAuthor'+d[2]);})
@@ -46,9 +46,129 @@ var drawVISAuthor = function(){
         
         lasso.items(d3.selectAll(".pointDots"));
         svg.call(lasso);
-    } 
+    }
+    
+    
+    var tooltip_scales_cfilter = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0)
+            .style("text-align","center")
+            .style("width", "130px")
+            .style("height", "90px")
+            .style("padding","2px")
+            .style("font","12px sans-serif")
+            .style("background","#fff")
+            .style("border","1px dashed #1b1a19")
+            .style("pointer-events","none");
+    
+    //# PUBLICATIONS
+    
+    console.log("dados cow", dados)
+    //var nroPub_extent = d3.extent(dados, function(d){return parseInt(d.nbpub);});
+    //nroPub_extent = ["very few publi", "very publi", "fair publi", "high publi", "very high publi"];
+    var nroPub_extent = [0,1,2,3,4];
+    var nroPub_scale = d3.scale.linear().domain(nroPub_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    d3.select("#chart1 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainscgAuthor .pointDots")
+                .style("fill", function(d){return nroPub_scale(category_nbpub(parseInt(dados[d[2]].nbpub)))})
+                //.style("fill", "red")
+        }).on("mouseover", function(d) {
+                   console.log("<div nbpub");
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var noms =["very few publi", "very publi", "fair publi", "high publi", "very high publi"];;
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
+    
+    
+    //SENIORITY
+    var seniority_extent = d3.extent(dados, function(d){return parseInt(d.seniority);})
+    //seniority_extent = ["very young","young", "experienced", "senior", "very senior"];
+    seniority_extent = [0,1,2,3,4];
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    d3.select("#chart2 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainscgAuthor .pointDots")
+                .style("fill", function(d){return seniority_scale(category_seniority(parseInt(dados[d[2]].seniority)))})
+        }).on("mouseover", function(d) {
+                   console.log("<div seniorti");
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
+    
+    
+    //PUBLICATION RATE
+    var pubRate_extent = d3.extent(dataGroups_inGroups, function(d){return parseFloat(d.pubrate);});
+    //pubRate_extent = ["not active", "less active", "active", "very active", "extreme active"];
+    pubRate_extent = [0,1,2,3,4];
+    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000']);
+    d3.select("#chart3 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainscgAuthor .pointDots")
+                .style("fill", function(d){return pubRate_scale(category_ratePub(parseFloat(dados[d[2]].pubrate)))})
+        }).on("mouseover", function(d) {
+                   console.log("<div pub rate");
+                    var scolor = ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'];
+                    var noms = ["Not Active", "Less Active", "Active", "Very Active", "Extreme Active"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
+    
+    
+    
+    //GENDER
+    var gender_extent = [1,2,3];
+    var scale_gender = d3.scale.linear().domain(gender_extent).range(['#7fc97f','#beaed4','#fdc086'])
+    d3.select("#chart4 strong")
+        .on("click", function(){
+            d3.selectAll("#areaMainscgAuthor .pointDots")
+                .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[d[2]].gender)})
+        }).on("mouseover", function(d) {
+                   console.log("<div gender");
+                    var scolor = ['#7fc97f','#beaed4','#fdc086'];
+                    var noms = ["Male", "Female", "Undefined"];
+                   tooltip_scales_cfilter.transition()
+                     .duration(200)
+                     .style("opacity", 1);
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><br><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div>")
+                     .style("left", (d3.event.pageX) + "px")
+                     .style("top", (d3.event.pageY - 28) + "px");
+        }).on("mouseout", function(d) {
+                tooltip_scales_cfilter.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+        });
 
 }
+
+
 
 
 function updatespanshotArrays(ind){
@@ -227,13 +347,14 @@ function drawCrossFilterCharts(dataO){
         tabledims = tabledim.group();    
         
         
-        nbpubchart.width(420)
+        nbpubchart.width(220)
             .height(180)
             .margins({top: 10, right: 50, bottom: 30, left: 40})
             .dimension(nbpub)
             .group(nbpubs)
             .colors(colorsBar[0])
-            .elasticY(false)
+            .elasticY(true)
+            .centerBar(false)
             .gap(1)
             .round(dc_author.round.floor)
             .alwaysUseRounding(true)
@@ -260,7 +381,7 @@ function drawCrossFilterCharts(dataO){
 
 
 
-        senioritychart.width(420)
+        senioritychart.width(220)
             .height(180)
             .margins({top: 10, right: 50, bottom: 30, left: 40})
             .dimension(seniority)
@@ -284,7 +405,7 @@ function drawCrossFilterCharts(dataO){
         senioritychart.yAxis().ticks(5);
 
 
-        pubratechart.width(420)
+        pubratechart.width(220)
             .height(180)
             .margins({top: 10, right: 50, bottom: 30, left: 40})
             .dimension(pubrate)

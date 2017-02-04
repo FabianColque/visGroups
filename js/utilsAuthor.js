@@ -4,10 +4,10 @@ var name = "a";
 
 var data = [];
 var datafilter = [];
+var dados;
 
-
-var width = 500;
-var height = 300;
+var width = 600;
+var height = 400;
 
 var xScale = d3.scale.linear()
   .range([0,width]);
@@ -19,7 +19,7 @@ var scaleColorPie = d3.scale.ordinal().domain(["Undefined", "Male", "Female"]).r
 //DC to authors
 var dc_author = dc;
 
-var tamMinCirle = 2;
+var tamMinCirle = 1;
 var tamMaxCircle = 4;
 
 var shotSelected = [];
@@ -93,5 +93,58 @@ function btnRestShot(){
 }
 
 
+function category_ratePub(d){
+            if(d<=1.47){
+                return 0;
+            }
+            else if(d>1.47 && d<=2.48){
+                return 1;
+            }
+            else if(d >2.48 && d<=3.71){
+                return 2;
+            }
+            else if(d > 3.71 && d<= 6){
+                return 3;
+            }
+            else{
+                return 4;
+            }
+        }
 
+        function category_seniority(d){
+            if(d<=14){
+                return 0;
+            }
+            else if(d>14 && d<=28){
+                return 1;
+            }
+            else if(d >28 && d<=53){
+                return 2;
+            }
+            else if(d > 53 && d<= 107){
+                return 3;
+            }
+            else{
+                return 4;
+            }
+        }
+
+        function category_nbpub(d){
+            ////console.log("mira", d);
+            if(d<=8){
+                return 0;
+            }
+            else if(d>8 && d<=12){
+                return 1;
+            }
+            else if(d >12 && d<=15){
+                return 2;
+            }
+            else if(d > 15 && d<= 21){
+                return 3;
+            }
+            else{
+                return 4;
+            }
+        }
 

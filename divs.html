@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Divs</title>
+        <title>VIS Groups Projection</title>
         
         <script src="js/crossfilter.js"></script>
         <script src="js/d3.js"></script>
@@ -100,12 +100,13 @@
             }
 
             #snapshotArea{
-                height: 500px;
-                width: 370px;
+                /*height: 500px;
+                width: 370px;*/
                 background-color: white;
-                overflow-y: scroll;
+                overflow-x: scroll;
                 border-color: blue;
                 border-width: 5px;
+                display: flex;
 
             }
 
@@ -121,11 +122,11 @@
             }
 
             #areaMainscgAuthor{
-                padding-top: 73px;
+                padding-top: 0px;
             }
 
             #areaMainsvgGroup{
-                padding-top: 73px;
+                padding-top: 0px;
             }
 
             #list_in_group{
@@ -151,16 +152,66 @@
               stroke-width: 1.5px;
             }
             
-            /*este es nuevo para barchart de seniority*/
+            /*este es nuevo para barchart de nro publicatiosn authors*/
+            #chart1 .x.axis text {
+                text-anchor: end !important;
+                transform: rotate(-30deg);
+            }
+            
+            #chart1 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            /*este es nuevo para barchart de seniority authors*/
+            #chart2 .x.axis text {
+                text-anchor: end !important;
+                transform: rotate(-30deg);
+            }
+            
+            #chart2 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            /*este es nuevo para barchart de rate pub authors*/
+            #chart3 .x.axis text {
+                text-anchor: end !important;
+                transform: rotate(-30deg);
+            }
+            
+            #chart3 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            
+            /*este es nuevo para barchart de seniority Groups*/
             #chartGroup1 .x.axis text {
                 text-anchor: end !important;
                 transform: rotate(-30deg);
             }
             
-            /*este es nuevo para barchart de rate pub*/
+            #chartGroup1 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            /*este es nuevo para barchart de rate pub groups*/
             #chartGroup2 .x.axis text {
                 text-anchor: end !important;
                 transform: rotate(-30deg);
+            }
+            
+            #chartGroup2 .x-axis-label{
+                transform: translate(111px,10px);
+            }
+            
+            .scaleConferenceToolTip{
+                height: 25px;
+                width: 100px;
+                margin-left: 11px;
+                background: #B9A7CE; /* For browsers that do not support gradients */    
+                background: -webkit-linear-gradient(left, #B9A7CE , #310568); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(right, #B9A7CE, #310568); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(right, #B9A7CE, #310568); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(to right, #B9A7CE , #310568); /* Standard syntax (must be last) */
             }
             
         </style>
@@ -207,78 +258,79 @@
             
                 <h1 ALIGN=center>Authors</h1>  
         
-
-
-            <div class = "container" style="padding-left: 4%">
-                <div class="row">
-                    <div  class="col-sm-6">
-                        <div id="areaMainscgAuthor"></div>
-                        <div style="text-align: center;" class="botones">
-                            <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div id="areaMainscgAuthor"></div>
+                                        <div style="text-align: center;" class="botones">
+                                        <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div id="chart1" class="chart">
+                                            <strong># Publications</strong>
+                                            <div class="title"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div id="chart2" class="chart">
+                                            <strong>Seniority</strong>
+                                            <div class="title"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div id="chart3" class="chart">
+                                            <strong>Publication Rate</strong>
+                                            <div class="title"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div id="chart4" class="chart">
+                                            <strong>Gender</strong>
+                                            <div class="title"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div id="chart5" class="chart">
+                                    <strong>Count</strong>
+                                    <div class="title"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div  class="col-sm-6">
+                    
+                    <div class="row" style="border: 1px solid #333">
                         <div class="headhistorial">
                             <strong>Select to restart</strong>
                             <input type="button" class="btn btn-info" value="Restart" onclick="btnRestShot()" />
                             <br><br>
                         </div>
-                        <div id="snapshotArea"></div>    
+                        <div id="snapshotArea"></div>
                     </div>
-
-                </div>    
-            </div>
-
-           <br><br> 
-
-            <div id="charts" class="container" style="padding-left: 4%">
-
-
-                <div class="row">
-                    <div id="chart1" class="chart">
-                        <strong># Publications</strong>
-                        <div class="title"></div>
-                    </div>
-                    <div id="chart2" class="chart">
-                        <strong>Seniority</strong>
-                        <div class="title"></div>
+                    <br>
+                    <div class="row" style="border: 1px solid #333">
+                        <table class="table table-hover dc-data-table">
+                        </table>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div id="chart3" class="chart">
-                        <strong>Publication Rate</strong>
-                        <div class="title"></div>
-                    </div>
-                    <div id="chart4" class="chart">
-                        <strong>Gender</strong>
-                        <div class="title"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="chart5" class="chart">
-                        <strong>Count</strong>
-                        <div class="title"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <table class="table table-hover dc-data-table">
-                    </table>
-                </div>
-
-            </div>
-
-            <div id="lists">
-              <div id="flight-list" class="list"></div>
-            </div>
             
-        </div>
+            
+            </div>
             <div class="tab-pane" id="2">
-                <h1 ALIGN=center>Authors</h1> 
+                <h1 ALIGN=center>Groups</h1> 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <div class="row" >
                                 
                                 <div id="areaMainsvgGroup"></div>
@@ -289,7 +341,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-6">
                             <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-md-6" >
@@ -339,7 +391,7 @@
                         </div>
                     </div>
                     
-                    <div class="row" >
+                    <div class="row" style="border: 1px solid #333">
                             
                             
                         <div class="headhistorialGroup">
@@ -351,8 +403,8 @@
                                 
                             
                     </div>
-                    
-                    <div class="row" >
+                    <br>
+                    <div class="row" style="border: 1px solid #333">
                     
                     <div class="col-md-12" >
                         <div>
@@ -363,8 +415,8 @@
                     </div>
                     
                     </div>
-                    
-                    <div class="row">
+                    <br>
+                    <div class="row" style="border: 1px solid #333">
                         <div class="col-md-7" >
                         
                         
@@ -374,7 +426,7 @@
                                 <div class="row" id="matrix_authors_in_groups"></div>
                             </div>
                         
-                        
+                        <div></div>
                         </div>
                         <div class="col-md-5" >
                         

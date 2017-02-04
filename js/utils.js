@@ -21,7 +21,7 @@ var divSpanShotGroup = "#snapshotAreaGroup";
 var nameGroup = "g";
 
 //size circle
-var tamMinCirleGroup = 2;
+var tamMinCirleGroup = 1;//2
 var tamMaxCircleGroup = 7.5;
 
 //Scales
@@ -73,7 +73,7 @@ var lasso_drawGroup = function(){
 var lasso_endGroup = function(){
         selectionDataGroups = [];
         lassoGroup.items()
-            .style("fill", function(d){return "black"});
+            .style("fill", function(d){return "white"});
         lassoGroup.items().filter(function(d){
             if(d.selected === true){
                 selectionDataGroups.push(d[2]);
