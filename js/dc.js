@@ -254,6 +254,10 @@ dc.renderAll = function (group) {
     if (dc._renderlet !== null) {
         dc._renderlet(group);
     }
+    
+    //mio y solo mio
+    redrawsvgMain(buckupDataSelected.length-1, false);
+    redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
 };
 
 /**
@@ -2070,11 +2074,32 @@ dc.baseMixin = function (_chart) {
      * @param {*} datum
      */
     _chart.onClick = function (datum) {
+        
         var filter = _chart.keyAccessor()(datum);
+        
         dc.events.trigger(function () {
             _chart.filter(filter);
             _chart.redrawGroup();
         });
+        
+        
+        
+        
+        //este codigo yo lo estoy incluyendo, es decir no pertenece a la libreria dc.js
+        if(exist_authors_charts){
+            if(_chart.__dcFlag__ >= 7){//A partir de 7 son charts de GROUPS visualization
+                //console.log("voyage", _chart.__dcFlag__);
+                drawPoints_groups_filterChartCF();
+            }else{
+                //console.log("voyage author", _chart.__dcFlag__);
+                drawPoints_authors_filterChartCF();
+            }    
+        }else{
+            drawPoints_groups_filterChartCF();
+        }
+        
+        //console.log("miercoles", _chart)
+        
     };
 
     /**

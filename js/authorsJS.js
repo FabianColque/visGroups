@@ -63,11 +63,11 @@ var drawVISAuthor = function(){
     
     //# PUBLICATIONS
     
-    console.log("dados cow", dados)
+    //console.log("dados cow", dados)
     //var nroPub_extent = d3.extent(dados, function(d){return parseInt(d.nbpub);});
     //nroPub_extent = ["very few publi", "very publi", "fair publi", "high publi", "very high publi"];
     var nroPub_extent = [0,1,2,3,4];
-    var nroPub_scale = d3.scale.linear().domain(nroPub_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    var nroPub_scale = d3.scale.linear().domain(nroPub_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
     d3.select("#chart1 strong")
         .on("click", function(){
             d3.selectAll("#areaMainscgAuthor .pointDots")
@@ -75,7 +75,7 @@ var drawVISAuthor = function(){
                 //.style("fill", "red")
         }).on("mouseover", function(d) {
                    console.log("<div nbpub");
-                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
                     var noms =["very few publi", "very publi", "fair publi", "high publi", "very high publi"];;
                    tooltip_scales_cfilter.transition()
                      .duration(200)
@@ -94,7 +94,7 @@ var drawVISAuthor = function(){
     var seniority_extent = d3.extent(dados, function(d){return parseInt(d.seniority);})
     //seniority_extent = ["very young","young", "experienced", "senior", "very senior"];
     seniority_extent = [0,1,2,3,4];
-    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
     d3.select("#chart2 strong")
         .on("click", function(){
             d3.selectAll("#areaMainscgAuthor .pointDots")
@@ -221,7 +221,7 @@ function drawCrossFilterCharts(dataO){
         //start crossfilter
         datafilter.forEach(function(d,i){
             ////console.log("as", i);
-            d.index =  i+1;
+            d.index =  i;
             d.seniority = parseInt(d.seniority);
             d.nbpub = parseInt(d.nbpub);
             d.pubrate = parseFloat(d.pubrate);
@@ -341,11 +341,11 @@ function drawCrossFilterCharts(dataO){
         cross1pies = cross1pie.group();
 
 
-        var tabledim = mycross.dimension(function(d){
+        tabledim = mycross.dimension(function(d){
             return d.index; 
         }),
         tabledims = tabledim.group();    
-        
+        //console.log("QUE PASAAAAA", tabledim);
         
         nbpubchart.width(220)
             .height(180)

@@ -18,7 +18,7 @@ function newMatrixGroups(mdata){
     var scale_color = d3.scale.linear().domain(nose).range(["#ffffd9", "#081d58"]);
     
     var pro = somematrixpos(rows, columns, mdata.length);
-    console.log("pro", pro);
+    //console.log("pro", pro);
     
     var div = d3.select('#matrix_groups');
     var svg = div.append("svg")

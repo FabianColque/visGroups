@@ -32,6 +32,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         var moddatamatGroup = dataGroups.groups.map(function(d,i){var f = dataGroups.mat[i]; f.push(i);return f;});
         var points = graph.selectAll('.pointGroup').data(moddatamatGroup);
         points.enter().append('circle').attr("class", 'pointGroup')
+        .attr("id", function(d){return ('pointGroup'+d[2]);})
         .style("fill", "white")
         .attr('r', tamMinCirleGroup)
         .attr('cx', function(d){return xScaleGroup(d[0])})
@@ -75,14 +76,14 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     //SENIORITY
     var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
-    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
     d3.select("#chartGroup1 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
                 .style("fill", function(d){return seniority_scale(dataGroups_inGroups[d[2]].seniority)})
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
-                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
                     var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
                    tooltip_scales_cfilter.transition()
                      .duration(200)
@@ -145,7 +146,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     //CONFERENCES
     var conference_extent = d3.extent(dataGroups_inGroups, function(d){return d.conferences.length;});
-    console.log("cong", conference_extent);
+    //console.log("cong", conference_extent);
     var conference_scale = d3.scale.linear().domain(pubRate_extent).range(["#B9A7CE","#310568"]);
     d3.select("#chartGroup4 strong")
         .on("click", function(){
@@ -212,6 +213,7 @@ function drawCrossFilterChartsGroups(dataO){
             d.numPub = parseInt(d.numPub);
             d.Pubrate = parseInt(d.Pubrate); 
         });
+    
 
         var mycrossGroup = crossfilter(datafilterGroups),
             all = mycrossGroup.groupAll(),
@@ -239,7 +241,15 @@ function drawCrossFilterChartsGroups(dataO){
                 return newObject;
             }
         //******************
+    
         
+        tabledimGroup = mycrossGroup.dimension(function(d){
+            return d.index; 
+        }),
+        tabledimsGroup = tabledimGroup.group();    
+            
+            
+            
         seniority_Group_Chart.width(220)//420
                 .height(180)
                 .margins({top: 10, right: 50, bottom: 30, left: 40})

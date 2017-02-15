@@ -27,7 +27,10 @@ var buckupDataSelected = [];
     buckupDataSelected.push([]);
 var selectionData = [];    
 
-
+//filtro about crossfilter yo draw authors
+var tabledim = [];
+var tabledims = [];
+var exist_authors_charts = false;
 var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
 
 
@@ -70,7 +73,7 @@ var lasso_end = function(){
 
 
 function btnStartShot(){
-    
+    exist_authors_charts = true;
     if(selectionData.length != 0){
         drawCrossFilterCharts(selectionData);
         buckupDataSelected.push(selectionData);
@@ -148,3 +151,15 @@ function category_ratePub(d){
             }
         }
 
+function drawPoints_authors_filterChartCF(){
+    //console.log("miren estos selec", tabledim.top(Infinity));
+    var auxall = tabledim.top(Infinity);
+    
+    redrawsvgMain(buckupDataSelected.length-1, false);
+    
+    for (var i = 0; i < auxall.length; i++) {
+                d3.select("#pointAuthor"+(parseInt(auxall[i].author_id)-1))
+                    .style("fill", "red")
+                    .attr("r", tamMaxCircle);
+    };
+}

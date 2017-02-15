@@ -44,6 +44,11 @@ var buckupDataSelectedGroup = [];
     buckupDataSelectedGroup.push([]);
 var shotSelectedGroup = [];
 
+
+//variable para puntos groups filtrados de CF
+var tabledimGroup = [];
+var tabledimsGroup = [];
+
 //variables que no se voy a  usar
 var datafilterGroups;
 
@@ -103,6 +108,7 @@ function btnStartShotGroup(){
         //console.log(buckupDataSelectedGroup);
         shotSelectedGroup.push(false)
         newsnapshotGroup(selectionDataGroups, dataGroups.mat, nameGroup, shotSelectedGroup.length,divSpanShotGroup)
+        redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
     }
     selectionDataGroups = [];
 
@@ -126,7 +132,18 @@ function btnRestShotGroup(){
 }
 
 
-
+function drawPoints_groups_filterChartCF(){
+    //console.log("miren estos selec groups", tabledim.top(Infinity));
+    var auxall = tabledimGroup.top(Infinity);
+    
+    redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
+    
+    for (var i = 0; i < auxall.length; i++) {
+                d3.select("#pointGroup"+(parseInt(auxall[i].id)))
+                    .style("fill", "red")
+                    .attr("r", tamMaxCircleGroup);
+    };
+}
 
 
 //drawVISGroup("data/groupsnecluster5000.json", "", marginGroup, widthGroup, heightGroup);
