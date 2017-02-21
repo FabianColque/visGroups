@@ -20,24 +20,29 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     })       
      
     function drawGroup(marginGroup, widthGroup, heightGroup){
-        var svgGroup = d3.select(tagMainGroup)
+        /*var svgGroup = d3.select(tagMainGroup)
             .append('svg')
             .attr("class", "mainsvgGroup")
-            .style("background", "black")
+            .style("background", "white")
             .attr('width', widthGroup + marginGroup.left + marginGroup.right)
             .attr('height', heightGroup + marginGroup.top + marginGroup.bottom)
             //.call(brush);
         var graph = svgGroup.append('g');
         
-        var moddatamatGroup = dataGroups.groups.map(function(d,i){var f = dataGroups.mat[i]; f.push(i);return f;});
+        console.log("asdasd", dataGroups);
+
+        var moddatamatGroup = dataGroups.groups.map(function(d,i){var f = dataGroups.mat[i]; f.push(dataGroups.groups[i]-1); f.push(dataGroups.cluster[i]);return f;});
+        console.log("moddatasdasdasd", moddatamatGroup);
         var points = graph.selectAll('.pointGroup').data(moddatamatGroup);
         points.enter().append('circle').attr("class", 'pointGroup')
         .attr("id", function(d){return ('pointGroup'+d[2]);})
-        .style("fill", "white")
+        .style("fill", function(d){return colorCluster[d[3]]})
         .attr('r', tamMinCirleGroup)
         .attr('cx', function(d){return xScaleGroup(d[0])})
-        .attr('cy', function(d){return yScaleGroup(d[1])});
-        
+        .attr('cy', function(d){return yScaleGroup(d[1])})
+        .style("stroke", "black")
+        .style("stroke-width", "1.5px")
+        .style("opacity", opacityCircleGroup)
         
         var lasso_areaGroups = svgGroup.append("rect")
                             .attr("class", "rectLassoGroup")
@@ -56,6 +61,146 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         
         lassoGroup.items(d3.selectAll(".pointGroup"));
         svgGroup.call(lassoGroup);
+        */
+
+
+
+        var links = [];
+        var nose = Array.from(new Set(dataGroups.cluster));
+          
+          var len = nose.length;
+
+          var flag = false;
+          var matriz = [];
+          for (var i = 0; i < len; i++) {
+            matriz.push([]);    
+          };
+
+          for (var i = 0; i < dataGroups.groups.length; i++) {
+            matriz[dataGroups.cluster[i]].push(dataGroups.groups[i]);    
+          };
+
+
+          for (var i = 0; i < matriz.length; i++) {
+            for (var ii = 0; ii < matriz[i].length; ii++) {
+              for (var iii = 0; iii < matriz[i].length; iii++) {
+                if(iii>ii){
+                  var jj = {"source": (""+matriz[i][ii]), "target": (""+matriz[i][iii]), "value": 1};
+                  links.push(jj);
+                }
+              };  
+            };
+          };
+
+
+
+        var nodes = {};
+
+        // Compute the distinct nodes from the links.
+        links.forEach(function(link) {
+            link.source = nodes[link.source] || 
+                (nodes[link.source] = {name: link.source});
+            link.target = nodes[link.target] || 
+                (nodes[link.target] = {name: link.target});
+            link.value = +link.value;
+        });
+
+        var width = 600,
+            height = 600;
+
+        var force = d3.layout.force()
+            .nodes(d3.values(nodes))
+            .links(links)
+            .size([width, height])
+            .linkDistance(60)
+            .charge(-80)
+            .on("tick", tick)
+            .start();
+
+        var svg = d3.select(tagMainGroup).append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("class", "mainsvgGroup");
+
+        // build the arrow.
+        svg.append("svg:defs").selectAll("marker")
+            .data(["end"])      // Different link/path types can be defined here
+          .enter().append("svg:marker")    // This section adds in the arrows
+            .attr("id", String)
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 15)
+            .attr("refY", -1.5)
+            .attr("markerWidth", 6)
+            .attr("markerHeight", 6)
+            .attr("orient", "auto")
+          .append("svg:path")
+            .attr("d", "M0,-5L10,0L0,5");
+
+        // add the links and the arrows
+        var path = svg.append("svg:g").selectAll("path")
+            .data(force.links())
+          .enter().append("svg:path")
+        //    .attr("class", function(d) { return "link " + d.type; })
+            .attr("class", "link")
+            .attr("marker-end", "url(#end)");
+
+        // define the nodes
+        var node = svg.selectAll(".node")
+            .data(force.nodes())
+          .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag);
+
+        // add the nodes
+        node.append("circle")
+            .attr("class", 'pointGroup')
+            .attr("id", function(d){return ('pointGroup'+d.name);})
+            .attr("r", function(d){return tamCircleScaleGroup(dataGroups_inGroups[parseInt(d.name)].authors.length)})
+            .style("fill", "white")
+            .style("stroke", "black")
+            .style("stroke-width", "1.5px")
+            .on("click", function(d){
+              console.log("as", d.name);
+              selectionDataGroups.push(parseInt(d.name));
+              btnStartShotGroup();
+
+              d3.select("#nroGroupSelected").text("Group " + d.name)
+                .style("color", "mediumseagreen")
+                .style("font-size", "19px")
+            });
+
+        node.append("title")
+            .text(function(d) { return d.name; });    
+
+        // add the text 
+        /*node.append("text")
+            .attr("x", 12)
+            .attr("dy", ".35em")
+            .text(function(d) { return d.name; });
+*/
+        // add the curvy lines
+        function tick() {
+            path.attr("d", function(d) {
+                var dx = d.target.x - d.source.x,
+                    dy = d.target.y - d.source.y,
+                    dr = Math.sqrt(dx * dx + dy * dy);
+                return "M" + 
+                    d.source.x + "," + 
+                    d.source.y + "A" + 
+                    dr + "," + dr + " 0 0,1 " + 
+                    d.target.x + "," + 
+                    d.target.y;
+            });
+
+            node
+                .attr("transform", function(d) { 
+                return "translate(" + d.x + "," + d.y + ")"; });
+        }
+
+
+
+
+        d3.select(tagMainGroup).append("div").text("# Total of Groups: " + dataGroups.groups.length)
     }
     //functions lasso
     
@@ -75,20 +220,21 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     
     //SENIORITY
-    var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
-    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+    //var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
+    var seniority_extent = [0,1,2,3,4];
+    var seniority_scale = d3.scale.linear().domain(seniority_extent).range(colorslegend);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
     d3.select("#chartGroup1 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
-                .style("fill", function(d){return seniority_scale(dataGroups_inGroups[d[2]].seniority)})
+                .style("fill", function(d){return seniority_scale(getnumSenio(dataGroups_inGroups[parseInt(d.name)].seniority))})//d[2] mudou d.name
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
-                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    //var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
                     var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
                    tooltip_scales_cfilter.transition()
                      .duration(200)
                      .style("opacity", 1);
-                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+colorslegendGroup[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+colorslegendGroup[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+colorslegendGroup[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+colorslegendGroup[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+colorslegendGroup[4]+"; height:13px; width:13px\"></div></div>")
                      .style("left", (d3.event.pageX) + "px")
                      .style("top", (d3.event.pageY - 28) + "px");
         }).on("mouseout", function(d) {
@@ -99,20 +245,21 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     
     //PUBLICATION RATE
-    var pubRate_extent = d3.extent(dataGroups_inGroups, function(d){return d.Pubrate;});
-    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000']);
+    //var pubRate_extent = d3.extent(dataGroups_inGroups, function(d){return d.Pubrate;});
+    var pubRate_extent = [0,1,2,3,4];
+    var pubRate_scale = d3.scale.linear().domain(pubRate_extent).range(["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"]);
     d3.select("#chartGroup2 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
-                .style("fill", function(d){return pubRate_scale(dataGroups_inGroups[d[2]].Pubrate)})
+                .style("fill", function(d){return pubRate_scale(getnumRate(dataGroups_inGroups[parseInt(d.name)].Pubrate))})
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
-                    var scolor = ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'];
+                    //var colorslegendGroup = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];
                     var noms = ["Not Active", "Less Active", "Active", "Very Active", "Extreme Active"];
                    tooltip_scales_cfilter.transition()
                      .duration(200)
                      .style("opacity", 1);
-                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+scolor[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+scolor[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+scolor[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+scolor[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+scolor[4]+"; height:13px; width:13px\"></div></div>")
+                   tooltip_scales_cfilter.html("<div><strong><u>Legend</u></strong></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+colorslegendGroup[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+colorslegendGroup[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+colorslegendGroup[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+colorslegendGroup[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+colorslegendGroup[4]+"; height:13px; width:13px\"></div></div>")
                      .style("left", (d3.event.pageX) + "px")
                      .style("top", (d3.event.pageY - 28) + "px");
         }).on("mouseout", function(d) {
@@ -127,7 +274,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     d3.select("#chartGroup3 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
-                .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[d[2]].gender)})
+                .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[parseInt(d.name)].gender)})
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
                     var scolor = ['#7fc97f','#beaed4','#fdc086'];
@@ -147,11 +294,11 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     //CONFERENCES
     var conference_extent = d3.extent(dataGroups_inGroups, function(d){return d.conferences.length;});
     //console.log("cong", conference_extent);
-    var conference_scale = d3.scale.linear().domain(pubRate_extent).range(["#B9A7CE","#310568"]);
+    var conference_scale = d3.scale.linear().domain(conference_extent).range(["#B9A7CE","#310568"]);
     d3.select("#chartGroup4 strong")
         .on("click", function(){
             d3.selectAll("#areaMainsvgGroup .pointGroup")
-                .style("fill", function(d){return conference_scale(dataGroups_inGroups[d[2]].conferences.length)})
+                .style("fill", function(d){return conference_scale(dataGroups_inGroups[parseInt(d.name)].conferences.length)})
         }).on("mouseover", function(d) {
                    console.log("<div class=></div>");
                     tooltip_scales_cfilter.transition()
@@ -441,8 +588,18 @@ function redrawsvgMainGroup(ind, redrawcrossfilter){
         drawCrossFilterChartsGroups(buckupDataSelectedGroup[ind]);
 
     d3.selectAll(".pointGroup")
-        .attr("r", function(d,i){return selectedItemsBool[i]?tamMaxCircleGroup:tamMinCirleGroup})
-        .style("fill", function(d,i){return selectedItemsBool[i]?"blue":"white";})
+        .attr("r", function(d){return tamCircleScaleGroup(dataGroups_inGroups[parseInt(d.name)].authors.length)})
+        //.style("fill", function(d,i){return selectedItemsBool[i]?"blue":colorCircleDefault;})
+        .style("opacity", function(d,i){return selectedItemsBool[i]?opacityCircleGroup:1})
+        .style("stroke", "black")
+        .style("opacity", opacityCircleGroup);
+
+    console.log("quien esta aqui", datafilterGroups[0].id);
+    d3.select("#pointGroup"+lastCircle).style("stroke", "black")
+        .style("stroke-width", "1.5px");
+    lastCircle = datafilterGroups[0].id;    
+    d3.select("#pointGroup"+lastCircle).style("stroke", "#F0FF00")
+        .style("stroke-width", "3px");
 }
 
 //ya no uso esta function

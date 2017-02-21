@@ -1,5 +1,7 @@
 import csv
 import json
+import random
+
 
 import numpy as np
 import simplejson
@@ -30,15 +32,21 @@ class MyError(Exception):
 #with normalization
 #####################33
 
-dataori = []
+dataori1 = []
 info = []
 
 #array zeros 500 conferences
-confe_zeros = [0]*500
+confe_zeros = [0]*1000
 
 with open('../data/group3NewJSON2.json') as data_file:
-    dataori = json.load(data_file)
-dataori = dataori[0:10000]
+    dataori1 = json.load(data_file)
+print("longitud data original", len(dataori1))
+auxarr = random.sample(range(0, 74194), 100)
+print("auxarr", auxarr)    
+dataori = []
+for xx in xrange(0,len(auxarr)):
+    dataori.append(dataori1[auxarr[xx]])
+#dataori = dataori[0:1000]
 print(len(dataori))
 
 longitud = len(dataori)
@@ -51,6 +59,7 @@ for x in xrange(0,longitud):
     auxcon = confe_zeros
     dd = dataori[x]['conferences']
     for k in xrange(0,len(dd)):
+        print("q", dd[k])
         auxcon[dd[k]] = 1
     ddd  = tuple(dd)
     hashconfe = hash(ddd)
@@ -86,8 +95,23 @@ que = np.matrix(puntos)
 ptos = que.tolist()
 print(puntos)
 
+#Usaremos un algoritmo de cluster
+ #bandwidth = cluster.estimate_bandwidth(puntos, quantile = 0.3)
+ #db = cluster.MeanShift(bandwidth = bandwidth, bin_seeding = True).fit(puntos)
+
+affinity_propagation = cluster.AffinityPropagation(damping=.9, preference=-200)
+db = affinity_propagation.fit(puntos)
+
+
+labels = db.labels_
+hh = np.array(labels)
+labelsOK = hh.tolist()
+n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
+print("Nro Clusters", n_clusters_)
+
+
 group = range(1,longitud+1)
-data3 = {"groups": group, "mat": ptos}
+data3 = {"groups": auxarr, "mat": ptos, "cluster": labelsOK}
 #data3 = {"groups": group, "mat": ptos, "cluster": labelsOK}
 try:
     jsondata = simplejson.dumps(data3,sort_keys=True)

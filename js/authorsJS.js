@@ -46,6 +46,8 @@ var drawVISAuthor = function(){
         
         lasso.items(d3.selectAll(".pointDots"));
         svg.call(lasso);
+
+        d3.select("#areaMainscgAuthor").append("div").text("# Total of Authors: " + moddatamat.length)
     }
     
     
@@ -149,7 +151,7 @@ var drawVISAuthor = function(){
     d3.select("#chart4 strong")
         .on("click", function(){
             d3.selectAll("#areaMainscgAuthor .pointDots")
-                .style("fill", function(d,i){return scale_gender(dataGroups_inGroups[d[2]].gender)})
+                .style("fill", function(d,i){return scale_gender(category_gender(dados[d[2]].gender))})
         }).on("mouseover", function(d) {
                    console.log("<div gender");
                     var scolor = ['#7fc97f','#beaed4','#fdc086'];
@@ -193,6 +195,7 @@ function redrawsvgMain(ind, redrawcrossfilter){
     d3.selectAll(".pointDots")
         .attr("r", function(d,i){return selectedItemsBool[i]?tamMaxCircle:tamMinCirle})
         .style("fill", function(d,i){return selectedItemsBool[i]?"blue":"black";})
+        .style("opacity", function(d,i){return selectedItemsBool[i]?0.5:1})
 }
 
 function drawCrossFilterCharts(dataO){

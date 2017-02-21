@@ -34,6 +34,9 @@ var exist_authors_charts = false;
 var colorsBar = ['#fbb4ae','#b3cde3','#ccebc5'];
 
 
+//colors to bar chart in crossfilter
+var colorslegend = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];
+
 var lasso_start = function(){
     lasso.items()
         .attr("r", tamMinCirle)
@@ -59,7 +62,8 @@ var lasso_end = function(){
         return d.selected === true
     })
         .attr("r", tamMaxCircle)
-        .style("fill", "blue");
+        .style("fill", "blue")
+        .style("opacity", 0.5);
     lasso.items().filter(function(d){return d.selected === false})
         .classed({"not_possible": false, "posible":false})
         .attr("r", tamMinCirle);
@@ -149,6 +153,14 @@ function category_ratePub(d){
             else{
                 return 4;
             }
+        }
+
+        function category_gender(d){
+            if(d == "u")
+                return 3;
+            if(d == "m")
+                return 1;
+            return 2;
         }
 
 function drawPoints_authors_filterChartCF(){

@@ -2082,23 +2082,17 @@ dc.baseMixin = function (_chart) {
             _chart.redrawGroup();
         });
         
-        
-        
-        
         //este codigo yo lo estoy incluyendo, es decir no pertenece a la libreria dc.js
-        if(exist_authors_charts){
-            if(_chart.__dcFlag__ >= 7){//A partir de 7 son charts de GROUPS visualization
-                //console.log("voyage", _chart.__dcFlag__);
-                drawPoints_groups_filterChartCF();
-            }else{
-                //console.log("voyage author", _chart.__dcFlag__);
-                drawPoints_authors_filterChartCF();
-            }    
-        }else{
+        var fab = document.getElementsByClassName("tab-pane")[1];
+        if(fab.classList.contains("active")){
             drawPoints_groups_filterChartCF();
+        }else{
+            drawPoints_authors_filterChartCF();
         }
+
+        console.log("caracter", _chart.__dcFlag__);
         
-        //console.log("miercoles", _chart)
+        
         
     };
 
