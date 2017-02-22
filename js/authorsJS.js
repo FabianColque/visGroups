@@ -214,7 +214,7 @@ function drawCrossFilterCharts(dataO){
         var pubratechart    = dc_author.barChart("#chart3");
         var piechart        = dc_author.pieChart("#chart4");
         var countchart      = dc_author.dataCount('#chart5');
-        var tablechart      = dc_author.dataTable('.dc-data-table');
+        var tablechart      = dc_author.dataTable('#tablaAuthor');
 
 
         var numberFormat = d3.format('.2f');

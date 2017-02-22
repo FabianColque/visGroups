@@ -200,7 +200,7 @@
             }
             
             #chartGroup1 .x-axis-label{
-                transform: translate(111px,10px);
+                transform: translate(111px,15px);
             }
             
             /*este es nuevo para barchart de rate pub groups*/
@@ -210,20 +210,23 @@
             }
             
             #chartGroup2 .x-axis-label{
-                transform: translate(111px,10px);
+                transform: translate(111px,15px);
             }
             
             .scaleConferenceToolTip{
                 height: 25px;
                 width: 100px;
                 margin-left: 11px;
-                background: #B9A7CE; /* For browsers that do not support gradients */    
-                background: -webkit-linear-gradient(left, #B9A7CE , #310568); /* For Safari 5.1 to 6.0 */
-                background: -o-linear-gradient(right, #B9A7CE, #310568); /* For Opera 11.1 to 12.0 */
-                background: -moz-linear-gradient(right, #B9A7CE, #310568); /* For Firefox 3.6 to 15 */
-                background: linear-gradient(to right, #B9A7CE , #310568); /* Standard syntax (must be last) */
+                background: RGB(0, 255, 0); /* For browsers that do not support gradients */    
+                background: -webkit-linear-gradient(left, RGB(0, 255, 0) , RGB(255, 0, 0)); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(right, RGB(0, 255, 0), RGB(255, 0, 0)); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(right, RGB(0, 255, 0), RGB(255, 0, 0)); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(to right, RGB(0, 255, 0) ,RGB(255, 0, 0)); /* Standard syntax (must be last) */
             }
             
+
+            #chartGroup4 .axis .tick { display: none; }
+
         </style>
         
 
@@ -274,7 +277,7 @@
                             <div class="row">
                                 <div id="areaMainscgAuthor"></div>
                                         <div style="text-align: center;" class="botones">
-                                        <input type="button" class="btn btn-success" value="Start" onclick="btnStartShot()" />
+                                        <input type="button" class="btn btn-success" value="Explore" onclick="btnStartShot()" />
                                 </div>
                             </div>    
                         </div>
@@ -328,7 +331,7 @@
                     </div>
                     <br>
                     <div class="row" style="border: 1px solid #333">
-                        <table class="table table-hover dc-data-table">
+                        <table class="table table-hover dc-data-table" id="tablaAuthor">
                         </table>
                     </div>
                 </div>
@@ -345,7 +348,7 @@
                                 
                                 <div id="areaMainsvgGroup"></div>
                                 <div style="text-align: center;">
-                                    <input type="button" class="btn btn-success" value="Start" onclick="btnStartShotGroup()" />
+                                    <input type="button" class="btn btn-success" value="Explore" onclick="btnStartShotGroup()" />
                                 </div>
                             
                             </div>
@@ -361,7 +364,7 @@
                                     <div class="col-md-6" >
                                         
                                         <div id="chartGroup1" class="chartGroup">
-                                            <strong>Seniority</strong>
+                                            <p>Seniority</p>
                                             <div class="title"></div>
                                         </div>
                                     
@@ -369,7 +372,7 @@
                                     <div class="col-md-6" >
                                         
                                         <div id="chartGroup2" class="chartGroup">
-                                            <strong>Publication Rate</strong>
+                                            <p>Publication Rate</p>
                                             <div class="title"></div>
                                         </div>
                                     
@@ -379,7 +382,7 @@
                                     <div class="col-md-6" >
                                         
                                         <div id="chartGroup3" class="chartGroup">
-                                            <strong>Gender</strong>
+                                            <p>Gender</p>
                                             <div class="title"></div>
                                         </div>
                                     
@@ -387,7 +390,7 @@
                                     <div class="col-md-6" >
                                         
                                         <div id="chartGroup5" class="chartGroup">
-                                            <strong>Count</strong>
+                                            <p>Count</p>
                                             <div class="title"></div>
                                         </div>
                                     
@@ -397,7 +400,7 @@
                             <div class="col-md-4" >
                             
                                 <div id="chartGroup4" class="chartGroup">
-                                    <strong>Conferences</strong>
+                                    <p>Conferences</p>
                                     <div class="title"></div>
                                 </div>    
                                 
@@ -405,6 +408,15 @@
                         </div>
                     </div>
                     
+                    <br>
+
+                    <div class="row" style="border: 1px solid #333">
+                        <table class="table table-hover dc-data-table" id="tablaGroup">
+                        </table>
+                    </div>
+
+                    <br>
+
                     <div class="row" style="border: 1px solid #333">
                             
                             
@@ -417,6 +429,9 @@
                                 
                             
                     </div>
+
+                    <!--
+
                     <br>
                     <div class="row" style="border: 1px solid #333">
                     
@@ -452,6 +467,8 @@
                         
                         </div>
                     </div>
+
+                    -->
                     
                 </div>
             </div>

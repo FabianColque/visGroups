@@ -74,6 +74,7 @@ var colorCluster = ["rgb(117,234,182)", "rgb(5,149,122)", "rgb(191,218,212)", "r
 //este es parte de la nueva version sin lasso
 //variable del ultimo seleccionado
 var lastCircle = 0;
+var lastcategoriaSelected = 1;
 
 
 //Functions lasso start, draw and end
@@ -159,8 +160,8 @@ function drawPoints_groups_filterChartCF(){
     
     for (var i = 0; i < auxall.length; i++) {
                 d3.select("#pointGroup"+(parseInt(auxall[i].id)))
-                    .style("stroke", "green")
-                    .attr("r", tamMaxCircleGroup);
+                    .style("stroke", "black")
+                    //.attr("r", tamMaxCircleGroup);
     };
 }
 
