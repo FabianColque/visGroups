@@ -257,7 +257,7 @@ dc.renderAll = function (group) {
     
     //mio y solo mio
     redrawsvgMain(buckupDataSelected.length-1, false);
-    redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
+    //redrawsvgMainGroup(buckupDataSelectedGroup.length-1, false);
 };
 
 /**

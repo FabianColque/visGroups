@@ -443,9 +443,11 @@ function drawCrossFilterCharts(dataO){
                     return d.key + '(0%)';
                 }
                 var label = d.key;
+                console.log("all value", all.value())
                 if (all.value()) {
                     label += '(' + Math.floor(d.value / all.value() * 100) + '%)';
                 }
+                console.log("label", label)
                 return label;
             });
 

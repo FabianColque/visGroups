@@ -477,7 +477,7 @@ function drawCrossFilterChartsGroups(dataO){
             }*/
         //******************
 
-
+        console.log("auhto filt", authorsfiltered)
         var mycrossGroup = crossfilter(authorsfiltered),
             all = mycrossGroup.groupAll(),
             seniority = mycrossGroup.dimension(function(d){return category_seniority(d.seniority)}),
@@ -485,6 +485,7 @@ function drawCrossFilterChartsGroups(dataO){
             pubrate = mycrossGroup.dimension(function(d){return category_ratePub(d.pubrate)}),
             pubrates = pubrate.group(),
             pieGender = mycrossGroup.dimension(function(d){
+                console.log("genera", d.gender);
                 if(d.gender == "u")return "Undefined";
                 if(d.gender == "w")return "Female";
                 return "Male";
@@ -576,9 +577,12 @@ function drawCrossFilterChartsGroups(dataO){
                     return d.key + '(0%)';
                 }
                 var label = d.key;
+                console.log("all value", all.value())
                 if (all.value()) {
+
                     label += '(' + Math.floor(d.value / all.value() * 100) + '%)';
                 }
+                console.log("label", label)
                 return label;
             });
 
@@ -638,7 +642,7 @@ function drawCrossFilterChartsGroups(dataO){
         
 
         var mycrossGroup2 = crossfilter(datafilterGroups),
-            all = mycrossGroup2.groupAll(),
+            all2 = mycrossGroup2.groupAll(),
             Bconference = mycrossGroup2.dimension(function(d){return d.conferences}),
             Bconferences = Bconference.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value();
 
