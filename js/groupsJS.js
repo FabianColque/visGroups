@@ -87,7 +87,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
             for (var ii = 0; ii < matriz[i].length; ii++) {
               for (var iii = 0; iii < matriz[i].length; iii++) {
                 if(iii>ii){
-                  var jj = {"source": (""+matriz[i][ii]), "target": (""+matriz[i][iii]), "value": 1};
+                  var jj = {"source": (""+matriz[i][ii]), "target": (""+matriz[i][iii]), "value": 3};
                   links.push(jj);
                 }
               };  
@@ -114,8 +114,8 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
             .nodes(d3.values(nodes))
             .links(links)
             .size([width, height])
-            .linkDistance(60)
-            .charge(-80)
+            .linkDistance(300)
+            .charge(-100)
             .on("tick", tick)
             .start();
 
@@ -172,7 +172,8 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
             });
 
         node.append("title")
-            .text(function(d) { return d.name; });    
+            .text(function(d) { 
+                return "["  + getSenio(dataGroups_inGroups[parseInt(d.name)].seniority) + (getSenio(dataGroups_inGroups[parseInt(d.name)].seniority)=="" ? "": ", ") + getRate(dataGroups_inGroups[parseInt(d.name)].Pubrate) + (getRate(dataGroups_inGroups[parseInt(d.name)].Pubrate)=="" ? "": ", ") + getGender(dataGroups_inGroups[parseInt(d.name)].gender) +"]"; });    
 
         // add the text 
         /*node.append("text")
@@ -221,9 +222,22 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         
         
         //SENIORITY
+        
+
+
         //var seniority_extent = d3.extent(dataGroups_inGroups, function(d){return d.seniority;})
         var seniority_extent = [0,1,2,3,4];
         var seniority_scale = d3.scale.linear().domain(seniority_extent).range(colorslegend);//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c']
+        
+        var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
+                tooltip_scales_cfilter
+                         .style("opacity", 1)
+                         .style("position", "absolute");
+                       tooltip_scales_cfilter.html("<div><strong><u>Seniority</u></strong></div><br><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[0]+"</div><div style=\"background-color:"+colorslegendGroup[0]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[1]+"</div><div style=\"background-color:"+colorslegendGroup[1]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[2]+"</div><div style=\"background-color:"+colorslegendGroup[2]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[3]+"</div><div style=\"background-color:"+colorslegendGroup[3]+"; height:13px; width:13px\"></div></div><div style=\"display:-webkit-inline-box\"><div style=\"width:100px\">"+noms[4]+"</div><div style=\"background-color:"+colorslegendGroup[4]+"; height:13px; width:13px\"></div></div>")
+                         .style("left", "18%")
+                         .style("top", "230px");
+
+
         d3.select("#chartGroup1 p")
             .on("click", function(){
                 d3.selectAll("#areaMainsvgGroup .pointGroup")
@@ -684,7 +698,7 @@ function drawCrossFilterChartsGroups(dataO){
             .dimension(mycrossGroup)
             .group(all)
             .html({
-                some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Groups' +
+                some : '<br><strong>%filter-count</strong> selected out of <strong>%total-count</strong> Authors' +
                 ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a><br><br>'
             });        
 
@@ -793,7 +807,7 @@ function getSenio(id){
     if(pos>=0)
         return aux[pos];
     else
-        return "undef1";
+        return "";
 }
 
 function getRate(id){
@@ -803,11 +817,11 @@ function getRate(id){
     if(pos>=0)
         return aux[pos];
     else
-        return "undef2";
+        return "";
 }
 
 function getGender(d){
-    var aux = ["", "Male", "Female", "Undefined"];
+    var aux = ["", "male", "female", "gender undefined"];
     return aux[d];
 }
 

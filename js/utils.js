@@ -33,7 +33,7 @@ var yScaleGroup = d3.scale.linear()
 
 //Scale tam circle groups
 var tamCircleScaleGroup = d3.scale.linear().domain([0,50])
-    .range([5, 25]);
+    .range([30, 80]);
 
 //DC groups
 var dc_groups = dc;

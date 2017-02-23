@@ -41,7 +41,7 @@ confe_zeros = [0]*1000
 with open('../data/group3NewJSON2.json') as data_file:
     dataori1 = json.load(data_file)
 print("longitud data original", len(dataori1))
-auxarr = random.sample(range(0, 74194), 100)
+auxarr = random.sample(range(0, 74194), 10)
 print("auxarr", auxarr)    
 dataori = []
 for xx in xrange(0,len(auxarr)):
