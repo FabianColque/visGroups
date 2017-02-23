@@ -9,7 +9,7 @@ function newsnapshotGroup(selectedItems, data, description, number, ubicacion){
     if(selectedItems.length == 0)strDes = "All";
     else strDes = ("["  + getSenio(dataGroups_inGroups[selectedItems[0]].seniority) + (getSenio(dataGroups_inGroups[selectedItems[0]].seniority)=="" ? "": ", ") + getRate(dataGroups_inGroups[selectedItems[0]].Pubrate) + (getRate(dataGroups_inGroups[selectedItems[0]].Pubrate)=="" ? "": ", ") + getGender(dataGroups_inGroups[selectedItems[0]].gender) +"]");
     
-    console.log("strDes", strDes);
+    
     var scaleDes = d3.scale.linear().domain([0,100]).range([50, 700]);
 
     var margin = {top: 20, right: 20, bottom: 30, left: 40};
@@ -63,7 +63,7 @@ function newsnapshotGroup(selectedItems, data, description, number, ubicacion){
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
 
-    console.log("sel", selectedItems, getSenio(19))
+    
             
     svg
         .append("text")

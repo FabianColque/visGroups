@@ -2085,7 +2085,7 @@ dc.baseMixin = function (_chart) {
         //este codigo yo lo estoy incluyendo, es decir no pertenece a la libreria dc.js
         var fab = document.getElementsByClassName("tab-pane")[1];
         if(fab.classList.contains("active")){
-            drawPoints_groups_filterChartCF();
+            //drawPoints_groups_filterChartCF();
         }else{
             drawPoints_authors_filterChartCF();
         }

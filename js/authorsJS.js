@@ -103,7 +103,7 @@ var drawVISAuthor = function(){
                 .style("fill", function(d){return seniority_scale(category_seniority(parseInt(dados[d[2]].seniority)))})
         }).on("mouseover", function(d) {
                    console.log("<div seniorti");
-                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
+                    var scolor = ["RGB(0, 0, 255)", "RGB(0, 255, 255)", "RGB(0, 255, 0)", "RGB(255, 255, 0)","RGB(255, 0, 0)"];//['#edf8fb','#b2e2e2','#66c2a4','#2ca25f','#006d2c'];
                     var noms = ["Very Young", "Young", "Experienced", "Senior", "Very Senior"];
                    tooltip_scales_cfilter.transition()
                      .duration(200)

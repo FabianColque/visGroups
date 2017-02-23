@@ -3,7 +3,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
     
     d3.select("#SelectProjection")
     .on("change", function(){
-        console.log("select")
+        
         reDrawAllGroups(this.value);
     })
     
@@ -208,7 +208,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
 
         //extent para todos los componentes de crossfilter
         
-        var tooltip_scales_cfilter = d3.select("body").append("div")
+        var tooltip_scales_cfilter = d3.select("#aquipls").append("div")
                 .attr("class", "tooltip")
                 .style("opacity", 0)
                 .style("text-align","center")
@@ -321,7 +321,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
         
         //GENDER
         var gender_extent = [1,2,3];
-        var scale_gender = d3.scale.linear().domain(gender_extent).range(['#7fc97f','#beaed4','#fdc086'])
+        var scale_gender = d3.scale.linear().domain(gender_extent).range(colorGenderGroup)
         d3.select("#chartGroup3 p")
             .on("click", function(){
                 d3.selectAll("#areaMainsvgGroup .pointGroup")
@@ -331,7 +331,7 @@ var drawVISGroup = function(filegroups, fileauthors, marginGroup, widthGroup, he
                 d3.select("#chartGroup"+3+" p").style("color", "red");
                 lastcategoriaSelected = 3;  
 
-                var scolor = ['#7fc97f','#beaed4','#fdc086'];
+                var scolor = colorGenderGroup;
                         var noms = ["Male", "Female", "Undefined"];
                        tooltip_scales_cfilter
                          .style("opacity", 1)
@@ -491,7 +491,7 @@ function drawCrossFilterChartsGroups(dataO){
             }*/
         //******************
 
-        console.log("auhto filt", authorsfiltered)
+        
         var mycrossGroup = crossfilter(authorsfiltered),
             all = mycrossGroup.groupAll(),
             seniority = mycrossGroup.dimension(function(d){return category_seniority(d.seniority)}),
@@ -499,10 +499,10 @@ function drawCrossFilterChartsGroups(dataO){
             pubrate = mycrossGroup.dimension(function(d){return category_ratePub(d.pubrate)}),
             pubrates = pubrate.group(),
             pieGender = mycrossGroup.dimension(function(d){
-                console.log("genera", d.gender);
-                if(d.gender == "u")return "Undefined";
+                
+                if(d.gender == "m")return "Male";
                 if(d.gender == "w")return "Female";
-                return "Male";
+                return "Undefined";
             }),
             pieGenders = pieGender.group(),
             //Bconference = mycrossGroup.dimension(function(d){return d.conferences}),
@@ -591,12 +591,12 @@ function drawCrossFilterChartsGroups(dataO){
                     return d.key + '(0%)';
                 }
                 var label = d.key;
-                console.log("all value", all.value())
+                
                 if (all.value()) {
 
                     label += '(' + Math.floor(d.value / all.value() * 100) + '%)';
                 }
-                console.log("label", label)
+                
                 return label;
             });
 
